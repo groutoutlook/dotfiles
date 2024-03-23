@@ -1,0 +1,51 @@
+colors:
+  body: none
+  date: black
+  tags: yellow
+  title: green
+default_hour: 9
+default_minute: 0
+editor: 'nvim -c startinsert'
+encrypt: false
+highlight: true
+indent_character: '|'
+journals:
+  default:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\Journal.md
+  :1688:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\1688Journal.md
+  taobao:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\TaobaoJournal.md
+  item:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\OtherItesmJournal.md
+  asset:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\AssetJournal.md
+  place:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\note_Places\PlacesJournal.md
+  work:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkJournal.md
+  lang:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\LangJournal.md
+  prog:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\ProgrammingJournal.md
+  comp:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\ComponentJournal.md
+  kicad:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\note_EDA\EDAJournal.md
+  eda:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\note_EDA\EDAJournal.md
+  hard:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
+  hw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
+  soft:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\SoftwareJournal.md
+  sw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\SoftwareJournal.md
+  acro:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\AcronymJournal.md
+linewrap: 70
+tagsymbols: '#@'
+template: false
+timeformat: '%F %r'
+version: v4.1
