@@ -16,11 +16,8 @@
             "keys": "win+ctrl+alt+t"
         },
         {
-            "command": "paste"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -39,6 +36,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+a"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -87,10 +88,6 @@
         },
         {
             "command": "unbound",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "unbound",
             "keys": "ctrl+k"
         },
         {
@@ -104,15 +101,6 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "nextInOrder"
             },
@@ -121,6 +109,15 @@
         {
             "command": "toggleFocusMode",
             "keys": "win+ctrl+alt+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": 
