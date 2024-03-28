@@ -44,6 +44,14 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\SoftwareJournal.md
   acro:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\AcronymJournal.md
+  vocab:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\VocabJournal.md
+  flow:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
+  wf:    
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
+  workflow:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
 linewrap: 70
 tagsymbols: '#@'
 template: false
