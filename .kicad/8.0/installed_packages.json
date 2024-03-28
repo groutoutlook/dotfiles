@@ -1,0 +1,127 @@
+{
+    "packages": [
+        {
+            "current_version": "1.0.1",
+            "install_timestamp": 1711516972,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/74th"
+                    },
+                    "name": "Atsushi Morimoto (@74th)"
+                },
+                "description": "high contrast monokai theme arranged by @74th",
+                "description_full": "high contrast monokai theme arranged by @74th",
+                "identifier": "com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/74th/kicad-highcontrast-monokai-theme"
+                    },
+                    "name": "Atsushi Morimoto (@74th)"
+                },
+                "name": "Monokai High Contrast",
+                "resources": {
+                    "Github": "https://github.com/74th/kicad-highcontrast-monokai-theme"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "a631d510e3ec69d5076c8d105695ae88099b3d16e1f5bf88b00002d1311b7f86",
+                        "download_size": 12585,
+                        "download_url": "https://github.com/74th/kicad-highcontrast-monokai-theme/releases/download/v1.0.1/com.github.74th.kicad-highcontrast-monokai-theme.monokai-high-contrast_v1.0.1_pcm.zip",
+                        "install_size": 20923,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "1.0.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.1",
+            "install_timestamp": 1711517038,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://alexanderbrevig.com"
+                    },
+                    "name": "Alexander Brevig"
+                },
+                "description": "A KiCAD adoptation of the Gruvbox theme",
+                "description_full": "Gruvbox is a popular theme. Gruvbox all the things!",
+                "identifier": "com.github.alexanderbrevig.kicad-gruvbox-theme",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://alexanderbrevig.com"
+                    },
+                    "name": "Alexander Brevig"
+                },
+                "name": "Gruvbox",
+                "resources": {
+                    "homepage": "https://github.com/alexanderbrevig/kicad-gruvbox-theme"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "637ea8efe153cc64380c7e8bf78b92d65f80c901c234dc4d0229cf8dc55b94df",
+                        "download_size": 12915,
+                        "download_url": "https://github.com/AlexanderBrevig/kicad-gruvbox-theme/releases/download/v1.1/Gruvbox_v1.1.zip",
+                        "install_size": 21285,
+                        "kicad_version": "6",
+                        "status": "stable",
+                        "version": "1.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0",
+            "install_timestamp": 1711517051,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/wykys"
+                    },
+                    "name": "Jan Vykydal"
+                },
+                "description": "Designed by wykys, Inspired by One Dark",
+                "description_full": "Designed by wykys, Inspired by One Dark",
+                "identifier": "com.github.pointhi.kicad-color-schemes.wdark",
+                "license": "CC0-1.0",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/pointhi/kicad-color-schemes/"
+                    },
+                    "name": "Thomas Pointhuber"
+                },
+                "name": "wDark Theme",
+                "resources": {
+                    "Github": "https://github.com/pointhi/kicad-color-schemes"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "9e58f7e6032dd40221dc80817dc992f233eba1858d590104c3445d41abcc136a",
+                        "download_size": 4289,
+                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.wdark_v1.0_pcm.zip",
+                        "install_size": 5490,
+                        "kicad_version": "5.99",
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
