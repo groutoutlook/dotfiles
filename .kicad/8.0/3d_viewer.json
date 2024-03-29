@@ -21,7 +21,7 @@
     "on_selection": true,
     "zoom_to_fit": true
   },
-  "current_layer_preset": "follow_pcb_editor",
+  "current_layer_preset": "",
   "find_replace": {
     "find_history": [],
     "find_string": "",

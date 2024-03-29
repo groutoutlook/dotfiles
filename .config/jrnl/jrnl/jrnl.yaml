@@ -56,7 +56,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\PhraseJournal.md
   phrase:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\PhraseJournal.md
-
+  ev:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
+  event:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
 linewrap: 200
 tagsymbols: '#@'
 template: false

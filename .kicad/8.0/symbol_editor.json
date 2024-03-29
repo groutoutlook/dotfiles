@@ -47,7 +47,7 @@
     "origin_x": 0.0,
     "origin_y": 0.0
   },
-  "lib_table_width": 313,
+  "lib_table_width": 375,
   "lib_tree": {
     "column_widths": null,
     "columns": [],
@@ -142,13 +142,13 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": false,
+    "maximized": true,
     "mru_path": "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\symbols",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=25;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139644;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1074;besth=44;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=482;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SymbolTree;caption=Libraries;state=1996;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=313;besth=-1;minw=313;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=375;besth=250;minw=300;minh=75;maxw=-1;maxh=-1;floatx=63;floaty=250;floatw=375;floath=500|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=478;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=469;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=482;besth=198;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=44|dock_size(3,6,0)=40|dock_size(4,3,0)=315|dock_size(4,2,0)=44|dock_size(2,2,0)=44|dock_size(5,0,0)=287|",
-    "pos_x": 952,
-    "pos_y": 0,
-    "size_x": 976,
-    "size_y": 608,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=25;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139644;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1074;besth=44;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=482;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SymbolTree;caption=Libraries;state=1996;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=313;besth=-1;minw=313;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=375;besth=250;minw=300;minh=75;maxw=-1;maxh=-1;floatx=63;floaty=250;floatw=375;floath=500|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=478;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=469;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=482;besth=198;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=44|dock_size(3,6,0)=40|dock_size(4,3,0)=377|dock_size(4,2,0)=44|dock_size(2,2,0)=44|dock_size(5,0,0)=484|",
+    "pos_x": -9,
+    "pos_y": -9,
+    "size_x": 1938,
+    "size_y": 1218,
     "zoom_factors": [
       0.05,
       0.07,

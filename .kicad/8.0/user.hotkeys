@@ -92,11 +92,11 @@ common.Control.saveAs	Ctrl+Shift+S
 common.Control.saveCopy		
 common.Control.selectColumns		
 common.Control.show3DViewer	Alt+3	
-common.Control.showContextMenu	Shift+F10	
+common.Control.showContextMenu	1	
 common.Control.showFootprintBrowser		
 common.Control.showFootprintEditor		
 common.Control.showProjectManager		
-common.Control.showProperties		
+common.Control.showProperties	Shift+A	
 common.Control.showSymbolBrowser		
 common.Control.showSymbolEditor		
 common.Control.toggleBoundingBoxes		
@@ -162,7 +162,7 @@ common.SuiteControl.openPreferences	Ctrl+,
 common.SuiteControl.reportBug		
 common.SuiteControl.showFootprintLibTable		
 common.SuiteControl.showSymbolLibTable		
-eeschema.AlignToGrid		
+eeschema.AlignToGrid	Shift+F5	
 eeschema.EditorControl.annotate		
 eeschema.EditorControl.annotateAutomatically		
 eeschema.EditorControl.assignFootprints		
@@ -260,7 +260,7 @@ eeschema.InteractiveEdit.editTextAndGraphics
 eeschema.InteractiveEdit.editValue	V	
 eeschema.InteractiveEdit.mirrorH	X	
 eeschema.InteractiveEdit.mirrorV	Y	
-eeschema.InteractiveEdit.pinTable		
+eeschema.InteractiveEdit.pinTable	F12	
 eeschema.InteractiveEdit.properties	E	
 eeschema.InteractiveEdit.repeatDrawItem	Ins	
 eeschema.InteractiveEdit.rotateCCW	R	
