@@ -210,7 +210,7 @@
             "opacity": 40,
             "scrollbarState": "hidden",
             "startingDirectory": "~",
-            "suppressApplicationTitle": true,
+            "suppressApplicationTitle": false,
             "useAcrylic": true,
             "useAtlasEngine": true
         },
@@ -235,8 +235,7 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "P7_PurpleBackground",
-                "padding": "0",
-                "suppressApplicationTitle": true
+                "padding": "0"
             },
             {
                 "adjustIndistinguishableColors": "never",
@@ -285,7 +284,7 @@
             {
                 "adjustIndistinguishableColors": "never",
                 "altGrAliasing": true,
-                "backgroundImage": "C:\\ProgramDataD\\Background and Icon\\Background\\Autorun Background\\ssh-without-password-linux-feature-940x587.jpg",
+                "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.64,
                 "closeOnExit": "never",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
@@ -304,13 +303,12 @@
                 "intenseTextStyle": "all",
                 "name": "ssh_1",
                 "padding": "0",
-                "snapOnInput": true,
-                "suppressApplicationTitle": true
+                "snapOnInput": true
             },
             {
                 "adjustIndistinguishableColors": "never",
                 "altGrAliasing": true,
-                "backgroundImage": "C:\\ProgramDataD\\Background and Icon\\Background\\Autorun Background\\peakpx (1).jpg",
+                "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.64,
                 "closeOnExit": "never",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
@@ -329,13 +327,12 @@
                 "intenseTextStyle": "all",
                 "name": "ssh_4",
                 "padding": "0",
-                "snapOnInput": true,
-                "suppressApplicationTitle": true
+                "snapOnInput": true
             },
             {
                 "adjustIndistinguishableColors": "never",
                 "altGrAliasing": true,
-                "backgroundImage": "C:\\ProgramDataD\\Background and Icon\\Background\\Autorun Background\\wallpaperflare.com_wallpaper.jpg",
+                "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.64,
                 "closeOnExit": "never",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
@@ -354,13 +351,12 @@
                 "intenseTextStyle": "all",
                 "name": "ssh_2",
                 "padding": "0",
-                "snapOnInput": true,
-                "suppressApplicationTitle": true
+                "snapOnInput": true
             },
             {
                 "adjustIndistinguishableColors": "never",
                 "altGrAliasing": true,
-                "backgroundImage": "C:\\ProgramDataD\\Background and Icon\\Background\\Autorun Background\\peakpx (2).jpg",
+                "backgroundImage": "desktopWallpaper",
                 "backgroundImageOpacity": 0.64,
                 "closeOnExit": "never",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
@@ -379,8 +375,7 @@
                 "intenseTextStyle": "all",
                 "name": "ssh_3",
                 "padding": "0",
-                "snapOnInput": true,
-                "suppressApplicationTitle": true
+                "snapOnInput": true
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
