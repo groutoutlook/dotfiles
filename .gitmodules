@@ -1,6 +1,6 @@
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/groutoutlook/nvim_dotfiles.git
 [submodule "linux_env"]
 	path = linux_env
 	url = https://github.com/groutoutlook/linux_env.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/groutoutlook/nvim_dotfiles.git
