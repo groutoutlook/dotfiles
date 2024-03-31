@@ -20,6 +20,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -36,10 +40,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+a"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -101,6 +101,15 @@
         {
             "command": 
             {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "nextInOrder"
             },
@@ -109,15 +118,6 @@
         {
             "command": "toggleFocusMode",
             "keys": "win+ctrl+alt+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -275,7 +275,9 @@
                 "padding": "0"
             },
             {
+                "closeOnExit": "graceful",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "elevate": false,
                 "guid": "{baa14a2d-2fe9-4719-8b44-79160e0de52c}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
