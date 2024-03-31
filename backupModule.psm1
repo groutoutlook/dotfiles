@@ -1,7 +1,7 @@
 $backUpDir = @{
   "$env:kicadSettingDir" = "$env:dotfilesRepo\.kicad" 
   "$HOME\.config\jrnl" = "$env:dotfilesRepo\.config\jrnl"
-  "C:\Users\COHOTECH\AppData\Roaming\copyq\" = "$env:dotfilesRepo\copyq\"
+  "$env:APPDATA\copyq" = "$env:dotfilesRepo\"
 }
 
 

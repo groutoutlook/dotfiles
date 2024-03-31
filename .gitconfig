@@ -167,3 +167,5 @@
 	required = true
 [safe]
     directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
+[submodule]
+	recurse = true

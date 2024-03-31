@@ -81,3 +81,5 @@ CopyQ Warning [2024-03-31 11:01:02.574] <Server-26700>: Invalid regular expressi
 CopyQ Warning [2024-03-31 11:01:40.333] <Server-11384>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
 CopyQ Warning [2024-03-31 11:01:48.626] <Server-11384>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
 CopyQ Warning [2024-03-31 11:01:50.962] <Server-11384>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:17:30.728] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 11:47:06.986] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
