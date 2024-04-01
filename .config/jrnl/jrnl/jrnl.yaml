@@ -35,7 +35,7 @@ journals:
   eda:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\note_EDA\EDAJournal.md
   embed:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\ProgrammingJournal.md
   hard:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
   hw:
@@ -62,6 +62,12 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
   event:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
+  math:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+  physic:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+  stem:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
 linewrap: 200
 tagsymbols: '#@'
 template: false
