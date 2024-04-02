@@ -4,3 +4,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/groutoutlook/nvim_dotfiles.git
+[submodule "powershell"]
+	path = powershell
+	url = https://github.com/groutoutlook/pwsh_settings.git
