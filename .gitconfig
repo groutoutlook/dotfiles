@@ -10,7 +10,6 @@
   # List available aliases
   aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
   # Command shortcuts
-  ci = commit
   co = checkout
   st = status
   sw = switch
