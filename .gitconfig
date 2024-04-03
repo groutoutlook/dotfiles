@@ -35,6 +35,7 @@
   # Remove file(s) from Git but not from disk
   untrack = rm --cache --
   cij = !"git add . && gitmoji -c && git push"
+  suup = submodule update --remote
 [core]
   # Don't paginate output by default
   pager = bat
