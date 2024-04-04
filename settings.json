@@ -219,7 +219,7 @@
             {
                 "adjustIndistinguishableColors": "never",
                 "backgroundImage": "desktopWallpaper",
-                "backgroundImageOpacity": 0.64,
+                "backgroundImageOpacity": 1.0,
                 "closeOnExit": "never",
                 "colorScheme": "Tango Dark",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
@@ -235,7 +235,9 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "P7_PurpleBackground",
-                "padding": "0"
+                "opacity": 0,
+                "padding": "0",
+                "useAcrylic": false
             },
             {
                 "adjustIndistinguishableColors": "never",
