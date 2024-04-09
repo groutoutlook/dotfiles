@@ -68,6 +68,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
   stem:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+  til:
+    journal:  D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
+  other:
+    journal:  D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
 linewrap: 200
 tagsymbols: '#@'
 template: false

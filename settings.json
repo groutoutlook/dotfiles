@@ -222,7 +222,7 @@
                 "backgroundImageOpacity": 1.0,
                 "closeOnExit": "never",
                 "colorScheme": "Tango Dark",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
                 "cursorShape": "bar",
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -234,7 +234,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "intenseTextStyle": "all",
-                "name": "P7_PurpleBackground",
+                "name": "P7_Preview",
                 "opacity": 0,
                 "padding": "0",
                 "useAcrylic": false
@@ -255,7 +255,7 @@
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44ba}",
                 "hidden": false,
-                "name": "P7_OrangeBackground",
+                "name": "P7_Mainstream",
                 "padding": "0"
             },
             {

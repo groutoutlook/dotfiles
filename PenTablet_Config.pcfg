@@ -26,10 +26,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="172" H="98" X="274" Y="72"/>
-        <T_1 W="50" H="91" X="314" Y="86"/>
-        <T_2 W="172" H="98" X="233" Y="72"/>
-        <T_3 W="51" H="91" X="315" Y="66"/>
+        <T_0 W="172" X="274" H="98" Y="72"/>
+        <T_1 W="50" X="314" H="91" Y="86"/>
+        <T_2 W="172" X="233" H="98" Y="72"/>
+        <T_3 W="51" X="315" H="91" Y="66"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -43,12 +43,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="6"/>
-        <K5 Motid="5" Show="1" id="0" Actid="101"/>
-        <K6 Motid="6" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="6" Show="1"/>
+        <K5 id="0" Motid="5" Actid="101" Show="1"/>
+        <K6 id="0" Motid="6" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -112,10 +112,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="163" H="102" X="272" Y="69"/>
-        <T_1 W="53" H="86" X="313" Y="87"/>
-        <T_2 W="163" H="102" X="241" Y="71"/>
-        <T_3 W="53" H="86" X="313" Y="69"/>
+        <T_0 W="163" X="272" H="102" Y="69"/>
+        <T_1 W="53" X="313" H="86" Y="87"/>
+        <T_2 W="163" X="241" H="102" Y="71"/>
+        <T_3 W="53" X="313" H="86" Y="69"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -130,12 +130,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="7" Show="1" id="0" Actid="1"/>
-        <K2 Motid="8" Show="1" id="0" Actid="2"/>
-        <K3 Motid="1" Show="1" id="0" Actid="6"/>
-        <K4 Motid="5" Show="1" id="0" Actid="21"/>
-        <K5 Motid="3" Show="1" id="0" Actid="22"/>
-        <K6 Motid="4" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="7" Actid="1" Show="1"/>
+        <K2 id="0" Motid="8" Actid="2" Show="1"/>
+        <K3 id="0" Motid="1" Actid="6" Show="1"/>
+        <K4 id="0" Motid="5" Actid="21" Show="1"/>
+        <K5 id="0" Motid="3" Actid="22" Show="1"/>
+        <K6 id="0" Motid="4" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -186,10 +186,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="128" H="93" X="296" Y="76"/>
-        <T_1 W="48" H="67" X="316" Y="100"/>
-        <T_2 W="128" H="93" X="256" Y="75"/>
-        <T_3 W="48" H="68" X="317" Y="78"/>
+        <T_0 W="128" X="296" H="93" Y="76"/>
+        <T_1 W="48" X="316" H="67" Y="100"/>
+        <T_2 W="128" X="256" H="93" Y="75"/>
+        <T_3 W="48" X="317" H="68" Y="78"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -244,10 +244,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="156" H="104" X="260" Y="86"/>
-        <T_1 W="77" H="121" X="290" Y="61"/>
-        <T_2 W="156" H="104" X="263" Y="56"/>
-        <T_3 W="79" H="120" X="313" Y="64"/>
+        <T_0 W="156" X="260" H="104" Y="86"/>
+        <T_1 W="77" X="290" H="121" Y="61"/>
+        <T_2 W="156" X="263" H="104" Y="56"/>
+        <T_3 W="79" X="313" H="120" Y="64"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -304,10 +304,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="142" H="88" X="286" Y="78"/>
-        <T_1 W="46" H="76" X="317" Y="93"/>
-        <T_2 W="142" H="88" X="250" Y="78"/>
-        <T_3 W="46" H="76" X="317" Y="74"/>
+        <T_0 W="142" X="286" H="88" Y="78"/>
+        <T_1 W="46" X="317" H="76" Y="93"/>
+        <T_2 W="142" X="250" H="88" Y="78"/>
+        <T_3 W="46" X="317" H="76" Y="74"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -322,12 +322,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="6"/>
-        <K4 Motid="4" Show="1" id="0" Actid="21"/>
-        <K5 Motid="5" Show="1" id="0" Actid="22"/>
-        <K6 Motid="6" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="6" Show="1"/>
+        <K4 id="0" Motid="4" Actid="21" Show="1"/>
+        <K5 id="0" Motid="5" Actid="22" Show="1"/>
+        <K6 id="0" Motid="6" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -380,10 +380,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="135" H="86" X="284" Y="75"/>
-        <T_1 W="46" H="72" X="318" Y="93"/>
-        <T_2 W="135" H="86" X="258" Y="81"/>
-        <T_3 W="46" H="72" X="317" Y="80"/>
+        <T_0 W="135" X="284" H="86" Y="75"/>
+        <T_1 W="46" X="318" H="72" Y="93"/>
+        <T_2 W="135" X="258" H="86" Y="81"/>
+        <T_3 W="46" X="317" H="72" Y="80"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -397,12 +397,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -454,10 +454,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="167" H="101" X="273" Y="71"/>
-        <T_1 W="52" H="88" X="313" Y="87"/>
-        <T_2 W="167" H="101" X="237" Y="70"/>
-        <T_3 W="52" H="88" X="313" Y="67"/>
+        <T_0 W="167" X="273" H="101" Y="71"/>
+        <T_1 W="52" X="313" H="88" Y="87"/>
+        <T_2 W="167" X="237" H="101" Y="70"/>
+        <T_3 W="52" X="313" H="88" Y="67"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -472,12 +472,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="6"/>
-        <K5 Motid="5" Show="1" id="0" Actid="101"/>
-        <K6 Motid="6" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="6" Show="1"/>
+        <K5 id="0" Motid="5" Actid="101" Show="1"/>
+        <K6 id="0" Motid="6" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -542,10 +542,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="136" H="86" X="283" Y="75"/>
-        <T_1 W="45" H="72" X="318" Y="91"/>
-        <T_2 W="136" H="86" X="257" Y="81"/>
-        <T_3 W="45" H="72" X="316" Y="78"/>
+        <T_0 W="136" X="283" H="86" Y="75"/>
+        <T_1 W="45" X="318" H="72" Y="91"/>
+        <T_2 W="136" X="257" H="86" Y="81"/>
+        <T_3 W="45" X="316" H="72" Y="78"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -559,12 +559,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -616,10 +616,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="167" H="105" X="274" Y="71"/>
-        <T_1 W="55" H="88" X="312" Y="87"/>
-        <T_2 W="167" H="105" X="238" Y="70"/>
-        <T_3 W="55" H="88" X="313" Y="67"/>
+        <T_0 W="167" X="274" H="105" Y="71"/>
+        <T_1 W="55" X="312" H="88" Y="87"/>
+        <T_2 W="167" X="238" H="105" Y="70"/>
+        <T_3 W="55" X="313" H="88" Y="67"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -634,14 +634,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -696,10 +696,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="168" H="106" X="273" Y="69"/>
-        <T_1 W="55" H="88" X="312" Y="87"/>
-        <T_2 W="168" H="106" X="238" Y="68"/>
-        <T_3 W="55" H="88" X="312" Y="68"/>
+        <T_0 W="168" X="273" H="106" Y="69"/>
+        <T_1 W="55" X="312" H="88" Y="87"/>
+        <T_2 W="168" X="238" H="106" Y="68"/>
+        <T_3 W="55" X="312" H="88" Y="68"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -714,14 +714,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -776,10 +776,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="192" H="110" X="272" Y="67"/>
-        <T_1 W="57" H="102" X="312" Y="87"/>
-        <T_2 W="192" H="110" X="216" Y="67"/>
-        <T_3 W="57" H="102" X="312" Y="57"/>
+        <T_0 W="192" X="272" H="110" Y="67"/>
+        <T_1 W="57" X="312" H="102" Y="87"/>
+        <T_2 W="192" X="216" H="110" Y="67"/>
+        <T_3 W="57" X="312" H="102" Y="57"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -794,14 +794,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -809,7 +809,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="1" id="0">
+      <TR id="0" mode="1">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -845,7 +845,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -880,10 +880,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="192" H="110" X="272" Y="67"/>
-        <T_1 W="57" H="102" X="312" Y="87"/>
-        <T_2 W="192" H="110" X="216" Y="67"/>
-        <T_3 W="57" H="102" X="312" Y="57"/>
+        <T_0 W="192" X="272" H="110" Y="67"/>
+        <T_1 W="57" X="312" H="102" Y="87"/>
+        <T_2 W="192" X="216" H="110" Y="67"/>
+        <T_3 W="57" X="312" H="102" Y="57"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -898,14 +898,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -913,7 +913,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="1" id="0">
+      <TR id="0" mode="1">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -949,7 +949,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -984,10 +984,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="192" H="110" X="272" Y="67"/>
-        <T_1 W="57" H="102" X="312" Y="87"/>
-        <T_2 W="192" H="110" X="216" Y="67"/>
-        <T_3 W="57" H="102" X="312" Y="57"/>
+        <T_0 W="192" X="272" H="110" Y="67"/>
+        <T_1 W="57" X="312" H="102" Y="87"/>
+        <T_2 W="192" X="216" H="110" Y="67"/>
+        <T_3 W="57" X="312" H="102" Y="57"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1002,14 +1002,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -1017,7 +1017,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="1" id="0">
+      <TR id="0" mode="1">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -1053,7 +1053,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -1088,10 +1088,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="204" H="113" X="266" Y="66"/>
-        <T_1 W="58" H="106" X="311" Y="85"/>
-        <T_2 W="204" H="113" X="210" Y="66"/>
-        <T_3 W="58" H="106" X="311" Y="55"/>
+        <T_0 W="204" X="266" H="113" Y="66"/>
+        <T_1 W="58" X="311" H="106" Y="85"/>
+        <T_2 W="204" X="210" H="113" Y="66"/>
+        <T_3 W="58" X="311" H="106" Y="55"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1106,14 +1106,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -1121,7 +1121,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="1" id="0">
+      <TR id="0" mode="1">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -1157,7 +1157,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -1192,10 +1192,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="135" H="102" X="291" Y="70"/>
-        <T_1 W="53" H="72" X="313" Y="95"/>
-        <T_2 W="135" H="102" X="252" Y="70"/>
-        <T_3 W="53" H="72" X="313" Y="75"/>
+        <T_0 W="135" X="291" H="102" Y="70"/>
+        <T_1 W="53" X="313" H="72" Y="95"/>
+        <T_2 W="135" X="252" H="102" Y="70"/>
+        <T_3 W="53" X="313" H="72" Y="75"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1210,12 +1210,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="6"/>
-        <K4 Motid="4" Show="1" id="0" Actid="21"/>
-        <K5 Motid="5" Show="1" id="0" Actid="22"/>
-        <K6 Motid="6" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="6" Show="1"/>
+        <K4 id="0" Motid="4" Actid="21" Show="1"/>
+        <K5 id="0" Motid="5" Actid="22" Show="1"/>
+        <K6 id="0" Motid="6" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1268,10 +1268,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="182" H="114" X="268" Y="67"/>
-        <T_1 W="59" H="96" X="310" Y="84"/>
-        <T_2 W="182" H="114" X="228" Y="65"/>
-        <T_3 W="59" H="96" X="310" Y="62"/>
+        <T_0 W="182" X="268" H="114" Y="67"/>
+        <T_1 W="59" X="310" H="96" Y="84"/>
+        <T_2 W="182" X="228" H="114" Y="65"/>
+        <T_3 W="59" X="310" H="96" Y="62"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1286,14 +1286,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1349,10 +1349,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="166" H="104" X="256" Y="81"/>
-        <T_1 W="56" H="88" X="306" Y="77"/>
-        <T_2 W="166" H="104" X="256" Y="57"/>
-        <T_3 W="56" H="88" X="319" Y="77"/>
+        <T_0 W="166" X="256" H="104" Y="81"/>
+        <T_1 W="56" X="306" H="88" Y="77"/>
+        <T_2 W="166" X="256" H="104" Y="57"/>
+        <T_3 W="56" X="319" H="88" Y="77"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1367,16 +1367,16 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="9"/>
-        <K6 Motid="6" Show="1" id="0" Actid="5"/>
-        <K7 Motid="7" Show="1" id="0" Actid="6"/>
-        <K8 Motid="8" Show="1" id="0" Actid="21"/>
-        <K9 Motid="9" Show="1" id="0" Actid="22"/>
-        <K10 Motid="10" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="9" Show="1"/>
+        <K6 id="0" Motid="6" Actid="5" Show="1"/>
+        <K7 id="0" Motid="7" Actid="6" Show="1"/>
+        <K8 id="0" Motid="8" Actid="21" Show="1"/>
+        <K9 id="0" Motid="9" Actid="22" Show="1"/>
+        <K10 id="0" Motid="10" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1434,10 +1434,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="89" H="54" X="369" Y="252"/>
-        <T_1 W="30" H="48" X="396" Y="251"/>
-        <T_2 W="89" H="56" X="369" Y="251"/>
-        <T_3 W="30" H="48" X="401" Y="250"/>
+        <T_0 W="89" X="369" H="54" Y="252"/>
+        <T_1 W="30" X="396" H="48" Y="251"/>
+        <T_2 W="89" X="369" H="56" Y="251"/>
+        <T_3 W="30" X="401" H="48" Y="250"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1452,16 +1452,16 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="9"/>
-        <K6 Motid="6" Show="1" id="0" Actid="5"/>
-        <K7 Motid="7" Show="1" id="0" Actid="6"/>
-        <K8 Motid="8" Show="1" id="0" Actid="21"/>
-        <K9 Motid="9" Show="1" id="0" Actid="22"/>
-        <K10 Motid="10" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="9" Show="1"/>
+        <K6 id="0" Motid="6" Actid="5" Show="1"/>
+        <K7 id="0" Motid="7" Actid="6" Show="1"/>
+        <K8 id="0" Motid="8" Actid="21" Show="1"/>
+        <K9 id="0" Motid="9" Actid="22" Show="1"/>
+        <K10 id="0" Motid="10" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1519,10 +1519,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="148" H="92" X="265" Y="88"/>
-        <T_1 W="48" H="78" X="308" Y="82"/>
-        <T_2 W="148" H="92" X="265" Y="61"/>
-        <T_3 W="48" H="78" X="322" Y="82"/>
+        <T_0 W="148" X="265" H="92" Y="88"/>
+        <T_1 W="48" X="308" H="78" Y="82"/>
+        <T_2 W="148" X="265" H="92" Y="61"/>
+        <T_3 W="48" X="322" H="78" Y="82"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1537,14 +1537,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1600,10 +1600,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="182" H="114" X="248" Y="73"/>
-        <T_1 W="59" H="97" X="305" Y="73"/>
-        <T_2 W="182" H="114" X="248" Y="56"/>
-        <T_3 W="59" H="97" X="314" Y="73"/>
+        <T_0 W="182" X="248" H="114" Y="73"/>
+        <T_1 W="59" X="305" H="97" Y="73"/>
+        <T_2 W="182" X="248" H="114" Y="56"/>
+        <T_3 W="59" X="314" H="97" Y="73"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1618,18 +1618,18 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="102"/>
-        <K11 Motid="11" Show="1" id="0" Actid="9"/>
-        <K12 Motid="12" Show="1" id="0" Actid="11"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="102" Show="1"/>
+        <K11 id="0" Motid="11" Actid="9" Show="1"/>
+        <K12 id="0" Motid="12" Actid="11" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1689,10 +1689,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="102" H="64" X="364" Y="247"/>
-        <T_1 W="35" H="56" X="394" Y="246"/>
-        <T_2 W="102" H="64" X="361" Y="248"/>
-        <T_3 W="35" H="56" X="398" Y="245"/>
+        <T_0 W="102" X="364" H="64" Y="247"/>
+        <T_1 W="35" X="394" H="56" Y="246"/>
+        <T_2 W="102" X="361" H="64" Y="248"/>
+        <T_3 W="35" X="398" H="56" Y="245"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -1707,18 +1707,18 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="102"/>
-        <K11 Motid="11" Show="1" id="0" Actid="9"/>
-        <K12 Motid="12" Show="1" id="0" Actid="11"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="102" Show="1"/>
+        <K11 id="0" Motid="11" Actid="9" Show="1"/>
+        <K12 id="0" Motid="12" Actid="11" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -1777,12 +1777,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="223" H="127" X="245" Y="62"/>
-        <T_1 W="71" H="127" X="304" Y="65"/>
-        <T_2 W="223" H="127" X="217" Y="59"/>
-        <T_3 W="71" H="127" X="304" Y="50"/>
+        <T_0 W="223" X="245" H="127" Y="62"/>
+        <T_1 W="71" X="304" H="127" Y="65"/>
+        <T_2 W="223" X="217" H="127" Y="59"/>
+        <T_3 W="71" X="304" H="127" Y="50"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -1796,14 +1796,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -1811,7 +1811,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="0" id="0">
+      <TR id="0" mode="0">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -1847,7 +1847,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -1882,12 +1882,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="214" H="120" X="236" Y="65"/>
-        <T_1 W="69" H="120" X="310" Y="65"/>
-        <T_2 W="214" H="120" X="236" Y="65"/>
-        <T_3 W="69" H="120" X="306" Y="65"/>
+        <T_0 W="214" X="236" H="120" Y="65"/>
+        <T_1 W="69" X="310" H="120" Y="65"/>
+        <T_2 W="214" X="236" H="120" Y="65"/>
+        <T_3 W="69" X="306" H="120" Y="65"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -1940,12 +1940,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="191" H="108" X="249" Y="71"/>
-        <T_1 W="57" H="100" X="310" Y="73"/>
-        <T_2 W="191" H="108" X="241" Y="66"/>
-        <T_3 W="57" H="100" X="312" Y="69"/>
+        <T_0 W="191" X="249" H="108" Y="71"/>
+        <T_1 W="57" X="310" H="100" Y="73"/>
+        <T_2 W="191" X="241" H="108" Y="66"/>
+        <T_3 W="57" X="312" H="100" Y="69"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -1959,14 +1959,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -2021,12 +2021,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="197" H="110" X="240" Y="66"/>
-        <T_1 W="58" H="103" X="313" Y="74"/>
-        <T_2 W="197" H="110" X="240" Y="66"/>
-        <T_3 W="58" H="103" X="313" Y="72"/>
+        <T_0 W="197" X="240" H="110" Y="66"/>
+        <T_1 W="58" X="313" H="103" Y="74"/>
+        <T_2 W="197" X="240" H="110" Y="66"/>
+        <T_3 W="58" X="313" H="103" Y="72"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2082,12 +2082,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="212" H="120" X="228" Y="58"/>
-        <T_1 W="64" H="114" X="311" Y="65"/>
-        <T_2 W="212" H="120" X="237" Y="64"/>
-        <T_3 W="64" H="114" X="307" Y="65"/>
+        <T_0 W="212" X="228" H="120" Y="58"/>
+        <T_1 W="64" X="311" H="114" Y="65"/>
+        <T_2 W="212" X="237" H="120" Y="64"/>
+        <T_3 W="64" X="307" H="114" Y="65"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2101,26 +2101,26 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="7"/>
-        <K8 Motid="8" Show="1" id="0" Actid="8"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="105"/>
-        <K11 Motid="11" Show="1" id="0" Actid="102"/>
-        <K12 Motid="12" Show="1" id="0" Actid="9"/>
-        <K13 Motid="13" Show="1" id="0" Actid="10"/>
-        <K14 Motid="14" Show="1" id="0" Actid="11"/>
-        <K15 Motid="15" Show="1" id="0" Actid="12"/>
-        <K16 Motid="16" Show="1" id="0" Actid="13"/>
-        <K17 Motid="17" Show="1" id="0" Actid="14"/>
-        <K18 Motid="18" Show="1" id="0" Actid="15"/>
-        <K19 Motid="19" Show="1" id="0" Actid="19"/>
-        <K20 Motid="20" Show="1" id="0" Actid="20"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="7" Show="1"/>
+        <K8 id="0" Motid="8" Actid="8" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="105" Show="1"/>
+        <K11 id="0" Motid="11" Actid="102" Show="1"/>
+        <K12 id="0" Motid="12" Actid="9" Show="1"/>
+        <K13 id="0" Motid="13" Actid="10" Show="1"/>
+        <K14 id="0" Motid="14" Actid="11" Show="1"/>
+        <K15 id="0" Motid="15" Actid="12" Show="1"/>
+        <K16 id="0" Motid="16" Actid="13" Show="1"/>
+        <K17 id="0" Motid="17" Actid="14" Show="1"/>
+        <K18 id="0" Motid="18" Actid="15" Show="1"/>
+        <K19 id="0" Motid="19" Actid="19" Show="1"/>
+        <K20 id="0" Motid="20" Actid="20" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -2211,12 +2211,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="175" H="100" X="257" Y="74"/>
-        <T_1 W="52" H="94" X="316" Y="78"/>
-        <T_2 W="175" H="100" X="252" Y="74"/>
-        <T_3 W="52" H="94" X="316" Y="76"/>
+        <T_0 W="175" X="257" H="100" Y="74"/>
+        <T_1 W="52" X="316" H="94" Y="78"/>
+        <T_2 W="175" X="252" H="100" Y="74"/>
+        <T_3 W="52" X="316" H="94" Y="76"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2230,14 +2230,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -2304,12 +2304,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="235" H="118" X="220" Y="54"/>
-        <T_1 W="65" H="125" X="310" Y="59"/>
-        <T_2 W="235" H="118" X="220" Y="70"/>
-        <T_3 W="65" H="125" X="305" Y="59"/>
+        <T_0 W="235" X="220" H="118" Y="54"/>
+        <T_1 W="65" X="310" H="125" Y="59"/>
+        <T_2 W="235" X="220" H="118" Y="70"/>
+        <T_3 W="65" X="305" H="125" Y="59"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2365,12 +2365,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="174" H="100" X="265" Y="71"/>
-        <T_1 W="55" H="96" X="313" Y="83"/>
-        <T_2 W="174" H="100" X="232" Y="71"/>
-        <T_3 W="55" H="96" X="313" Y="64"/>
+        <T_0 W="174" X="265" H="100" Y="71"/>
+        <T_1 W="55" X="313" H="96" Y="83"/>
+        <T_2 W="174" X="232" H="100" Y="71"/>
+        <T_3 W="55" X="313" H="96" Y="64"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2383,12 +2383,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="6"/>
-        <K5 Motid="5" Show="1" id="0" Actid="101"/>
-        <K6 Motid="6" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="6" Show="1"/>
+        <K5 id="0" Motid="5" Actid="101" Show="1"/>
+        <K6 id="0" Motid="6" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -2452,12 +2452,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="222" H="127" X="225" Y="51"/>
-        <T_1 W="66" H="120" X="308" Y="62"/>
-        <T_2 W="222" H="127" X="228" Y="62"/>
-        <T_3 W="66" H="120" X="303" Y="62"/>
+        <T_0 W="222" X="225" H="127" Y="51"/>
+        <T_1 W="66" X="308" H="120" Y="62"/>
+        <T_2 W="222" X="228" H="127" Y="62"/>
+        <T_3 W="66" X="303" H="120" Y="62"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2471,22 +2471,22 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="102"/>
-        <K11 Motid="11" Show="1" id="0" Actid="9"/>
-        <K12 Motid="12" Show="1" id="0" Actid="11"/>
-        <K13 Motid="13" Show="1" id="0" Actid="12"/>
-        <K14 Motid="14" Show="1" id="0" Actid="13"/>
-        <K15 Motid="15" Show="1" id="0" Actid="25"/>
-        <K16 Motid="16" Show="1" id="0" Actid="26"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="102" Show="1"/>
+        <K11 id="0" Motid="11" Actid="9" Show="1"/>
+        <K12 id="0" Motid="12" Actid="11" Show="1"/>
+        <K13 id="0" Motid="13" Actid="12" Show="1"/>
+        <K14 id="0" Motid="14" Actid="13" Show="1"/>
+        <K15 id="0" Motid="15" Actid="25" Show="1"/>
+        <K16 id="0" Motid="16" Actid="26" Show="1"/>
       </K>
       <PR id="0">
         <W1 id="0"/>
@@ -2561,12 +2561,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="164" H="100" X="262" Y="70"/>
-        <T_1 W="50" H="87" X="314" Y="80"/>
-        <T_2 W="164" H="100" X="252" Y="75"/>
-        <T_3 W="50" H="87" X="315" Y="76"/>
+        <T_0 W="164" X="262" H="100" Y="70"/>
+        <T_1 W="50" X="314" H="87" Y="80"/>
+        <T_2 W="164" X="252" H="100" Y="75"/>
+        <T_3 W="50" X="315" H="87" Y="76"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -2580,12 +2580,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="6"/>
-        <K4 Motid="4" Show="1" id="0" Actid="21"/>
-        <K5 Motid="5" Show="1" id="0" Actid="22"/>
-        <K6 Motid="6" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="6" Show="1"/>
+        <K4 id="0" Motid="4" Actid="21" Show="1"/>
+        <K5 id="0" Motid="5" Actid="22" Show="1"/>
+        <K6 id="0" Motid="6" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -2638,10 +2638,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="169" H="95" X="275" Y="78"/>
-        <T_1 W="54" H="88" X="315" Y="92"/>
-        <T_2 W="169" H="95" X="232" Y="78"/>
-        <T_3 W="54" H="88" X="315" Y="67"/>
+        <T_0 W="169" X="275" H="95" Y="78"/>
+        <T_1 W="54" X="315" H="88" Y="92"/>
+        <T_2 W="169" X="232" H="95" Y="78"/>
+        <T_3 W="54" X="315" H="88" Y="67"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -2656,14 +2656,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -2718,10 +2718,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="166" H="94" X="276" Y="76"/>
-        <T_1 W="48" H="87" X="314" Y="88"/>
-        <T_2 W="166" H="94" X="236" Y="73"/>
-        <T_3 W="48" H="87" X="315" Y="68"/>
+        <T_0 W="166" X="276" H="94" Y="76"/>
+        <T_1 W="48" X="314" H="87" Y="88"/>
+        <T_2 W="166" X="236" H="94" Y="73"/>
+        <T_3 W="48" X="315" H="87" Y="68"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -2736,12 +2736,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="6"/>
-        <K5 Motid="5" Show="1" id="0" Actid="101"/>
-        <K6 Motid="6" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="6" Show="1"/>
+        <K5 id="0" Motid="5" Actid="101" Show="1"/>
+        <K6 id="0" Motid="6" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -2806,10 +2806,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="114" H="67" X="369" Y="251"/>
-        <T_1 W="40" H="60" X="393" Y="258"/>
-        <T_2 W="114" H="67" X="346" Y="250"/>
-        <T_3 W="38" H="60" X="395" Y="248"/>
+        <T_0 W="114" X="369" H="67" Y="251"/>
+        <T_1 W="40" X="393" H="60" Y="258"/>
+        <T_2 W="114" X="346" H="67" Y="250"/>
+        <T_3 W="38" X="395" H="60" Y="248"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -2824,16 +2824,16 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="6" Show="1" id="0" Actid="1"/>
-        <K2 Motid="7" Show="1" id="0" Actid="2"/>
-        <K3 Motid="8" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="12" Show="1" id="0" Actid="9"/>
-        <K6 Motid="5" Show="1" id="0" Actid="5"/>
-        <K7 Motid="1" Show="1" id="0" Actid="6"/>
-        <K8 Motid="2" Show="1" id="0" Actid="13"/>
-        <K9 Motid="3" Show="1" id="0" Actid="101"/>
-        <K10 Motid="9" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="6" Actid="1" Show="1"/>
+        <K2 id="0" Motid="7" Actid="2" Show="1"/>
+        <K3 id="0" Motid="8" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="12" Actid="9" Show="1"/>
+        <K6 id="0" Motid="5" Actid="5" Show="1"/>
+        <K7 id="0" Motid="1" Actid="6" Show="1"/>
+        <K8 id="0" Motid="2" Actid="13" Show="1"/>
+        <K9 id="0" Motid="3" Actid="101" Show="1"/>
+        <K10 id="0" Motid="9" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -2903,65 +2903,65 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="114" H="67" X="369" Y="251"/>
-        <T_1 W="40" H="60" X="393" Y="258"/>
-        <T_2 W="114" H="67" X="346" Y="250"/>
-        <T_3 W="38" H="60" X="395" Y="248"/>
+        <T_0 W="114" X="369" H="67" Y="251"/>
+        <T_1 W="40" X="393" H="60" Y="258"/>
+        <T_2 W="114" X="346" H="67" Y="250"/>
+        <T_3 W="38" X="395" H="60" Y="248"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
       <SelectID>1</SelectID>
       <K id="1">
-        <K1 Motid="1" Show="1" id="0" Actid="110"/>
-        <K2 Motid="2" Show="1" id="0" Actid="111"/>
-        <K3 Motid="3" Show="1" id="0" Actid="24"/>
-        <K4 Motid="4" Show="1" id="0" Actid="201"/>
-        <K5 Motid="5" Show="1" id="0" Actid="204"/>
-        <K6 Motid="6" Show="1" id="0" Actid="3"/>
-        <K7 Motid="7" Show="1" id="0" Actid="5"/>
-        <K8 Motid="8" Show="1" id="0" Actid="6"/>
-        <K9 Motid="9" Show="1" id="0" Actid="4"/>
-        <K10 Motid="10" Show="1" id="0" Actid="8"/>
-        <K11 Motid="11" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="110" Show="1"/>
+        <K2 id="0" Motid="2" Actid="111" Show="1"/>
+        <K3 id="0" Motid="3" Actid="24" Show="1"/>
+        <K4 id="0" Motid="4" Actid="201" Show="1"/>
+        <K5 id="0" Motid="5" Actid="204" Show="1"/>
+        <K6 id="0" Motid="6" Actid="3" Show="1"/>
+        <K7 id="0" Motid="7" Actid="5" Show="1"/>
+        <K8 id="0" Motid="8" Actid="6" Show="1"/>
+        <K9 id="0" Motid="9" Actid="4" Show="1"/>
+        <K10 id="0" Motid="10" Actid="8" Show="1"/>
+        <K11 id="0" Motid="11" Actid="105" Show="1"/>
       </K>
       <K_1 id="1">
-        <K1 Motid="1" Show="1" id="0" Actid="110"/>
-        <K2 Motid="2" Show="1" id="0" Actid="111"/>
-        <K3 Motid="3" Show="1" id="1" Actid="24">1|Home|Home|36:327</K3>
-        <K4 Motid="4" Show="1" id="0" Actid="201"/>
-        <K5 Motid="5" Show="1" id="0" Actid="204"/>
-        <K6 Motid="6" Show="1" id="0" Actid="3"/>
-        <K7 Motid="7" Show="1" id="1" Actid="5">1|Win+|Win+|91:347</K7>
-        <K8 Motid="8" Show="1" id="0" Actid="6"/>
-        <K9 Motid="9" Show="1" id="0" Actid="4"/>
-        <K10 Motid="10" Show="1" id="1" Actid="8">1|Ctrl+Y|Ctrl+Y|17:29+89:21</K10>
-        <K11 Motid="11" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="110" Show="1"/>
+        <K2 id="0" Motid="2" Actid="111" Show="1"/>
+        <K3 id="1" Motid="3" Actid="24" Show="1">1|Tab|Tab|9:15</K3>
+        <K4 id="0" Motid="4" Actid="201" Show="1"/>
+        <K5 id="0" Motid="5" Actid="204" Show="1"/>
+        <K6 id="0" Motid="6" Actid="3" Show="1"/>
+        <K7 id="1" Motid="7" Actid="5" Show="1">1|Win+|Win+|91:347</K7>
+        <K8 id="0" Motid="8" Actid="6" Show="1"/>
+        <K9 id="0" Motid="9" Actid="4" Show="1"/>
+        <K10 id="1" Motid="10" Actid="8" Show="1">1|Ctrl+Y|Ctrl+Y|17:29+89:21</K10>
+        <K11 id="0" Motid="11" Actid="105" Show="1"/>
       </K_1>
       <K_2 id="0">
-        <K1 Motid="1" Show="1" id="0" Actid="110"/>
-        <K2 Motid="2" Show="1" id="0" Actid="111"/>
-        <K3 Motid="3" Show="1" id="0" Actid="24"/>
-        <K4 Motid="4" Show="1" id="0" Actid="201"/>
-        <K5 Motid="5" Show="1" id="0" Actid="204"/>
-        <K6 Motid="6" Show="1" id="0" Actid="3"/>
-        <K7 Motid="7" Show="1" id="0" Actid="5"/>
-        <K8 Motid="8" Show="1" id="0" Actid="6"/>
-        <K9 Motid="9" Show="1" id="0" Actid="4"/>
-        <K10 Motid="10" Show="1" id="0" Actid="8"/>
-        <K11 Motid="11" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="110" Show="1"/>
+        <K2 id="0" Motid="2" Actid="111" Show="1"/>
+        <K3 id="0" Motid="3" Actid="24" Show="1"/>
+        <K4 id="0" Motid="4" Actid="201" Show="1"/>
+        <K5 id="0" Motid="5" Actid="204" Show="1"/>
+        <K6 id="0" Motid="6" Actid="3" Show="1"/>
+        <K7 id="0" Motid="7" Actid="5" Show="1"/>
+        <K8 id="0" Motid="8" Actid="6" Show="1"/>
+        <K9 id="0" Motid="9" Actid="4" Show="1"/>
+        <K10 id="0" Motid="10" Actid="8" Show="1"/>
+        <K11 id="0" Motid="11" Actid="105" Show="1"/>
       </K_2>
       <K_3 id="0">
-        <K1 Motid="1" Show="1" id="0" Actid="110"/>
-        <K2 Motid="2" Show="1" id="0" Actid="111"/>
-        <K3 Motid="3" Show="1" id="0" Actid="24"/>
-        <K4 Motid="4" Show="1" id="0" Actid="201"/>
-        <K5 Motid="5" Show="1" id="0" Actid="204"/>
-        <K6 Motid="6" Show="1" id="0" Actid="3"/>
-        <K7 Motid="7" Show="1" id="0" Actid="5"/>
-        <K8 Motid="8" Show="1" id="0" Actid="6"/>
-        <K9 Motid="9" Show="1" id="0" Actid="4"/>
-        <K10 Motid="10" Show="1" id="0" Actid="8"/>
-        <K11 Motid="11" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="110" Show="1"/>
+        <K2 id="0" Motid="2" Actid="111" Show="1"/>
+        <K3 id="0" Motid="3" Actid="24" Show="1"/>
+        <K4 id="0" Motid="4" Actid="201" Show="1"/>
+        <K5 id="0" Motid="5" Actid="204" Show="1"/>
+        <K6 id="0" Motid="6" Actid="3" Show="1"/>
+        <K7 id="0" Motid="7" Actid="5" Show="1"/>
+        <K8 id="0" Motid="8" Actid="6" Show="1"/>
+        <K9 id="0" Motid="9" Actid="4" Show="1"/>
+        <K10 id="0" Motid="10" Actid="8" Show="1"/>
+        <K11 id="0" Motid="11" Actid="105" Show="1"/>
       </K_3>
       <R id="1">
         <W1 id="0"/>
@@ -2975,56 +2975,56 @@
         <path/>
         <SelectID>0</SelectID>
         <K id="1">
-          <K1 Motid="1" Show="1" id="0" Actid="110"/>
-          <K2 Motid="2" Show="1" id="0" Actid="111"/>
-          <K3 Motid="3" Show="1" id="0" Actid="24"/>
-          <K4 Motid="4" Show="1" id="0" Actid="201"/>
-          <K5 Motid="5" Show="1" id="0" Actid="204"/>
-          <K6 Motid="6" Show="1" id="0" Actid="3"/>
-          <K7 Motid="7" Show="1" id="0" Actid="5"/>
-          <K8 Motid="8" Show="1" id="0" Actid="6"/>
-          <K9 Motid="9" Show="1" id="0" Actid="4"/>
-          <K10 Motid="10" Show="1" id="0" Actid="8"/>
-          <K11 Motid="11" Show="1" id="0" Actid="105"/>
+          <K1 id="0" Motid="1" Actid="110" Show="1"/>
+          <K2 id="0" Motid="2" Actid="111" Show="1"/>
+          <K3 id="0" Motid="3" Actid="24" Show="1"/>
+          <K4 id="0" Motid="4" Actid="201" Show="1"/>
+          <K5 id="0" Motid="5" Actid="204" Show="1"/>
+          <K6 id="0" Motid="6" Actid="3" Show="1"/>
+          <K7 id="0" Motid="7" Actid="5" Show="1"/>
+          <K8 id="0" Motid="8" Actid="6" Show="1"/>
+          <K9 id="0" Motid="9" Actid="4" Show="1"/>
+          <K10 id="0" Motid="10" Actid="8" Show="1"/>
+          <K11 id="0" Motid="11" Actid="105" Show="1"/>
         </K>
         <K_1 id="0">
-          <K1 Motid="1" Show="1" id="0" Actid="110"/>
-          <K2 Motid="2" Show="1" id="0" Actid="111"/>
-          <K3 Motid="3" Show="1" id="0" Actid="24"/>
-          <K4 Motid="4" Show="1" id="0" Actid="201"/>
-          <K5 Motid="5" Show="1" id="0" Actid="204"/>
-          <K6 Motid="6" Show="1" id="0" Actid="3"/>
-          <K7 Motid="7" Show="1" id="0" Actid="5"/>
-          <K8 Motid="8" Show="1" id="0" Actid="6"/>
-          <K9 Motid="9" Show="1" id="0" Actid="4"/>
-          <K10 Motid="10" Show="1" id="0" Actid="8"/>
-          <K11 Motid="11" Show="1" id="0" Actid="105"/>
+          <K1 id="0" Motid="1" Actid="110" Show="1"/>
+          <K2 id="0" Motid="2" Actid="111" Show="1"/>
+          <K3 id="0" Motid="3" Actid="24" Show="1"/>
+          <K4 id="0" Motid="4" Actid="201" Show="1"/>
+          <K5 id="0" Motid="5" Actid="204" Show="1"/>
+          <K6 id="0" Motid="6" Actid="3" Show="1"/>
+          <K7 id="0" Motid="7" Actid="5" Show="1"/>
+          <K8 id="0" Motid="8" Actid="6" Show="1"/>
+          <K9 id="0" Motid="9" Actid="4" Show="1"/>
+          <K10 id="0" Motid="10" Actid="8" Show="1"/>
+          <K11 id="0" Motid="11" Actid="105" Show="1"/>
         </K_1>
         <K_2 id="0">
-          <K1 Motid="1" Show="1" id="0" Actid="110"/>
-          <K2 Motid="2" Show="1" id="0" Actid="111"/>
-          <K3 Motid="3" Show="1" id="0" Actid="24"/>
-          <K4 Motid="4" Show="1" id="0" Actid="201"/>
-          <K5 Motid="5" Show="1" id="0" Actid="204"/>
-          <K6 Motid="6" Show="1" id="0" Actid="3"/>
-          <K7 Motid="7" Show="1" id="0" Actid="5"/>
-          <K8 Motid="8" Show="1" id="0" Actid="6"/>
-          <K9 Motid="9" Show="1" id="0" Actid="4"/>
-          <K10 Motid="10" Show="1" id="0" Actid="8"/>
-          <K11 Motid="11" Show="1" id="0" Actid="105"/>
+          <K1 id="0" Motid="1" Actid="110" Show="1"/>
+          <K2 id="0" Motid="2" Actid="111" Show="1"/>
+          <K3 id="0" Motid="3" Actid="24" Show="1"/>
+          <K4 id="0" Motid="4" Actid="201" Show="1"/>
+          <K5 id="0" Motid="5" Actid="204" Show="1"/>
+          <K6 id="0" Motid="6" Actid="3" Show="1"/>
+          <K7 id="0" Motid="7" Actid="5" Show="1"/>
+          <K8 id="0" Motid="8" Actid="6" Show="1"/>
+          <K9 id="0" Motid="9" Actid="4" Show="1"/>
+          <K10 id="0" Motid="10" Actid="8" Show="1"/>
+          <K11 id="0" Motid="11" Actid="105" Show="1"/>
         </K_2>
         <K_3 id="0">
-          <K1 Motid="1" Show="1" id="0" Actid="110"/>
-          <K2 Motid="2" Show="1" id="0" Actid="111"/>
-          <K3 Motid="3" Show="1" id="0" Actid="24"/>
-          <K4 Motid="4" Show="1" id="0" Actid="201"/>
-          <K5 Motid="5" Show="1" id="0" Actid="204"/>
-          <K6 Motid="6" Show="1" id="0" Actid="3"/>
-          <K7 Motid="7" Show="1" id="0" Actid="5"/>
-          <K8 Motid="8" Show="1" id="0" Actid="6"/>
-          <K9 Motid="9" Show="1" id="0" Actid="4"/>
-          <K10 Motid="10" Show="1" id="0" Actid="8"/>
-          <K11 Motid="11" Show="1" id="0" Actid="105"/>
+          <K1 id="0" Motid="1" Actid="110" Show="1"/>
+          <K2 id="0" Motid="2" Actid="111" Show="1"/>
+          <K3 id="0" Motid="3" Actid="24" Show="1"/>
+          <K4 id="0" Motid="4" Actid="201" Show="1"/>
+          <K5 id="0" Motid="5" Actid="204" Show="1"/>
+          <K6 id="0" Motid="6" Actid="3" Show="1"/>
+          <K7 id="0" Motid="7" Actid="5" Show="1"/>
+          <K8 id="0" Motid="8" Actid="6" Show="1"/>
+          <K9 id="0" Motid="9" Actid="4" Show="1"/>
+          <K10 id="0" Motid="10" Actid="8" Show="1"/>
+          <K11 id="0" Motid="11" Actid="105" Show="1"/>
         </K_3>
         <R id="0">
           <W1 id="0"/>
@@ -3061,12 +3061,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="196" H="110" X="240" Y="67"/>
-        <T_1 W="58" H="105" X="311" Y="70"/>
-        <T_2 W="196" H="110" X="240" Y="65"/>
-        <T_3 W="58" H="105" X="311" Y="70"/>
+        <T_0 W="196" X="240" H="110" Y="67"/>
+        <T_1 W="58" X="311" H="105" Y="70"/>
+        <T_2 W="196" X="240" H="110" Y="65"/>
+        <T_3 W="58" X="311" H="105" Y="70"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -3122,10 +3122,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="171" H="105" X="265" Y="70"/>
-        <T_1 W="55" H="91" X="311" Y="82"/>
-        <T_2 W="171" H="105" X="242" Y="69"/>
-        <T_3 W="55" H="91" X="313" Y="70"/>
+        <T_0 W="171" X="265" H="105" Y="70"/>
+        <T_1 W="55" X="311" H="91" Y="82"/>
+        <T_2 W="171" X="242" H="105" Y="69"/>
+        <T_3 W="55" X="313" H="91" Y="70"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -3140,14 +3140,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -3202,10 +3202,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="117" H="75" X="281" Y="95"/>
-        <T_1 W="38" H="63" X="315" Y="90"/>
-        <T_2 W="117" H="75" X="281" Y="73"/>
-        <T_3 W="38" H="63" X="326" Y="90"/>
+        <T_0 W="117" X="281" H="75" Y="95"/>
+        <T_1 W="38" X="315" H="63" Y="90"/>
+        <T_2 W="117" X="281" H="75" Y="73"/>
+        <T_3 W="38" X="326" H="63" Y="90"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -3262,10 +3262,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="134" H="84" X="272" Y="89"/>
-        <T_1 W="44" H="71" X="313" Y="86"/>
-        <T_2 W="134" H="84" X="272" Y="70"/>
-        <T_3 W="44" H="71" X="322" Y="86"/>
+        <T_0 W="134" X="272" H="84" Y="89"/>
+        <T_1 W="44" X="313" H="71" Y="86"/>
+        <T_2 W="134" X="272" H="84" Y="70"/>
+        <T_3 W="44" X="322" H="71" Y="86"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -3322,10 +3322,10 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="165" H="104" X="256" Y="76"/>
-        <T_1 W="56" H="88" X="308" Y="77"/>
-        <T_2 W="165" H="104" X="256" Y="62"/>
-        <T_3 W="56" H="88" X="317" Y="77"/>
+        <T_0 W="165" X="256" H="104" Y="76"/>
+        <T_1 W="56" X="308" H="88" Y="77"/>
+        <T_2 W="165" X="256" H="104" Y="62"/>
+        <T_3 W="56" X="317" H="88" Y="77"/>
       </PictureFiles>
     </Common>
     <CommonAPP>
@@ -3385,12 +3385,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="222" H="127" X="245" Y="60"/>
-        <T_1 W="72" H="130" X="303" Y="65"/>
-        <T_2 W="222" H="127" X="222" Y="60"/>
-        <T_3 W="72" H="130" X="304" Y="52"/>
+        <T_0 W="222" X="245" H="127" Y="60"/>
+        <T_1 W="72" X="303" H="130" Y="65"/>
+        <T_2 W="222" X="222" H="127" Y="60"/>
+        <T_3 W="72" X="304" H="130" Y="52"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -3498,14 +3498,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="101"/>
-        <K8 Motid="8" Show="1" id="0" Actid="105"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="101" Show="1"/>
+        <K8 id="0" Motid="8" Actid="105" Show="1"/>
       </K>
       <R id="0">
         <W1 id="0"/>
@@ -3513,7 +3513,7 @@
         <W3 id="0"/>
         <W4 id="0"/>
       </R>
-      <TR mode="0" id="0">
+      <TR id="0" mode="0">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -3619,7 +3619,7 @@
           <W3 id="0"/>
           <W4 id="0"/>
         </R>
-        <TR mode="0" id="0">
+        <TR id="0" mode="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -3657,12 +3657,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="166" H="90" X="264" Y="75"/>
-        <T_1 W="55" H="90" X="313" Y="82"/>
-        <T_2 W="166" H="90" X="248" Y="75"/>
-        <T_3 W="55" H="90" X="313" Y="75"/>
+        <T_0 W="166" X="264" H="90" Y="75"/>
+        <T_1 W="55" X="313" H="90" Y="82"/>
+        <T_2 W="166" X="248" H="90" Y="75"/>
+        <T_3 W="55" X="313" H="90" Y="75"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -3770,14 +3770,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -3902,12 +3902,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="112" H="62" X="0" Y="0"/>
-        <T_1 W="38" H="61" X="0" Y="0"/>
-        <T_2 W="112" H="62" X="0" Y="0"/>
-        <T_3 W="38" H="61" X="0" Y="0"/>
+        <T_0 W="112" X="0" H="62" Y="0"/>
+        <T_1 W="38" X="0" H="61" Y="0"/>
+        <T_2 W="112" X="0" H="62" Y="0"/>
+        <T_3 W="38" X="0" H="61" Y="0"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -3963,12 +3963,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="112" H="62" X="360" Y="252"/>
-        <T_1 W="38" H="61" X="395" Y="255"/>
-        <T_2 W="112" H="62" X="355" Y="252"/>
-        <T_3 W="38" H="61" X="395" Y="252"/>
+        <T_0 W="112" X="360" H="62" Y="252"/>
+        <T_1 W="38" X="395" H="61" Y="255"/>
+        <T_2 W="112" X="355" H="62" Y="252"/>
+        <T_3 W="38" X="395" H="61" Y="252"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -4027,12 +4027,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="177" H="106" X="261" Y="68"/>
-        <T_1 W="55" H="92" X="312" Y="80"/>
-        <T_2 W="177" H="106" X="239" Y="69"/>
-        <T_3 W="55" H="92" X="312" Y="70"/>
+        <T_0 W="177" X="261" H="106" Y="68"/>
+        <T_1 W="55" X="312" H="92" Y="80"/>
+        <T_2 W="177" X="239" H="106" Y="69"/>
+        <T_3 W="55" X="312" H="92" Y="70"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -4140,14 +4140,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -4275,12 +4275,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="172" H="95" X="262" Y="73"/>
-        <T_1 W="50" H="90" X="315" Y="83"/>
-        <T_2 W="172" H="95" X="244" Y="73"/>
-        <T_3 W="50" H="90" X="315" Y="71"/>
+        <T_0 W="172" X="262" H="95" Y="73"/>
+        <T_1 W="50" X="315" H="90" Y="83"/>
+        <T_2 W="172" X="244" H="95" Y="73"/>
+        <T_3 W="50" X="315" H="90" Y="71"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -4388,15 +4388,15 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -4525,12 +4525,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="166" H="94" X="264" Y="75"/>
-        <T_1 W="52" H="87" X="314" Y="85"/>
-        <T_2 W="166" H="94" X="247" Y="75"/>
-        <T_3 W="52" H="87" X="314" Y="73"/>
+        <T_0 W="166" X="264" H="94" Y="75"/>
+        <T_1 W="52" X="314" H="87" Y="85"/>
+        <T_2 W="166" X="247" H="94" Y="75"/>
+        <T_3 W="52" X="314" H="87" Y="73"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -4638,12 +4638,12 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="21"/>
-        <K6 Motid="6" Show="1" id="0" Actid="22"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="21" Show="1"/>
+        <K6 id="0" Motid="6" Actid="22" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -4772,12 +4772,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="172" H="96" X="262" Y="72"/>
-        <T_1 W="50" H="90" X="314" Y="80"/>
-        <T_2 W="172" H="96" X="247" Y="72"/>
-        <T_3 W="50" H="90" X="314" Y="70"/>
+        <T_0 W="172" X="262" H="96" Y="72"/>
+        <T_1 W="50" X="314" H="90" Y="80"/>
+        <T_2 W="172" X="247" H="96" Y="72"/>
+        <T_3 W="50" X="314" H="90" Y="70"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -4885,16 +4885,16 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="102"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="102" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -5019,12 +5019,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="112" H="66" X="365" Y="252"/>
-        <T_1 W="37" H="60" X="395" Y="259"/>
-        <T_2 W="112" H="66" X="351" Y="251"/>
-        <T_3 W="37" H="60" X="395" Y="250"/>
+        <T_0 W="112" X="365" H="66" Y="252"/>
+        <T_1 W="37" X="395" H="60" Y="259"/>
+        <T_2 W="112" X="351" H="66" Y="251"/>
+        <T_3 W="37" X="395" H="60" Y="250"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -5038,22 +5038,22 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="5"/>
-        <K6 Motid="6" Show="1" id="0" Actid="6"/>
-        <K7 Motid="7" Show="1" id="0" Actid="21"/>
-        <K8 Motid="8" Show="1" id="0" Actid="22"/>
-        <K9 Motid="9" Show="1" id="0" Actid="101"/>
-        <K10 Motid="10" Show="1" id="0" Actid="102"/>
-        <K11 Motid="11" Show="1" id="0" Actid="9"/>
-        <K12 Motid="12" Show="1" id="0" Actid="11"/>
-        <K13 Motid="13" Show="1" id="0" Actid="12"/>
-        <K14 Motid="14" Show="1" id="0" Actid="13"/>
-        <K15 Motid="15" Show="1" id="0" Actid="25"/>
-        <K16 Motid="16" Show="1" id="0" Actid="26"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="5" Show="1"/>
+        <K6 id="0" Motid="6" Actid="6" Show="1"/>
+        <K7 id="0" Motid="7" Actid="21" Show="1"/>
+        <K8 id="0" Motid="8" Actid="22" Show="1"/>
+        <K9 id="0" Motid="9" Actid="101" Show="1"/>
+        <K10 id="0" Motid="10" Actid="102" Show="1"/>
+        <K11 id="0" Motid="11" Actid="9" Show="1"/>
+        <K12 id="0" Motid="12" Actid="11" Show="1"/>
+        <K13 id="0" Motid="13" Actid="12" Show="1"/>
+        <K14 id="0" Motid="14" Actid="13" Show="1"/>
+        <K15 id="0" Motid="15" Actid="25" Show="1"/>
+        <K16 id="0" Motid="16" Actid="26" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -5119,12 +5119,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="203" H="128" X="252" Y="58"/>
-        <T_1 W="67" H="108" X="306" Y="76"/>
-        <T_2 W="203" H="128" X="221" Y="56"/>
-        <T_3 W="67" H="108" X="306" Y="59"/>
+        <T_0 W="203" X="252" H="128" Y="58"/>
+        <T_1 W="67" X="306" H="108" Y="76"/>
+        <T_2 W="203" X="221" H="128" Y="56"/>
+        <T_3 W="67" X="306" H="108" Y="59"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -5232,14 +5232,14 @@
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
       <K>
-        <K1 Motid="1" Show="1" id="0" Actid="1"/>
-        <K2 Motid="2" Show="1" id="0" Actid="2"/>
-        <K3 Motid="3" Show="1" id="0" Actid="3"/>
-        <K4 Motid="4" Show="1" id="0" Actid="4"/>
-        <K5 Motid="5" Show="1" id="0" Actid="6"/>
-        <K6 Motid="6" Show="1" id="0" Actid="21"/>
-        <K7 Motid="7" Show="1" id="0" Actid="22"/>
-        <K8 Motid="8" Show="1" id="0" Actid="101"/>
+        <K1 id="0" Motid="1" Actid="1" Show="1"/>
+        <K2 id="0" Motid="2" Actid="2" Show="1"/>
+        <K3 id="0" Motid="3" Actid="3" Show="1"/>
+        <K4 id="0" Motid="4" Actid="4" Show="1"/>
+        <K5 id="0" Motid="5" Actid="6" Show="1"/>
+        <K6 id="0" Motid="6" Actid="21" Show="1"/>
+        <K7 id="0" Motid="7" Actid="22" Show="1"/>
+        <K8 id="0" Motid="8" Actid="101" Show="1"/>
       </K>
     </CommonAPP>
     <Apps>
@@ -5367,12 +5367,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="164" H="102" X="259" Y="68"/>
-        <T_1 W="53" H="87" X="316" Y="78"/>
-        <T_2 W="164" H="102" X="258" Y="75"/>
-        <T_3 W="53" H="87" X="312" Y="78"/>
+        <T_0 W="164" X="259" H="102" Y="68"/>
+        <T_1 W="53" X="316" H="87" Y="78"/>
+        <T_2 W="164" X="258" H="102" Y="75"/>
+        <T_3 W="53" X="312" H="87" Y="78"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -5615,12 +5615,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="203" H="125" X="238" Y="57"/>
-        <T_1 W="50" H="83" X="318" Y="83"/>
-        <T_2 W="203" H="125" X="238" Y="66"/>
-        <T_3 W="50" H="83" X="313" Y="83"/>
+        <T_0 W="203" X="238" H="125" Y="57"/>
+        <T_1 W="50" X="318" H="83" Y="83"/>
+        <T_2 W="203" X="238" H="125" Y="66"/>
+        <T_3 W="50" X="313" H="83" Y="83"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
@@ -5711,7 +5711,7 @@
         <TablePC>1</TablePC>
         <RelativeCoords Speed="5">0</RelativeCoords>
       </Pen8>
-      <PR Speed="0" id="0">
+      <PR id="0" Speed="0">
         <W1 id="0"/>
         <W2 id="0"/>
         <W3 id="0"/>
@@ -5809,7 +5809,7 @@
           <TablePC>1</TablePC>
           <RelativeCoords Speed="5">0</RelativeCoords>
         </Pen8>
-        <PR Speed="0" id="0">
+        <PR id="0" Speed="0">
           <W1 id="0"/>
           <W2 id="0"/>
           <W3 id="0"/>
@@ -5847,12 +5847,12 @@
       <DisablePressure>0</DisablePressure>
       <DisableSlope>0</DisableSlope>
       <PictureFiles>
-        <T_0 W="214" H="122" X="234" Y="56"/>
-        <T_1 W="64" H="112" X="312" Y="66"/>
-        <T_2 W="214" H="122" X="234" Y="66"/>
-        <T_3 W="64" H="112" X="306" Y="66"/>
+        <T_0 W="214" X="234" H="122" Y="56"/>
+        <T_1 W="64" X="312" H="112" Y="66"/>
+        <T_2 W="214" X="234" H="122" Y="66"/>
+        <T_3 W="64" X="306" H="112" Y="66"/>
       </PictureFiles>
-      <SC fYLC="1" fKY="1" fXLC="1" fKX="1"/>
+      <SC fXLC="1" fKX="1" fYLC="1" fKY="1"/>
     </Common>
     <CommonAPP>
       <Pen>
