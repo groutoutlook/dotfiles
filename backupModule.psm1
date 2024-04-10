@@ -6,10 +6,8 @@ $backUpDir = @{
 }
 
 
-
 function Backup-Extensive($Verbose = $null)
 {
-
   foreach ($startDir in $backUpDir.Keys)
   {
     $destination = $($backUpDir.$startDir)
