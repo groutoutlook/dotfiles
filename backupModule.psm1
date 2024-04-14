@@ -3,6 +3,8 @@ $backUpDir = @{
   "$HOME\.config\jrnl" = "$env:dotfilesRepo\.config\jrnl"
   "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\PenTablet_Config.pcfg"
   "$env:APPDATA\copyq" = "$env:dotfilesRepo\"
+  "$HOME\.gitconfig" = "$env:dotfilesRepo\"
+  "$HOME\.gitignore_global" = "$env:dotfilesRepo\"
 }
 
 
