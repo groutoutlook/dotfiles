@@ -21,7 +21,7 @@
   # with staged files without editing the commit message.
   oops = commit --amend --no-edit
   # Ensure that force-pushing won't lose someone else's work (only mine).
-  push-with-lease = push --force-with-lease
+  puf = push --force-with-lease
   # Rebase won’t trigger hooks on each "replayed" commit.
   # This is an ugly hack that will replay each commit during rebase with the
   # standard `commit` command which will trigger hooks.
@@ -31,9 +31,9 @@
   # Edit last commit message
   reword = commit --amend
   # Undo last commit but keep changed files in stage
-  uncommit = reset --soft HEAD~1
+  uncommit = !"git c-1 && git reset --soft HEAD~1"
   # Remove file(s) from Git but not from disk
-  untrack = rm --cache --
+  utr = rm --cache --
   # My addition.
   rhh = reset --hard
   cij = !"git add . && gitmoji -c && git push"
