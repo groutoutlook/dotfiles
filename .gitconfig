@@ -34,6 +34,8 @@
   uncommit = reset --soft HEAD~1
   # Remove file(s) from Git but not from disk
   untrack = rm --cache --
+  # My addition.
+  rhh = reset --hard
   cij = !"git add . && gitmoji -c && git push"
   suup = submodule update --remote
 [core]
@@ -59,6 +61,8 @@
   submodule = log
   # Use VSCode as default diff tool when running `git diff-tool`
   tool = vscode
+  # pager for git, delta
+  show = delta
 [difftool "vscode"]
   cmd = code --wait --diff $LOCAL $REMOTE
 [fetch]
@@ -168,5 +172,6 @@
 	required = true
 [safe]
     directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
+	directory = *
 [submodule]
 	recurse = true
