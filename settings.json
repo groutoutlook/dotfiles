@@ -3,43 +3,54 @@
   "$schema": "https://aka.ms/terminal-profiles-schema-preview",
   "actions": [
     {
-      "command": { "action": "adjustOpacity", "relative": false, "opacity": 0 },
-      "keys": "win+ctrl+0"
+      "command": {
+        "action": "moveFocus",
+        "direction": "first"
+      },
+      "keys": "ctrl+shift+insert"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "first"
+      },
+      "keys": "ctrl+alt+shift+1"
     },
     {
       "command": {
         "action": "adjustOpacity",
-        "relative": false,
-        "opacity": 100
+        "opacity": 0,
+        "relative": false
       },
-      "keys": "win+ctrl+0"
-    },
-
-    {
-      "command": { "action": "adjustOpacity", "relative": true, "opacity": 10 },
-      "keys": "win+ctrl+="
+      "keys": "win+ctrl+numpad0"
     },
     {
       "command": {
         "action": "adjustOpacity",
-        "relative": true,
-        "opacity": -10
+        "opacity": 100,
+        "relative": false
       },
-      "keys": "win+ctrl+-"
+      "keys": "win+ctrl+numpad9"
     },
     {
       "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;2u"
+        "action": "adjustOpacity",
+        "opacity": 10,
+        "relative": true
       },
-      "keys": "shift+enter"
+      "keys": "win+ctrl+plus"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
     },
     {
       "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
+        "action": "adjustOpacity",
+        "opacity": -10,
+        "relative": true
       },
-      "keys": "ctrl+enter"
+      "keys": "win+ctrl+minus"
     },
     {
       "command": "toggleAlwaysOnTop",
@@ -51,14 +62,24 @@
     },
     {
       "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "keys": "ctrl+enter"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;2u"
+      },
+      "keys": "shift+enter"
+    },
+    {
+      "command": {
         "action": "copy",
         "singleLine": false
       },
       "keys": "ctrl+c"
-    },
-    {
-      "command": "find",
-      "keys": "ctrl+shift+f"
     },
     {
       "command": {
@@ -96,6 +117,12 @@
       "keys": "ctrl+alt+shift+minus"
     },
     {
+      "command": {
+        "action": "showSuggestions"
+      },
+      "keys": "ctrl+f1"
+    },
+    {
       "command": "unbound",
       "keys": "i"
     },
@@ -130,6 +157,10 @@
     {
       "command": "unbound",
       "keys": "enter"
+    },
+    {
+      "command": "unbound",
+      "keys": "shift+f1"
     },
     {
       "command": {
@@ -176,20 +207,6 @@
       "keys": "win+ctrl+alt+z"
     },
     {
-      "command": {
-        "action": "moveFocus",
-        "direction": "first"
-      },
-      "keys": "ctrl+shift+insert"
-    },
-    {
-      "command": {
-        "action": "moveFocus",
-        "direction": "first"
-      },
-      "keys": "ctrl+alt+shift+1"
-    },
-    {
       "command": "toggleBroadcastInput",
       "keys": "win+ctrl+alt+i"
     },
@@ -233,9 +250,10 @@
         "hidden": false,
         "intenseTextStyle": "all",
         "name": "PowerShell",
-        "opacity": 10,
+        "opacity": 60,
         "padding": "0",
-        "source": "Windows.Terminal.PowershellCore"
+        "source": "Windows.Terminal.PowershellCore",
+        "startingDirectory": "%USERPROFILE%"
       },
       {
         "font": {
