@@ -6,6 +6,15 @@
         {
             "command": 
             {
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "keys": "win+ctrl+numpad0"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -23,28 +32,10 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
             "keys": "win+ctrl+numpad9"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "keys": "win+ctrl+plus"
         },
         {
             "command": "find",
@@ -60,20 +51,21 @@
             "keys": "win+ctrl+minus"
         },
         {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "keys": "win+ctrl+plus"
+        },
+        {
             "command": "toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[13;5u"
-            },
-            "keys": "ctrl+enter"
         },
         {
             "command": 
@@ -86,19 +78,18 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "sendInput",
+                "input": "\u001b[13;5u"
             },
-            "keys": "ctrl+c"
+            "keys": "ctrl+enter"
         },
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "up",
-                "splitMode": "duplicate"
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "alt+shift+w"
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -113,10 +104,10 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "down",
+                "split": "up",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+s"
+            "keys": "alt+shift+w"
         },
         {
             "command": "togglePaneZoom",
@@ -129,6 +120,15 @@
                 "direction": "previousInOrder"
             },
             "keys": "ctrl+alt+shift+minus"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+s"
         },
         {
             "command": 
@@ -178,13 +178,8 @@
             "keys": "shift+f1"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
+            "command": "unbound",
+            "keys": "ctrl+shift+space"
         },
         {
             "command": 
@@ -197,6 +192,15 @@
         {
             "command": "toggleFocusMode",
             "keys": "win+ctrl+alt+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": 
