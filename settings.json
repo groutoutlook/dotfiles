@@ -38,8 +38,13 @@
             "keys": "win+ctrl+numpad9"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "keys": "win+ctrl+plus"
         },
         {
             "command": 
@@ -51,21 +56,16 @@
             "keys": "win+ctrl+minus"
         },
         {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "keys": "win+ctrl+plus"
-        },
-        {
-            "command": "toggleAlwaysOnTop",
-            "keys": "win+ctrl+alt+t"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "keys": "win+ctrl+alt+t"
         },
         {
             "command": 
@@ -110,16 +110,16 @@
             "keys": "alt+shift+w"
         },
         {
-            "command": "togglePaneZoom",
-            "keys": "ctrl+alt+z"
-        },
-        {
             "command": 
             {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
             "keys": "ctrl+alt+shift+minus"
+        },
+        {
+            "command": "togglePaneZoom",
+            "keys": "ctrl+alt+z"
         },
         {
             "command": 
@@ -129,13 +129,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+s"
-        },
-        {
-            "command": 
-            {
-                "action": "showSuggestions"
-            },
-            "keys": "ctrl+f1"
         },
         {
             "command": "unbound",
@@ -184,14 +177,21 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "nextInOrder"
+                "action": "showSuggestions"
             },
-            "keys": "ctrl+alt+shift+plus"
+            "keys": "ctrl+f1"
         },
         {
             "command": "toggleFocusMode",
             "keys": "win+ctrl+alt+f"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "nextInOrder"
+            },
+            "keys": "ctrl+alt+shift+plus"
         },
         {
             "command": 
@@ -319,6 +319,12 @@
                 "hidden": true,
                 "name": "Visual Studio Debug Console",
                 "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{bc2da056-dd06-5879-b969-1dfcefc8d2c7}",
+                "hidden": false,
+                "name": "openSUSE-Tumbleweed",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
