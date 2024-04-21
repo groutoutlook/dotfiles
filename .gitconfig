@@ -13,15 +13,20 @@
   co = checkout
   c-1 = log -1 --pretty=%B
   st = status
+  stb = status -sb
   sw = switch
   sw- = switch -
+
   # Display tree-like log, because default log is a pain…
   lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+  
   # Useful when you have to update your last commit
   # with staged files without editing the commit message.
   oops = commit --amend --no-edit
+  
   # Ensure that force-pushing won't lose someone else's work (only mine).
   puf = push --force-with-lease
+  
   # Rebase won’t trigger hooks on each "replayed" commit.
   # This is an ugly hack that will replay each commit during rebase with the
   # standard `commit` command which will trigger hooks.
@@ -30,10 +35,13 @@
   review-local = "!git lg @{push}.."
   # Edit last commit message
   reword = commit --amend
+  
   # Undo last commit but keep changed files in stage
   uncommit = !"git c-1 && git reset --soft HEAD~1"
+  
   # Remove file(s) from Git but not from disk
   utr = rm --cache --
+
   # My addition.
   rhh = reset --hard
   cij = !"git add . && gitmoji -c && git push"
