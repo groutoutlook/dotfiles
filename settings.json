@@ -6,15 +6,6 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -32,19 +23,19 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 100,
+                "opacity": 0,
                 "relative": false
             },
-            "keys": "win+ctrl+numpad9"
+            "keys": "win+ctrl+numpad0"
         },
         {
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
+                "opacity": 100,
+                "relative": false
             },
-            "keys": "win+ctrl+plus"
+            "keys": "win+ctrl+numpad9"
         },
         {
             "command": 
@@ -60,20 +51,21 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "keys": "win+ctrl+plus"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
             "command": "toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[13;2u"
-            },
-            "keys": "shift+enter"
         },
         {
             "command": 
@@ -86,10 +78,27 @@
         {
             "command": 
             {
+                "action": "sendInput",
+                "input": "\u001b[13;2u"
+            },
+            "keys": "shift+enter"
+        },
+        {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "up",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+w"
         },
         {
             "command": 
@@ -104,10 +113,10 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "up",
+                "split": "down",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+w"
+            "keys": "alt+shift+s"
         },
         {
             "command": 
@@ -120,15 +129,6 @@
         {
             "command": "togglePaneZoom",
             "keys": "ctrl+alt+z"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "down",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+s"
         },
         {
             "command": "unbound",
@@ -182,6 +182,15 @@
             "keys": "ctrl+f1"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "toggleFocusMode",
             "keys": "win+ctrl+alt+f"
         },
@@ -192,15 +201,6 @@
                 "direction": "nextInOrder"
             },
             "keys": "ctrl+alt+shift+plus"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -539,5 +539,6 @@
         }
     ],
     "theme": "dark",
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
 }
