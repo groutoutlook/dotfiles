@@ -1,0 +1,435 @@
+CopyQ Warning [2024-02-12 15:15:42.236] <Server-848>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-02-12 15:16:23.760] <Server-28136>: CopyQ server is already running.
+CopyQ Warning [2024-02-12 15:19:05.533] <Server-848>: [qt.qpa.fonts] QtWarning: Unable to enumerate family ' "Font Awesome 6 Free Solid (CopyQ)" '
+CopyQ Warning [2024-02-12 15:20:42.788] <Server-25500>: CopyQ server is already running.
+CopyQ Warning [2024-02-12 15:21:00.330] <Server-28060>: CopyQ server is already running.
+CopyQ Warning [2024-02-12 15:22:24.718] <Server-848>: [default] QtWarning: QString::contains: invalid QRegularExpression object
+CopyQ Warning [2024-02-12 15:22:24.734] <Server-848>: [default] QtWarning: QString::contains: invalid QRegularExpression object
+CopyQ Warning [2024-02-12 15:22:24.734] <Server-848>: [default] QtWarning: QString::contains: invalid QRegularExpression object
+CopyQ Warning [2024-03-30 20:33:21.560] <Server-3676>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-30 20:33:38.856] <Server-24448>: CopyQ server is already running.
+CopyQ Warning [2024-03-30 20:57:28.329] <monitorClipboard-24252>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-03-30 21:05:20.922] <Server-3676>: Command “copyq onExit”
+CopyQ Note [2024-03-30 21:05:20.922] <Server-3676>:    Error: Process crashed
+CopyQ Note [2024-03-30 21:05:20.922] <Server-3676>:    1. copyq onExit
+CopyQ Warning [2024-03-30 21:08:27.543] <Server-15100>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-30 21:08:31.317] <Server-15100>: Hiding secret clipboard data
+CopyQ Warning [2024-03-30 21:09:29.785] <monitorClipboard-18656>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 21:09:30.267] <monitorClipboard-18656>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 21:11:14.362] <monitorClipboard-18656>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 21:11:50.627] <Server-7112>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-30 21:11:57.126] <monitorClipboard-5860>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 21:12:01.434] <Server-7112>: Hiding secret clipboard data
+CopyQ Warning [2024-03-30 21:12:02.734] <monitorClipboard-5860>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 21:17:43.005] <Server-19676>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-30 21:19:42.386] <monitorClipboard-12432>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 21:25:08.147] <Server-5584>: CopyQ server is already running.
+CopyQ Warning [2024-03-30 21:47:18.706] <Server-19676>: [default] QtWarning: QWindowsWindow::setGeometry: Unable to set geometry 806x526+840+434 (frame: 824x573+831+396) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY1". Resulting geometry: 806x526+330+375 (frame: 824x573+321+337) margins: 9, 38, 9, 9 minimum size: 98x101 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=141, y=173)))
+CopyQ Warning [2024-03-30 22:07:31.413] <Server-2688>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-30 22:25:31.666] <monitorClipboard-3628>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 22:25:31.845] <Server-2688>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 22:25:36.877] <monitorClipboard-3628>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 22:33:01.282] <monitorClipboard-3628>: Hiding secret clipboard data
+CopyQ Warning [2024-03-30 22:37:10.606] <monitorClipboard-3628>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 22:37:13.400] <monitorClipboard-3628>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-30 22:57:45.962] <Client-4492>: Command "Render Markdown": Finished in 648685 ms
+CopyQ Note [2024-03-30 22:57:46.249] <Server-2688>: Markdown Error: Error: Evaluation aborted
+CopyQ Warning [2024-03-30 22:57:46.485] <Server-2688>: [kf.notifications] QtWarning: Couldn't find the notification in m_notifications. Nothing to close.
+CopyQ Warning [2024-03-30 22:58:45.728] <Server-2688>: [kf.notifications] QtWarning: Couldn't find the notification in m_notifications. Nothing to close.
+CopyQ Warning [2024-03-30 22:59:28.518] <Server-2688>: [kf.notifications] QtWarning: Couldn't find the notification in m_notifications. Nothing to close.
+CopyQ Warning [2024-03-30 23:00:38.992] <Server-2688>: [kf.notifications] QtWarning: Couldn't find the notification in m_notifications. Nothing to close.
+CopyQ Note [2024-03-30 23:01:53.520] <monitorClipboard-2984>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 23:02:08.619] <monitorClipboard-2984>: Hiding secret clipboard data
+CopyQ Warning [2024-03-30 23:05:07.187] <Server-24108>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-30 23:12:57.063] <Server-20064>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-30 23:16:51.386] <Server-2208>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-30 23:19:54.783] <monitorClipboard-22180>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 23:20:35.242] <monitorClipboard-22180>: Hiding secret clipboard data
+CopyQ Note [2024-03-30 23:24:07.478] <monitorClipboard-22180>: Hiding secret clipboard data
+CopyQ Warning [2024-03-30 23:29:47.357] <Server-5368>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-31 10:05:59.143] <Server-5764>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-31 10:06:38.741] <monitorClipboard-10740>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:07:17.432] <monitorClipboard-10740>: Hiding secret clipboard data
+CopyQ Warning [2024-03-31 10:08:13.301] <Server-16992>: CopyQ server is already running.
+CopyQ Warning [2024-03-31 10:08:42.109] <Server-21096>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-31 10:18:34.581] <monitorClipboard-21540>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:22:46.644] <monitorClipboard-21540>: Hiding secret clipboard data
+CopyQ Warning [2024-03-31 10:43:32.006] <monitorClipboard-21028>: ELAPSED 606 ms accessing [data:text/plain]
+CopyQ Warning [2024-03-31 10:43:32.017] <monitorClipboard-21028>: ELAPSED 617 ms accessing [UTF8:text/plain]
+CopyQ Note [2024-03-31 10:44:33.634] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:44:41.608] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:03.953] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:08.980] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:13.873] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:20.047] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:30.314] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:43.462] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:45:46.419] <monitorClipboard-17620>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:49:59.838] <monitorClipboard-7600>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:50:11.453] <monitorClipboard-7600>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:50:14.078] <monitorClipboard-7600>: Hiding secret clipboard data
+CopyQ Note [2024-03-31 10:50:16.723] <monitorClipboard-7600>: Hiding secret clipboard data
+CopyQ Warning [2024-03-31 10:51:43.285] <Server-23572>: CopyQ server is already running.
+CopyQ Note [2024-03-31 10:52:00.670] <monitorClipboard-7600>: Hiding secret clipboard data
+CopyQ Warning [2024-03-31 10:54:47.535] <Server-21096>: [default] QtWarning: QWindowsWindow::setMouseGrabEnabled: Not setting mouse grab for invisible window QWidgetWindow/'QMenuClassWindow'
+CopyQ Warning [2024-03-31 10:55:58.106] <Server-26700>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-03-31 10:56:49.210] <monitorClipboard-18972>: Hiding secret clipboard data
+CopyQ Warning [2024-03-31 10:57:38.885] <monitorClipboard-18972>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 11:00:56.319] <Server-26700>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:01:00.288] <Server-26700>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:01:02.574] <Server-26700>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:01:40.333] <Server-11384>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-03-31 11:01:48.626] <Server-11384>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:01:50.962] <Server-11384>: Invalid regular expression in option "paste_with_ctrl_v_windows": quantifier does not follow a repeatable item
+CopyQ Warning [2024-03-31 11:17:30.728] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 11:47:06.986] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 12:09:05.546] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:20:58.443] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:31:31.544] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:31:32.609] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:34:40.481] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:34:46.933] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:34:47.186] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:42:09.547] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 13:42:09.730] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 14:17:59.193] <monitorClipboard-14200>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 14:40:51.366] <monitorClipboard-22184>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 15:28:13.043] <monitorClipboard-22184>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 15:29:22.353] <monitorClipboard-22184>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-03-31 18:34:35.697] <monitorClipboard-8640>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 13:52:10.008] <Server-21908>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-01 14:09:36.269] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 14:14:09.551] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 14:18:17.578] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 15:51:27.107] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 15:59:58.988] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 16:12:14.818] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 16:39:14.108] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 16:49:29.649] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 16:54:32.663] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 17:04:41.887] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 17:13:07.878] <monitorClipboard-22172>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 18:41:05.261] <monitorClipboard-77420>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 18:55:39.896] <Server-21908>: [default] QtWarning: QWindowsWindow::setMouseGrabEnabled: Not setting mouse grab for invisible window QWidgetWindow/'QMenuClassWindow'
+CopyQ Warning [2024-04-01 20:09:20.751] <monitorClipboard-77420>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 20:37:17.251] <monitorClipboard-77420>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 21:04:44.155] <monitorClipboard-77420>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 22:11:31.311] <Server-21908>: [default] QtWarning: QWindowsWindow::setGeometry: Unable to set geometry 806x526+1041+608 (frame: 824x573+1032+570) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY1". Resulting geometry: 806x526+1113+578 (frame: 824x573+1104+540) margins: 9, 38, 9, 9 minimum size: 79x91 MINMAXINFO(maxSize=POINT(x=0, y=0), maxpos=POINT(x=0, y=0), maxtrack=POINT(x=0, y=0), mintrack=POINT(x=117, y=161)))
+CopyQ Warning [2024-04-01 22:21:55.943] <monitorClipboard-74924>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-01 22:21:56.306] <monitorClipboard-74924>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 15:35:41.877] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 15:51:13.430] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 16:00:14.485] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 16:08:32.700] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 17:18:09.496] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 17:41:37.404] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 17:42:13.848] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 18:32:55.977] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 18:33:59.230] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 19:04:21.320] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 19:46:44.044] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 19:56:33.283] <Server-21908>: [default] QtWarning: DirectWrite: CreateFontFaceFromHDC() failed (Indicates an error in an input file such as a font file.) for QFontDef(Family="8514oem", pointsize=9.75, pixelsize=20, styleHint=5, weight=400, stretch=100, hintingPreference=0) LOGFONT("8514oem", lfWidth=0, lfHeight=-20) dpi=96
+CopyQ Warning [2024-04-02 20:06:19.465] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 20:07:09.013] <monitorClipboard-25876>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-02 21:51:04.193] <monitorClipboard-84356>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 11:29:42.658] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.685] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.700] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.713] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.732] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.746] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.758] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.767] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.782] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-03 11:29:42.802] <Server-21908>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ ERROR [2024-04-03 11:35:03.984] <monitorClipboard-41376>: Cannot connect to server! Start CopyQ server first.
+CopyQ Warning [2024-04-03 12:28:22.583] <Server-25088>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-03 12:51:45.619] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 12:51:46.734] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 12:55:27.973] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 13:00:42.592] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 13:01:34.447] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 13:21:55.205] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 14:15:44.730] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 14:41:49.918] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 14:42:09.903] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 14:54:19.985] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:05:54.265] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:13:17.767] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:30:56.142] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:42:59.360] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:47:59.334] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 15:57:46.252] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 16:57:15.345] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 17:11:11.076] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 17:17:35.929] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 17:26:53.775] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 17:59:20.081] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:00:05.576] <monitorClipboard-24472>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:33:41.278] <Server-35952>: CopyQ server is already running.
+CopyQ ERROR [2024-04-03 18:33:47.213] <Client-32068>: Connection lost!
+CopyQ ERROR [2024-04-03 18:33:47.213] <monitorClipboard-24472>: Connection lost!
+CopyQ Warning [2024-04-03 18:34:00.641] <Server-12216>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-03 18:42:43.154] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:43:16.675] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:53:17.500] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:59:47.250] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:59:47.796] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:59:55.703] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 18:59:59.985] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:00:00.918] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:00:13.949] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:00:14.316] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:00:21.745] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:00:22.194] <monitorClipboard-32928>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-03 19:44:47.027] <Server-3056>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-03 19:56:26.306] <monitorClipboard-16700>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 12:00:52.772] <Server-31060>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-04 12:08:50.549] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 12:15:45.443] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 12:58:16.702] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 14:02:54.713] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 14:06:57.541] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 14:12:54.797] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 14:17:07.343] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 14:17:39.220] <monitorClipboard-10980>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-04 16:10:00.646] <monitorClipboard-69772>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ ERROR [2024-04-04 16:24:35.801] <monitorClipboard-32624>: Cannot connect to server! Start CopyQ server first.
+CopyQ Warning [2024-04-04 18:20:26.992] <Server-17836>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Note [2024-04-04 18:20:50.960] <monitorClipboard-1200>: Hiding secret clipboard data
+CopyQ Note [2024-04-04 18:21:49.895] <monitorClipboard-1200>: Hiding secret clipboard data
+CopyQ Warning [2024-04-05 14:56:01.191] <monitorClipboard-29552>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 15:07:53.145] <monitorClipboard-17512>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 15:07:55.322] <monitorClipboard-17512>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 15:08:17.949] <monitorClipboard-17512>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 15:13:17.935] <Server-17836>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-05 15:13:18.493] <Server-17836>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-05 15:13:18.864] <Server-17836>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-05 17:40:30.444] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 17:40:32.822] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 17:40:37.311] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 17:40:38.947] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 18:08:03.274] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 18:17:53.721] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 18:50:25.188] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-05 20:48:53.424] <monitorClipboard-21544>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 13:09:31.477] <Server-6660>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-07 13:36:24.199] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 14:41:34.465] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 15:54:09.211] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 15:57:24.292] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 16:10:10.824] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 16:20:14.344] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 16:22:25.301] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 17:06:20.869] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 17:06:29.092] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-07 17:15:46.469] <monitorClipboard-22668>: Hiding secret clipboard data
+CopyQ Warning [2024-04-07 17:28:23.451] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 18:55:35.715] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 19:20:41.832] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 19:25:05.743] <monitorClipboard-22668>: ELAPSED 575 ms accessing [:imageData]
+CopyQ Warning [2024-04-07 19:57:27.097] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 20:11:44.085] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 20:16:24.617] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 20:19:06.446] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 20:19:07.214] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 20:36:37.495] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 21:13:11.210] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-07 21:49:29.733] <monitorClipboard-22668>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-08 12:54:50.749] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.913] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.926] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.942] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.958] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.971] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:50.986] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.000] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.017] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.037] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.049] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.062] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.074] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.086] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.098] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.111] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.123] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 12:54:51.137] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 18:35:00.833] <monitorClipboard-33600>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-08 18:35:26.871] <monitorClipboard-33600>: Hiding secret clipboard data
+CopyQ Note [2024-04-08 18:35:39.598] <monitorClipboard-33600>: Hiding secret clipboard data
+CopyQ Note [2024-04-08 20:05:49.138] <monitorClipboard-33600>: Hiding secret clipboard data
+CopyQ Warning [2024-04-08 20:17:21.718] <monitorClipboard-31244>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-08 20:20:24.200] <monitorClipboard-31244>: Hiding secret clipboard data
+CopyQ Warning [2024-04-08 21:27:26.521] <monitorClipboard-31244>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-08 21:28:35.206] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.890] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.900] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.911] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.920] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.929] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.938] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.949] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.960] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.971] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.981] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:35.995] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:36.006] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:36.015] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:36.025] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:36.038] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-08 21:28:36.050] <Server-6660>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Note [2024-04-09 12:47:28.511] <monitorClipboard-31752>: Hiding secret clipboard data
+CopyQ Warning [2024-04-09 14:24:50.283] <monitorClipboard-31752>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 14:25:11.220] <monitorClipboard-31752>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 14:26:42.366] <monitorClipboard-31752>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 14:27:00.538] <monitorClipboard-31752>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 14:57:07.087] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 15:42:55.862] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 15:48:48.647] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 15:50:04.009] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-09 16:15:39.137] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Warning [2024-04-09 17:05:56.249] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:05:58.464] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:06:22.178] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:07:06.162] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:07:06.451] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:07:07.412] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:07:51.357] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 17:14:52.999] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-09 17:21:03.664] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:23:03.549] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:24:27.002] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Warning [2024-04-09 17:25:39.940] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-09 17:26:23.889] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:28:36.009] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:36:54.750] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:42:21.187] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 17:44:37.015] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Warning [2024-04-09 18:02:51.036] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-09 18:03:08.635] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Note [2024-04-09 18:06:37.068] <monitorClipboard-31072>: Hiding secret clipboard data
+CopyQ Warning [2024-04-09 18:12:20.869] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 18:30:08.534] <monitorClipboard-31072>: ELAPSED 1236 ms accessing [:imageData]
+CopyQ Warning [2024-04-09 18:33:38.321] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 18:36:31.359] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 19:09:32.271] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-09 19:10:55.911] <monitorClipboard-31072>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ ERROR [2024-04-09 19:28:12.276] <monitorClipboard-5108>: Cannot connect to server! Start CopyQ server first.
+CopyQ Warning [2024-04-13 01:34:51.311] <Server-19180>: [default] QtWarning: QSystemTrayIcon::setVisible: No Icon set
+CopyQ Warning [2024-04-13 01:42:19.466] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-13 01:42:20.151] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-13 06:57:05.322] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-13 06:57:05.432] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY1', defaulting to 96 DPI.
+CopyQ Warning [2024-04-13 07:08:51.925] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:52.288] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:54.835] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:55.674] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:57.553] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:57.687] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:58.305] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:08:59.140] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:09:02.262] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:09:02.329] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:09:03.028] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:09:19.421] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:35:43.075] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:40:16.453] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:40:30.079] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:48:54.597] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 07:48:58.282] <monitorClipboard-26604>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-13 08:06:57.592] <monitorClipboard-26604>: Hiding secret clipboard data
+CopyQ Note [2024-04-13 08:16:31.037] <monitorClipboard-26604>: Hiding secret clipboard data
+CopyQ Warning [2024-04-13 08:41:34.095] <monitorClipboard-30704>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-13 08:46:58.025] <monitorClipboard-30704>: Hiding secret clipboard data
+CopyQ Note [2024-04-13 08:47:34.742] <monitorClipboard-30704>: Hiding secret clipboard data
+CopyQ Warning [2024-04-13 09:21:56.046] <monitorClipboard-30704>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-13 10:35:56.046] <monitorClipboard-30704>: Hiding secret clipboard data
+CopyQ Warning [2024-04-13 14:48:20.276] <monitorClipboard-12588>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 15:12:45.695] <monitorClipboard-12588>: ELAPSED 1248 ms accessing [:imageData]
+CopyQ Warning [2024-04-13 20:04:51.148] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 20:14:45.112] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 20:28:51.933] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 20:45:35.466] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 20:45:58.684] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 20:53:33.701] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 21:16:14.722] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 21:16:16.458] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-13 21:50:59.430] <monitorClipboard-18964>: Hiding secret clipboard data
+CopyQ Warning [2024-04-13 21:58:55.394] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 21:59:12.156] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 21:59:41.400] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:19:59.208] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:23:38.103] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:25:48.821] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:26:27.946] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:26:58.023] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:27:19.374] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:27:28.323] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:27:35.663] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:27:40.597] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:28:48.095] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:28:50.644] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:29:10.940] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:40:48.375] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-13 22:56:55.449] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-13 22:59:16.507] <monitorClipboard-18964>: Hiding secret clipboard data
+CopyQ Warning [2024-04-13 23:00:53.367] <monitorClipboard-18964>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 00:53:56.741] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY10', defaulting to 96 DPI.
+CopyQ Warning [2024-04-14 00:53:56.752] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY10', defaulting to 96 DPI.
+CopyQ Warning [2024-04-14 00:53:56.755] <Server-19180>: [default] QtWarning: monitorData: Unable to obtain handle for monitor '\\.\DISPLAY10', defaulting to 96 DPI.
+CopyQ Note [2024-04-14 12:17:04.332] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 12:53:43.156] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 12:58:20.354] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 13:15:25.353] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 13:15:26.975] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 13:20:26.476] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 13:20:50.859] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 13:39:59.003] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 14:22:54.907] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 15:12:37.283] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 15:24:12.266] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 15:25:04.857] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 16:04:17.359] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 16:20:29.519] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 16:21:12.291] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 16:31:53.577] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Note [2024-04-14 16:32:20.037] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 16:38:09.822] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 16:51:54.060] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 17:39:53.677] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 17:40:56.222] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 17:45:16.293] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 17:45:55.857] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 17:45:59.977] <monitorClipboard-19228>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 17:46:28.275] <monitorClipboard-19228>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 21:18:53.469] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 21:18:58.550] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 21:20:29.963] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 21:21:03.494] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 21:21:21.485] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 21:37:55.279] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 21:54:04.272] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 21:57:21.194] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 21:57:21.259] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 22:01:33.469] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 22:05:04.779] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 22:10:37.564] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 22:12:10.253] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 22:19:53.343] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 22:28:45.651] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 22:40:31.067] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-14 23:08:33.070] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Note [2024-04-14 23:16:30.318] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Note [2024-04-14 23:17:18.092] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-14 23:25:04.182] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-14 23:48:45.095] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-15 00:02:54.820] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-15 00:06:34.549] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Note [2024-04-15 00:42:46.547] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Note [2024-04-15 00:55:36.572] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Note [2024-04-15 00:57:25.703] <monitorClipboard-36144>: Hiding secret clipboard data
+CopyQ Warning [2024-04-15 01:28:58.225] <monitorClipboard-36144>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Note [2024-04-15 02:24:51.436] <monitorClipboard-3488>: Hiding secret clipboard data
+CopyQ Warning [2024-04-15 02:25:53.243] <monitorClipboard-3488>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ Warning [2024-04-15 11:40:49.800] <monitorClipboard-31568>: [qt.qpa.mime] QtWarning: Retrying to obtain clipboard.
+CopyQ ERROR [2024-04-15 12:11:34.086] <Client-33084>: Cannot connect to server! Start CopyQ server first.

@@ -10,3 +10,6 @@
 [submodule "nvim_dotfiles"]
 	path = nvim_dotfiles
 	url = https://github.com/groutoutlook/nvim_dotfiles
+[submodule ".config/espanso"]
+	path = .config/espanso
+	url = https://github.com/groutoutlook/espansoConfig
