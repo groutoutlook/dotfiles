@@ -12,8 +12,8 @@
   # Command shortcuts
   co = checkout
   c-1 = log -1 --pretty=%B
-  st = status
-  stb = status -sb
+  ; st = status
+  st = status -sb
   sw = switch
   sw- = switch -
 

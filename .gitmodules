@@ -13,3 +13,6 @@
 [submodule ".config/espanso"]
 	path = .config/espanso
 	url = https://github.com/groutoutlook/espansoConfig
+[submodule ".config/obsidian"]
+	path = .config/obsidian
+	url = https://github.com/groutoutlook/obsidianConfig
