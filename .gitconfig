@@ -148,7 +148,7 @@
   # Automatically stash current WD and stage when running rebase
   # then you won't have to manually `git stash push` and `git stash pop`
   # after and before your rebase.
-  # autoStash = true
+  autoStash = true
 [rerere]
   # If, like me, you like rerere, uncomment these
   autoupdate = true
@@ -212,3 +212,9 @@
 	directory = *
 [submodule]
 	recurse = true
+[credential "https://github.com"]
+	helper = store
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = store
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
