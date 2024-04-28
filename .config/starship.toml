@@ -1,4 +1,9 @@
+
+
+# Make continuation prompt a space for coneniently copy paste.
+continuation_prompt = ' '
 add_newline = true
+
 [directory]
 truncation_length = 5
 format = " [$path]($style)[$lock_symbol]($lock_style) "
@@ -48,7 +53,24 @@ style_user = "bold dimmed blue"
 show_always = false
 
 [time]
+disabled = false
 time_format = "%T"
 format = "🕙 $time($style) "
 style = "bright-white"
-disabled = false
+
+[custom.giturl-pwsh]
+disabled = true
+description = "Display symbol for remote Git server (pwsh)"
+command = """
+$gitRemote = git ls-remote --get-url
+$symbol = ' ' # If no Git Remote is returned.
+switch -regex ($gitRemote) {\
+    'github'    { $symbol = ' ' }\
+    'gitlab'    { $symbol = ' ' }\
+    'bitbucket' { $symbol = ' ' }\
+     Default    { $symbol = ' ' }\
+}
+echo $symbol
+"""
+when = "git rev-parse --is-inside-work-tree"
+shell = ["pwsh", "-NoProfile", "-Command", "-"]

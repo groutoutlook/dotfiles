@@ -38,6 +38,18 @@
             "keys": "win+ctrl+numpad9"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "ctrl+alt+left"
+        },
+        {
             "command": 
             {
                 "action": "adjustOpacity",
@@ -47,10 +59,6 @@
             "keys": "win+ctrl+minus"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "adjustOpacity",
@@ -58,6 +66,14 @@
                 "relative": true
             },
             "keys": "win+ctrl+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "ctrl+alt+down"
         },
         {
             "command": "paste",
@@ -74,6 +90,14 @@
                 "input": "\u001b[13;5u"
             },
             "keys": "ctrl+enter"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "ctrl+alt+up"
         },
         {
             "command": 
@@ -95,15 +119,6 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "up",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+w"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
                 "split": "left",
                 "splitMode": "duplicate"
             },
@@ -113,10 +128,10 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "down",
+                "split": "up",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+s"
+            "keys": "alt+shift+w"
         },
         {
             "command": 
@@ -129,6 +144,15 @@
         {
             "command": "togglePaneZoom",
             "keys": "ctrl+alt+z"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+s"
         },
         {
             "command": "unbound",
@@ -175,20 +199,27 @@
             "keys": "ctrl+shift+space"
         },
         {
+            "command": "unbound",
+            "keys": "alt+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+down"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+left"
+        },
+        {
             "command": 
             {
                 "action": "showSuggestions"
             },
             "keys": "ctrl+f1"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         },
         {
             "command": "toggleFocusMode",
@@ -201,6 +232,15 @@
                 "direction": "nextInOrder"
             },
             "keys": "ctrl+alt+shift+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -241,6 +281,46 @@
                 "action": "clearBuffer",
                 "clear": "all"
             }
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "ctrl+alt+right"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+shift+up"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+shift+down"
         }
     ],
     "alwaysShowNotificationIcon": false,
