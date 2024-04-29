@@ -1,5 +1,10 @@
-set nocompatible   " Disable vi-compatibility
+" set nocompatible   " Disable vi-compatibility
 set t_Co=256
+if has("gui_running")
+colorscheme elflord
+else
+colorscheme industry
+endif
 
 
 command -bang Q quit<bang>
@@ -57,11 +62,10 @@ function! GetVisual() range
     return escaped_selection
 endfunction
 vnoremap <c-r> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
-"vnoremap <c-h> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
+vnoremap <c-h> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
 
 
 
-set guifont=menlo\ for\ powerline:h16
 set guioptions-=T " Removes top toolbar
 set guioptions-=r " Removes right hand scroll bar
 set go-=L " Removes left hand scroll bar
