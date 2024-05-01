@@ -1,0 +1,587 @@
+{
+    "apps": [
+        {
+            "Version": "23.01",
+            "Name": "7zip",
+            "Source": "main",
+            "Updated": "2024-04-15T19:20:34.7490333+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "19.00",
+            "Name": "7zip19.00-helper",
+            "Source": "main",
+            "Updated": "2024-04-29T22:30:06.1474584+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.2.61",
+            "Name": "act",
+            "Source": "main",
+            "Updated": "2024-04-29T23:49:19.5812429+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "35.0.0",
+            "Name": "adb",
+            "Source": "main",
+            "Updated": "2024-05-01T13:41:00.2735816+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "11076708",
+            "Name": "android-clt",
+            "Source": "main",
+            "Updated": "2024-04-27T08:38:40.6353229+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2023.3.1.18",
+            "Name": "android-studio",
+            "Source": "extras",
+            "Updated": "2024-05-01T11:28:51.1094897+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.4.59",
+            "Name": "apache",
+            "Source": "main",
+            "Updated": "2024-04-29T18:19:33.5485176+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.0.13",
+            "Name": "autohotkey",
+            "Source": "extras",
+            "Updated": "2024-04-21T18:22:02.1588921+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.24.0",
+            "Name": "bat",
+            "Source": "main",
+            "Updated": "2024-04-15T19:10:31.7179323+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.9.6",
+            "Name": "bottom",
+            "Source": "main",
+            "Updated": "2024-04-17T09:44:50.8728066+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "3.29.2",
+            "Name": "cmake",
+            "Source": "main",
+            "Updated": "2024-04-15T19:22:43.5390942+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.17.0",
+            "Name": "delta",
+            "Source": "main",
+            "Updated": "2024-04-15T19:10:31.9500981+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.27.0",
+            "Name": "docker-compose",
+            "Source": "main",
+            "Updated": "2024-04-29T23:16:10.2731271+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.10.2",
+            "Name": "duckdb",
+            "Source": "main",
+            "Updated": "2024-04-30T19:35:28.7946316+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "29.3",
+            "Name": "emacs",
+            "Source": "extras",
+            "Updated": "2024-04-24T16:41:37.1975319+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.2.1",
+            "Name": "espanso",
+            "Source": "main",
+            "Updated": "2024-04-15T19:21:55.9538866+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.18.13",
+            "Name": "eza",
+            "Source": "main",
+            "Updated": "2024-04-28T14:59:17.9293681+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "9.0.0",
+            "Name": "fd",
+            "Source": "main",
+            "Updated": "2024-04-15T19:10:32.1831264+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.0",
+            "Name": "ffmpeg",
+            "Source": "main",
+            "Updated": "2024-04-15T21:12:20.8609681+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.50.0",
+            "Name": "fzf",
+            "Source": "main",
+            "Updated": "2024-04-15T19:10:32.3599505+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.21.11",
+            "Name": "gitea",
+            "Source": "main",
+            "Updated": "2024-04-29T23:41:19.4202843+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.26.1",
+            "Name": "gitui",
+            "Source": "main",
+            "Updated": "2024-04-18T19:48:39.4574485+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.22.2",
+            "Name": "go",
+            "Source": "main",
+            "Updated": "2024-04-15T19:32:56.1767116+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "24.03",
+            "Name": "helix",
+            "Source": "main",
+            "Updated": "2024-04-18T15:45:41.1957299+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.41.00.8634",
+            "Name": "hex-editor-neo",
+            "Source": "extras",
+            "Updated": "2024-04-29T13:17:05.392304+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.14.0",
+            "Name": "hexyl",
+            "Source": "main",
+            "Updated": "2024-04-19T20:55:50.3433058+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.18.0",
+            "Name": "hyperfine",
+            "Source": "main",
+            "Updated": "2024-04-20T16:12:17.4657195+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "8.2.0.7535",
+            "Name": "ilspy",
+            "Source": "extras",
+            "Updated": "2024-04-28T19:04:34.7103005+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.1.1-31",
+            "Name": "imagemagick",
+            "Source": "main",
+            "Updated": "2024-04-28T15:00:11.4053352+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.50",
+            "Name": "innounp",
+            "Source": "main",
+            "Updated": "2024-04-15T19:21:46.9243278+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.25.2",
+            "Name": "just",
+            "Source": "main",
+            "Updated": "2024-04-21T13:16:59.2295318+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "24.02.2",
+            "Name": "kdenlive",
+            "Source": "extras",
+            "Updated": "2024-04-25T02:09:36.9495986+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.9.23",
+            "Name": "kotlin",
+            "Source": "main",
+            "Updated": "2024-04-27T22:10:10.2304537+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.4.0",
+            "Name": "lapce",
+            "Source": "extras",
+            "Updated": "2024-04-29T18:44:44.0290058+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.41.0",
+            "Name": "lazygit",
+            "Source": "extras",
+            "Updated": "2024-04-15T19:38:27.6707974+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "643",
+            "Name": "less",
+            "Source": "main",
+            "Updated": "2024-04-15T19:22:21.260449+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.49-1",
+            "Name": "lighttpd",
+            "Source": "extras",
+            "Updated": "2024-04-29T18:13:39.1481714+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.1.2",
+            "Name": "lsd",
+            "Source": "main",
+            "Updated": "2024-04-20T15:29:54.6908151+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.9.4",
+            "Name": "lz4",
+            "Source": "main",
+            "Updated": "2024-05-01T11:31:30.6991713+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "4.4.1",
+            "Name": "make",
+            "Source": "main",
+            "Updated": "2024-04-20T21:49:05.1721197+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "11.3.2",
+            "Name": "mariadb",
+            "Source": "main",
+            "Updated": "2024-04-30T18:46:12.5606045+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.0.13",
+            "Name": "micro",
+            "Source": "main",
+            "Updated": "2024-04-29T18:34:06.4365044+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.3.2",
+            "Name": "mongodb",
+            "Source": "main",
+            "Updated": "2024-05-01T11:30:36.9678539+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.2.5",
+            "Name": "mongosh",
+            "Source": "extras",
+            "Updated": "2024-04-30T18:34:38.9615281+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "8.3.0",
+            "Name": "mysql",
+            "Source": "main",
+            "Updated": "2024-04-29T22:42:35.4161327+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.9.5",
+            "Name": "neovim",
+            "Source": "main",
+            "Updated": "2024-04-15T18:21:49.2469709+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.12.0",
+            "Name": "ninja",
+            "Source": "main",
+            "Updated": "2024-04-15T19:21:26.4759573+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.87",
+            "Name": "nircmd",
+            "Source": "main",
+            "Updated": "2024-04-27T22:06:07.506025+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.95",
+            "Name": "nmap",
+            "Source": "main",
+            "Updated": "2024-04-26T12:23:39.9665876+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "22.0.0",
+            "Name": "nodejs",
+            "Source": "main",
+            "Updated": "2024-04-28T15:00:29.3171081+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "8.6.5",
+            "Name": "notepadplusplus",
+            "Source": "extras",
+            "Updated": "2024-04-18T17:44:37.2017195+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "30.1.2",
+            "Name": "obs-studio",
+            "Source": "extras",
+            "Updated": "2024-04-23T16:02:10.0468074+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.5.12",
+            "Name": "obsidian",
+            "Source": "extras",
+            "Updated": "2024-04-15T19:43:09.0873605+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "17.0.2-8",
+            "Name": "openjdk17",
+            "Source": "java",
+            "Updated": "2024-04-27T21:56:42.172292+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.6.10-I002",
+            "Name": "openvpn",
+            "Source": "extras",
+            "Updated": "2024-04-27T17:20:12.1590318+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "16.2",
+            "Name": "postgresql",
+            "Source": "main",
+            "Updated": "2024-04-29T22:32:38.4937789+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.81",
+            "Name": "putty",
+            "Source": "extras",
+            "Updated": "2024-04-21T12:23:38.6189473+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "9.0.0",
+            "Name": "qemu",
+            "Source": "main",
+            "Updated": "2024-04-28T15:02:30.4883771+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "7.2.4",
+            "Name": "redis",
+            "Source": "main",
+            "Updated": "2024-04-30T18:36:56.3694709+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "14.1.0",
+            "Name": "ripgrep",
+            "Source": "main",
+            "Updated": "2024-04-15T19:10:32.6700985+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "3.3.1-1",
+            "Name": "ruby",
+            "Source": "main",
+            "Updated": "2024-04-28T15:04:30.2660156+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2.4",
+            "Name": "scrcpy",
+            "Source": "main",
+            "Updated": "2024-05-01T13:02:57.3953282+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "20.1.10.0",
+            "Name": "sql-server-management-studio-np",
+            "Source": "nonportable",
+            "Updated": "2024-04-30T15:28:53.8696556+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "3.45.3",
+            "Name": "sqlite",
+            "Source": "main",
+            "Updated": "2024-04-29T23:20:16.9962921+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "3.4.4",
+            "Name": "sqlitestudio",
+            "Source": "extras",
+            "Updated": "2024-04-30T15:16:43.3051847+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.18.2",
+            "Name": "starship",
+            "Source": "main",
+            "Updated": "2024-04-15T19:21:18.8119649+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.2",
+            "Name": "surrealdb",
+            "Source": "main",
+            "Updated": "2024-04-30T19:22:32.26501+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "12.1.2",
+            "Name": "tokei",
+            "Source": "main",
+            "Updated": "2024-04-20T16:49:06.7016313+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "9.0.30729.5677",
+            "Name": "vcredist2008",
+            "Source": "extras",
+            "Updated": "2024-04-26T12:25:58.9960273+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "9.1.0380",
+            "Name": "vim",
+            "Source": "main",
+            "Updated": "2024-04-29T11:11:50.8999725+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "3.0.20",
+            "Name": "vlc",
+            "Source": "extras",
+            "Updated": "2024-04-15T21:32:13.8397382+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "2024.04.29.00",
+            "Name": "watchman",
+            "Source": "main",
+            "Updated": "2024-05-01T13:19:00.4978944+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "20240203-110809-5046fc22",
+            "Name": "wezterm",
+            "Source": "extras",
+            "Updated": "2024-04-21T12:35:09.3101364+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "4.2.4",
+            "Name": "wireshark",
+            "Source": "extras",
+            "Updated": "2024-04-26T12:16:02.7157338+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "1.2.3",
+            "Name": "xournalpp",
+            "Source": "extras",
+            "Updated": "2024-04-29T11:10:41.1519775+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.2.5",
+            "Name": "yazi",
+            "Source": "main",
+            "Updated": "2024-04-28T14:58:56.7587851+07:00",
+            "Info": ""
+        },
+        {
+            "Version": "0.9.4",
+            "Name": "zoxide",
+            "Source": "main",
+            "Updated": "2024-04-19T20:49:08.2650433+07:00",
+            "Info": ""
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": "2024-05-01T09:43:34+07:00",
+            "Manifests": 1321
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-05-01T08:05:40+07:00",
+            "Manifests": 2015
+        },
+        {
+            "Name": "nirsoft",
+            "Source": "https://github.com/ScoopInstaller/Nirsoft",
+            "Updated": "2024-05-01T11:26:04+07:00",
+            "Manifests": 283
+        },
+        {
+            "Name": "sysinternals",
+            "Source": "https://github.com/niheaven/scoop-sysinternals",
+            "Updated": "2024-02-21T17:02:04+07:00",
+            "Manifests": 75
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2024-05-01T05:17:38+07:00",
+            "Manifests": 336
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2024-05-01T03:39:07+07:00",
+            "Manifests": 127
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": "2024-04-23T23:17:58+07:00",
+            "Manifests": 273
+        }
+    ]
+}

@@ -6,6 +6,15 @@
         {
             "command": 
             {
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "keys": "win+ctrl+numpad0"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -23,40 +32,18 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
             "keys": "win+ctrl+numpad9"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "resizePane",
-                "direction": "left"
+                "direction": "down"
             },
-            "keys": "ctrl+alt+left"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": -10,
-                "relative": true
-            },
-            "keys": "win+ctrl+minus"
+            "keys": "ctrl+alt+down"
         },
         {
             "command": 
@@ -70,10 +57,23 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": -10,
+                "relative": true
             },
-            "keys": "ctrl+alt+down"
+            "keys": "win+ctrl+minus"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "paste",
@@ -366,7 +366,7 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "PowerShell",
-                "opacity": 44,
+                "opacity": 53,
                 "padding": "0",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
