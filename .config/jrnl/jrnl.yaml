@@ -74,6 +74,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
   acc:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\AccountJournal.md
+  web:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\WebJournal.md
+  os:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\OSJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false
