@@ -6,6 +6,15 @@
         {
             "command": 
             {
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "keys": "win+ctrl+numpad0"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -23,40 +32,18 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
             "keys": "win+ctrl+numpad9"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "resizePane",
-                "direction": "left"
+                "direction": "down"
             },
-            "keys": "ctrl+alt+left"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": -10,
-                "relative": true
-            },
-            "keys": "win+ctrl+minus"
+            "keys": "ctrl+alt+down"
         },
         {
             "command": 
@@ -70,10 +57,23 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": -10,
+                "relative": true
             },
-            "keys": "ctrl+alt+down"
+            "keys": "win+ctrl+minus"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "paste",
@@ -341,6 +341,12 @@
     {
         "defaults": 
         {
+            "colorScheme": "Campbell",
+            "font": 
+            {
+                "face": "Cascadia Mono NF SemiLight"
+            },
+            "opacity": 79,
             "padding": "5"
         },
         "list": 
@@ -361,7 +367,7 @@
                 "colorScheme": "Campbell",
                 "font": 
                 {
-                    "face": "Iosevka Nerd Font Mono",
+                    "face": "Cascadia Code NF SemiLight",
                     "size": 14.0
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -616,7 +622,32 @@
         }
     ],
     "tabWidthMode": "compact",
-    "theme": "dark",
-    "themes": [],
+    "theme": "otherDark",
+    "themes": 
+    [
+        {
+            "name": "otherDark",
+            "tab": 
+            {
+                "background": "terminalBackground",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": "#00000000"
+            },
+            "tabRow": 
+            {
+                "background": null,
+                "unfocusedBackground": "#333333FF"
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": true,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        }
+    ],
     "windowingBehavior": "useNew"
 }

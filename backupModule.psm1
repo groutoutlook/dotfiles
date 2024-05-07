@@ -7,7 +7,6 @@ $backUpDir = @{
   "$HOME\.config\jrnl" = "$env:dotfilesRepo\.config\"
   "$HOME\.config\starship.toml" = "$env:dotfilesRepo\.config\"
   "$env:APPDATA\helix" = "$env:dotfilesRepo\.config\"
-  "$env:APPDATA\yazi" = "$env:dotfilesRepo\.config\"
   "$HOME\.vimrc" = "$env:dotfilesRepo\.config\vim"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\.config\"
 }

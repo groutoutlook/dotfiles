@@ -52,14 +52,14 @@
   # Don't paginate output by default
   pager = bat
   # Global ignore file (not shared)
-	excludesfile = ~/.gitignore_global
-  # Global shared hooks director
+	excludesfile = 
+  # Global shared hooks directory
   # hooksPath = ~/.githooks
   # VSCode
   editor = nvim
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
-	autocrlf = input
+	autocrlf = true
 [diff]
   # Use better, descriptive initials (c, i, w) instead of a/b.
   mnemonicPrefix = true
