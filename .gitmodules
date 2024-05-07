@@ -16,3 +16,9 @@
 [submodule ".config/obsidian"]
 	path = .config/obsidian
 	url = https://github.com/groutoutlook/obsidianConfig
+[submodule ".config/wezterm"]
+	path = .config/wezterm
+	url = https://github.com/groutoutlook/weztermConfig
+[submodule ".config/yazi"]
+	path = .config/yazi
+	url = https://github.com/groutoutlook/yaziConfig

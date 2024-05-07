@@ -52,8 +52,8 @@
   # Don't paginate output by default
   pager = bat
   # Global ignore file (not shared)
-  excludesfile = ~/.gitignore_global
-  # Global shared hooks directory
+	excludesfile = ~/.gitignore_global
+  # Global shared hooks director
   # hooksPath = ~/.githooks
   # VSCode
   editor = nvim

@@ -29,6 +29,9 @@ inoremap ;r <C-o><C-r>
 nnoremap ;u <C-o>u
 nnoremap ;r <C-o><C-r>
 
+inoremap ;ww <C-o><cmd>wall!<cr>
+nnoremap ;ww <cmd>wall!<cr>
+
 function! EscapeString (string)
     let string=a:string
     " Escape regex characters

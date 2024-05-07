@@ -76,7 +76,7 @@
     "file_history_size": 9,
     "language": "Default",
     "pdf_viewer_name": "",
-    "text_editor": "",
+    "text_editor": "C:\\\\Users\\\\COHOTECH\\\\scoop\\\\shims\\\\nvim.exe",
     "use_system_pdf_viewer": true,
     "working_dir": "D:\\Program Files\\KiCad\\8.0"
   }

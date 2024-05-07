@@ -13,71 +13,77 @@ journals:
   default:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\MainJournal.md
   :1688:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\1688Journal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\1688Journal.md
   taobao:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\TaobaoJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\TaobaoJournal.md
   item:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\_Markdown\note_Items\OtherItemsJournal.md
   asset:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Items\AssetJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\AssetJournal.md
   place:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\note_Places\PlacesJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\note_Places\PlacesJournal.md
   work:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkJournal.md
   lang:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\LangJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\LangJournal.md
   prog:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\ProgrammingJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\ProgrammingJournal.md
   comp:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\ComponentJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ComponentJournal.md
   kicad:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\note_EDA\EDAJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   eda:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\note_EDA\EDAJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   embed:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\ProgrammingJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\ProgrammingJournal.md
   hard:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\HardwareJournal.md
   hw:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Embedded\HardwareJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\HardwareJournal.md
   soft:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\SoftwareJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\0_LongJournal\SoftwareJournal.md
   sw:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\SoftwareJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\0_LongJournal\SoftwareJournal.md
   acro:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\AcronymJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\AcronymJournal.md
   vocab:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\VocabJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\VocabJournal.md
   flow:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   wf:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   workflow:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Business\WorkflowJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   phr:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\PhraseJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\PhraseJournal.md
   phrase:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\PhraseJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\PhraseJournal.md
   ev:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\EventJournal.md
   event:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_Knowledge\EventJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\EventJournal.md
   math:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\STEMJournal.md
   physic:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\STEMJournal.md
   stem:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\STEMJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\STEMJournal.md
   til:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
   other:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\OtherKnowledgeJournal.md
   acc:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\AccountJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\0_LongJournal\AccountJournal.md
   web:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\WebJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\0_LongJournal\WebJournal.md
   os:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\1_Markdown\note_software\0_LongJournal\OSJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\0_LongJournal\OSJournal.md
+  video:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
+  vid:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
+  music:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false
