@@ -46,6 +46,8 @@
   main = !"git branch -m main && git push -u origin main"
   # My addition.
   rhh = reset --hard
+  rsh = uncommit
+  rs1 = uncommit
   cij = !"git add . && gitmoji -c && git push"
   suup = submodule update --remote
 [core]
