@@ -6,15 +6,6 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -32,27 +23,31 @@
             "command": 
             {
                 "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "keys": "win+ctrl+numpad0"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
             "keys": "win+ctrl+numpad9"
         },
         {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "down"
-            },
-            "keys": "ctrl+alt+down"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
+                "action": "resizePane",
+                "direction": "left"
             },
-            "keys": "win+ctrl+plus"
+            "keys": "ctrl+alt+left"
         },
         {
             "command": 
@@ -66,14 +61,19 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "left"
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
             },
-            "keys": "ctrl+alt+left"
+            "keys": "win+ctrl+plus"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "ctrl+alt+down"
         },
         {
             "command": "paste",
@@ -330,7 +330,9 @@
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "focusFollowMouse": true,
+    "initialCols": 110,
     "initialPosition": "0,0",
+    "initialRows": 35,
     "multiLinePasteWarning": false,
     "newTabMenu": 
     [
@@ -348,7 +350,8 @@
                 "face": "Cascadia Mono NF SemiLight"
             },
             "opacity": 79,
-            "padding": "5"
+            "padding": "5",
+            "scrollbarState": "hidden"
         },
         "list": 
         [
@@ -650,5 +653,6 @@
             }
         }
     ],
+    "useAcrylicInTabRow": true,
     "windowingBehavior": "useNew"
 }

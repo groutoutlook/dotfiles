@@ -7,10 +7,10 @@ colorscheme industry
 endif
 
 
-command -bang Q quit<bang>
-command -bang W write<bang>
-command -bang WQ wq<bang>
-command -bang Wq wq<bang>
+command! -bang Q quit<bang>
+command! -bang W write<bang>
+command! -bang WQ wq<bang>
+command! -bang Wq wq<bang>
 set guifont=Iosevka\ Nerd\ Font\ Mono:h8
 set conceallevel=0
 nnoremap <expr> <C-d> (winheight(0) / 3) . '<C-d>'
