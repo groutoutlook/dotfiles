@@ -6,7 +6,6 @@ else
 colorscheme industry
 endif
 
-
 command! -bang Q quit<bang>
 command! -bang W write<bang>
 command! -bang WQ wq<bang>
@@ -120,17 +119,6 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 
-"Resize vsplit
-nmap <C-v> :vertical resize +5<cr>
-nmap 25 :vertical resize 40<cr>
-nmap 50 <c-w>=
-nmap 75 :vertical resize 120<cr>
-
-nmap <C-b> :NERDTreeToggle<cr>
-
-"Load the current buffer in Chrome
-nmap ,c :!open -a Google\ Chrome<cr>
-
 "Show (partial) command in the status line
 set showcmd
 
@@ -171,10 +159,16 @@ nmap ,todo :e todo.txt<cr>
 set wildignore+=*/vendor/**
 set wildignore+=*/public/forum/**
 
-" Open splits
-nmap vs :vsplit<cr>
-nmap sp :split<cr>
-
 " Create/edit file in the current directory
 nmap :ed :edit %:p:h/
+
+
+" automatically close brackets, parethesis, double quotes, and single quotes
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {; {};<left><left>
+inoremap /* /**/<left><left>
 

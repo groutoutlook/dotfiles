@@ -35,7 +35,7 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 # Quick iteration on config changes
 C-o = ":config-open"
 C-r = ":config-reload"
-
+C-q = ":quit"
 # Some nice Helix stuff
 C-h = "select_prev_sibling"
 # C-j = "shrink_selection"
@@ -136,8 +136,11 @@ g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to
 # End of key.normal mapping.
 
 # my style of quit
+[keys.normal.";".w]
+q = [":write-quit-all!"]
+w = [":write-all!"]
+
 [keys.normal.";"]
-w = [":write-quit-all!"]
 q = [":quit-all!"]
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
@@ -147,8 +150,12 @@ esc = ["collapse_selection", "normal_mode"]
 [keys.insert.j]
 k = ["normal_mode"]
 
+# my style of quit
+[keys.insert.";".w]
+q = [":write-quit-all!"]
+w = [":write-all!"]
+
 [keys.insert.";"]
-w = [":write-quit-all!"]
 q = [":quit-all!"]
 
 [keys.select]
