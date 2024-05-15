@@ -9,6 +9,7 @@ $backUpDir = @{
   "$env:APPDATA\helix" = "$env:dotfilesRepo\.config\"
   "$HOME\.vimrc" = "$env:dotfilesRepo\.config\vim"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\.config\"
+  "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\.config\"
 }
 
 

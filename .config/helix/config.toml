@@ -1,6 +1,10 @@
 theme = "ayu_evolve"
 
 [editor]
+mouse = true
+# middle-click-paste = true
+scroll-lines = 3
+# shell = [ "sh", "-c" ]
 line-number = "relative"
 idle-timeout = 50
 rulers = [80]
@@ -26,7 +30,8 @@ display-inlay-hints = true
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "file-type", "total-line-numbers", "file-encoding"]
 center = []
-right = ["selections", "primary-selection-length", "position", "position-percentage", "spacer", "diagnostics", "workspace-diagnostics", "version-control"]
+right = ["selections", "primary-selection-length", "position", "position-percentage", "spacer", "separator",
+"total-line-numbers","diagnostics", "version-control"]
 
 
 
@@ -122,6 +127,10 @@ G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_b
 w = ["move_next_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
 W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
 g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"] }
+
+# [keys.normal.d.i]
+# w = [ "move_char_right", "move_prev_word_start", "move_next_word_end", "yank_main_selection_to_clipboard", "delete_selection", ]
+
 
 [keys.normal.y]
 y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "normal_mode", "collapse_selection"]

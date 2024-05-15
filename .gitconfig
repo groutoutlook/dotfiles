@@ -224,3 +224,6 @@
 	helper = store
 	helper = !gh auth git-credential
 	; helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gitlab.com"]
+  helper = store
+  helper = !glab auth git-credential
