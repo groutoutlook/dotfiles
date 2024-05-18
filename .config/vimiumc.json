@@ -1,0 +1,72 @@
+{
+	"name": "Vimium C",
+	"@time": "5/17/2024, 2:59:03 PM",
+	"time": 1715932743119,
+	"environment": {
+		"extension": "1.99.994",
+		"platform": "win",
+		"chromium": 126
+	},
+	"exclusionRules": [
+		{
+			"passKeys": "",
+			"pattern": ":https://mail.google.com/"
+		},
+		{
+			"passKeys": "",
+			"pattern": ":https://youtube.com/"
+		}
+	],
+	"keyLayout": 66,
+	"keyMappings": [
+		"#!no-check",
+		"mapkey <a-b> <f3edit>",
+		"map <f3edit> editText run=\"move,backward,word,exec,move,\"",
+		"",
+		"mapkey <a-f> <f3editf>",
+		"map <f3editf> editText run=\"move,forward,word,exec,move,\"",
+		"",
+		"# delete a forward word",
+		"mapkey <a-d> <f3rmf>",
+		"map <f3rmf> editText run=\"extend,forward,word,exec,delete,\"",
+		"",
+		"# delete forward character",
+		"mapkey <c-d> <f3rmcf>",
+		"map <f3rmcf> editText run=\"extend,forward,character,exec,delete,\"",
+		"",
+		"# delete backward ",
+		"mapkey <c-backspace> <f3rm>",
+		"mapkey <c-w> <f3rm>",
+		"mapkey <a-backspace> <f3rm>",
+		"map <f3rm> editText run=\"extend,backward,word,exec,delete,\"",
+		"",
+		"# delete backward character",
+		"# mapkey <c-h> <f3rmc>",
+		"# map <f3rmc> editText run=\"extend,backward,character,exec,delete,\"",
+		"",
+		"mapkey <c-e> <f3end>",
+		"map <f3end> editText run=\"move,forward,lineboundary,exec,move,\"",
+		"",
+		"# not used because mapped to select text. use home instead",
+		"# mapkey <c-a> <f3bg>",
+		"# map <f3bg> editText run=\"move,backward,lineboundary,exec,move,\"",
+		"",
+		"",
+		"# mapkey <c-k> <f3rmline>",
+		"# map <f3rmline> editText run=\"extend,forward,lineboundary,exec,delete,\"",
+		"",
+		"# Manipulating tabs",
+		"",
+		"# map d scrollPageDown",
+		"",
+		"mapKey <c-s-z> <esc>",
+		"",
+		"",
+		"map TT previousTab",
+		"map tt nextTab",
+		""
+	],
+	"linkHintCharacters": "qwerasdfc",
+	"vimSync": true,
+	"mapModifier": 1
+}
