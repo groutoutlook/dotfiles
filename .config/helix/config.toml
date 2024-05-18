@@ -4,7 +4,7 @@ theme = "ayu_evolve"
 mouse = true
 # middle-click-paste = true
 scroll-lines = 3
-# shell = [ "sh", "-c" ]
+shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
 line-number = "relative"
 idle-timeout = 50
 rulers = [80]
@@ -162,7 +162,7 @@ k = ["normal_mode"]
 # my style of quit
 [keys.insert.";".w]
 q = [":write-quit-all!"]
-w = [":write-all!"]
+w = [":write-all!","normal_mode"]
 
 [keys.insert.";"]
 q = [":quit-all!"]
