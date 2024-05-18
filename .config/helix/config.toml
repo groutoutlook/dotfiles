@@ -4,7 +4,8 @@ theme = "ayu_evolve"
 mouse = true
 # middle-click-paste = true
 scroll-lines = 3
-shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
+shell = [ "pwsh", "-Command" ,
+ " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
 line-number = "relative"
 idle-timeout = 50
 rulers = [80]
