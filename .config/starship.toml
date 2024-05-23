@@ -3,6 +3,7 @@
 # Make continuation prompt a space for coneniently copy paste.
 continuation_prompt = ' '
 add_newline = true
+command_timeout = 100
 
 [directory]
 truncation_length = 5
