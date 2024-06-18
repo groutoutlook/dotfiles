@@ -17,7 +17,7 @@ journals:
   taobao:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\TaobaoJournal.md
   item:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\_Markdown\note_Items\OtherItemsJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\OtherItemsJournal.md
   asset:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\AssetJournal.md
   place:
@@ -86,6 +86,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
   life:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\LifeJournal.md
+  meme:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
+  hh:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false

@@ -366,7 +366,7 @@
       {
         "colorScheme": "Campbell",
         "font": {
-"face": "Iosevka Nerd Font Propo",
+          "face": "Iosevka Nerd Font Propo",
           "size": 14
         },
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -428,7 +428,7 @@
       },
       "window": {
         "applicationTheme": "dark",
-        "experimental.rainbowFrame": true,
+        "experimental.rainbowFrame": false,
         "frame": null,
         "unfocusedFrame": null,
         "useMica": false
