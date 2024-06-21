@@ -82,6 +82,7 @@
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
+    "show_import_issues": true,
     "units": 1
   },
   "use_eeschema_color_settings": false,

@@ -1,13 +1,30 @@
 {
 	"name": "Vimium C",
-	"@time": "6/12/2024, 6:22:44 PM",
-	"time": 1718191364589,
+	"@time": "6/13/2024, 9:57:15 PM",
+	"time": 1718290635182,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
 		"chromium": 126
 	},
 	"allBrowserUrls": true,
+	"extAllowList": [
+		"# modified versions of X New Tab and PDF Viewer,",
+		"# NewTab Adapter, and Shortcuts Forwarding Tool",
+		"hdnehngglnbnehkfcidabjckinphnief",
+		"nacjakoppgmdcpemlfnfegmlhipddanj",
+		"onlpodkdakgonlmodbgapcbigpcimokd",
+		"cglpcedifkgalfdklahhcchnjepcckfn",
+		"clnalilglegcjmlgenoppklmfppddien",
+		"# EdgeTranslate",
+		"bocbaocobfecmglnmeaeppambideimao",
+		"bfdogplmndidlpjfhoijckpakkdjkkil",
+		"# SalaDict",
+		"cdonnmffkdaoajfknoeeecmchibpmkmg",
+		"idghocbbahafpfhjnfhpbfbmpegphmmp",
+		"chpcblajbmmlbhecpnnadmjmlbhkloji",
+		""
+	],
 	"filterLinkHints": true,
 	"keyLayout": 66,
 	"keyMappings": [
