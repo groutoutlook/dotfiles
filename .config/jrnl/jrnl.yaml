@@ -90,6 +90,12 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
   hh:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
+  news:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\NewsJournal.md
+  new:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\NewsJournal.md
+  media:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\NewsJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false
