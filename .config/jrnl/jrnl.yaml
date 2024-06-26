@@ -88,6 +88,8 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\LifeJournal.md
   meme:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
+  come:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
   hh:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\WholesomeJournal.md
   news:
@@ -96,6 +98,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\NewsJournal.md
   media:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\NewsJournal.md
+  qt:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\PhraseJournal.md
+  quote:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\PhraseJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false

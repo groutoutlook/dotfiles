@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "6/13/2024, 9:57:15 PM",
-	"time": 1718290635182,
+	"@time": "6/26/2024, 1:54:58 PM",
+	"time": 1719384898295,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
@@ -29,6 +29,12 @@
 	"keyLayout": 66,
 	"keyMappings": [
 		"#!no-check",
+		"# unmapping overlay keybinding.",
+		"unmap <c-e>",
+		"unmap <c-y>",
+		"unmap <a-c>",
+		"unmap <a-s-c>",
+		"",
 		"mapkey <a-b> <f3edit>",
 		"map <f3edit> editText run=\"move,backward,word,exec,move,\"",
 		"",
