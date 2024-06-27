@@ -393,7 +393,7 @@
           "size": 14
         },
         "guid": "{4a3106e7-59ac-46cd-ac59-6918b5d5eba0}",
-        "experimental.pixelShaderPath": "C:\\RootConf\\orig.hlsl",
+        "experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\orig.hlsl",
         "experimental.pixelShaderImagePath": "C:\\Users\\COHOTECH\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-05-21 074649.png",
         "hidden": false,
         "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",

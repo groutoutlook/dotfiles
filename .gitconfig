@@ -9,27 +9,22 @@
 [alias]
   # List available aliases
   aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
-  # Command shortcuts
-  co = checkout
-  c-1 = log -1 --pretty=%B
   ; st = status
   st = status -sb
   sw = switch
   sw- = switch -
 
+  # Command shortcuts
+  c-1 = log -1 --pretty=%B
+  
   # Display tree-like log, because default log is a pain…
   lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
   
   # Useful when you have to update your last commit
   # with staged files without editing the commit message.
   oops = commit --amend --no-edit
-  
   # Ensure that force-pushing won't lose someone else's work (only mine).
   puf = push --force-with-lease
-  
-  # Rebase won’t trigger hooks on each "replayed" commit.
-  # This is an ugly hack that will replay each commit during rebase with the
-  # standard `commit` command which will trigger hooks.
   rebase-with-hooks = rebase -x 'git reset --soft HEAD~1 && git commit -C HEAD@{1}'
   # List local commits that were not pushed to remote repository
   review-local = "!git lg @{push}.."
@@ -48,8 +43,13 @@
   rhh = reset --hard
   rsh = uncommit
   rs1 = uncommit
+  reapply = !"gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  reapplyslow = !"gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  rap = reapply
+  raps = reapplyslow
   cij = !"git add . && gitmoji -c && git push"
   suup = submodule update --remote
+  suin = submodule update --init
 [core]
   # Don't paginate output by default
   pager = bat
