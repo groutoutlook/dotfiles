@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "6/26/2024, 2:50:50 PM",
-	"time": 1719388250531,
+	"@time": "6/27/2024, 2:32:37 PM",
+	"time": 1719473557411,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
-		"chromium": 126
+		"chromium": 127
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -34,6 +34,9 @@
 		"unmap <c-y>",
 		"unmap <a-c>",
 		"unmap <a-s-c>",
+		"unmap o",
+		"map o Vomnibar.activateInNewTab",
+		"",
 		"",
 		"mapkey <a-b> <f3edit>",
 		"map <f3edit> editText run=\"move,backward,word,exec,move,\"",
