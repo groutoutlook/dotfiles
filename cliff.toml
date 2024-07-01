@@ -53,13 +53,13 @@ commit_preprocessors = [
 ]
 # regex for parsing and grouping commits
 commit_parsers = [
-  { message = "^feat|^ft", group = "<!-- 0 -->🚀 Features" },
-  { message = "^fix|^bug", group = "<!-- 1 -->🐛 Bug Fixes" },
-  { message = "^doc", group = "<!-- 3 -->📚 Documentation" },
-  { message = "^perf", group = "<!-- 4 -->⚡ Performance" },
-  { message = "^refactor|^rft", group = "<!-- 2 -->🚜 Refactor" },
-  { message = "^style|^art", group = "<!-- 5 -->🎨 Styling" },
-  { message = "^test", group = "<!-- 6 -->🧪 Testing" },
+  { message = "^feat|^ft|^(feat)", group = "<!-- 0 -->🚀 Features" },
+  { message = "^fix|^bug|^(fix)", group = "<!-- 1 -->🐛 Bug Fixes" },
+  { message = "^doc|^(doc)", group = "<!-- 3 -->📚 Documentation" },
+  { message = "^perf|^(perf)", group = "<!-- 4 -->⚡ Performance" },
+  { message = "^refactor|^rft|^(refactor)", group = "<!-- 2 -->🚜 Refactor" },
+  { message = "^style|^art|^(style)|^(art)", group = "<!-- 5 -->🎨 Styling" },
+  { message = "^test|^(test)", group = "<!-- 6 -->🧪 Testing" },
   { message = "^chore\\(release\\): prepare for", skip = true },
   { message = "^chore\\(deps.*\\)", skip = true },
   { message = "^chore\\(pr\\)", skip = true },

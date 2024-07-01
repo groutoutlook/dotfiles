@@ -106,6 +106,14 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\ReadAndListenJournal.md
   read:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\0_LongJournal\ReadAndListenJournal.md
+  firm:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
+  fw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
+  stm:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
+  lowsw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
 linewrap: 200
 tagsymbols: "#@"
 template: false
