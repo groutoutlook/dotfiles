@@ -3,6 +3,14 @@
   "$schema": "https://aka.ms/terminal-profiles-schema-preview",
   "actions": [
     {
+      "command": "openSystemMenu",
+      "keys": "alt+shift+space"
+    },
+    {
+      "command": "openSystemMenu",
+      "keys": "win+alt+space"
+    },
+    {
       "command": {
         "action": "adjustOpacity",
         "opacity": 0,

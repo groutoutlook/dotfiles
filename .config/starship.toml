@@ -18,6 +18,7 @@ style = "bold white"
 
 
 [git_status]
+disabled = true
 conflicted = "⚔️ "
 ahead = "🏎️ 💨 ×${count} "
 behind = "🐢 ×${count} "
@@ -39,7 +40,8 @@ style = "bold dimmed white"
 disabled = false
 
 [jobs]
-disabled=true
+disabled = false
+
 [package]
 disabled = true
 
@@ -63,13 +65,21 @@ description = "Display symbol for remote Git server (pwsh)"
 command = """
 $gitRemote = git ls-remote --get-url
 $symbol = ' ' # If no Git Remote is returned.
-switch -regex ($gitRemote) {\
-    'github'    { $symbol = ' ' }\
-    'gitlab'    { $symbol = ' ' }\
-    'bitbucket' { $symbol = ' ' }\
-     Default    { $symbol = ' ' }\
+switch -regex ($gitRemote) {
+    'github'    { $symbol = ' ' }
+    'gitlab'    { $symbol = ' ' }
+    'bitbucket' { $symbol = ' ' }
+     Default    { $symbol = ' ' }
 }
 echo $symbol
 """
 when = "git rev-parse --is-inside-work-tree"
 shell = ["pwsh", "-NoProfile", "-Command", "-"]
+
+[custom.live-clock-icon]
+disabled = true
+command = 'echo "" | cut -c $(($(date +%H)%12+1))'
+description = "Live updating clock icon, changes hourly. Icons can be customized to your liking."
+when = true
+style = "fg:bright-blue bg:black"
+format = "[$output ]($style)"
