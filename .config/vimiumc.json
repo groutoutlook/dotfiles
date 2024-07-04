@@ -1,27 +1,13 @@
 {
 	"name": "Vimium C",
-	"@time": "7/1/2024, 4:11:47 PM",
-	"time": 1719825107840,
+	"@time": "7/4/2024, 5:12:55 PM",
+	"time": 1720087975187,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
 		"chromium": 127
 	},
 	"allBrowserUrls": true,
-	"exclusionRules": [
-		{
-			"passKeys": "",
-			"pattern": ":https://mail.google.com/"
-		},
-		{
-			"passKeys": "",
-			"pattern": ":https://0rmcbv95hdtqqgviuab71vhpgurjct7jd2e5ma4rhudr9t88esou.vscode-cdn.net/"
-		},
-		{
-			"passKeys": "",
-			"pattern": ":https://github.dev/"
-		}
-	],
 	"extAllowList": [
 		"# modified versions of X New Tab and PDF Viewer,",
 		"# NewTab Adapter, and Shortcuts Forwarding Tool",
@@ -40,6 +26,7 @@
 		"",
 		"# yomitan",
 		"likgccmbimhjbgkjambclfkhldnlhbnn",
+		"iikmkjmpaadaobahmlepeloendndfphd",
 		""
 	],
 	"filterLinkHints": true,
@@ -57,8 +44,17 @@
 		"unmap gn",
 		"unmap gf",
 		"unmap gF",
-		"",
 		"unmap o",
+		"unmap <f1>",
+		"",
+		"# INFO: Since too many pages use `/` for search, we have to unmap it.",
+		"unmap ?",
+		"unmap /",
+		"",
+		"# use ? instead. I use `ctrl f` `ctrl g` more anyway.",
+		"map ? enterFindMode postOnEsc",
+		"# same reason why <f1> is used for help.",
+		"map <f1> showHelp",
 		"",
 		"map o Vomnibar.activateInNewTab",
 		"map D scrollPageUp",
@@ -104,8 +100,6 @@
 		"# mapKey <c-s-z> <esc>",
 		"# Add an additional mapping for Escape:",
 		"# mapkey <c-c> <c-[>",
-		"# Add an additional mapping for Escape:",
-		"mapkey <a-,> <c-s-a>",
 		"",
 		"map + LinkHints.activate",
 		" ",

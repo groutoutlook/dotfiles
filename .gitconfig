@@ -17,6 +17,9 @@
   # Command shortcuts
   c-1 = log -1 --pretty=%B
   
+  wip = commit -am '🚧  wip'
+  wipp = !"git add * && git wip && git puf"
+  
   # Display tree-like log, because default log is a pain…
   lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
   
@@ -43,10 +46,11 @@
   rhh = reset --hard
   rsh = uncommit
   rs1 = uncommit
-  reapply = !"gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
-  reapplyslow = !"gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  reapply = !"git add * && gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  reapplyslow = !"git add * && gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
   rap = reapply
   raps = reapplyslow
+  ci = commit
   cij = !"git add . && gitmoji -c && git push"
   suup = submodule update --remote
   suin = submodule update --init
