@@ -18,7 +18,7 @@ style = "bold white"
 
 
 [git_status]
-disabled = true
+disabled = false
 conflicted = "⚔️ "
 ahead = "🏎️ 💨 ×${count} "
 behind = "🐢 ×${count} "

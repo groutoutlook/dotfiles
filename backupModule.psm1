@@ -6,9 +6,10 @@ $backUpDir = @{
   "$HOME\.config\jrnl" = "$env:dotfilesRepo\.config\"
   "$HOME\.config\starship.toml" = "$env:dotfilesRepo\.config\"
   "$env:APPDATA\helix" = "$env:dotfilesRepo\.config\"
-  "$HOME\.vimrc" = "$env:dotfilesRepo\.config\vim"
+  "$HOME\.vimrc" = "$env:dotfilesRepo\.config\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\.config\"
   "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\.config\"
+  # "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\.config\"
 }
 
 

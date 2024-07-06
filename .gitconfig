@@ -46,8 +46,8 @@
   rhh = reset --hard
   rsh = uncommit
   rs1 = uncommit
-  reapply = !"git add * && gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
-  reapplyslow = !"git add * && gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  reapply     = !"git add * && gitPrev=$(git rs1) && git add * && git commit -m \"$gitPrev\" && git puf"
+  reapplyslow = !"git add * && gitPrev=$(git rs1) && git add * && git commit  && git puf"
   rap = reapply
   raps = reapplyslow
   ci = commit
