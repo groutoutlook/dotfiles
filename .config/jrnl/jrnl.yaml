@@ -12,28 +12,48 @@ indent_character: " "
 journals:
   :1688:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\1688Journal.md
-  taobao:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\TaobaoJournal.md
   acc:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\secret\AccountJournal.md
   acro:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\AcronymJournal.md
+  art:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
   asset:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\AssetJournal.md
+  blog:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
+  book:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
+  cad:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
+  come:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
   comp:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ComponentJournal.md
   default:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\MainJournal.md
+  eco:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
+  econ:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
   eda:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
+  edit:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
   embed:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\ProgrammingJournal.md
   ev:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EventJournal.md
   event:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EventJournal.md
+  firm:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
+  fw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
   hard:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\HardwareJournal.md
+  hh:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
   hw:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\HardwareJournal.md
   item:
@@ -44,16 +64,18 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\LangJournal.md
   life:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeJournal.md
-  firm:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
-  fw:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
+  linux:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
   lowsw:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
   math:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\STEMJournal.md
+  mech:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
   media:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\NewsJournal.md
+  meme:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
   music:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
   new:
@@ -62,34 +84,40 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\NewsJournal.md
   os:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
-  linux:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
-  windows:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
   other:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\OtherKnowledgeJournal.md
+  people:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
+  per:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
+  person:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
+  phr:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
+  phrase:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   physic:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\STEMJournal.md
   place:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PlacesJournal.md
   prog:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\ProgrammingJournal.md
-  phr:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
-  phrase:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   qt:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   quote:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
+  read:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
+  soft:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\SoftwareJournal.md
   stem:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\STEMJournal.md
   stm:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
-  soft:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\SoftwareJournal.md
   sw:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\SoftwareJournal.md
+  taobao:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\TaobaoJournal.md
   til:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\OtherKnowledgeJournal.md
   vid:
@@ -100,44 +128,16 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\VocabJournal.md
   web:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\WebJournal.md
-  work:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkJournal.md
   wf:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
+  windows:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
+  work:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkJournal.md
   workflow:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
-  mech:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
-  cad:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
-  art:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
-  edit:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
-  blog:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
-  book:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
-  read:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
-  meme:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
-  come:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
-  hh:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
-  eco:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
-  econ:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
-  per:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
-  person:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
-  people:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
 linewrap: 2000
 tagsymbols: "#@"
-template: false
+# template: false
 timeformat: "%F %r"
 version: v4.1
