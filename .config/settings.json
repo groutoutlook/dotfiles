@@ -4,13 +4,13 @@
     "actions": 
     [
         {
-            "command": "openSystemMenu",
-            "id": "User.openSystemMenu",
-            "keys": "alt+shift+space"
-        },
-        {
-            "command": "openSystemMenu",
-            "keys": "win+alt+space"
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[13;5u"
+            },
+            "id": "User.sendInput.F8A79DCB",
+            "keys": "ctrl+enter"
         },
         {
             "command": 
@@ -22,13 +22,23 @@
             "keys": "ctrl+alt+up"
         },
         {
+            "command": "openSystemMenu",
+            "id": "User.openSystemMenu",
+            "keys": "alt+shift+space"
+        },
+        {
+            "command": "openSystemMenu",
+            "keys": "win+alt+space"
+        },
+        {
             "command": 
             {
-                "action": "sendInput",
-                "input": "\u001b[13;5u"
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
             },
-            "id": "User.sendInput.F8A79DCB",
-            "keys": "ctrl+enter"
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
         },
         {
             "command": 
@@ -51,16 +61,6 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
@@ -71,21 +71,21 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": -10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.4C71C550",
-            "keys": "win+ctrl+minus"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 10,
                 "relative": true
             },
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": -10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.4C71C550",
+            "keys": "win+ctrl+minus"
         },
         {
             "command": 
@@ -255,6 +255,14 @@
             "keys": "alt+left"
         },
         {
+            "command": "unbound",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+2"
+        },
+        {
             "command": 
             {
                 "action": "showSuggestions"
@@ -371,6 +379,7 @@
         },
         {
             "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen",
             "keys": "win+ctrl+alt+f11"
         }
     ],

@@ -16,6 +16,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\secret\AccountJournal.md
   acro:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\AcronymJournal.md
+  cad3d:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
+  draw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
   art:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
   asset:
@@ -76,8 +80,6 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\NewsJournal.md
   meme:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
-  music:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
   new:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\NewsJournal.md
   news:
@@ -120,6 +122,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\TaobaoJournal.md
   til:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\OtherKnowledgeJournal.md
+  mus:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\MusicJournal.md
+  music:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\MusicJournal.md
   vid:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_entertainment\note_discography\VideoJournal.md
   video:
@@ -138,6 +144,6 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
 linewrap: 2000
 tagsymbols: "#@"
-# template: false
+template: false
 timeformat: "%F %r"
 version: v4.1

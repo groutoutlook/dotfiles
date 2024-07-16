@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/6/2024, 12:42:45 PM",
-	"time": 1720244565060,
+	"@time": "7/16/2024, 1:28:56 PM",
+	"time": 1721111336691,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
@@ -57,6 +57,10 @@
 		"map yy copyWindowInfo type=\"tab\" format=\"[${title}](${url})\" ",
 		"map yd copyWindowInfo type=\"tab\" format=\"${host}\"",
 		"map <f7> copyWindowInfo format=\"[${title}](${url})\" join=\"\\n\"",
+		"",
+		"# unmap ",
+		"unmap p",
+		"map p openCopiedUrlInNewTab",
 		"",
 		"# use ? instead. I use `ctrl f` `ctrl g` more anyway.",
 		"map ? enterFindMode postOnEsc",
