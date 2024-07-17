@@ -4,24 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[13;5u"
-            },
-            "id": "User.sendInput.F8A79DCB",
-            "keys": "ctrl+enter"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "up"
-            },
-            "id": "User.resizePane.6CD791B",
-            "keys": "ctrl+alt+up"
-        },
-        {
             "command": "openSystemMenu",
             "id": "User.openSystemMenu",
             "keys": "alt+shift+space"
@@ -33,12 +15,20 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
+                "action": "resizePane",
+                "direction": "up"
             },
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
+            "id": "User.resizePane.6CD791B",
+            "keys": "ctrl+alt+up"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[13;5u"
+            },
+            "id": "User.sendInput.F8A79DCB",
+            "keys": "ctrl+enter"
         },
         {
             "command": 
@@ -61,6 +51,16 @@
             "command": 
             {
                 "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
@@ -71,21 +71,21 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.146080A9",
-            "keys": "win+ctrl+plus"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": -10,
                 "relative": true
             },
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9",
+            "keys": "win+ctrl+plus"
         },
         {
             "command": 
@@ -495,6 +495,7 @@
         ]
     },
     "schemes": [],
+    "startOnUserLogin": true,
     "tabWidthMode": "compact",
     "theme": "otherDark",
     "themes": 
