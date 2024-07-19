@@ -22,7 +22,9 @@
   
   # Display tree-like log, because default log is a pain…
   lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
-  
+  # INFO: Diff and difftool related.
+  dft = difftool
+  dlog = "-c diff.external=difft log -p --ext-diff"
   # Useful when you have to update your last commit
   # with staged files without editing the commit message.
   oops = commit --amend --no-edit
@@ -77,16 +79,20 @@
   # Display submodule-related information (commit listings)
   submodule = log
   # Use VSCode as default diff tool when running `git diff-tool`
-  tool = vscode
+  # tool = vscode
   # pager for git, bat
-  show = bat
-[pager]
-	diff = bat
-	log = bat
-	reflog = bat
-	show = bat
+  tool = difftastic
+  # external = difft
+[difftool "difftastic"]
+  prompt = false
+  cmd = difft "$LOCAL" "$REMOTE"
 [difftool "vscode"]
   cmd = code --wait --diff $LOCAL $REMOTE
+[pager]
+  difftool = true
+	diff = difftastic
+	# log = bat
+	reflog = bat
 [fetch]
   # Auto-fetch submodule changes (sadly, won't auto-update)
   recurseSubmodules = on-demand
@@ -120,7 +126,6 @@
   # driver = npx npm-merge-driver merge %A %O %B %P
   tool = vscode # "smerge"
 [mergetool]
-
   # Clean up backup files created by merge tools on tool exit
   keepBackup = false
   # Clean up temp files created by merge tools on tool exit
@@ -129,7 +134,6 @@
   writeToTemp = true
   # Auto-accept file prompts when launching merge tools
   prompt = false
-
 [mergetool "vscode"]
   name = "VS Code"
 	trustExitCode = true
@@ -218,7 +222,7 @@
 	process = git-lfs filter-process
 	required = true
 [safe]
-    directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
+  # directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
 	directory = *
 [submodule]
 	recurse = true
