@@ -8,7 +8,7 @@ default_minute: 0
 editor: nvim -c $ -c startinsert!
 encrypt: false
 highlight: true
-indent_character: " "
+indent_character: ""
 journals:
   :1688:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Items\1688Journal.md

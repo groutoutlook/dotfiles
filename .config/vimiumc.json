@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/16/2024, 1:28:56 PM",
-	"time": 1721111336691,
+	"@time": "7/20/2024, 4:53:20 PM",
+	"time": 1721469200973,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
@@ -115,9 +115,11 @@
 		"map + LinkHints.activate",
 		"",
 		"# INFO: some tab operations",
-		"map TT previousTab",
+		"# map TT previousTab",
+		"unmap T",
 		"map tt nextTab",
 		"map ;t restoreTab",
+		"map T restoreTab",
 		"map ;q removeTab goto=\"previous,near\" highlighted",
 		""
 	],
