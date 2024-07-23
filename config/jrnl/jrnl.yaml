@@ -17,8 +17,10 @@ journals:
   acro:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\AcronymJournal.md
   cad3d:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
   draw:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
+  blend:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
   art:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
@@ -32,6 +34,14 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
   come:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\WholesomeJournal.md
+  inte:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ProtocolJournal.md
+  prot:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ProtocolJournal.md
+  bus:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ProtocolJournal.md
+  wire:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ProtocolJournal.md
   comp:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ComponentJournal.md
   default:
@@ -40,6 +50,8 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
   econ:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EconomyJournal.md
+  ecad:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   eda:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   edit:
@@ -142,6 +154,19 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkJournal.md
   workflow:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
+  freecad:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
+  fcad:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\CAD\CADJournal.md
+  module:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
+  ic:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
+  chip:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
+  soc:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
+
 linewrap: 2000
 tagsymbols: "#@"
 template: false

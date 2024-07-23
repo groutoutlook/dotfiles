@@ -1,15 +1,15 @@
 $backUpDir = @{
-  "$env:kicadSettingDir" = "$env:dotfilesRepo\.config\.kicad" 
-  "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\.config\PenTablet_Config.pcfg"
+  "$env:kicadSettingDir" = "$env:dotfilesRepo\config\.kicad" 
+  "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config\PenTablet_Config.pcfg"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
   "$HOME\.gitignore_global" = "$env:dotfilesRepo\"
-  "$HOME\.config\jrnl" = "$env:dotfilesRepo\.config\"
-  "$HOME\.config\starship.toml" = "$env:dotfilesRepo\.config\"
-  "$env:APPDATA\helix" = "$env:dotfilesRepo\.config\"
-  "$HOME\.vimrc" = "$env:dotfilesRepo\.config\"
-  "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\.config\"
-  "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\.config\"
-  # "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\.config\"
+  "$HOME\.config\jrnl" = "$env:dotfilesRepo\config\"
+  "$HOME\.config\starship.toml" = "$env:dotfilesRepo\config\"
+  "$env:APPDATA\helix" = "$env:dotfilesRepo\config\"
+  "$HOME\.vimrc" = "$env:dotfilesRepo\config\"
+  "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\"
+  "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\config\"
+  # "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\config\"
 }
 
 
