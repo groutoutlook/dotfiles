@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/20/2024, 4:53:20 PM",
-	"time": 1721469200973,
+	"@time": "7/23/2024, 7:46:32 AM",
+	"time": 1721695592199,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
@@ -55,7 +55,8 @@
 		"unmap yy",
 		"map Y copyCurrentUrl",
 		"map yy copyWindowInfo type=\"tab\" format=\"[${title}](${url})\" ",
-		"map yd copyWindowInfo type=\"tab\" format=\"${host}\"",
+		"",
+		"# map yd copyWindowInfo type=\"tab\" format=\"${host}\"",
 		"map <f7> copyWindowInfo format=\"[${title}](${url})\" join=\"\\n\"",
 		"",
 		"# unmap ",
@@ -113,6 +114,7 @@
 		"# mapkey <c-c> <c-[>",
 		"",
 		"map + LinkHints.activate",
+		"map \\ LinkHints.activate",
 		"",
 		"# INFO: some tab operations",
 		"# map TT previousTab",

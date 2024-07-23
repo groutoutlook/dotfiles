@@ -51,6 +51,7 @@
   reapply     = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\" && git puf"
   reapplyslow = !"gitPrev=$(git rs1) && git add . && git commit  && git puf"
   rap = reapply
+  rapp = reapply
   raps = reapplyslow
   ci = commit
   cij = !"git add . && gitmoji -c && git push"
