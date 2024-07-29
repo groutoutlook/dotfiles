@@ -1,4 +1,4 @@
-" set nocompatible   " Disable vi-compatibility
+set nocompatible   " Disable vi-compatibility
 
 colorscheme evening
 
@@ -6,10 +6,10 @@ command! -bang Q quit<bang>
 command! -bang W write<bang>
 command! -bang WQ wq<bang>
 command! -bang Wq wq<bang>
-" set guifont=Iosevka\ Nerd\ Font\ Propo:h8
-" set conceallevel=0
-" nnoremap <expr> <C-d> (winheight(0) / 3) . '<C-d>'
-" nnoremap <expr> <C-u> (winheight(0) / 3) . '<C-u>'
+set guifont=Iosevka\ Nerd\ Font\ Propo:h8
+set conceallevel=0
+nnoremap <expr> <C-d> (winheight(0) / 3) . '<C-d>'
+nnoremap <expr> <C-u> (winheight(0) / 3) . '<C-u>'
 inoremap jk <Esc>
 inoremap jj <Esc>
 
@@ -58,6 +58,42 @@ set clipboard=unnamedplus
 set mouse=a
 
 
+
+
+function! EscapeString (string)
+    let string=a:string
+    " Escape regex characters
+    let string = escape(string, '^$.*\/~[]')
+    " Escape the line endings
+    let string = substitute(string, '\n', '\\n', 'g')
+    return string
+endfunction
+
+" Get the current visual block for search and replaces
+" This function passed the visual block through a string escape function
+" Based on this - https://stackoverflow.com/questions/676600/vim-replace-selected-text/677918#677918
+function! GetVisual() range
+    " Save the current register and clipboard
+    let reg_save = getreg('"')
+    let regtype_save = getregtype('"')
+    let cb_save = &clipboard
+    set clipboard&
+
+    " Put the current visual selection in the " register
+    normal! ""gvy
+    let selection = getreg('"')
+
+    " Put the saved registers and clipboards back
+    call setreg('"', reg_save, regtype_save)
+    let &clipboard = cb_save
+
+    "Escape any special characters in the selection
+    let escaped_selection = EscapeString(selection)
+
+    return escaped_selection
+endfunction
+vnoremap <c-r> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
+vnoremap <c-h> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
 
 
 call plug#begin()

@@ -78,6 +78,14 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   lang:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\LangJournal.md
+  tip:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
+  ltip:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
+  lhack:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
+  hack:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
   life:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeJournal.md
   linux:
@@ -166,6 +174,20 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
   soc:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\ChipsetJournal.md
+  html:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_os_web\SDK\WebProgJournal.md
+  wasm:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_os_web\SDK\WebProgJournal.md
+  wprog:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_os_web\SDK\WebProgJournal.md
+  wpro:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_os_web\SDK\WebProgJournal.md
+  pcb:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\PCB_Standard\PCBJournal.md
+  viap:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\PCB_Standard\PCBJournal.md
+  pcba:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\PCB_Standard\PCBJournal.md
 
 linewrap: 2000
 tagsymbols: "#@"

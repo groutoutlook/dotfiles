@@ -2,7 +2,6 @@
 	name = groutoutlook
 	email = 150989799+groutoutlook@users.noreply.github.com
 	# Put this in your ~/.gitconfig or ~/.config/git/config
-# Windows users: "~" is your profile's home directory, e.g. C:\Users\<YourName>
 [color]
   # Enable colors in color-supporting terminals
   ui = auto
@@ -227,7 +226,10 @@
 	directory = *
 [submodule]
 	recurse = true
+[credential]
+  ; username = "groutoutlook"
 [credential "https://github.com"]
+  username = "groutoutlook"
 	helper = store
 	helper = !gh auth git-credential
 	; helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
