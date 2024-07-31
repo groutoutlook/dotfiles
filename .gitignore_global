@@ -1,7 +1,5 @@
-*.zip
-
-
-
-
-
+# *.zip
+.envrc
+.env
+envrc
 

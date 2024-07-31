@@ -8,7 +8,7 @@
 [alias]
   # List available aliases
   aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
-  ; st = status
+  # st = status
   st = status -sb
   sw = switch
   sw- = switch -
@@ -60,14 +60,14 @@
   # Don't paginate output by default
   pager = bat
   # Global ignore file (not shared)
-	excludesfile = 
+	excludesfile = ~/.gitignore_global
   # Global shared hooks directory
   # hooksPath = ~/.githooks
   # VSCode
   editor = nvim
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
-	autocrlf = true
+	autocrlf = false
 	longpaths = true
 [diff]
   # Use better, descriptive initials (c, i, w) instead of a/b.
@@ -227,18 +227,28 @@
 [submodule]
 	recurse = true
 [credential]
-  ; username = "groutoutlook"
+  # username = "groutoutlook"
 [credential "https://github.com"]
   username = "groutoutlook"
 	helper = store
 	helper = !gh auth git-credential
-	; helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+	# helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = store
 	helper = !gh auth git-credential
-	; helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+	# helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
 [credential "https://gitlab.com"]
   helper = store
   helper = !glab auth git-credential
 [credential "helperselector"]
 	selected = manager
+# INFO
+[bitmapPseudoMerge "all"]
+  pattern = 'refs/(heads|tags)/'
+  threshold = now
+  stableThreshold = never
+[feature]
+  experimental = true
+
+[sequence]
+	editor = interactive-rebase-tool
