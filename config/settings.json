@@ -24,15 +24,6 @@
         {
             "command": 
             {
-                "action": "sendInput",
-                "input": "\u001b[13;5u"
-            },
-            "id": "User.sendInput.F8A79DCB",
-            "keys": "ctrl+enter"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "first"
             },
@@ -119,15 +110,6 @@
             "command": "toggleAlwaysOnTop",
             "id": "User.toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
-        },
-        {
-            "command": 
-            {
-                "action": "sendInput",
-                "input": "\u001b[13;2u"
-            },
-            "id": "User.sendInput.8882FD6D",
-            "keys": "shift+enter"
         },
         {
             "command": 

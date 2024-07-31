@@ -82,7 +82,7 @@
   # tool = vscode
   # pager for git, bat
   tool = difftastic
-  # external = difft
+  external = difft
 [difftool "difftastic"]
   prompt = false
   cmd = difft "$LOCAL" "$REMOTE"
@@ -90,7 +90,7 @@
   cmd = code --wait --diff $LOCAL $REMOTE
 [pager]
   difftool = true
-	diff = difftastic
+	diff = bat
 	# log = bat
 	reflog = bat
 [fetch]
@@ -240,3 +240,5 @@
 [credential "https://gitlab.com"]
   helper = store
   helper = !glab auth git-credential
+[credential "helperselector"]
+	selected = manager
