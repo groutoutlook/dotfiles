@@ -1,27 +1,15 @@
 [submodule "linux_env"]
 	path = linux_env
 	url = https://github.com/groutoutlook/linux_env.git
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/groutoutlook/nvim_dotfiles.git
 [submodule "powershell"]
 	path = powershell
 	url = https://github.com/groutoutlook/pwsh_settings.git
 [submodule "nvim_dotfiles"]
 	path = nvim_dotfiles
 	url = https://github.com/groutoutlook/nvim_dotfiles
-[submodule ".config/espanso"]
-	path = .config/espanso
-	url = https://github.com/groutoutlook/espansoConfig
-[submodule ".config/obsidian"]
-	path = .config/obsidian
-	url = https://github.com/groutoutlook/obsidianConfig
 [submodule ".config/wezterm"]
 	path = .config/wezterm
 	url = https://github.com/groutoutlook/weztermConfig
-[submodule ".config/yazi"]
-	path = .config/yazi
-	url = https://github.com/groutoutlook/yaziConfig
 [submodule "config/espanso"]
 	path = config/espanso
 	url = https://github.com/groutoutlook/espansoConfig

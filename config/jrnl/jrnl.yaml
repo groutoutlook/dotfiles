@@ -114,20 +114,24 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
   person:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PeopleJournal.md
+  ety:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
+  etym:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   phr:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   phrase:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
+  qt:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\QuoteJournal.md
+  quote:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\QuoteJournal.md
   physic:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\STEMJournal.md
   place:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PlacesJournal.md
   prog:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\ProgrammingJournal.md
-  qt:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
-  quote:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\PhraseJournal.md
   read:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\ReadAndListenJournal.md
   soft:
