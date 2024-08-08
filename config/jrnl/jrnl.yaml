@@ -56,8 +56,10 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\note_EDA\EDAJournal.md
   edit:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_IDEAndTools\Asset\Art\ArtToolsJournal.md
+  emb:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
   embed:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\ProgrammingJournal.md
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\FirmwareJournal.md
   ev:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\EventJournal.md
   event:
@@ -86,6 +88,8 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
   hack:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeHackJournal.md
+  psy:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeJournal.md
   life:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\LifeJournal.md
   linux:
@@ -158,12 +162,18 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Knowledge\journal\VocabJournal.md
   web:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\WebJournal.md
-  wf:
-    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   windows:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_software\journal\OSJournal.md
   work:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkJournal.md
+  wf:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
+  style:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
+  myrule:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
+  rule:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   workflow:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Business\WorkflowJournal.md
   freecad:
@@ -192,7 +202,18 @@ journals:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\PCB_Standard\PCBJournal.md
   pcba:
     journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_Embedded\PCB_Standard\PCBJournal.md
-
+  csci:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\CompSciJournal.md
+  cs:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\CompSciJournal.md
+  ui:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\GraphicUIJournal.md
+  gui:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\GraphicUIJournal.md
+  graph:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\GraphicUIJournal.md
+  grap:
+    journal: D:\ProgramDataD\Notes\Obsidian\Vault_2401\note_algo_lang\journal\GraphicUIJournal.md
 linewrap: 2000
 tagsymbols: "#@"
 template: false

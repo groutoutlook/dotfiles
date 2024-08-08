@@ -7,8 +7,8 @@
 [submodule "nvim_dotfiles"]
 	path = nvim_dotfiles
 	url = https://github.com/groutoutlook/nvim_dotfiles
-[submodule ".config/wezterm"]
-	path = .config/wezterm
+[submodule "config/wezterm"]
+	path = config/wezterm
 	url = https://github.com/groutoutlook/weztermConfig
 [submodule "config/espanso"]
 	path = config/espanso

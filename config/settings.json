@@ -62,21 +62,16 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": -10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.4C71C550",
-            "keys": "win+ctrl+minus"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 10,
                 "relative": true
             },
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -88,9 +83,14 @@
             "keys": "ctrl+alt+left"
         },
         {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": -10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.4C71C550",
+            "keys": "win+ctrl+minus"
         },
         {
             "command": 
@@ -407,8 +407,8 @@
             },
             {
                 "colorScheme": "Campbell",
-                "experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\superTranslucent.hlsl",
                 "experimental.pixelShaderImagePath": "C:\\Users\\COHOTECH\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-05-21 074649.png",
+                "experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\superTranslucent.hlsl",
                 "font": 
                 {
                     "face": "Iosevka Nerd Font Propo",
@@ -418,7 +418,7 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "PowerShell",
-                "opacity": 60,
+                "opacity": 70,
                 "padding": "0",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
@@ -474,7 +474,32 @@
             }
         ]
     },
-    "schemes": [],
+    "schemes": 
+    [
+        {
+            "background": "#16181A",
+            "black": "#16181A",
+            "blue": "#5EA1FF",
+            "brightBlack": "#3C4048",
+            "brightBlue": "#5EA1FF",
+            "brightCyan": "#5EF1FF",
+            "brightGreen": "#5EFF6C",
+            "brightPurple": "#BD5EFF",
+            "brightRed": "#FF6E5E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1FF5E",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#5EF1FF",
+            "foreground": "#FFFFFF",
+            "green": "#5EFF6C",
+            "name": "cyberdream",
+            "purple": "#BD5EFF",
+            "red": "#FF6E5E",
+            "selectionBackground": "#3C4048",
+            "white": "#FFFFFF",
+            "yellow": "#F1FF5E"
+        }
+    ],
     "startOnUserLogin": true,
     "tabWidthMode": "compact",
     "theme": "otherDark",
