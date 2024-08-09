@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "8/3/2024, 10:13:29 AM",
-	"time": 1722654809546,
+	"@time": "8/8/2024, 3:23:41 PM",
+	"time": 1723105421105,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
-		"chromium": 127
+		"chromium": 128
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -120,12 +120,13 @@
 		"# Add an additional mapping for Escape:",
 		"# mapkey <c-c> <c-[>",
 		"",
-		"map + LinkHints.activate",
-		"map \\ LinkHints.activate",
+		"map + LinkHints.activateCopyLinkUrl",
+		"map = LinkHints.activateCopyLinkText",
+		"map \\ LinkHints.activateCopyLinkUrl",
 		"",
 		"# INFO: some tab operations",
 		"# map TT previousTab",
-		"unmap T",
+		"# unmap T",
 		"map tt restoreTab",
 		"# map ;t reopenTab",
 		"# map T restoreTab",
@@ -148,8 +149,8 @@
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "qwerasdfc",
-	"linkHintNumbers": "123456789",
-	"newTabUrl": "google.com",
+	"linkHintNumbers": "1234';/.",
+	"newTabUrl": "duckduckgo.com",
 	"scrollStepSize": 120,
 	"searchEngines": [
 		"bi: https://cn.bing.com/search?q=$s",
@@ -185,8 +186,12 @@
 		"ge|gitee: https://search.gitee.com/?type=repository&q=$s \\",
 		"  blank=https://gitee.com/ Gitee 仓库",
 		"js\\:|Js: javascript:\\ $S; JavaScript",
+		"",
+		"# Search for bang syntax.",
+		"dg|bang|!: https://duckduckgo.com/bangs?q=%s",
 		""
 	],
+	"searchUrl": "https://duckduckgo.com/?q=$s DuckDuckGo",
 	"vimSync": true,
 	"waitForEnter": false,
 	"mapModifier": 1
