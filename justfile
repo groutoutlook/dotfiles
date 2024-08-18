@@ -32,5 +32,5 @@ run args=default_args:
 alias b := build
 build: 
     cp "C:\Users\COHOTECH\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
-    :bak && git suup && git rap
+    :bak && git suup && git wipp
     
