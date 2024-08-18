@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "8/8/2024, 3:23:41 PM",
-	"time": 1723105421105,
+	"@time": "8/18/2024, 5:54:31 PM",
+	"time": 1723978471806,
 	"environment": {
 		"extension": "1.99.994",
 		"platform": "win",
@@ -86,6 +86,7 @@
 		"",
 		"# delete a forward word",
 		"mapkey <a-d> <f3rmf>",
+		"mapkey <a-w:i> <f3rmf>",
 		"map <f3rmf> editText run=\"extend,forward,word,exec,delete,\"",
 		"",
 		"# delete forward character",
@@ -140,11 +141,12 @@
 		"map <a-s> goBack",
 		"",
 		"# mark ",
-		"map ' Marks.activate",
+		"# map ' Marks.activate",
 		"map \" Marks.activateCreate",
 		"",
 		"# others",
 		"map ;s sortTabs",
+		"map ' LinkHints.activateSelect",
 		""
 	],
 	"keyupTime": 100,
@@ -189,6 +191,7 @@
 		"",
 		"# Search for bang syntax.",
 		"dg|bang|!: https://duckduckgo.com/bangs?q=%s",
+		"mg|mar: https://search.marginalia.nu/search?query=%s",
 		""
 	],
 	"searchUrl": "https://duckduckgo.com/?q=$s DuckDuckGo",

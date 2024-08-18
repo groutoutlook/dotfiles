@@ -4,6 +4,15 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "id": "User.resizePane.6CD791B",
+            "keys": "ctrl+alt+up"
+        },
+        {
             "command": "openSystemMenu",
             "id": "User.openSystemMenu",
             "keys": "alt+shift+space"
@@ -15,11 +24,12 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "up"
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
             },
-            "id": "User.resizePane.6CD791B",
-            "keys": "ctrl+alt+up"
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
         },
         {
             "command": 
@@ -42,21 +52,25 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
             "id": "User.adjustOpacity.A7506725",
             "keys": "win+ctrl+numpad9"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizePane.2A0DA8E0",
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -67,20 +81,6 @@
             },
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "left"
-            },
-            "id": "User.resizePane.2A0DA8E0",
-            "keys": "ctrl+alt+left"
         },
         {
             "command": 
@@ -530,5 +530,5 @@
         }
     ],
     "useAcrylicInTabRow": true,
-    "windowingBehavior": "useNew"
+    "windowingBehavior": "useExisting"
 }
