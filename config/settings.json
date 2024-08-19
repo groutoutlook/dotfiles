@@ -407,8 +407,8 @@
             },
             {
                 "colorScheme": "Campbell",
-                "experimental.pixelShaderImagePath": "C:\\Users\\COHOTECH\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-05-21 074649.png",
-                "experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\superTranslucent.hlsl",
+                //"experimental.pixelShaderImagePath": "C:\\Users\\COHOTECH\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-05-21 074649.png",
+                //"experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\superTranslucent.hlsl",
                 "font": 
                 {
                     "face": "Iosevka Nerd Font Propo",
