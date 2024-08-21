@@ -10,6 +10,8 @@ encrypt: false
 highlight: true
 indent_character: ""
 journals:
+  ali:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
   :1688:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
   acc:
