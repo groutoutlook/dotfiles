@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "8/19/2024, 12:30:21 PM",
-	"time": 1724045421179,
+	"@time": "8/24/2024, 10:42:29 AM",
+	"time": 1724470949285,
 	"environment": {
-		"extension": "1.99.994",
+		"extension": "2.11.3",
 		"platform": "win",
-		"chromium": 128
+		"chromium": 126
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -72,7 +72,7 @@
 		"map p openCopiedUrlInNewTab",
 		"",
 		"# mapKey <c-s> <o>",
-		"map <c-s> createTab url=\"extension://aibcglbfblnogfjhbcmmpobjhnomhcdo/pages/options.html\"",
+		"map <c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"# same reason why <f1> is used for help.",
 		"map <f1> showHelp",
 		"",
@@ -86,7 +86,6 @@
 		"",
 		"# delete a forward word",
 		"mapkey <a-d> <f3rmf>",
-		"mapkey <a-w:i> <f3rmf>",
 		"map <f3rmf> editText run=\"extend,forward,word,exec,delete,\"",
 		"",
 		"# delete forward character",
@@ -151,7 +150,7 @@
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "qwerasdfc",
-	"linkHintNumbers": "1234';/.",
+	"linkHintNumbers": "0123456",
 	"newTabUrl": "duckduckgo.com",
 	"scrollStepSize": 120,
 	"searchEngines": [
