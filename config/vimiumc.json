@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "8/24/2024, 10:42:29 AM",
-	"time": 1724470949285,
+	"@time": "9/10/2024, 2:47:55 PM",
+	"time": 1725954475315,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
-		"chromium": 126
+		"chromium": 129
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -135,7 +135,7 @@
 		"",
 		"# unmap <a-u> ",
 		"unmap L",
-		"map <a-u> goUp",
+		"map <a-s-w> goToRoot",
 		"map <a-w> goUp",
 		"map <a-s> goBack",
 		"",
