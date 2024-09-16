@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "9/16/2024, 2:02:07 PM",
-	"time": 1726470127102,
+	"@time": "9/16/2024, 2:33:38 PM",
+	"time": 1726472018239,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -158,12 +158,16 @@
 		"# HACK: very dirty those, this should be in browsers' settings",
 		"map <c-h> createTab url=\"chrome://history/\"",
 		"map <c-s-x> createTab url=\"chrome://extensions/\"",
+		"",
+		"# INFO: new tab",
+		"map ;n createTab url=\"chrome://newtab\"",
 		""
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "qwerasdfc",
-	"linkHintNumbers": "0123456",
+	"linkHintNumbers": "012345",
 	"newTabUrl": "duckduckgo.com",
+	"regexFindMode": true,
 	"scrollStepSize": 120,
 	"searchEngines": [
 		"bi: https://cn.bing.com/search?q=$s",
