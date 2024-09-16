@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "9/12/2024, 10:28:01 AM",
-	"time": 1726111681690,
+	"@time": "9/16/2024, 2:02:07 PM",
+	"time": 1726470127102,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -10,15 +10,14 @@
 	"allBrowserUrls": true,
 	"extAllowList": [
 		"# modified versions of X New Tab and PDF Viewer,",
-		"# NewTab Adapter, and Shortcuts Forwarding Tool",
 		"hdnehngglnbnehkfcidabjckinphnief",
 		"nacjakoppgmdcpemlfnfegmlhipddanj",
 		"onlpodkdakgonlmodbgapcbigpcimokd",
-		"cglpcedifkgalfdklahhcchnjepcckfn",
-		"clnalilglegcjmlgenoppklmfppddien",
+		"",
 		"# EdgeTranslate",
 		"bocbaocobfecmglnmeaeppambideimao",
 		"bfdogplmndidlpjfhoijckpakkdjkkil",
+		"",
 		"# SalaDict",
 		"cdonnmffkdaoajfknoeeecmchibpmkmg",
 		"idghocbbahafpfhjnfhpbfbmpegphmmp",
@@ -30,10 +29,16 @@
 		"",
 		"#refined github",
 		"hlepfoohegkhhmjieoechaddaejaokhf",
+		"",
+		"# NewTab Adapter",
+		"cglpcedifkgalfdklahhcchnjepcckfn",
+		"",
+		"# Shortcuts Forwarding Tool",
+		"clnalilglegcjmlgenoppklmfppddien",
 		""
 	],
 	"filterLinkHints": true,
-	"keyLayout": 66,
+	"keyLayout": 130,
 	"keyMappings": [
 		"#!no-check",
 		"# unmapping overlay keybinding.",
@@ -203,5 +208,5 @@
 	"searchUrl": "https://duckduckgo.com/?q=$s DuckDuckGo",
 	"vimSync": true,
 	"waitForEnter": false,
-	"mapModifier": 1
+	"mapModifier": 2
 }
