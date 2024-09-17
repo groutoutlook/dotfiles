@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "9/16/2024, 2:33:38 PM",
-	"time": 1726472018239,
+	"@time": "18/09/2024, 00:12:12",
+	"time": 1726593132143,
 	"environment": {
 		"extension": "2.11.3",
-		"platform": "win",
-		"chromium": 129
+		"platform": "android",
+		"chromium": 120
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -76,8 +76,6 @@
 		"unmap p",
 		"map p openCopiedUrlInNewTab",
 		"",
-		"# mapKey <c-s> <o>",
-		"map <c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"# same reason why <f1> is used for help.",
 		"map <f1> showHelp",
 		"",
@@ -161,6 +159,11 @@
 		"",
 		"# INFO: new tab",
 		"map ;n createTab url=\"chrome://newtab\"",
+		"",
+		"# HACK: quick open this extension options",
+		"# mapKey <c-s> <o>",
+		"map <c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
+		"map ss createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		""
 	],
 	"keyupTime": 100,
