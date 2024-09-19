@@ -187,6 +187,27 @@
       "Description"
     ],
     "open_libs": [
+      "Device",
+      "Mechanical",
+      "RF_Module",
+      "Sensor_Pressure",
+      "Regulator_Linear",
+      "Amplifier_Audio",
+      "Amplifier_Operational",
+      "Analog_Switch",
+      "Battery_Management",
+      "CPLD_Altera",
+      "Driver_LED",
+      "FPGA_CologneChip_GateMate",
+      "FPGA_Lattice",
+      "Interface_Expansion",
+      "MCU_Dialog",
+      "Memory_Flash",
+      "Regulator_Controller",
+      "Regulator_Switching",
+      "Sensor_Humidity",
+      "Sensor_Optical",
+      "Switch",
       "March_Lib"
     ]
   },
@@ -197,11 +218,11 @@
     "window": {
       "display": 0,
       "maximized": false,
-      "perspective": "",
-      "pos_x": 0,
-      "pos_y": 0,
-      "size_x": 500,
-      "size_y": 400
+      "perspective": "layout2|",
+      "pos_x": 26,
+      "pos_y": 26,
+      "size_x": 873,
+      "size_y": 750
     }
   },
   "meta": {
@@ -282,6 +303,7 @@
   },
   "system": {
     "file_history": [
+      "D:\\ProgramDataD\\EDA_General\\proj\\rgb-microdot-to-strip\\rgb-microdot-to-strip\\rgb-microdot-to-strip.kicad_sch",
       "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0.kicad_sch",
       "D:\\ProgramDataD\\Padauk\\EDA\\4_Port\\4Port\\4Port.kicad_sch"
     ],

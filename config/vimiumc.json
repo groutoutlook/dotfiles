@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "18/09/2024, 00:12:12",
-	"time": 1726593132143,
+	"@time": "9/19/2024, 11:03:40 PM",
+	"time": 1726761820192,
 	"environment": {
 		"extension": "2.11.3",
-		"platform": "android",
-		"chromium": 120
+		"platform": "win",
+		"chromium": 129
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -168,7 +168,7 @@
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "qwerasdfc",
-	"linkHintNumbers": "012345",
+	"linkHintNumbers": "`12345",
 	"newTabUrl": "duckduckgo.com",
 	"regexFindMode": true,
 	"scrollStepSize": 120,
