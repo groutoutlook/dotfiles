@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "9/20/2024, 7:35:00 AM",
-	"time": 1726792500445,
+	"@time": "9/22/2024, 12:19:25 PM",
+	"time": 1726982365997,
 	"environment": {
-		"extension": "1.99.997",
+		"extension": "2.11.3",
 		"platform": "win",
-		"firefox": 130
+		"chromium": 129
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -158,12 +158,13 @@
 		"map <c-s-x> createTab url=\"chrome://extensions/\"",
 		"",
 		"# INFO: new tab",
-		"map ;n createTab url=\"chrome://newtab\"",
+		"# map ;n createTab url=\"chrome://newtab\"",
+		"map ;w moveTabToNewWindow",
 		"",
 		"# HACK: quick open this extension options",
 		"# mapKey <c-s> <o>",
-		"map <c-s> createTab url=\"moz-extension://1b35502e-226b-401a-9607-5e1db5ea7916/pages/options.html\"",
-		"map ss createTab url=\"moz-extension://1b35502e-226b-401a-9607-5e1db5ea7916/pages/options.html\"",
+		"map <c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
+		"map ss createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		""
 	],
 	"keyupTime": 100,
