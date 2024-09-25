@@ -14,14 +14,6 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
-        },
-        {
-            "command": 
-            {
                 "action": "adjustOpacity",
                 "opacity": 0,
                 "relative": false
@@ -31,9 +23,10 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
+                "action": "swapPane",
+                "direction": "nextInOrder"
             },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": 
@@ -47,10 +40,21 @@
         {
             "command": 
             {
+                "action": "showSuggestions"
+            },
+            "id": "User.showSuggestions.2F7A7303"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "down"
             },
             "id": "User.moveFocus.F747588A"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
         },
         {
             "command": 
@@ -61,12 +65,12 @@
             "id": "User.resizePane.2A0DA8E0"
         },
         {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
-        },
-        {
             "command": "find",
             "id": "User.find"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "id": "User.toggleAlwaysOnTop"
         },
         {
             "command": 
@@ -88,8 +92,12 @@
             "id": "User.splitPane.FEF0D40B"
         },
         {
-            "command": "toggleAlwaysOnTop",
-            "id": "User.toggleAlwaysOnTop"
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "id": "User.resizePane.F747588A"
         },
         {
             "command": 
@@ -109,20 +117,12 @@
             "id": "User.moveFocus.2A0DA8E0"
         },
         {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "down"
-            },
-            "id": "User.resizePane.F747588A"
+            "command": "toggleBroadcastInput",
+            "id": "User.toggleBroadcastInput"
         },
         {
             "command": "paste",
             "id": "User.paste"
-        },
-        {
-            "command": "toggleBroadcastInput",
-            "id": "User.toggleBroadcastInput"
         },
         {
             "command": 
@@ -175,6 +175,14 @@
         {
             "command": 
             {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.6CD791B"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "down",
                 "splitMode": "duplicate"
@@ -186,21 +194,13 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "up"
+                "direction": "nextInOrder"
             },
-            "id": "User.moveFocus.6CD791B"
+            "id": "User.moveFocus.D7681B66"
         },
         {
             "command": "toggleFocusMode",
             "id": "User.toggleFocusMode"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "nextInOrder"
-            },
-            "id": "User.moveFocus.D7681B66"
         },
         {
             "command": 
@@ -255,32 +255,24 @@
     "keybindings": 
     [
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": null,
-            "keys": "win+`"
-        },
-        {
-            "id": "User.resizePane.6CD791B",
-            "keys": "ctrl+alt+up"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": "Terminal.OpenSystemMenu",
             "keys": "alt+shift+space"
         },
         {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "win+alt+space"
-        },
-        {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "alt+shift+left"
+            "id": "User.resizePane.6CD791B",
+            "keys": "ctrl+alt+up"
         },
         {
             "id": "Terminal.MoveFocusFirst",
@@ -289,6 +281,14 @@
         {
             "id": null,
             "keys": "i"
+        },
+        {
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+left"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "win+alt+space"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -490,10 +490,10 @@
                 "name": "Command Prompt"
             },
             {
+                "backgroundImage": "C:\\Users\\COHOTECH\\hw\\obs\\Pasted image 20240921184240.png",
                 "colorScheme": "Campbell",
                 "font": 
                 {
-                    "face": "Iosevka Nerd Font Propo",
                     "size": 14
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
