@@ -31,6 +31,10 @@ run args=default_args:
 
 alias b := build
 build: 
+    #!{{ shebang }}
     cp "C:\Users\COHOTECH\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
+    if (( (fd settings_[\d]+).PSObject.TypeNames -contains "System.Array" ) -eq $true ){
+        rm (fd settings_[\d]+)[0]
+    }
     :bak && git suup && git wipp
     
