@@ -30,11 +30,23 @@ run args=default_args:
 
 
 alias b := build
-build: 
+default_args_build := 'wip'
+build args=default_args_build: 
     #!{{ shebang }}
     cp "C:\Users\COHOTECH\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
     if (( (fd settings_[\d]+).PSObject.TypeNames -contains "System.Array" ) -eq $true ){
         rm (fd settings_[\d]+)[0]
+        Write-Host "new PowerToys settings" -ForegroundColor Blue
     }
-    :bak && git suup && git wipp
+    :bak
+    if ( "{{default_args_build}}" -eq "wip" ){
+        git suup && git wipp
+    }
+    else{
+        Write-Host "rap it" -ForegroundColor Red
+        git rap
+    }
     
+br:
+    just build rap
+    @Write-Host "Rap it" -ForegroundColor Red
