@@ -114,12 +114,6 @@ journals:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//OSJournal.md
   other:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//OtherKnowledgeJournal.md
-  people:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PeopleJournal.md
-  per:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PeopleJournal.md
-  person:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PeopleJournal.md
   ety:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PhraseJournal.md
   etym:
@@ -227,6 +221,8 @@ journals:
   conn:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
   pp:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+  peop:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
   people:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
