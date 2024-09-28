@@ -224,6 +224,14 @@ journals:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
   self:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
+  conn:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+  pp:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+  people:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+  social:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
 
 linewrap: 2000
 tagsymbols: "#@"
