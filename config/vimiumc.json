@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "9/27/2024, 1:57:09 PM",
-	"time": 1727420229042,
+	"@time": "9/29/2024, 7:04:08 PM",
+	"time": 1727611448862,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
-		"chromium": 129
+		"chromium": 130
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -104,10 +104,11 @@
 		"# mapKey <c-s-z> <esc>",
 		"# Add an additional mapping for Escape:",
 		"# mapkey <c-c> <c-[>",
-		"",
+		"# INFO: FindMode",
 		"map + LinkHints.activateCopyLinkUrl",
 		"map = LinkHints.activateCopyLinkText",
 		"map \\ LinkHints.activateCopyLinkUrl",
+		"map <a-x> LinkHints.click",
 		"",
 		"# INFO: some tab operations",
 		"unmap t",
@@ -146,10 +147,8 @@
 		"",
 		"",
 		"# HACK: testing Shortcut Forwarding Tools, as now it's only used within vimium",
-		"# userCustomized1 = \"<a-s-0>\"",
-		"# shortcut userCustomized1 command=\"showHelp\"",
-		"shortcut createTab $then=\"showHelp\"",
-		"shortcut userCustomized1 command=\"createTab\"",
+		"# userCustomized1 = \"<c-s-q>\"",
+		"shortcut userCustomized1 command=\"Vomnibar.activateTabs\"",
 		""
 	],
 	"keyupTime": 100,
