@@ -34,8 +34,10 @@ journals:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
   art:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+  model:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
   asset:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//AssetJournal.md
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
   blog:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//ReadAndListenJournal.md
   book:

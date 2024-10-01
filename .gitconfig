@@ -54,10 +54,13 @@
   raps = reapplyslow
   # ci = commit
   cif = !"git add . && git commit && git puf"
-  cij = !"git add . && gitmoji -c && git push"
+  # cij = !"git add . && gitmoji -c && git push"
   
   suup = submodule update --remote
   suin = submodule update --init
+  
+  chp = cherry-pick -
+
 	quick-stats = !C:\\Users\\COHOTECH\\scoop\\apps\\git-quick-stats\\current\\git-quick-stats
 [core]
   # Don't paginate output by default
