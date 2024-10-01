@@ -12,6 +12,8 @@ indent_character: ""
 journals:
   ali:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
+  :1:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
   :1688:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
   acc:
@@ -20,6 +22,12 @@ journals:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//AcronymJournal.md
   cad3d:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
+  :3:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+  :3d:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+  three:
+    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
   draw:
     journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
   blend:
