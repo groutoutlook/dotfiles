@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "9/30/2024, 12:47:59 PM",
-	"time": 1727675279629,
+	"@time": "10/1/2024, 11:44:45 AM",
+	"time": 1727757885426,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -134,7 +134,6 @@
 		"map <c-s-x> createTab url=\"chrome://extensions/\"",
 		"",
 		"# INFO: new tab",
-		"# map ;n createTab url=\"chrome://newtab\"",
 		"map ;w moveTabToNewWindow",
 		"",
 		"# HACK: quick open this extension options",
@@ -155,6 +154,9 @@
 		"# INFO: accessing insert mode in left hand",
 		"map A enterInsertMode",
 		"",
+		"# INFO: ",
+		"# unmap -",
+		"# map -- goNext pattern=\"[–]\"",
 		"",
 		"# HACK: testing Shortcut Forwarding Tools, as now it's only used within vimium",
 		"# userCustomized1 = \"<c-s-q>\"",

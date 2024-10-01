@@ -34,7 +34,7 @@
   review-local = "!git lg @{push}.."
   rv-local = "!git lg @{push}.."
   # Edit last commit message
-  reword = commit --amend
+  reword = !git commit --amend && git puf
   
   # Undo last commit but keep changed files in stage
   uncommit = !"git c-1 && git reset --soft HEAD~1"
