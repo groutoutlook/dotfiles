@@ -10,236 +10,351 @@ encrypt: false
 highlight: true
 indent_character: ""
 journals:
-  ali:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
   :1:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
+    journal: ~/hw/obs/note_Items//1688Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :1688:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//1688Journal.md
-  acc:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//secret//AccountJournal.md
-  acro:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//AcronymJournal.md
-  cad3d:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
+    journal: ~/hw/obs/note_Items//1688Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :3:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :3d:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-  three:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-  draw:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-  blend:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  acc:
+    journal: ~/hw/obs/note_Knowledge//secret//AccountJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  acro:
+    journal: ~/hw/obs/note_Knowledge//journal//AcronymJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ali:
+    journal: ~/hw/obs/note_Items//1688Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   art:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-  model:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   asset:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  blend:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   blog:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//ReadAndListenJournal.md
+    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   book:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//ReadAndListenJournal.md
-  cad:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
-  come:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//WholesomeJournal.md
-  inte:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ProtocolJournal.md
-  prot:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ProtocolJournal.md
+    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   bus:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ProtocolJournal.md
-  wire:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ProtocolJournal.md
-  comp:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ComponentJournal.md
-  default:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//MainJournal.md
-  eco:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//EconomyJournal.md
-  econ:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//EconomyJournal.md
-  ecad:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//note_EDA//EDAJournal.md
-  eda:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//note_EDA//EDAJournal.md
-  edit:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-  emb:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  embed:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  ev:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//EventJournal.md
-  event:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//EventJournal.md
-  firm:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  fw:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  hard:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//HardwareJournal.md
-  hh:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//WholesomeJournal.md
-  hw:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//HardwareJournal.md
-  item:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//OtherItemsJournal.md
-  kicad:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//note_EDA//EDAJournal.md
-  lang:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//LangJournal.md
-  tip:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeHackJournal.md
-  ltip:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeHackJournal.md
-  lhack:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeHackJournal.md
-  hack:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeHackJournal.md
-  psy:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeJournal.md
-  life:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//LifeJournal.md
-  linux:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//OSJournal.md
-  lowsw:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  math:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//STEMJournal.md
-  mech:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
-  media:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//NewsJournal.md
-  meme:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//WholesomeJournal.md
-  new:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//NewsJournal.md
-  news:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//NewsJournal.md
-  os:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//OSJournal.md
-  other:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//OtherKnowledgeJournal.md
-  ety:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PhraseJournal.md
-  etym:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PhraseJournal.md
-  phr:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PhraseJournal.md
-  phrase:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PhraseJournal.md
-  qt:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//QuoteJournal.md
-  quote:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//QuoteJournal.md
-  physic:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//STEMJournal.md
-  place:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//PlacesJournal.md
-  prog:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//ProgrammingJournal.md
-  read:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//ReadAndListenJournal.md
-  soft:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//SoftwareJournal.md
-  stem:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//STEMJournal.md
-  stm:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//FirmwareJournal.md
-  sw:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//SoftwareJournal.md
-  taobao:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Items//TaobaoJournal.md
-  til:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//OtherKnowledgeJournal.md
-  mus:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_discography//MusicJournal.md
-  music:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_discography//MusicJournal.md
-  vid:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_discography//VideoJournal.md
-  video:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_discography//VideoJournal.md
-  vocab:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Knowledge//journal//VocabJournal.md
-  web:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//WebJournal.md
-  windows:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_software//journal//OSJournal.md
-  work:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkJournal.md
-  wf:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkflowJournal.md
-  style:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkflowJournal.md
-  myrule:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkflowJournal.md
-  rule:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkflowJournal.md
-  workflow:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//WorkflowJournal.md
-  freecad:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
-  fcad:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_IDEAndTools//Asset//CAD//CADJournal.md
-  module:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ChipsetJournal.md
-  ic:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ChipsetJournal.md
+    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cad:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cad3d:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   chip:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ChipsetJournal.md
-  soc:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//ChipsetJournal.md
-  html:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_os_web//SDK//WebProgJournal.md
-  wasm:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_os_web//SDK//WebProgJournal.md
-  wprog:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_os_web//SDK//WebProgJournal.md
-  wpro:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_os_web//SDK//WebProgJournal.md
-  pcb:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//PCB_Standard//PCBJournal.md
-  viap:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//PCB_Standard//PCBJournal.md
-  pcba:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Embedded//PCB_Standard//PCBJournal.md
-  csci:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//CompSciJournal.md
-  cs:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//CompSciJournal.md
-  ui:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//GraphicUIJournal.md
-  gui:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//GraphicUIJournal.md
-  graph:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//GraphicUIJournal.md
-  grap:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_algo_lang//journal//GraphicUIJournal.md
-  interest:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
-  like:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
-  pers:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
-  self:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_entertainment//note_interest//PersonalJournal.md
+    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  come:
+    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  comp:
+    journal: ~/hw/obs/note_Embedded//ComponentJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   conn:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
-  pp:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
-  pger: # well you see.
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cs:
+    journal: ~/hw/obs/note_algo_lang//journal//CompSciJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  csci:
+    journal: ~/hw/obs/note_algo_lang//journal//CompSciJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  default:
+    journal: ~/hw/obs/MainJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  draw:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ecad:
+    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  eco:
+    journal: ~/hw/obs/note_Knowledge//journal//EconomyJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  econ:
+    journal: ~/hw/obs/note_Knowledge//journal//EconomyJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  eda:
+    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  edit:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  emb:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  embed:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ety:
+    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  etym:
+    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ev:
+    journal: ~/hw/obs/note_Knowledge//journal//EventJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  event:
+    journal: ~/hw/obs/note_Knowledge//journal//EventJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fcad:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  firm:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  freecad:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fw:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  grap:
+    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  graph:
+    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  gui:
+    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hack:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hard:
+    journal: ~/hw/obs/note_Embedded//HardwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hh:
+    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  html:
+    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hw:
+    journal: ~/hw/obs/note_Embedded//HardwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ic:
+    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  inte:
+    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  interest:
+    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  item:
+    journal: ~/hw/obs/note_Items//OtherItemsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  kicad:
+    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lang:
+    journal: ~/hw/obs/note_algo_lang//journal//LangJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lhack:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  life:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  like:
+    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  linux:
+    journal: ~/hw/obs/note_software//journal//OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lowsw:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ltip:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  math:
+    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mech:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  media:
+    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  meme:
+    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  model:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  module:
+    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mus:
+    journal: ~/hw/obs/note_entertainment//note_discography//MusicJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  music:
+    journal: ~/hw/obs/note_entertainment//note_discography//MusicJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  myrule:
+    journal: ~/hw/obs/note_Business//WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  new:
+    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  news:
+    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  os:
+    journal: ~/hw/obs/note_software//journal//OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  other:
+    journal: ~/hw/obs/note_Knowledge//journal//OtherKnowledgeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pcb:
+    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pcba:
+    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   peop:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   people:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pers:
+    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pger:
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phr:
+    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phrase:
+    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  physic:
+    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  place:
+    journal: ~/hw/obs/note_Knowledge//journal//PlacesJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pp:
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  prog:
+    journal: ~/hw/obs/note_algo_lang//journal//ProgrammingJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  prot:
+    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  psy:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  qt:
+    journal: ~/hw/obs/note_Knowledge//journal//QuoteJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  quote:
+    journal: ~/hw/obs/note_Knowledge//journal//QuoteJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  read:
+    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  rule:
+    journal: ~/hw/obs/note_Business//WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  self:
+    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  soc:
+    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   social:
-    journal: D://ProgramDataD//Notes//Obsidian//Vault_2401//note_Business//ConnectionJournal.md
+    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  soft:
+    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  stem:
+    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  stm:
+    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  style:
+    journal: ~/hw/obs/note_Business//WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  sw:
+    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  taobao:
+    journal: ~/hw/obs/note_Items//TaobaoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  three:
+    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  til:
+    journal: ~/hw/obs/note_Knowledge//journal//OtherKnowledgeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tip:
+    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ui:
+    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  viap:
+    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vid:
+    journal: ~/hw/obs/note_entertainment//note_discography//VideoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  video:
+    journal: ~/hw/obs/note_entertainment//note_discography//VideoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vocab:
+    journal: ~/hw/obs/note_Knowledge//journal//VocabJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wasm:
+    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  web:
+    journal: ~/hw/obs/note_software//journal//WebJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wf:
+    journal: ~/hw/obs/note_Business//WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  windows:
+    journal: ~/hw/obs/note_software//journal//OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wire:
+    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  work:
+    journal: ~/hw/obs/note_Business//WorkJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  workflow:
+    journal: ~/hw/obs/note_Business//WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wpro:
+    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wprog:
+    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
 
 linewrap: 2000
 tagsymbols: "#@"
