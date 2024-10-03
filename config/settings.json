@@ -65,6 +65,14 @@
             "id": "User.resizePane.2A0DA8E0"
         },
         {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "git -C C:\\Users\\COHOTECH\\hw\\obs rap"
+            },
+            "id": "User.sendInput.3C8C8ECD"
+        },
+        {
             "command": "find",
             "id": "User.find"
         },
@@ -275,20 +283,20 @@
             "keys": "ctrl+alt+up"
         },
         {
-            "id": "Terminal.MoveFocusFirst",
-            "keys": "ctrl+alt+shift+1"
-        },
-        {
             "id": null,
             "keys": "i"
         },
         {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "alt+shift+left"
+            "id": "Terminal.MoveFocusFirst",
+            "keys": "ctrl+alt+shift+1"
         },
         {
             "id": "Terminal.OpenSystemMenu",
             "keys": "win+alt+space"
+        },
+        {
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+left"
         },
         {
             "id": "User.resizePane.2A0DA8E0",

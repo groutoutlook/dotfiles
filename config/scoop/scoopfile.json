@@ -24,8 +24,8 @@
     {
       "Name": "act",
       "Source": "main",
-      "Updated": "2024-09-11T13:21:13.000000+07:00",
-      "Version": "0.2.67",
+      "Updated": "2024-10-01T15:33:31.000000+07:00",
+      "Version": "0.2.68",
       "Info": ""
     },
     {
@@ -59,8 +59,8 @@
     {
       "Name": "android-studio",
       "Source": "extras",
-      "Updated": "2024-09-19T16:20:47.000000+07:00",
-      "Version": "2024.1.2.13",
+      "Updated": "2024-10-02T10:09:19.000000+07:00",
+      "Version": "2024.2.1.9",
       "Info": ""
     },
     {
@@ -190,6 +190,13 @@
       "Info": ""
     },
     {
+      "Name": "blockbench",
+      "Source": "anderlli0053_DEV-tools",
+      "Updated": "2024-10-01T13:11:49.000000+07:00",
+      "Version": "4.11.1",
+      "Info": ""
+    },
+    {
       "Name": "bottom",
       "Source": "main",
       "Updated": "2024-08-08T12:30:57.000000+07:00",
@@ -199,15 +206,15 @@
     {
       "Name": "brave",
       "Source": "extras",
-      "Updated": "2024-09-26T10:48:37.000000+07:00",
-      "Version": "1.70.119",
+      "Updated": "2024-10-03T09:34:05.000000+07:00",
+      "Version": "1.70.123",
       "Info": ""
     },
     {
       "Name": "bruno",
       "Source": "extras",
-      "Updated": "2024-09-30T20:35:02.000000+07:00",
-      "Version": "1.31.0",
+      "Updated": "2024-10-02T10:09:19.000000+07:00",
+      "Version": "1.32.0",
       "Info": ""
     },
     {
@@ -248,8 +255,8 @@
     {
       "Name": "chromedriver",
       "Source": "main",
-      "Updated": "2024-09-25T09:15:08.000000+07:00",
-      "Version": "129.0.6668.70",
+      "Updated": "2024-10-02T10:09:19.000000+07:00",
+      "Version": "129.0.6668.89",
       "Info": ""
     },
     {
@@ -278,13 +285,6 @@
       "Source": "main",
       "Updated": "2024-10-01T09:43:19.000000+07:00",
       "Version": "2.8.0",
-      "Info": ""
-    },
-    {
-      "Name": "copyq",
-      "Source": "extras",
-      "Updated": "2024-09-10T15:03:11.000000+07:00",
-      "Version": "9.0.0",
       "Info": ""
     },
     {
@@ -342,13 +342,6 @@
       "Updated": "2024-09-06T10:42:26.000000+07:00",
       "Version": "1.46.3",
       "Info": ""
-    },
-    {
-      "Name": "devpod",
-      "Source": "Unknown",
-      "Updated": "2024-10-01T09:56:07.000000+07:00",
-      "Version": "",
-      "Info": "Install failed"
     },
     {
       "Name": "diffsitter",
@@ -521,14 +514,14 @@
     {
       "Name": "firefox",
       "Source": "extras",
-      "Updated": "2024-10-01T11:09:06.000000+07:00",
+      "Updated": "2024-10-03T12:09:05.000000+07:00",
       "Version": "128.0",
       "Info": ""
     },
     {
       "Name": "firefox-nightly",
       "Source": "versions",
-      "Updated": "2024-10-01T11:50:34.000000+07:00",
+      "Updated": "2024-10-03T12:50:30.000000+07:00",
       "Version": "132.0a1.20240919095816",
       "Info": ""
     },
@@ -552,6 +545,20 @@
       "Updated": "2024-09-27T21:30:40.000000+07:00",
       "Version": "4.134",
       "Info": ""
+    },
+    {
+      "Name": "fontforge",
+      "Source": "extras",
+      "Updated": "2024-10-02T12:28:59.000000+07:00",
+      "Version": "20230101",
+      "Info": ""
+    },
+    {
+      "Name": "freeoffice-np",
+      "Source": "Unknown",
+      "Updated": "2024-10-02T19:31:54.000000+07:00",
+      "Version": "",
+      "Info": "Install failed"
     },
     {
       "Name": "fsviewer",
@@ -591,8 +598,8 @@
     {
       "Name": "gcloud",
       "Source": "extras",
-      "Updated": "2024-09-25T09:15:16.000000+07:00",
-      "Version": "494.0.0",
+      "Updated": "2024-10-02T10:09:30.000000+07:00",
+      "Version": "495.0.0",
       "Info": ""
     },
     {
@@ -717,8 +724,8 @@
     {
       "Name": "go",
       "Source": "main",
-      "Updated": "2024-09-06T10:42:41.000000+07:00",
-      "Version": "1.23.1",
+      "Updated": "2024-10-02T10:09:35.000000+07:00",
+      "Version": "1.23.2",
       "Info": ""
     },
     {
@@ -841,6 +848,13 @@
       "Info": ""
     },
     {
+      "Name": "hibit-startup-manager",
+      "Source": "extras",
+      "Updated": "2024-10-02T11:53:55.000000+07:00",
+      "Version": "2.6.50",
+      "Info": ""
+    },
+    {
       "Name": "hledger",
       "Source": "main",
       "Updated": "2024-09-10T11:35:48.000000+07:00",
@@ -873,6 +887,13 @@
       "Source": "extras",
       "Updated": "2024-08-17T14:06:10.000000+07:00",
       "Version": "2.5.1",
+      "Info": ""
+    },
+    {
+      "Name": "iamb",
+      "Source": "okibcn_ScoopMaster",
+      "Updated": "2024-10-01T19:59:21.000000+07:00",
+      "Version": "0.0.10",
       "Info": ""
     },
     {
@@ -1046,8 +1067,8 @@
     {
       "Name": "krita",
       "Source": "extras",
-      "Updated": "2024-09-26T10:48:38.000000+07:00",
-      "Version": "5.2.5",
+      "Updated": "2024-10-02T10:09:37.000000+07:00",
+      "Version": "5.2.6",
       "Info": ""
     },
     {
@@ -1125,6 +1146,13 @@
       "Source": "extras",
       "Updated": "2024-06-27T12:41:16.000000+07:00",
       "Version": "2.32.0",
+      "Info": ""
+    },
+    {
+      "Name": "llamafile_dodorz",
+      "Source": "kkzzhizhou_scoop-apps",
+      "Updated": "2024-10-03T13:59:16.000000+07:00",
+      "Version": "0.8.13",
       "Info": ""
     },
     {
@@ -1359,13 +1387,6 @@
       "Info": ""
     },
     {
-      "Name": "mtail",
-      "Source": "Unknown",
-      "Updated": "2024-10-01T10:10:47.000000+07:00",
-      "Version": "",
-      "Info": "Install failed"
-    },
-    {
       "Name": "mupdf",
       "Source": "extras",
       "Updated": "2024-07-01T19:35:27.000000+07:00",
@@ -1403,8 +1424,8 @@
     {
       "Name": "nginx",
       "Source": "main",
-      "Updated": "2024-08-15T01:11:05.000000+07:00",
-      "Version": "1.27.1",
+      "Updated": "2024-10-03T09:34:06.000000+07:00",
+      "Version": "1.27.2",
       "Info": ""
     },
     {
@@ -1424,8 +1445,8 @@
     {
       "Name": "nim",
       "Source": "main",
-      "Updated": "2024-08-02T15:02:12.000000+07:00",
-      "Version": "2.0.8",
+      "Updated": "2024-10-03T09:34:07.000000+07:00",
+      "Version": "2.2.0",
       "Info": ""
     },
     {
@@ -1557,8 +1578,8 @@
     {
       "Name": "openscad-dev",
       "Source": "versions",
-      "Updated": "2024-09-30T20:35:06.000000+07:00",
-      "Version": "2024.09.30",
+      "Updated": "2024-10-02T19:33:54.000000+07:00",
+      "Version": "2024.10.02",
       "Info": ""
     },
     {
@@ -1660,6 +1681,13 @@
       "Info": ""
     },
     {
+      "Name": "promtail",
+      "Source": "main",
+      "Updated": "2024-10-01T19:02:00.000000+07:00",
+      "Version": "3.2.0",
+      "Info": ""
+    },
+    {
       "Name": "protonmail-bridge",
       "Source": "extras",
       "Updated": "2024-10-01T11:20:55.000000+07:00",
@@ -1676,8 +1704,8 @@
     {
       "Name": "python",
       "Source": "main",
-      "Updated": "2024-09-07T09:07:04.000000+07:00",
-      "Version": "3.12.6",
+      "Updated": "2024-10-02T10:09:39.000000+07:00",
+      "Version": "3.12.7",
       "Info": ""
     },
     {
@@ -1699,6 +1727,13 @@
       "Source": "extras",
       "Updated": "2024-07-30T18:15:59.000000+07:00",
       "Version": "1.0.2",
+      "Info": ""
+    },
+    {
+      "Name": "qrcp",
+      "Source": "main",
+      "Updated": "2024-10-01T13:28:57.000000+07:00",
+      "Version": "0.11.3",
       "Info": ""
     },
     {
@@ -1749,13 +1784,6 @@
       "Updated": "2024-09-28T12:22:17.000000+07:00",
       "Version": "1.35",
       "Info": ""
-    },
-    {
-      "Name": "replay",
-      "Source": "Unknown",
-      "Updated": "2024-10-01T10:12:24.000000+07:00",
-      "Version": "",
-      "Info": "Install failed"
     },
     {
       "Name": "replaywebpage",
@@ -1860,6 +1888,13 @@
       "Source": "main",
       "Updated": "2024-09-16T12:10:06.000000+07:00",
       "Version": "2.7",
+      "Info": ""
+    },
+    {
+      "Name": "scryer-prolog",
+      "Source": "hoilc_scoop-lemon",
+      "Updated": "2024-10-03T12:09:28.000000+07:00",
+      "Version": "0.9.4",
       "Info": ""
     },
     {
@@ -2047,8 +2082,8 @@
     {
       "Name": "thunderbird",
       "Source": "extras",
-      "Updated": "2024-09-21T16:16:15.000000+07:00",
-      "Version": "128.2.3esr",
+      "Updated": "2024-10-02T10:09:41.000000+07:00",
+      "Version": "131.0",
       "Info": ""
     },
     {
@@ -2061,8 +2096,8 @@
     {
       "Name": "tor-browser",
       "Source": "extras",
-      "Updated": "2024-09-27T08:47:01.000000+07:00",
-      "Version": "13.5.5",
+      "Updated": "2024-10-02T10:09:41.000000+07:00",
+      "Version": "13.5.6",
       "Info": ""
     },
     {
@@ -2075,8 +2110,8 @@
     {
       "Name": "tree-sitter",
       "Source": "main",
-      "Updated": "2024-10-01T09:43:20.000000+07:00",
-      "Version": "0.23.1",
+      "Updated": "2024-10-02T10:09:41.000000+07:00",
+      "Version": "0.23.2",
       "Info": ""
     },
     {
@@ -2089,8 +2124,8 @@
     {
       "Name": "typos",
       "Source": "main",
-      "Updated": "2024-09-17T12:13:53.000000+07:00",
-      "Version": "1.24.6",
+      "Updated": "2024-10-01T15:33:33.000000+07:00",
+      "Version": "1.25.0",
       "Info": ""
     },
     {
@@ -2131,8 +2166,8 @@
     {
       "Name": "vcpkg",
       "Source": "main",
-      "Updated": "2024-09-28T12:22:22.000000+07:00",
-      "Version": "2024.09.23",
+      "Updated": "2024-10-02T10:09:45.000000+07:00",
+      "Version": "2024.09.30",
       "Info": ""
     },
     {
@@ -2171,10 +2206,17 @@
       "Info": ""
     },
     {
+      "Name": "viu",
+      "Source": "dodorz_scoop",
+      "Updated": "2024-10-01T19:46:16.000000+07:00",
+      "Version": "1.5.0",
+      "Info": ""
+    },
+    {
       "Name": "vivaldi",
       "Source": "extras",
-      "Updated": "2024-09-26T10:48:39.000000+07:00",
-      "Version": "6.9.3447.48",
+      "Updated": "2024-10-02T19:33:55.000000+07:00",
+      "Version": "6.9.3447.51",
       "Info": ""
     },
     {
@@ -2187,8 +2229,8 @@
     {
       "Name": "vtm",
       "Source": "extras",
-      "Updated": "2024-09-27T08:47:01.000000+07:00",
-      "Version": "0.9.99.17",
+      "Updated": "2024-10-03T09:34:07.000000+07:00",
+      "Version": "0.9.99.20",
       "Info": ""
     },
     {
@@ -2210,6 +2252,13 @@
       "Source": "main",
       "Updated": "2024-09-27T08:47:01.000000+07:00",
       "Version": "1.102.1",
+      "Info": ""
+    },
+    {
+      "Name": "wasmtime",
+      "Source": "main",
+      "Updated": "2024-10-01T20:56:34.000000+07:00",
+      "Version": "25.0.1",
       "Info": ""
     },
     {
@@ -2292,8 +2341,8 @@
     {
       "Name": "wstunnel",
       "Source": "main",
-      "Updated": "2024-09-29T12:19:12.000000+07:00",
-      "Version": "10.1.2",
+      "Updated": "2024-10-03T09:34:07.000000+07:00",
+      "Version": "10.1.3",
       "Info": ""
     },
     {
@@ -2383,8 +2432,8 @@
     {
       "Name": "zotero",
       "Source": "extras",
-      "Updated": "2024-09-12T07:06:25.000000+07:00",
-      "Version": "7.0.5",
+      "Updated": "2024-10-03T09:34:07.000000+07:00",
+      "Version": "7.0.7",
       "Info": ""
     },
     {
@@ -2399,31 +2448,37 @@
     {
       "Name": "anderlli0053_DEV-tools",
       "Source": "https://github.com/anderlli0053/DEV-tools",
-      "Updated": "2024-10-01T08:13:17+07:00",
+      "Updated": "2024-10-03T11:53:32+07:00",
       "Manifests": 23858
     },
     {
       "Name": "Capella87_capella-bucket",
       "Source": "https://github.com/Capella87/capella-bucket",
-      "Updated": "2024-09-28T16:08:07+07:00",
+      "Updated": "2024-10-02T08:55:47+07:00",
       "Manifests": 78
+    },
+    {
+      "Name": "dodorz_scoop",
+      "Source": "https://github.com/dodorz/scoop",
+      "Updated": "2024-10-01T18:57:43+07:00",
+      "Manifests": 707
     },
     {
       "Name": "extras",
       "Source": "https://github.com/ScoopInstaller/Extras",
-      "Updated": "2024-10-01T07:40:56+07:00",
-      "Manifests": 2077
+      "Updated": "2024-10-03T11:31:47+07:00",
+      "Manifests": 2080
     },
     {
       "Name": "FlawlessCasual17_MyScoop",
       "Source": "https://github.com/FlawlessCasual17/MyScoop",
-      "Updated": "2024-10-01T09:18:16+07:00",
+      "Updated": "2024-10-02T23:51:18+07:00",
       "Manifests": 216
     },
     {
       "Name": "hoilc_scoop-lemon",
       "Source": "https://github.com/hoilc/scoop-lemon",
-      "Updated": "2024-10-01T08:29:13+07:00",
+      "Updated": "2024-10-03T13:27:22+07:00",
       "Manifests": 1260
     },
     {
@@ -2435,13 +2490,13 @@
     {
       "Name": "kkzzhizhou_scoop-apps",
       "Source": "https://github.com/kkzzhizhou/scoop-apps",
-      "Updated": "2024-09-30T11:50:19+07:00",
-      "Manifests": 13340
+      "Updated": "2024-10-03T11:51:10+07:00",
+      "Manifests": 13504
     },
     {
       "Name": "main",
       "Source": "https://github.com/ScoopInstaller/Main.git",
-      "Updated": "2024-10-01T07:38:19+07:00",
+      "Updated": "2024-10-03T11:29:32+07:00",
       "Manifests": 1343
     },
     {
@@ -2453,13 +2508,13 @@
     {
       "Name": "nirsoft",
       "Source": "https://github.com/ScoopInstaller/Nirsoft",
-      "Updated": "2024-09-28T11:29:00+07:00",
+      "Updated": "2024-10-01T11:38:38+07:00",
       "Manifests": 283
     },
     {
       "Name": "nonportable",
       "Source": "https://github.com/ScoopInstaller/Nonportable",
-      "Updated": "2024-09-29T15:37:13+07:00",
+      "Updated": "2024-10-03T03:35:34+07:00",
       "Manifests": 127
     },
     {
@@ -2477,7 +2532,7 @@
     {
       "Name": "versions",
       "Source": "https://github.com/ScoopInstaller/Versions",
-      "Updated": "2024-10-01T09:11:05+07:00",
+      "Updated": "2024-10-03T11:40:24+07:00",
       "Manifests": 469
     }
   ]
