@@ -1,8 +1,8 @@
-
-- []()
-  - Recap: 
-  - Root: 
-  - Resolution: 
-  - Reason: 
-  - Related: 
 #
+
+- ()
+  - Recap:
+  - Root:
+  - Resolution:
+  - Reason:
+  - Related:
