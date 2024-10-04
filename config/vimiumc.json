@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "10/4/2024, 2:13:10 PM",
-	"time": 1728025990516,
+	"@time": "10/4/2024, 2:16:48 PM",
+	"time": 1728026208695,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -169,6 +169,10 @@
 		"# INFO: ",
 		"# unmap -",
 		"# map -- goNext pattern=\"[–]\"",
+		"",
+		"# INFO: shortcut edit.",
+		"map <c-s><c-k> createTab url=\"chrome://extensions/shortcuts\"",
+		"",
 		"",
 		"# HACK: testing Shortcut Forwarding Tools, as now it's only used within vimium",
 		"# userCustomized1 = \"<c-s-w>\"",
