@@ -155,6 +155,10 @@ q = [":quit-all!"]
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
 esc = ["collapse_selection", "normal_mode"]
+C-left = ["move_prev_long_word_start"]
+C-right = ["move_next_long_word_end"]
+C-up = ["extend_to_line_bounds","goto_prev_paragraph"]
+C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 
 
 [keys.insert.j]
