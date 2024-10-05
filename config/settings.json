@@ -68,7 +68,7 @@
             "command": 
             {
                 "action": "sendInput",
-                "input": "git -C C:\\Users\\COHOTECH\\hw\\obs rap"
+                "input": "git -C $HOME\\hw\\obs rap"
             },
             "id": "User.sendInput.3C8C8ECD"
         },
