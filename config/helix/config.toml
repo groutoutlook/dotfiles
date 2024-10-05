@@ -111,6 +111,16 @@ k = "move_line_up"
 # C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 # C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
+# INFO: more from this guy's[config](https://github.com/italomaia/helix-non-modal-config/blob/01af122bdd7484fc64b90fadf1ef53d8dd34fdde/config.toml#L44C1-L53C1)
+tab = "goto_next_function" # select and jump to the next function via Treesitter
+S-tab = "goto_prev_function" # select and jump to the previous function via Treesitter 
+end = "goto_line_end_newline" # stop at linebreak; this is more useful
+C-end = "goto_line_end" # stop at last character
+del = ["move_next_word_end", "move_prev_word_end", "move_next_word_end", "delete_selection_noyank"] # delete current word
+C-del = "toggle_comments" # kind of delete, but not really =D
+# C-backspace cannot be mapped
+backspace = ["delete_char_backward"] # counterpart for `d`
+A-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
 # Extend and select commands that expect a manual input can't be chained
 # I've kept d[X] commands here because it's better to at least have the stuff you want to delete
 # selected so that it's just a keystroke away to delete
@@ -152,6 +162,9 @@ w = [":write-all!"]
 
 [keys.normal.";"]
 q = [":quit-all!"]
+
+
+# INFO: start insert mapping.
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
 esc = ["collapse_selection", "normal_mode"]
@@ -160,6 +173,11 @@ C-right = ["move_next_long_word_end"]
 C-up = ["extend_to_line_bounds","goto_prev_paragraph"]
 C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 
+# HACK: [More keymap hacking for an easier typing insert mode.](https://docs.helix-editor.com/keymap.html#insert-mode)
+C-del = ["move_next_word_start", "delete_selection"] # delete next word
+"A-w" = ["move_next_word_start", "delete_selection"] # delete next word
+C-space = ["completion"]
+"C-[" = ["normal_mode"] 
 
 [keys.insert.j]
 k = ["normal_mode"]
