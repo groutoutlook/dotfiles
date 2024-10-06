@@ -180,9 +180,6 @@ C-del = ["move_next_word_start", "delete_selection"] # delete next word
 C-space = ["completion"]
 "C-[" = ["normal_mode"] 
 
-[keys.insert."C-m"]
-m = [ "match_brackets" ]
-
 [keys.insert.j]
 k = ["normal_mode"]
 
