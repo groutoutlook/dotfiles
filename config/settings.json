@@ -14,19 +14,9 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
+                "action": "showSuggestions"
             },
-            "id": "User.adjustOpacity.E90BBAB2"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
+            "id": "User.showSuggestions.2F7A7303"
         },
         {
             "command": 
@@ -40,21 +30,19 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
+                "action": "swapPane",
+                "direction": "nextInOrder"
             },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
             },
-            "id": "User.moveFocus.F747588A"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
+            "id": "User.adjustOpacity.E90BBAB2"
         },
         {
             "command": 
@@ -63,6 +51,18 @@
                 "direction": "left"
             },
             "id": "User.resizePane.2A0DA8E0"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A"
         },
         {
             "command": 
@@ -263,32 +263,24 @@
     "keybindings": 
     [
         {
-            "id": null,
-            "keys": "win+`"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": "User.resizePane.6CD791B",
             "keys": "ctrl+alt+up"
         },
         {
-            "id": null,
-            "keys": "i"
-        },
-        {
-            "id": "Terminal.MoveFocusFirst",
-            "keys": "ctrl+alt+shift+1"
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
         },
         {
             "id": "Terminal.OpenSystemMenu",
@@ -297,6 +289,14 @@
         {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
+        },
+        {
+            "id": "Terminal.MoveFocusFirst",
+            "keys": "ctrl+alt+shift+1"
+        },
+        {
+            "id": null,
+            "keys": "i"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -498,7 +498,7 @@
                 "name": "Command Prompt"
             },
             {
-                "backgroundImage": "C:\\Users\\COHOTECH\\hw\\obs\\asset\\img\\Pasted image 20240921184240.png",
+                "backgroundImage": null,
                 "colorScheme": "Campbell",
                 "font": 
                 {
