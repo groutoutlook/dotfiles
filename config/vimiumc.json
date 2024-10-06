@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "10/4/2024, 4:17:38 PM",
-	"time": 1728033458149,
+	"@time": "10/6/2024, 5:16:00 PM",
+	"time": 1728209760135,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -164,7 +164,8 @@
 		"map ga focusInput",
 		"",
 		"# INFO: accessing insert mode in left hand",
-		"map A enterInsertMode",
+		"map A focusInput",
+		"map aa enterInsertMode",
 		"",
 		"# INFO: ",
 		"# unmap -",
