@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "10/6/2024, 5:16:00 PM",
-	"time": 1728209760135,
+	"@time": "10/9/2024, 11:21:36 AM",
+	"time": 1728447696518,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -119,7 +119,9 @@
 		"unmap L",
 		"map <a-s-w> goToRoot",
 		"map <a-w> goUp",
+		"map <a-up> goUp",
 		"map <a-s> goBack",
+		"map <a-down> goBack",
 		"",
 		"# mark ",
 		"# map ' Marks.activate",
