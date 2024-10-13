@@ -11,7 +11,7 @@
   # st = status
   st = status -sb
   sw = switch
-  sw- = switch -
+  sww = switch -
 
   # Command shortcuts
   c-1 = log -1 --pretty=%B
@@ -73,7 +73,7 @@
   editor = hx
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
-	autocrlf = false
+	autocrlf = true
 	longpaths = true
 [diff]
   # Use better, descriptive initials (c, i, w) instead of a/b.
@@ -230,6 +230,7 @@
 [safe]
   # directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
 	directory = *
+	bareRepository = explicit
 [submodule]
 	recurse = true
 [credential]
