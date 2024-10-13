@@ -33,7 +33,7 @@ alias b := build
 default_args_build := 'wip'
 build args=default_args_build: 
     #!{{ shebang }}
-    cp "C:\Users\COHOTECH\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
+    cp "$HOME\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
     if (( (fd settings_[\d]+).PSObject.TypeNames -contains "System.Array" ) -eq $true ){
         rm (fd settings_[\d]+)[0]
         Write-Host "new PowerToys settings" -ForegroundColor Blue
