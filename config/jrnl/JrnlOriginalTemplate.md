@@ -1,7 +1,6 @@
 #
 
-- ()
-  - Recap:
+- - Recap:
   - Root:
   - Resolution:
   - Reason:
