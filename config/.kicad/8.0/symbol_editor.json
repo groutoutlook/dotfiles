@@ -1,6 +1,6 @@
 {
   "appearance": {
-    "color_theme": "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\3rdparty\\colors\\com_github_alexanderbrevig_kicad-gruvbox-theme\\Gruvbox.json"
+    "color_theme": "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\3rdparty\\colors\\com_github_74th_kicad-highcontrast-monokai-theme_monokai-high-contrast\\monokai-high-contrast.json"
   },
   "aui": {
     "properties_panel_width": -1,
@@ -88,7 +88,7 @@
   "use_eeschema_color_settings": false,
   "window": {
     "cursor": {
-      "always_show_cursor": true,
+      "always_show_cursor": false,
       "fullscreen_cursor": false
     },
     "display": 0,
@@ -145,11 +145,11 @@
     },
     "maximized": true,
     "mru_path": "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\symbols",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=25;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139644;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1074;besth=44;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=482;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SymbolTree;caption=Libraries;state=1996;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=313;besth=-1;minw=313;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=375;besth=250;minw=300;minh=75;maxw=-1;maxh=-1;floatx=63;floaty=250;floatw=375;floath=500|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=478;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=44;besth=469;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=482;besth=198;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=44|dock_size(3,6,0)=40|dock_size(4,3,0)=377|dock_size(4,2,0)=44|dock_size(2,2,0)=44|dock_size(5,0,0)=484|",
-    "pos_x": -9,
-    "pos_y": -9,
-    "size_x": 1938,
-    "size_y": 1218,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139644;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=874;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SymbolTree;caption=Libraries;state=1998;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=2099148;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=50;floaty=200;floatw=300;floath=400|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=376;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=368;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=40|dock_size(4,3,0)=377|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(5,0,0)=386|",
+    "pos_x": -8,
+    "pos_y": -8,
+    "size_x": 1936,
+    "size_y": 1216,
     "zoom_factors": [
       0.05,
       0.07,

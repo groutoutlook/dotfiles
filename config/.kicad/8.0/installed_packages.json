@@ -108,7 +108,7 @@
                     },
                     "name": "Bobbe"
                 },
-                "description": "Export PCB 3D Models from Pcbnew to Blender",
+                "description": "Export PCB 3D Models from KiCad to Blender",
                 "description_full": "The pcb2blender workflow lets you create professionally looking product renders of all your KiCad projects in minutes! Simply export your board as a .pcb3d file in KiCad, import it into Blender and start creating!\n(Note for Linux/macOS users: If you run into any issues, make sure you're running python 3.10).\nIf you want to support this project, you can do so at https://github.com/sponsors/30350n",
                 "identifier": "com.github.30350n.pcb2blender",
                 "license": "GPL-3.0",
@@ -126,6 +126,15 @@
                 },
                 "type": "plugin",
                 "versions": [
+                    {
+                        "download_sha256": "4b4cc92dde6d434861d2ecd76a76b22c20a8f69b6fa2ff6595fe7c10f2a0939a",
+                        "download_size": 16407,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.13-k8.0-b4.2/pcb2blender_exporter_v2-13_k8-0.zip",
+                        "install_size": 27870,
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "2.13"
+                    },
                     {
                         "download_sha256": "0499e61afa8828e6f07af326fb1f622491cf218820bc09970fd74df616ee5459",
                         "download_size": 16461,
@@ -514,51 +523,6 @@
                         "kicad_version": "5.99",
                         "status": "stable",
                         "version": "1.0"
-                    }
-                ]
-            },
-            "pinned": false,
-            "repository_id": "46f88614eade3439",
-            "repository_name": "KiCad official repository"
-        },
-        {
-            "current_version": "1.6.0",
-            "install_timestamp": 1726664650,
-            "package": {
-                "author": {
-                    "contact": {
-                        "github": "https://github.com/yaqwsx",
-                        "twitter": "https://twitter.com/yaqwsx_cz",
-                        "web": "https://honzamrazek.cz"
-                    },
-                    "name": "Jan Mrázek"
-                },
-                "description": "Automation for KiCAD",
-                "description_full": "KiKit is a Python library, KiCAD plugin and a CLI tool to automate several tasks in a standard KiCAD workflow like:\n• panelization of both, regular and oddly shaped, boards\n• automated exporting manufacturing data based on manufacturer presets\n• multi-board project in KiCAD\n• building board presentation pages\n• making 3D-printed solder stencils\n• and more",
-                "identifier": "com.github.yaqwsx.kikit",
-                "license": "MIT",
-                "maintainer": {
-                    "contact": {
-                        "github": "https://github.com/yaqwsx",
-                        "twitter": "https://twitter.com/yaqwsx_cz",
-                        "web": "https://honzamrazek.cz"
-                    },
-                    "name": "Jan Mrázek"
-                },
-                "name": "KiKit",
-                "resources": {
-                    "homepage": "https://github.com/yaqwsx/KiKit"
-                },
-                "type": "plugin",
-                "versions": [
-                    {
-                        "download_sha256": "c654f4ffb73d7687830ed94c9ba110fe6fbc6baf4011e8e4167e00b1396ae10c",
-                        "download_size": 9533,
-                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.6.0/pcm-kikit.zip",
-                        "install_size": 10579,
-                        "kicad_version": "7.0",
-                        "status": "stable",
-                        "version": "1.6.0"
                     }
                 ]
             },

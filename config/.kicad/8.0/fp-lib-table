@@ -144,4 +144,5 @@
   (lib (name "Varistor")(type "KiCad")(uri "${KICAD8_FOOTPRINT_DIR}/Varistor.pretty")(options "")(descr "Varistor"))
   (lib (name "March_lib")(type "KiCad")(uri "C:/Users/COHOTECH/OneDrive/Documents/KiCad/8.0/symbols")(options "")(descr ""))
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "D:/Program Files/KiCad/EDA_Lib/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "D:/ProgramDataD/FMD_MCU/EDA/KicadSymLib/Library.pretty")(options "")(descr ""))
 )

@@ -663,6 +663,7 @@ pcbnew.InteractiveSelection.SyncSelectionWithNets
 pcbnew.InteractiveSelection.UnselectItem		
 pcbnew.InteractiveSelection.UnselectItems		
 pcbnew.InteractiveSelection.unrouteSelected		
+pcbnew.LengthTuner.Settings	Ctrl+L	
 pcbnew.LengthTuner.TuneDiffPair	8	
 pcbnew.LengthTuner.TuneDiffPairSkew	9	
 pcbnew.LengthTuner.TuneSingleTrack	7	
@@ -693,7 +694,7 @@ pcbnew.PadTool.PushPadSettings
 pcbnew.PadTool.defaultPadProperties		
 pcbnew.PadTool.enumeratePads		
 pcbnew.PadTool.explodePad	Ctrl+E	
-pcbnew.PadTool.placePad		
+pcbnew.PadTool.placePad	Ctrl+0	
 pcbnew.PadTool.recombinePad	Ctrl+E	
 pcbnew.PointEditor.addCorner	Ins	
 pcbnew.PointEditor.arcKeepCenter		

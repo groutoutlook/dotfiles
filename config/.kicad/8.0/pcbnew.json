@@ -11,8 +11,8 @@
     "properties_splitter_proportion": 0.5,
     "right_panel_width": 225,
     "search_panel_dock_direction": 3,
-    "search_panel_height": 35,
-    "search_panel_width": 144,
+    "search_panel_height": 39,
+    "search_panel_width": 152,
     "show_layer_manager": true,
     "show_properties": false,
     "show_search": false
@@ -113,13 +113,13 @@
     "search_and_replace": false
   },
   "footprint_chooser": {
-    "filter_on_pin_count": false,
-    "height": 680,
-    "sash_h": 744,
-    "sash_v": 160,
+    "filter_on_pin_count": true,
+    "height": 1003,
+    "sash_h": 776,
+    "sash_v": 249,
     "sort_mode": 0,
     "use_fp_filters": false,
-    "width": 880
+    "width": 921
   },
   "footprint_viewer": {
     "autozoom": true,
@@ -269,10 +269,10 @@
     "maximized": false,
     "mru_path": "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\projects",
     "perspective": "layout2|",
-    "pos_x": 128,
-    "pos_y": 128,
-    "size_x": 880,
-    "size_y": 680,
+    "pos_x": 26,
+    "pos_y": 26,
+    "size_x": 921,
+    "size_y": 1003,
     "zoom": 4.982732688728767,
     "zoom_factors": []
   },
@@ -462,14 +462,16 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 301,
+      "Description": 450,
       "Item": 300
     },
     "columns": [
       "Item",
       "Description"
     ],
-    "open_libs": []
+    "open_libs": [
+      "Package_SO"
+    ]
   },
   "meta": {
     "version": 5
@@ -587,8 +589,9 @@
   },
   "system": {
     "file_history": [
-      "D:/ProgramDataD/EDA_General/proj/rgb-microdot-to-strip/rgb-microdot-to-strip/rgb-microdot-to-strip.kicad_pcb",
+      "D:/ProgramDataD/FMD_MCU/EDA/Proj/FT32_F8P_24/FT32_F8P_24.kicad_pcb",
       "D:/ProgramDataD/Padauk/EDA/Normal_8_port_0/Normal_8_port_0/Normal_8_port_0.kicad_pcb",
+      "D:/ProgramDataD/EDA_General/proj/rgb-microdot-to-strip/rgb-microdot-to-strip/rgb-microdot-to-strip.kicad_pcb",
       "D:/ProgramDataD/Padauk/EDA/4_Port/4Port/4Port.kicad_pcb"
     ],
     "first_run_shown": false,
@@ -780,11 +783,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=853;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=672;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=225|dock_size(5,0,0)=386|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=955;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=672;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=40|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=225|dock_size(5,0,0)=386|",
     "pos_x": -8,
     "pos_y": -8,
     "size_x": 1936,
-    "size_y": 1168,
+    "size_y": 1216,
     "zoom_factors": [
       0.13,
       0.22,

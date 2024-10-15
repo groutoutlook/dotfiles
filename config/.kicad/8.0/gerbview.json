@@ -62,18 +62,20 @@
       "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber\\Normal_8_port_0-NPTH.drl"
     ],
     "file_history": [
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-Edge_Cuts.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-User_Comments.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-User_Drawings.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-F_Mask.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-F_Silkscreen.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-F_Paste.gbr",
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-F_Cu.gbr",
       "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-PTH-drl_map.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-NPTH-drl_map.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-F_Silkscreen.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-F_Paste.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-F_Mask.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-F_Cu.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-Edge_Cuts.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber\\Normal_8_port_0-Edge_Cuts.gbr",
-      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber\\Normal_8_port_0-NPTH-drl_map.gbr"
+      "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber\\Normal_8_port_0-NPTH-drl_map.gbr"
     ],
     "first_run_shown": false,
-    "job_file_history": [],
+    "job_file_history": [
+      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl\\FT32_F8P_24-job.gbrjob"
+    ],
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "max_undo_items": 0,
@@ -224,12 +226,12 @@
       "user_grid_y": "10 mil"
     },
     "maximized": true,
-    "mru_path": "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0_Gerber-v2\\Normal_8_port_0_Gerber",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=608;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=904;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=616;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=340;besth=32;minw=340;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=340;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=27|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=340|dock_size(5,0,0)=386|",
+    "mru_path": "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24-gbr-drl",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=609;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=1003;besth=31;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=616;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Layers Manager;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=484;besth=32;minw=484;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=484;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=31|dock_size(3,6,0)=40|dock_size(4,3,0)=34|dock_size(2,3,0)=484|dock_size(5,0,0)=386|",
     "pos_x": -8,
     "pos_y": -8,
     "size_x": 1936,
-    "size_y": 1168,
+    "size_y": 1216,
     "zoom_factors": [
       0.022,
       0.035,
