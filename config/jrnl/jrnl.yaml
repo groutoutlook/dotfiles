@@ -355,6 +355,18 @@ journals:
   wprog:
     journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wapi:
+    journal: ~/hw/obs/note_os_web//SDK//WebAPIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wlib:
+    journal: ~/hw/obs/note_os_web//SDK//WebAPIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  api:
+    journal: ~/hw/obs/note_algo_lang//journal//LibraryJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lib:
+    journal: ~/hw/obs/note_algo_lang//journal//LibraryJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
 
 linewrap: 2000
 tagsymbols: "#@"
