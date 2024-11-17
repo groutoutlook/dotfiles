@@ -1,7 +1,7 @@
 {
   "annotation": {
     "automatic": true,
-    "messages_filter": -1,
+    "messages_filter": 58,
     "method": 0,
     "options": 0,
     "recursive": true,
@@ -179,7 +179,7 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 426,
+      "Description": 443,
       "Item": 300
     },
     "columns": [
@@ -187,31 +187,30 @@
       "Description"
     ],
     "open_libs": [
-      "RF",
-      "Sensor_Proximity",
-      "Regulator_Linear",
-      "Filter",
+      "-- Recently Used --",
+      "-- Already Placed --",
       "Amplifier_Audio",
       "Amplifier_Operational",
       "Analog_Switch",
-      "Converter_DCDC",
-      "Power_Management",
-      "Power_Protection",
+      "Battery_Management",
+      "CPLD_Altera",
+      "Device",
+      "Driver_LED",
+      "FPGA_CologneChip_GateMate",
+      "FPGA_Lattice",
+      "Interface_Expansion",
+      "March_Lib",
+      "MCU_Dialog",
+      "Mechanical",
+      "Memory_Flash",
+      "Regulator_Controller",
+      "Regulator_Linear",
       "Regulator_Switching",
-      "Relay",
-      "RF_Filter",
-      "RF_Switch",
-      "Sensor_Temperature",
-      "Transistor_BJT",
-      "Transistor_FET",
-      "Sensor",
-      "Amplifier_Instrumentation",
-      "Diode",
-      "Driver_FET",
-      "Memory_EEPROM",
-      "Potentiometer_Digital",
-      "Relay_SolidState",
-      "Sensor_Magnetic"
+      "RF_Module",
+      "Sensor_Humidity",
+      "Sensor_Optical",
+      "Sensor_Pressure",
+      "Switch"
     ]
   },
   "lib_view": {
@@ -306,6 +305,7 @@
   },
   "system": {
     "file_history": [
+      "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\simple-bridge-2024.kicad_sch",
       "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24.kicad_sch",
       "D:\\ProgramDataD\\EDA_General\\proj\\rgb-microdot-to-strip\\rgb-microdot-to-strip\\rgb-microdot-to-strip.kicad_sch",
       "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0.kicad_sch",

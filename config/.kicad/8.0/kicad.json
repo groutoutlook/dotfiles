@@ -60,6 +60,8 @@
     "check_for_kicad_updates": true,
     "check_for_updates": 2,
     "file_history": [
+      "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\simple-bridge-2024.kicad_pro",
+      "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\simple-\\simple-.kicad_pro",
       "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24.kicad_pro",
       "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0\\Normal_8_port_0.kicad_pro",
       "D:\\ProgramDataD\\EDA_General\\proj\\rgb-microdot-to-strip\\rgb-microdot-to-strip\\rgb-microdot-to-strip.kicad_pro",
@@ -69,10 +71,10 @@
     "last_imperial_units": 0,
     "last_metric_units": 1,
     "last_received_update": "8.0.2",
-    "last_update_check_time": "2024-10-15T20:11:34",
+    "last_update_check_time": "2024-11-08T16:29:17",
     "max_undo_items": 0,
     "open_projects": [
-      "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\FT32_F8P_24.kicad_pro"
+      "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\simple-bridge-2024.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -220,8 +222,8 @@
       "user_grid_y": "10 mil"
     },
     "maximized": true,
-    "mru_path": "D:\\ProgramDataD\\FMD_MCU\\EDA\\Proj\\FT32_F8P_24\\",
-    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=224;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=438;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=598;besth=560;minw=598;minh=560;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=438|dock_size(5,0,0)=598|",
+    "mru_path": "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=224;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ProjectTree;caption=Project Files;state=1532;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=438;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Launcher;caption=Editors;state=508;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=598;besth=650;minw=598;minh=650;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,2,0)=34|dock_size(4,1,0)=438|dock_size(5,0,0)=598|",
     "pos_x": -8,
     "pos_y": -8,
     "size_x": 1936,

@@ -143,7 +143,7 @@
     "clip_silk_on_via_annulus": false,
     "engine": 0,
     "grid_type": 0,
-    "material_mode": 0,
+    "material_mode": 1,
     "opengl_AA_disableOnMove": false,
     "opengl_AA_mode": 3,
     "opengl_copper_thickness": false,

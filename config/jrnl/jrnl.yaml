@@ -367,6 +367,12 @@ journals:
   lib:
     journal: ~/hw/obs/note_algo_lang//journal//LibraryJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cash:
+    journal: ~/hw/obs/note_Business//MoneyJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  money:
+    journal: ~/hw/obs/note_Business//MoneyJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
 
 linewrap: 2000
 tagsymbols: "#@"
