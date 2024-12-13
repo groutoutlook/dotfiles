@@ -66,7 +66,7 @@
   # Don't paginate output by default
   pager = bat
   # Global ignore file (not shared)
-	excludesfile = ~/.gitignore_global
+	excludesfile = 
   # Global shared hooks directory
   # hooksPath = ~/.githooks
   # VSCode
@@ -230,7 +230,6 @@
 [safe]
   # directory = D:/ProgramDataD/Notes/Obsidian/Vault_2401
 	directory = *
-	bareRepository = explicit
 [submodule]
 	recurse = true
 [credential]
