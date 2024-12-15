@@ -41,7 +41,7 @@
 
   main = !"git branch -m main && git push -u origin main"
   # My addition.
-  rhh = reset --hard
+  rhh = !"git reset --hard && git clean -fd"
   rsh = oldcommit
   rs1 = oldcommit
   reapply     = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\" && git puf"
