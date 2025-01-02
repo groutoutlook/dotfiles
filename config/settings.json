@@ -15,6 +15,23 @@
             "command": 
             {
                 "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
+            },
+            "id": "User.adjustOpacity.E90BBAB2"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "nextInOrder"
+            },
+            "id": "User.swapPane.D7681B66"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
@@ -30,19 +47,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
+                "action": "moveFocus",
+                "direction": "down"
             },
-            "id": "User.adjustOpacity.E90BBAB2"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
+            "id": "User.moveFocus.F747588A"
         },
         {
             "command": "toggleFullscreen",
@@ -59,26 +67,27 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "id": "User.moveFocus.F747588A"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": 
-            {
                 "action": "sendInput",
                 "input": "git -C $HOME\\hw\\obs rap"
             },
             "id": "User.sendInput.3C8C8ECD"
         },
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": "toggleAlwaysOnTop",
             "id": "User.toggleAlwaysOnTop"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9"
         },
         {
             "command": 
@@ -93,27 +102,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.146080A9"
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "id": "User.resizePane.F747588A"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": 
@@ -123,6 +115,14 @@
                 "relative": true
             },
             "id": "User.adjustOpacity.4C71C550"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": "toggleBroadcastInput",
@@ -214,17 +214,17 @@
             "command": 
             {
                 "action": "swapPane",
-                "direction": "previous"
+                "direction": "right"
             },
-            "id": "User.swapPane.75247157"
+            "id": "User.swapPane.87C324ED"
         },
         {
             "command": 
             {
                 "action": "swapPane",
-                "direction": "right"
+                "direction": "previous"
             },
-            "id": "User.swapPane.87C324ED"
+            "id": "User.swapPane.75247157"
         },
         {
             "command": 
@@ -283,6 +283,14 @@
             "keys": "ctrl+alt+up"
         },
         {
+            "id": "Terminal.MoveFocusFirst",
+            "keys": "ctrl+alt+shift+1"
+        },
+        {
+            "id": null,
+            "keys": "i"
+        },
+        {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
         },
@@ -291,24 +299,16 @@
             "keys": "win+alt+space"
         },
         {
-            "id": null,
-            "keys": "i"
-        },
-        {
-            "id": "Terminal.MoveFocusFirst",
-            "keys": "ctrl+alt+shift+1"
-        },
-        {
             "id": "User.resizePane.2A0DA8E0",
             "keys": "ctrl+alt+left"
         },
         {
-            "id": "User.splitPane.FEF0D40B",
-            "keys": "ctrl+alt+shift+d"
-        },
-        {
             "id": "User.adjustOpacity.E90BBAB2",
             "keys": "win+ctrl+numpad0"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "ctrl+alt+shift+d"
         },
         {
             "id": "User.adjustOpacity.A7506725",
@@ -323,24 +323,24 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "f11"
-        },
-        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
+        },
+        {
+            "id": null,
+            "keys": "f11"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
         },
         {
-            "id": "User.toggleFocusMode",
-            "keys": "win+ctrl+alt+f"
-        },
-        {
             "id": "User.toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "win+ctrl+alt+f"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -423,24 +423,24 @@
             "keys": "ctrl+shift+2"
         },
         {
-            "id": "User.toggleBroadcastInput",
-            "keys": "win+ctrl+alt+i"
-        },
-        {
             "id": "User.showSuggestions.2F7A7303",
             "keys": "ctrl+f1"
+        },
+        {
+            "id": "User.toggleBroadcastInput",
+            "keys": "win+ctrl+alt+i"
         },
         {
             "id": "User.moveFocus.D7681B66",
             "keys": "ctrl+alt+shift+plus"
         },
         {
-            "id": "User.splitPane.91AB55B1",
-            "keys": "win+ctrl+alt+p"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "User.splitPane.91AB55B1",
+            "keys": "win+ctrl+alt+p"
         },
         {
             "id": "User.moveFocus.87C324ED",
@@ -479,7 +479,7 @@
             {
                 "face": "Iosevka Nerd Font Propo"
             },
-            "opacity": 79,
+            "opacity": 80,
             "padding": "5",
             "scrollbarState": "hidden"
         },
@@ -504,7 +504,6 @@
                 {
                     "size": 14
                 },
-                //"experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\superTranslucent.hlsl",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "intenseTextStyle": "all",
@@ -517,7 +516,6 @@
             {
                 "colorScheme": "Campbell",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
-                //"experimental.pixelShaderImagePath": "C:\\Users\\COHOTECH\\OneDrive\\Pictures\\Screenshots\\Screenshot 2024-05-21 074649.png",
                 "experimental.pixelShaderPath": "D:\\ProgramDataD\\VS\\proj\\general_shader\\HLSL_Windows_Terminal\\orig.hlsl",
                 "font": 
                 {
@@ -550,24 +548,6 @@
                 "hidden": true,
                 "name": "Visual Studio Debug Console",
                 "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                "guid": "{963ff2f7-6aed-5ce3-9d91-90d99571f53a}",
-                "hidden": true,
-                "name": "Ubuntu-24.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
-                "hidden": false,
-                "name": "Ubuntu 24.04.1 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             }
         ]
     },
