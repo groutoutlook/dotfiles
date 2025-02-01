@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "1/18/2025, 3:54:13 PM",
-	"time": 1737190453286,
+	"@time": "2/1/2025, 3:16:35 PM",
+	"time": 1738397795130,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
-		"chromium": 132
+		"chromium": 133
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -54,8 +54,14 @@
 		"unmap <a-s-c>",
 		"",
 		"# INFO: basic Tab navigation",
+		"unmap <<",
+		"unmap >>",
+		"map < moveTabLeft",
+		"map > moveTabRight",
 		"unmap j",
 		"unmap J",
+		"unmap n",
+		"unmap N",
 		"unmap K",
 		"unmap k",
 		"map j nextTab",
