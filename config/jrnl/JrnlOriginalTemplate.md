@@ -1,6 +1,5 @@
 #
-
-- []
+- 
   - Recap:
   - Root:
   - Resolution:
