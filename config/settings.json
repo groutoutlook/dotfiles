@@ -14,6 +14,13 @@
         {
             "command": 
             {
+                "action": "showSuggestions"
+            },
+            "id": "User.showSuggestions.2F7A7303"
+        },
+        {
+            "command": 
+            {
                 "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
@@ -23,9 +30,10 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
+                "action": "swapPane",
+                "direction": "nextInOrder"
             },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": 
@@ -39,22 +47,14 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "left"
             },
             "id": "User.resizePane.2A0DA8E0"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
         },
         {
             "command": 
@@ -65,10 +65,6 @@
             "id": "User.moveFocus.F747588A"
         },
         {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
             "command": 
             {
                 "action": "sendInput",
@@ -77,8 +73,21 @@
             "id": "User.sendInput.3C8C8ECD"
         },
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": "toggleAlwaysOnTop",
             "id": "User.toggleAlwaysOnTop"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9"
         },
         {
             "command": 
@@ -93,27 +102,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.146080A9"
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "id": "User.resizePane.F747588A"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": 
@@ -123,6 +115,14 @@
                 "relative": true
             },
             "id": "User.adjustOpacity.4C71C550"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": "toggleBroadcastInput",
@@ -214,17 +214,17 @@
             "command": 
             {
                 "action": "swapPane",
-                "direction": "previous"
+                "direction": "right"
             },
-            "id": "User.swapPane.75247157"
+            "id": "User.swapPane.87C324ED"
         },
         {
             "command": 
             {
                 "action": "swapPane",
-                "direction": "right"
+                "direction": "previous"
             },
-            "id": "User.swapPane.87C324ED"
+            "id": "User.swapPane.75247157"
         },
         {
             "command": 
@@ -256,6 +256,7 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "experimental.enableColorSelection": true,
     "focusFollowMouse": true,
     "initialCols": 110,
     "initialPosition": "0,0",
@@ -263,52 +264,52 @@
     "keybindings": 
     [
         {
-            "id": null,
-            "keys": "win+`"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": "User.resizePane.6CD791B",
             "keys": "ctrl+alt+up"
         },
         {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "alt+shift+left"
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
         },
         {
             "id": "Terminal.OpenSystemMenu",
             "keys": "win+alt+space"
         },
         {
-            "id": null,
-            "keys": "i"
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+left"
         },
         {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+alt+shift+1"
         },
         {
+            "id": null,
+            "keys": "i"
+        },
+        {
             "id": "User.resizePane.2A0DA8E0",
             "keys": "ctrl+alt+left"
         },
         {
-            "id": "User.splitPane.FEF0D40B",
-            "keys": "ctrl+alt+shift+d"
-        },
-        {
             "id": "User.adjustOpacity.E90BBAB2",
             "keys": "win+ctrl+numpad0"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "ctrl+alt+shift+d"
         },
         {
             "id": "User.adjustOpacity.A7506725",
@@ -323,24 +324,24 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "f11"
-        },
-        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
+        },
+        {
+            "id": null,
+            "keys": "f11"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
         },
         {
-            "id": "User.toggleFocusMode",
-            "keys": "win+ctrl+alt+f"
-        },
-        {
             "id": "User.toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "win+ctrl+alt+f"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -423,24 +424,24 @@
             "keys": "ctrl+shift+2"
         },
         {
-            "id": "User.toggleBroadcastInput",
-            "keys": "win+ctrl+alt+i"
-        },
-        {
             "id": "User.showSuggestions.2F7A7303",
             "keys": "ctrl+f1"
+        },
+        {
+            "id": "User.toggleBroadcastInput",
+            "keys": "win+ctrl+alt+i"
         },
         {
             "id": "User.moveFocus.D7681B66",
             "keys": "ctrl+alt+shift+plus"
         },
         {
-            "id": "User.splitPane.91AB55B1",
-            "keys": "win+ctrl+alt+p"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "User.splitPane.91AB55B1",
+            "keys": "win+ctrl+alt+p"
         },
         {
             "id": "User.moveFocus.87C324ED",
@@ -463,7 +464,6 @@
             "keys": "win+ctrl+alt+f11"
         }
     ],
-    "multiLinePasteWarning": false,
     "newTabMenu": 
     [
         {
@@ -558,6 +558,7 @@
             }
         ]
     },
+    "rendering.graphicsAPI": "direct3d11",
     "schemes": 
     [
         {
@@ -584,9 +585,10 @@
             "yellow": "#F1FF5E"
         }
     ],
+    "searchWebDefaultQueryUrl": "https://duckduckgo.com/?q=%22%s%22",
     "startOnUserLogin": true,
     "tabWidthMode": "compact",
-    "theme": "otherDark",
+    "theme": "dark",
     "themes": 
     [
         {
@@ -614,5 +616,6 @@
         }
     ],
     "useAcrylicInTabRow": true,
-    "windowingBehavior": "useExisting"
+    "warning.multiLinePaste": true,
+    "windowingBehavior": "useNew"
 }
