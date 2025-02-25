@@ -31,7 +31,7 @@
   review-local = "!git lg @{push}.."
   rv-local = "!git lg @{push}.."
   # Edit last commit message
-  reword = !"git commit --amend && git puf && gh browse"
+  reword = !"git commit -v --amend && git puf && gh browse"
   
   # Undo last commit but keep changed files in stage
   oldcommit = !"git c-1 && git reset --soft HEAD~1"
@@ -45,12 +45,12 @@
   rsh = oldcommit
   rs1 = oldcommit
   reapply     = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\" && git puf"
-  reapplyslow = !"gitPrev=$(git rs1) && git add . && git commit  && git puf"
+  reapplyslow = !"gitPrev=$(git rs1) && git add . && git commit -v && git puf"
   rap = reapply
   rapp = reapply
   raps = reapplyslow
   # ci = commit
-  cif = !"git add . && git commit && git puf"
+  cif = !"git add . && git commit -v && git puf"
   # cij = !"git add . && gitmoji -c && git push"
   
   suup = submodule update --remote
@@ -58,7 +58,7 @@
   
   chp = cherry-pick -
 
-	quick-stats = !C:\\Users\\COHOTECH\\scoop\\apps\\git-quick-stats\\current\\git-quick-stats
+  quick-stats = !C:\\Users\\COHOTECH\\scoop\\apps\\git-quick-stats\\current\\git-quick-stats
 [core]
   # Don't paginate output by default
   pager = bat
