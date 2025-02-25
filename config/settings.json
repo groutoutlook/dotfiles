@@ -284,20 +284,20 @@
             "keys": "alt+shift+space"
         },
         {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "win+alt+space"
-        },
-        {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
         },
         {
-            "id": "Terminal.MoveFocusFirst",
-            "keys": "ctrl+alt+shift+1"
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "win+alt+space"
         },
         {
             "id": null,
             "keys": "i"
+        },
+        {
+            "id": "Terminal.MoveFocusFirst",
+            "keys": "ctrl+alt+shift+1"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -474,7 +474,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "Campbell",
+            "colorScheme": "Ottosson",
             "font": 
             {
                 "face": "Iosevka Nerd Font Propo"
