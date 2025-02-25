@@ -211,6 +211,10 @@
             "id": "User.toggleFocusMode"
         },
         {
+            "command": "switchSelectionEndpoint",
+            "id": "User.switchSelectionEndpoint"
+        },
+        {
             "command": 
             {
                 "action": "swapPane",
@@ -248,6 +252,10 @@
                 "clear": "all"
             },
             "id": "User.clearBuffer.87C324ED"
+        },
+        {
+            "command": "toggleBlockSelection",
+            "id": "User.toggleBlockSelection"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -276,6 +284,10 @@
             "keys": "win+`"
         },
         {
+            "id": null,
+            "keys": "alt+9"
+        },
+        {
             "id": "User.resizePane.6CD791B",
             "keys": "ctrl+alt+up"
         },
@@ -284,20 +296,20 @@
             "keys": "alt+shift+space"
         },
         {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "alt+shift+left"
-        },
-        {
             "id": "Terminal.OpenSystemMenu",
             "keys": "win+alt+space"
         },
         {
-            "id": null,
-            "keys": "i"
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+left"
         },
         {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+alt+shift+1"
+        },
+        {
+            "id": null,
+            "keys": "i"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -377,6 +389,10 @@
         },
         {
             "id": null,
+            "keys": "alt+0"
+        },
+        {
+            "id": null,
             "keys": "win+ctrl+alt+d"
         },
         {
@@ -414,6 +430,10 @@
         {
             "id": null,
             "keys": "alt+left"
+        },
+        {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "alt+shift+m"
         },
         {
             "id": null,
@@ -462,6 +482,14 @@
         {
             "id": "User.toggleFullscreen",
             "keys": "win+ctrl+alt+f11"
+        },
+        {
+            "id": null,
+            "keys": "alt+8"
+        },
+        {
+            "id": "User.toggleBlockSelection",
+            "keys": "ctrl+alt+shift+b"
         }
     ],
     "newTabMenu": 
