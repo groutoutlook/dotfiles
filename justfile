@@ -49,4 +49,4 @@ build args=default_args_build:
     
 br:
     just build rap
-    @Write-Host "Rap it" -ForegroundColor Red
+    @Write-Host "Rap it" -ForegroundColor Yellow
