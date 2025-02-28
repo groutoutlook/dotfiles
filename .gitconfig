@@ -60,6 +60,7 @@
 
   quick-stats = !C:\\Users\\COHOTECH\\scoop\\apps\\git-quick-stats\\current\\git-quick-stats
 	br = branch
+	mt = mergetool
 [core]
   # Don't paginate output by default
   pager = bat
