@@ -256,6 +256,10 @@
         {
             "command": "toggleBlockSelection",
             "id": "User.toggleBlockSelection"
+        },
+        {
+            "command": "markMode",
+            "id": "User.markMode"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -306,10 +310,6 @@
         {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+alt+shift+1"
-        },
-        {
-            "id": null,
-            "keys": "i"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -432,10 +432,6 @@
             "keys": "alt+left"
         },
         {
-            "id": "User.switchSelectionEndpoint",
-            "keys": "alt+shift+m"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+1"
         },
@@ -490,6 +486,14 @@
         {
             "id": "User.toggleBlockSelection",
             "keys": "ctrl+alt+shift+b"
+        },
+        {
+            "id": "User.markMode",
+            "keys": "ctrl+shift+m"
+        },
+        {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "ctrl+alt+shift+m"
         }
     ],
     "newTabMenu": 
