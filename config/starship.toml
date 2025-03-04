@@ -18,7 +18,7 @@ style = "bold white"
 
 
 [git_status]
-disabled = false
+disabled = true
 conflicted = "⚔️ "
 ahead = "🏎️ 💨 ×${count} "
 behind = "🐢 ×${count} "
@@ -45,9 +45,11 @@ disabled = false
 [package]
 disabled = true
 
-# INFO: average 88ms in my very large VS solution, so I wont turn on.
+# INFO: average 88ms in my very large VS solution, if turn on version check.
 [cmake]
-disabled = true
+format = "CMake "  # This will display "cmake" in the prompt
+style = "bold dimmed red"  # Optional: Customize the style
+disabled = false
 
 [python]
 format = "[$symbol$version]($style) "
