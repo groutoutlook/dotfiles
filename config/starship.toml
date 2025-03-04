@@ -18,7 +18,7 @@ style = "bold white"
 
 
 [git_status]
-disabled = true
+disabled = false
 conflicted = "⚔️ "
 ahead = "🏎️ 💨 ×${count} "
 behind = "🐢 ×${count} "
@@ -43,6 +43,10 @@ disabled = false
 disabled = false
 
 [package]
+disabled = true
+
+# INFO: average 88ms in my very large VS solution, so I wont turn on.
+[cmake]
 disabled = true
 
 [python]
