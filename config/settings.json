@@ -412,6 +412,10 @@
             "keys": "shift+f1"
         },
         {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "ctrl+alt+shift+m"
+        },
+        {
             "id": null,
             "keys": "ctrl+shift+space"
         },
@@ -490,10 +494,6 @@
         {
             "id": "User.markMode",
             "keys": "ctrl+shift+m"
-        },
-        {
-            "id": "User.switchSelectionEndpoint",
-            "keys": "ctrl+alt+shift+m"
         }
     ],
     "newTabMenu": 
@@ -540,7 +540,7 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "intenseTextStyle": "all",
-                "name": "PowerShell-preview",
+                "name": "pwsh",
                 "opacity": 70,
                 "padding": "0",
                 "source": "Windows.Terminal.PowershellCore",
