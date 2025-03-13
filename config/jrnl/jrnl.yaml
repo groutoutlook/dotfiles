@@ -373,6 +373,9 @@ journals:
   money:
     journal: ~/hw/obs/note_Business//MoneyJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  idea:
+    journal: ~/hw/obs/note_Business//IdeaJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
 
 linewrap: 2000
 tagsymbols: "#@"
