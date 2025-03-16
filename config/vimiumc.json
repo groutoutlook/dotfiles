@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "3/9/2025, 1:18:18 PM",
-	"time": 1741501098658,
+	"@time": "3/15/2025, 12:55:24 PM",
+	"time": 1742018124126,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
-		"chromium": 134
+		"chromium": 135
 	},
 	"allBrowserUrls": true,
 	"extAllowList": [
@@ -196,6 +196,9 @@
 		"map [c goNext pattern=\"send\"",
 		"map ]c goPrevious pattern=\"comment\"",
 		"",
+		"map <right><right> goNext ",
+		"map <left><left> goPrevious",
+		"",
 		"# INFO: get link in HN/lobsters/other meta sites.",
 		"map ghn createTab url=\"!hn\\u0020&#8230;\"",
 		"",
@@ -219,10 +222,6 @@
 		"\\:i: vimium://sed/s/^//,lower\\ $S re= Lower case",
 		"v.m|math: vimium://math\\ $S re= Calculate",
 		"v.p: vimium://parse\\ $S re= Redo Search",
-		"# gh|github: https://github.com/search?q=$s \\",
-		"#   blank=https://github.com/ GitHub Repo",
-		"# ge|gitee: https://search.gitee.com/?type=repository&q=$s \\",
-		"#  blank=https://gitee.com/ Gitee 仓库",
 		"js\\:|Js: javascript:\\ $S; JavaScript",
 		"",
 		"# INFO: bml that I stole",
@@ -231,6 +230,9 @@
 		"# HACK: Search for bang syntax.",
 		"dg|bang|!: https://duckduckgo.com/bangs?q=%s",
 		"mg|mar: https://search.marginalia.nu/search?query=%s",
+		"",
+		"# INFO: not yet available in bang syntax. May never be as well.",
+		"kg|kagi: https://kagi.com/search?q=%s",
 		""
 	],
 	"searchUrl": "https://duckduckgo.com/?q=$s DuckDuckGo",

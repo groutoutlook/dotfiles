@@ -123,6 +123,11 @@ A-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwa
 # Extend and select commands that expect a manual input can't be chained
 # I've kept d[X] commands here because it's better to at least have the stuff you want to delete
 # selected so that it's just a keystroke away to delete
+
+# INFO: as `c-a c-a`
+"ret" = "goto_word"
+
+
 [keys.normal.d]
 d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]
 t = ["extend_till_char"]
