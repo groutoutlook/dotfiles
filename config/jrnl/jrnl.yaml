@@ -103,6 +103,9 @@ journals:
   ety:
     journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  slang:
+    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   etym:
     journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -324,6 +327,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   video:
     journal: ~/hw/obs/note_entertainment//note_discography//VideoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vc:
+    journal: ~/hw/obs/note_Knowledge//journal//VocabJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   vocab:
     journal: ~/hw/obs/note_Knowledge//journal//VocabJournal.md
