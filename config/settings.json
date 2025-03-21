@@ -14,18 +14,11 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
-            },
-            "id": "User.showSuggestions.2F7A7303"
-        },
-        {
-            "command": 
-            {
                 "action": "adjustOpacity",
-                "opacity": 100,
+                "opacity": 0,
                 "relative": false
             },
-            "id": "User.adjustOpacity.A7506725"
+            "id": "User.adjustOpacity.E90BBAB2"
         },
         {
             "command": 
@@ -39,22 +32,17 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
+                "opacity": 100,
                 "relative": false
             },
-            "id": "User.adjustOpacity.E90BBAB2"
+            "id": "User.adjustOpacity.A7506725"
         },
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "left"
+                "action": "showSuggestions"
             },
-            "id": "User.resizePane.2A0DA8E0"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
+            "id": "User.showSuggestions.2F7A7303"
         },
         {
             "command": 
@@ -63,6 +51,18 @@
                 "direction": "down"
             },
             "id": "User.moveFocus.F747588A"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizePane.2A0DA8E0"
         },
         {
             "command": 
@@ -265,6 +265,7 @@
     "alwaysShowNotificationIcon": false,
     "autoHideWindow": false,
     "centerOnLaunch": true,
+    "compatibility.allowHeadless": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -276,36 +277,36 @@
     "keybindings": 
     [
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": null,
-            "keys": "win+`"
-        },
-        {
-            "id": null,
-            "keys": "alt+9"
-        },
-        {
-            "id": "User.resizePane.6CD791B",
-            "keys": "ctrl+alt+up"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": "Terminal.OpenSystemMenu",
             "keys": "alt+shift+space"
         },
         {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "win+alt+space"
+            "id": "User.resizePane.6CD791B",
+            "keys": "ctrl+alt+up"
+        },
+        {
+            "id": null,
+            "keys": "alt+9"
         },
         {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "win+alt+space"
         },
         {
             "id": "Terminal.MoveFocusFirst",
@@ -413,7 +414,7 @@
         },
         {
             "id": "User.switchSelectionEndpoint",
-            "keys": "ctrl+alt+shift+m"
+            "keys": "ctrl+m"
         },
         {
             "id": null,
@@ -511,7 +512,7 @@
             {
                 "face": "Iosevka Nerd Font Propo"
             },
-            "opacity": 80,
+            "opacity": 50,
             "padding": "5",
             "scrollbarState": "hidden"
         },
@@ -541,7 +542,7 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "pwsh",
-                "opacity": 70,
+                "opacity": 50,
                 "padding": "0",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
@@ -560,7 +561,7 @@
                 "icon": "ms-appx:///ProfileIcons/pwsh-preview.png",
                 "intenseTextStyle": "all",
                 "name": "PowerShell_HLSL",
-                "opacity": 60,
+                "opacity": 50,
                 "padding": "0",
                 "startingDirectory": "%USERPROFILE%"
             },
@@ -575,18 +576,6 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
-                "hidden": false,
-                "name": "PowerShell 7 Preview",
-                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
