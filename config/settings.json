@@ -576,6 +576,18 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{77700071-1b52-5a42-a731-340b544daf25}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{577b888d-7454-5d0b-a0c6-d9c4236966a4}",
+                "hidden": false,
+                "name": "Ubuntu-24.04",
+                "source": "Microsoft.WSL"
             }
         ]
     },

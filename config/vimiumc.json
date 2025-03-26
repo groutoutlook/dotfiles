@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "3/25/2025, 11:50:16 AM",
-	"time": 1742878216449,
+	"@time": "3/26/2025, 12:47:05 PM",
+	"time": 1742968025698,
 	"environment": {
 		"extension": "2.11.3",
 		"platform": "win",
@@ -134,6 +134,7 @@
 		"map tt restoreTab",
 		"# map ;t reopenTab",
 		"# map T restoreTab",
+		"map S Vomnibar.activateTabs",
 		"map ;q removeTab goto=\"previous,near\" highlighted",
 		"",
 		"",
@@ -190,6 +191,7 @@
 		"# INFO: accessing insert mode in left hand",
 		"map A focusInput",
 		"map aa focusInput",
+		"map I LinkHints.activateCopyImage",
 		"# enterInsertMode",
 		"",
 		"# INFO: ",
