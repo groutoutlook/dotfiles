@@ -238,6 +238,9 @@ journals:
   people:
     journal: ~/hw/obs/note_Business//ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  per:
+    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pers:
     journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
