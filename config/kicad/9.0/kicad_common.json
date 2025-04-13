@@ -1,5 +1,10 @@
 {
+  "api": {
+    "enable_server": false,
+    "interpreter_path": ""
+  },
   "appearance": {
+    "grid_striping": false,
     "hicontrast_dimming_factor": 0.8,
     "icon_scale": -1,
     "icon_theme": 2,
@@ -29,7 +34,9 @@
   "git": {
     "authorEmail": "",
     "authorName": "",
+    "enableGit": true,
     "repositories": null,
+    "updatInterval": 5,
     "useDefaultAuthor": true
   },
   "graphics": {
@@ -48,6 +55,7 @@
     "mouse_middle": 2,
     "mouse_right": 2,
     "reverse_scroll_pan_h": false,
+    "reverse_scroll_zoom": false,
     "scroll_modifier_pan_h": 308,
     "scroll_modifier_pan_v": 306,
     "scroll_modifier_zoom": 0,
@@ -60,12 +68,15 @@
     "version": 3
   },
   "netclass_panel": {
+    "eeschema_shown_columns": "0 10 11 12 13",
+    "pcbnew_shown_columns": "0 1 2 3 4 5 6 7 8 9",
     "sash_pos": 200
   },
   "package_manager": {
     "sash_pos": 380
   },
   "session": {
+    "pinned_design_block_libs": [],
     "pinned_fp_libs": [],
     "pinned_symbol_libs": [],
     "remember_open_files": false
@@ -73,6 +84,7 @@
   "system": {
     "autosave_interval": 600,
     "clear_3d_cache_interval": 30,
+    "file_explorer": "explorer.exe /n,/select,%F",
     "file_history_size": 9,
     "language": "Default",
     "pdf_viewer_name": "",

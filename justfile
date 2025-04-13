@@ -50,3 +50,14 @@ build args=default_args_build:
 br:
     just build rap
     @Write-Host "Rap it" -ForegroundColor Yellow
+
+alias c := commit
+commit:
+    #!{{ shebang }}
+    cp "$HOME\Downloads\vimium_c*.json" $env:dotfilesRepo\config\vimiumc.json
+    if (( (fd settings_[\d]+).PSObject.TypeNames -contains "System.Array" ) -eq $true ){
+        rm (fd settings_[\d]+)[0]
+        Write-Host "new PowerToys settings" -ForegroundColor Blue
+    }
+    :bak
+    git cif

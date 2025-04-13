@@ -40,84 +40,109 @@
     {
       "colors": [
         {
+          "color": "rgba(0, 0, 0, 0.000)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "background_bottom"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "background_top"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "board"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "copper"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "copper_bottom"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "silkscreen_bottom"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "silkscreen_top"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "soldermask_bottom"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "soldermask_top"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "layer": "solderpaste"
+        },
+        {
           "color": "rgb(102, 102, 128)",
-          "layer": 477
+          "layer": "user_comments"
         },
         {
           "color": "rgb(204, 204, 230)",
-          "layer": 478
+          "layer": "user_drawings"
         },
         {
           "color": "rgba(51, 43, 23, 0.902)",
-          "layer": 479
+          "layer": "user_eco1"
         },
         {
           "color": "rgb(179, 156, 0)",
-          "layer": 480
+          "layer": "user_eco2"
         },
         {
           "color": "rgb(179, 156, 0)",
-          "layer": 481
+          "layer": "th_models"
         },
         {
           "color": "rgb(230, 230, 230)",
-          "layer": 482
+          "layer": "smd_models"
         },
         {
           "color": "rgb(230, 230, 230)",
-          "layer": 483
+          "layer": "virtual_models"
         },
         {
           "color": "rgba(20, 51, 36, 0.831)",
-          "layer": 484
+          "layer": "non_pos_file_models"
         },
         {
           "color": "rgba(20, 51, 36, 0.831)",
-          "layer": 485
+          "layer": "dnp_models"
         },
         {
           "color": "rgb(128, 128, 128)",
-          "layer": 486
+          "layer": "3d_axes"
         },
         {
           "color": "rgba(0, 0, 0, 0.000)",
-          "layer": 488
-        },
-        {
-          "color": "rgba(0, 0, 0, 0.000)",
-          "layer": 489
-        },
-        {
-          "color": "rgba(0, 0, 0, 0.000)",
-          "layer": 490
-        },
-        {
-          "color": "rgba(0, 0, 0, 0.000)",
-          "layer": 491
+          "layer": "off_board_silk"
         }
       ],
       "layers": [
-        130,
-        142,
-        143,
-        479,
-        480,
-        481,
-        482,
-        483,
-        484,
-        485,
-        486,
-        487,
-        488,
-        489,
-        490,
-        491,
-        492,
-        493,
-        494,
-        495,
-        497
+        "",
+        "fp_text",
+        "fp_values",
+        "fp_references",
+        "user_eco1",
+        "user_eco2",
+        "th_models",
+        "smd_models",
+        "virtual_models",
+        "non_pos_file_models",
+        "dnp_models",
+        "3d_axes",
+        "bounding_boxes",
+        "off_board_silk"
       ],
       "name": "legacy colors"
     }
@@ -128,7 +153,10 @@
     "open_libs": []
   },
   "meta": {
-    "version": 3
+    "version": 4
+  },
+  "plugins": {
+    "actions": []
   },
   "printing": {
     "background": false,
@@ -231,7 +259,11 @@
     "show_soldermask_top": true,
     "show_solderpaste": true,
     "show_zones": true,
-    "subtract_mask_from_silk": false
+    "subtract_mask_from_silk": false,
+    "use_board_editor_copper_colors": false
+  },
+  "search_pane": {
+    "selection_zoom": 1
   },
   "system": {
     "file_history": [],

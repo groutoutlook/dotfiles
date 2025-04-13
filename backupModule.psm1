@@ -1,5 +1,5 @@
 $backUpDir = @{
-  "$env:APPDATA\kicad\8.0" = "$env:dotfilesRepo\config\.kicad" 
+  "$env:APPDATA\kicad" = "$env:dotfilesRepo\config" 
   "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config\PenTablet_Config.pcfg"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
   "$HOME\.gitignore_global" = "$env:dotfilesRepo\"
