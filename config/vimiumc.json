@@ -1,13 +1,12 @@
 {
 	"name": "Vimium C",
-	"@time": "4/10/2025, 7:16:44 AM",
-	"time": 1744244204645,
 	"environment": {
-		"extension": "2.11.3",
+		"extension": "2.12.1",
 		"platform": "win",
-		"chromium": 135
+		"chromium": 136
 	},
 	"allBrowserUrls": true,
+	"exclusionListenHash": false,
 	"extAllowList": [
 		"# modified versions of X New Tab and PDF Viewer,",
 		"hdnehngglnbnehkfcidabjckinphnief",
@@ -127,7 +126,8 @@
 		"map = LinkHints.activateCopyLinkText",
 		"",
 		"map . LinkHints.activate",
-		"map * LinkHints.activate",
+		"unmap 0",
+		"map 00 LinkHints.activate",
 		"map F LinkHints.activateSearchLinkText",
 		"# map <a-x> LinkHints.click",
 		"",
