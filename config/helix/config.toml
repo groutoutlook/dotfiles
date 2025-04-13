@@ -168,6 +168,10 @@ w = [":write-all!"]
 q = [":quit-all!"]
 
 
+[keys.normal.";".f]
+f = ["global_search"]
+
+
 # INFO: start insert mapping.
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!

@@ -14,6 +14,22 @@
         {
             "command": 
             {
+                "action": "showSuggestions"
+            },
+            "id": "User.showSuggestions.2F7A7303"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 100,
+                "relative": false
+            },
+            "id": "User.adjustOpacity.A7506725"
+        },
+        {
+            "command": 
+            {
                 "action": "swapPane",
                 "direction": "nextInOrder"
             },
@@ -31,18 +47,14 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
+                "action": "resizePane",
+                "direction": "left"
             },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.resizePane.2A0DA8E0"
         },
         {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": 100,
-                "relative": false
-            },
-            "id": "User.adjustOpacity.A7506725"
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
         },
         {
             "command": 
@@ -55,30 +67,27 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "left"
-            },
-            "id": "User.resizePane.2A0DA8E0"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
-            "command": 
-            {
                 "action": "sendInput",
                 "input": "git -C $HOME\\hw\\obs rap"
             },
             "id": "User.sendInput.3C8C8ECD"
         },
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": "toggleAlwaysOnTop",
             "id": "User.toggleAlwaysOnTop"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9"
         },
         {
             "command": 
@@ -93,27 +102,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.146080A9"
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "id": "User.resizePane.F747588A"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": 
@@ -123,6 +115,14 @@
                 "relative": true
             },
             "id": "User.adjustOpacity.4C71C550"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": "toggleBroadcastInput",
@@ -211,12 +211,8 @@
             "id": "User.toggleFocusMode"
         },
         {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "previous"
-            },
-            "id": "User.swapPane.75247157"
+            "command": "switchSelectionEndpoint",
+            "id": "User.switchSelectionEndpoint"
         },
         {
             "command": 
@@ -227,8 +223,12 @@
             "id": "User.swapPane.87C324ED"
         },
         {
-            "command": "switchSelectionEndpoint",
-            "id": "User.switchSelectionEndpoint"
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "previous"
+            },
+            "id": "User.swapPane.75247157"
         },
         {
             "command": 
@@ -325,12 +325,12 @@
             "keys": "ctrl+alt+left"
         },
         {
-            "id": "User.splitPane.FEF0D40B",
-            "keys": "ctrl+alt+shift+d"
-        },
-        {
             "id": "User.adjustOpacity.E90BBAB2",
             "keys": "win+ctrl+numpad0"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "ctrl+alt+shift+d"
         },
         {
             "id": "User.adjustOpacity.A7506725",
@@ -345,24 +345,24 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "f11"
-        },
-        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
+        },
+        {
+            "id": null,
+            "keys": "f11"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
         },
         {
-            "id": "User.toggleFocusMode",
-            "keys": "win+ctrl+alt+f"
-        },
-        {
             "id": "User.toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "win+ctrl+alt+f"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -402,11 +402,11 @@
         },
         {
             "id": null,
-            "keys": "win+ctrl+alt+d"
+            "keys": "alt+0"
         },
         {
             "id": null,
-            "keys": "alt+0"
+            "keys": "win+ctrl+alt+d"
         },
         {
             "id": null,
@@ -425,12 +425,12 @@
             "keys": "shift+f1"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+space"
-        },
-        {
             "id": "User.switchSelectionEndpoint",
             "keys": "ctrl+m"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+space"
         },
         {
             "id": null,
@@ -457,24 +457,24 @@
             "keys": "ctrl+shift+2"
         },
         {
-            "id": "User.toggleBroadcastInput",
-            "keys": "win+ctrl+alt+i"
-        },
-        {
             "id": "User.showSuggestions.2F7A7303",
             "keys": "ctrl+f1"
+        },
+        {
+            "id": "User.toggleBroadcastInput",
+            "keys": "win+ctrl+alt+i"
         },
         {
             "id": "User.moveFocus.D7681B66",
             "keys": "ctrl+alt+shift+plus"
         },
         {
-            "id": "User.splitPane.91AB55B1",
-            "keys": "win+ctrl+alt+p"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "User.splitPane.91AB55B1",
+            "keys": "win+ctrl+alt+p"
         },
         {
             "id": "User.moveFocus.87C324ED",
@@ -607,6 +607,12 @@
                 "hidden": false,
                 "name": "ESP-IDF 5.4",
                 "source": "ESP-IDF 5.4"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell 7 Preview",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
