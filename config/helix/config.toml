@@ -2,7 +2,8 @@ theme = "ayu_evolve"
 
 [editor]
 mouse = true
-# middle-click-paste = true
+middle-click-paste = true
+default-yank-register = "+"
 scroll-lines = 3
 shell = [ "pwsh", "-Command" ,
  " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
@@ -147,16 +148,16 @@ g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to
 # w = [ "move_char_right", "move_prev_word_start", "move_next_word_end", "yank_main_selection_to_clipboard", "delete_selection", ]
 
 
-[keys.normal.y]
-y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "normal_mode", "collapse_selection"]
-j = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-down = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-k = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-up = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-w = ["move_next_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"] }
+# [keys.normal.y]
+# y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "normal_mode", "collapse_selection"]
+# j = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# down = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# k = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# up = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# w = ["move_next_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
+# g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"] }
 # End of key.normal mapping.
 
 # my style of quit
@@ -229,7 +230,7 @@ j = ["extend_line_down", "extend_to_line_bounds"]
 # Clipboards over registers ye ye
 d = ["yank_main_selection_to_clipboard", "delete_selection"]
 x = ["yank_main_selection_to_clipboard", "delete_selection"]
-y = ["yank_main_selection_to_clipboard", "normal_mode", "flip_selections", "collapse_selection"]
+# y = ["yank_main_selection_to_clipboard", "normal_mode", "flip_selections", "collapse_selection"]
 Y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "goto_line_start", "collapse_selection", "normal_mode"]
 p = "replace_selections_with_clipboard" # No life without this
 P = "paste_clipboard_before"
