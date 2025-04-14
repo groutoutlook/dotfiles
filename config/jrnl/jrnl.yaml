@@ -220,6 +220,9 @@ journals:
   news:
     journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pol:
+    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   os:
     journal: ~/hw/obs/note_software//journal//OSJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -232,7 +235,7 @@ journals:
   pcba:
     journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  peop:
+  peo:
     journal: ~/hw/obs/note_Business//ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   people:
