@@ -258,3 +258,7 @@
 	editor = interactive-rebase-tool
 [include]
 	path = ~/gitalias.txt
+[credential "https://git.code.sf.net"]
+	provider = generic
+[init]
+	defaultBranch = main

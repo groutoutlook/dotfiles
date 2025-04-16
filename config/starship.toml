@@ -89,3 +89,27 @@ description = "Live updating clock icon, changes hourly. Icons can be customized
 when = true
 style = "fg:bright-blue bg:black"
 format = "[$output ]($style)"
+
+[custom.git_status_obsidian]
+# PowerShell command to:
+# 1. Check if inside a git repo
+# 2. Check if the git root contains a .obsidian folder
+# 3. If yes, show a simple git status indicator
+# 4. Otherwise, output nothing
+
+disabled = false
+command = """
+if (git rev-parse --is-inside-work-tree 2>$null) {
+    $gitRoot = git rev-parse --show-toplevel 2>$null
+    if (Test-Path -Path (Join-Path $gitRoot '.obsidian')) {
+        $status = git status --porcelain
+        if ($status) {
+            Write-Output '[✗]'
+        } else {
+            Write-Output '[✓]'
+        }
+    }
+}
+"""
+format = "[$output](red)"
+
