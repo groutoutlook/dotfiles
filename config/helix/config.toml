@@ -169,6 +169,9 @@ w = [":write-all!"]
 q = [":quit-all!"]
 
 
+[keys.normal.l.w]
+q = [":write-quit-all!"]
+
 [keys.normal.";".f]
 f = ["global_search"]
 
