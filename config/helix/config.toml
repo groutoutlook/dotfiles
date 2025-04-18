@@ -176,6 +176,10 @@ q = [":write-quit-all!"]
 f = ["global_search"]
 
 
+[keys.insert.l.w]
+q = [":write-quit-all!"]
+
+
 # INFO: start insert mapping.
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
