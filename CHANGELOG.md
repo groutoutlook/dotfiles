@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/groutoutlook/dotfiles/compare/v1.0.0...v1.1.0) (2025-04-18)
+
+
+### Features
+
+* ;SS now joinTabs in vimium ([fd1f800](https://github.com/groutoutlook/dotfiles/commit/fd1f80098eb5a63607b351f596fad5dc208d676b))
+* add lwq to insert mode as well. ([d1df9e3](https://github.com/groutoutlook/dotfiles/commit/d1df9e3636d1c818d43b07b390c0dcb01cb3aa2a))
+
 ## 1.0.0 (2025-04-18)
 
 
