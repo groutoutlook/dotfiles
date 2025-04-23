@@ -1,12 +1,3 @@
-[submodule "linux_env"]
-	path = linux_env
-	url = https://github.com/groutoutlook/linux_env.git
-[submodule "powershell"]
-	path = powershell
-	url = https://github.com/groutoutlook/pwsh_settings.git
-[submodule "nvim_dotfiles"]
-	path = nvim_dotfiles
-	url = https://github.com/groutoutlook/nvim_dotfiles
 [submodule "config/wezterm"]
 	path = config/wezterm
 	url = https://github.com/groutoutlook/weztermConfig
@@ -19,3 +10,6 @@
 [submodule "config/yazi"]
 	path = config/yazi
 	url = https://github.com/groutoutlook/yaziConfig
+[submodule "config/nushell"]
+	path = config/nushell
+	url = https://github.com/groutoutlook/nushellConfig
