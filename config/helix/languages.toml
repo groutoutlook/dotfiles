@@ -1,5 +1,8 @@
-
-
 [[language]]
 name = "cpp"
 auto-format = false
+
+[[language]]
+name = "nu"
+auto-format = true
+formatter = { command = "topiary", args = ["format", "--language", "nu"] }

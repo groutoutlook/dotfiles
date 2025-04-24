@@ -9,7 +9,7 @@ $backUpDir = @{
   "$HOME\.vimrc" = "$env:dotfilesRepo\config\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\"
   "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\config\"
-  # "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\config\"
+  "$HOME\Downloads\vimium_c_edge.json" = "$env:dotfilesRepo\config\"
 }
 
 

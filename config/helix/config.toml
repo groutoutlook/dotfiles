@@ -35,19 +35,14 @@ center = []
 right = ["selections", "primary-selection-length", "position", "position-percentage", "spacer", "separator",
 "total-line-numbers","diagnostics", "version-control"]
 
-
-
-
 [keys.normal]
 # Quick iteration on config changes
 C-o = ":config-open"
 C-r = ":config-reload"
 C-q = ":quit"
 # Some nice Helix stuff
-C-h = "select_prev_sibling"
-# C-j = "shrink_selection"
-# C-k = "expand_selection"
-C-l = "select_next_sibling"
+C-j = "shrink_selection"
+C-k = "expand_selection"
 
 # Personal preference
 o = ["open_below", "normal_mode"]
@@ -63,7 +58,7 @@ G = "goto_file_end"
 V = ["select_mode", "extend_to_line_bounds"]
 C = ["extend_to_line_end", "yank_main_selection_to_clipboard", "delete_selection", "insert_mode"]
 D = ["extend_to_line_end", "yank_main_selection_to_clipboard", "delete_selection"]
-S = "surround_add" # Would be nice to be able to do something after this but it isn't chainable
+S = "surround_add"
 
 # Clipboards over registers ye ye
 x = "delete_selection"
@@ -71,23 +66,6 @@ p = ["paste_clipboard_after", "collapse_selection"]
 P = ["paste_clipboard_before", "collapse_selection"]
 # Would be nice to add ya and yi, but the surround commands can't be chained
 Y = ["extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
-
-# Uncanny valley stuff, this makes w and b behave as they do Vim
-w = ["move_next_word_start", "move_char_right", "collapse_selection"]
-W = ["move_next_long_word_start", "move_char_right", "collapse_selection"]
-e = ["move_next_word_end", "collapse_selection"]
-E = ["move_next_long_word_end", "collapse_selection"]
-b = ["move_prev_word_start", "collapse_selection"]
-B = ["move_prev_long_word_start", "collapse_selection"]
-
-# If you want to keep the selection-while-moving behaviour of Helix, this two lines will help a lot,
-# especially if you find having text remain selected while you have switched to insert or append mode
-#
-# There is no real difference if you have overridden the commands bound to 'w', 'e' and 'b' like above
-# But if you really want to get familiar with the Helix way of selecting-while-moving, comment the
-# bindings for 'w', 'e', and 'b' out and leave the bindings for 'i' and 'a' active below. A world of difference!
-i = ["insert_mode", "collapse_selection"]
-a = ["append_mode", "collapse_selection"]
 
 # Undoing the 'd' + motion commands restores the selection which is annoying
 u = ["undo", "collapse_selection"]
@@ -108,26 +86,24 @@ k = "move_line_up"
 "A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 # move line down
 "A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
-# C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
-# C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
-# INFO: more from this guy's[config](https://github.com/italomaia/helix-non-modal-config/blob/01af122bdd7484fc64b90fadf1ef53d8dd34fdde/config.toml#L44C1-L53C1)
-tab = "goto_next_function" # select and jump to the next function via Treesitter
-S-tab = "goto_prev_function" # select and jump to the previous function via Treesitter 
+# HACK: mimic buffer motion in neovim.
+"]" = { b ="goto_next_buffer"}
+"[" = { b ="goto_previous_buffer"}
+
 end = "goto_line_end_newline" # stop at linebreak; this is more useful
-C-end = "goto_line_end" # stop at last character
+C-end = "goto_file_end" 
+C-home = "goto_file_start"
 del = ["move_next_word_end", "move_prev_word_end", "move_next_word_end", "delete_selection_noyank"] # delete current word
 C-del = "toggle_comments" # kind of delete, but not really =D
-# C-backspace cannot be mapped
+
 backspace = ["delete_char_backward"] # counterpart for `d`
-A-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
-# Extend and select commands that expect a manual input can't be chained
-# I've kept d[X] commands here because it's better to at least have the stuff you want to delete
-# selected so that it's just a keystroke away to delete
+C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
+# A-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
 
 # INFO: as `c-a c-a`
 "ret" = "goto_word"
-
+"C-S-backspace" = "goto_last_modification"
 
 [keys.normal.d]
 d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]
@@ -142,7 +118,7 @@ up = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_se
 G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
 w = ["move_next_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
 W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
-g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"] }
+# g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"] }
 
 # [keys.normal.d.i]
 # w = [ "move_char_right", "move_prev_word_start", "move_next_word_end", "yank_main_selection_to_clipboard", "delete_selection", ]
@@ -161,13 +137,13 @@ g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to
 # End of key.normal mapping.
 
 # my style of quit
+[keys.normal.";"]
+q = [":quit-all!"]
+b = {c = ":buffer-close", d = ":buffer-close"}
+
 [keys.normal.";".w]
 q = [":write-quit-all!"]
 w = [":write-all!"]
-
-[keys.normal.";"]
-q = [":quit-all!"]
-
 
 [keys.normal.l.w]
 q = [":write-quit-all!"]
@@ -193,8 +169,17 @@ C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 # HACK: [More keymap hacking for an easier typing insert mode.](https://docs.helix-editor.com/keymap.html#insert-mode)
 C-del = ["move_next_word_start", "delete_selection"] # delete next word
 "A-w" = ["move_next_word_start", "delete_selection"] # delete next word
+C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
+
+
 C-space = ["completion"]
 "C-[" = ["normal_mode"] 
+
+# INFO: goto mode support.
+"C-ret" = ["goto_word"]
+"C-S-backspace" = ["goto_last_modification"]
+C-end = "goto_file_end" 
+C-home = "goto_file_start"
 
 [keys.insert.j]
 k = ["normal_mode"]
@@ -206,6 +191,8 @@ w = [":write-all!","normal_mode"]
 
 [keys.insert.";"]
 q = [":quit-all!"]
+b = {c = ":buffer-close", d = ":buffer-close"}
+
 
 [keys.select]
 # Muscle memory
@@ -245,5 +232,3 @@ P = "paste_clipboard_before"
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
 
-[keys.select.ret]
-s = ":sh tmux popup -xC -yC -w90% -h90% -E scooter"
