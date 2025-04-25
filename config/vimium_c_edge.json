@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "4/25/2025, 12:14:32 PM",
-	"time": 1745558072111,
+	"@time": "4/25/2025, 4:28:11 PM",
+	"time": 1745573291840,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -205,7 +205,7 @@
 		"",
 		"map <c-[:i> reset",
 		"",
-		"map . enterFindMode",
+		"# map . enterFindMode",
 		"map / enterFindMode",
 		"map n performFind",
 		"map m performBackwardsFind",

@@ -125,8 +125,20 @@
             "id": "User.moveFocus.2A0DA8E0"
         },
         {
+            "command": "identifyWindows",
+            "id": "User.identifyWindows"
+        },
+        {
             "command": "toggleBroadcastInput",
             "id": "User.toggleBroadcastInput"
+        },
+        {
+            "command": 
+            {
+                "action": "findMatch",
+                "direction": "next"
+            },
+            "id": "User.findMatch.2A0DA8E0"
         },
         {
             "command": "paste",
@@ -171,6 +183,13 @@
         {
             "command": 
             {
+                "action": "addMark"
+            },
+            "id": "User.addMark.0"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
@@ -179,6 +198,10 @@
         {
             "command": "togglePaneZoom",
             "id": "User.togglePaneZoom"
+        },
+        {
+            "command": "experimental.openScratchpad",
+            "id": "User.experimental.openScratchpad"
         },
         {
             "command": 
@@ -254,6 +277,10 @@
             "id": "User.clearBuffer.87C324ED"
         },
         {
+            "command": "expandSelectionToWord",
+            "id": "User.expandSelectionToWord"
+        },
+        {
             "command": "toggleBlockSelection",
             "id": "User.toggleBlockSelection"
         },
@@ -268,6 +295,10 @@
                 "singleLine": false
             },
             "id": "User.copy.224984B4"
+        },
+        {
+            "command": "identifyWindow",
+            "id": "User.identifyWindow"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -301,20 +332,24 @@
             "keys": "alt+9"
         },
         {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
+        },
+        {
             "id": "User.resizePane.6CD791B",
             "keys": "ctrl+alt+up"
         },
         {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "alt+shift+left"
         },
         {
             "id": "Terminal.OpenSystemMenu",
             "keys": "win+alt+space"
         },
         {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "alt+shift+left"
+            "id": null,
+            "keys": "ctrl+alt+comma"
         },
         {
             "id": "Terminal.MoveFocusFirst",
@@ -325,24 +360,24 @@
             "keys": "ctrl+alt+left"
         },
         {
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
-        },
-        {
             "id": "User.splitPane.FEF0D40B",
             "keys": "ctrl+alt+shift+d"
+        },
+        {
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
         },
         {
             "id": "User.adjustOpacity.A7506725",
             "keys": "win+ctrl+numpad9"
         },
         {
-            "id": null,
-            "keys": "ctrl+numpad_plus"
+            "id": "User.identifyWindow",
+            "keys": "ctrl+shift+insert"
         },
         {
-            "id": "Terminal.MoveFocusFirst",
-            "keys": "ctrl+shift+insert"
+            "id": null,
+            "keys": "ctrl+numpad_plus"
         },
         {
             "id": "User.find",
@@ -357,16 +392,24 @@
             "keys": "f11"
         },
         {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "win+ctrl+alt+f"
         },
         {
             "id": "User.toggleAlwaysOnTop",
             "keys": "win+ctrl+alt+t"
         },
         {
-            "id": "User.toggleFocusMode",
-            "keys": "win+ctrl+alt+f"
+            "id": "User.findMatch.2A0DA8E0",
+            "keys": "ctrl+f3"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -397,10 +440,6 @@
             "keys": "ctrl+alt+z"
         },
         {
-            "id": "User.splitPane.10B260D2",
-            "keys": "ctrl+alt+shift+s"
-        },
-        {
             "id": null,
             "keys": "ctrl+alt+shift+z"
         },
@@ -417,6 +456,10 @@
             "keys": "ctrl+alt+shift+f1"
         },
         {
+            "id": "User.expandSelectionToWord",
+            "keys": "w"
+        },
+        {
             "id": null,
             "keys": "alt+enter"
         },
@@ -430,19 +473,27 @@
         },
         {
             "id": null,
-            "keys": "ctrl+minus"
-        },
-        {
-            "id": null,
             "keys": "shift+f1"
         },
         {
-            "id": "User.switchSelectionEndpoint",
-            "keys": "ctrl+m"
+            "id": null,
+            "keys": "ctrl+minus"
+        },
+        {
+            "id": "User.addMark.0",
+            "keys": "ctrl+alt+shift+m"
+        },
+        {
+            "id": "User.identifyWindows",
+            "keys": "ctrl+alt+shift+insert"
         },
         {
             "id": null,
             "keys": "ctrl+shift+space"
+        },
+        {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "ctrl+m"
         },
         {
             "id": null,
@@ -467,6 +518,10 @@
         {
             "id": null,
             "keys": "ctrl+shift+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+0"
         },
         {
             "id": "User.showSuggestions.2F7A7303",
@@ -523,6 +578,22 @@
         {
             "id": "User.markMode",
             "keys": "ctrl+shift+m"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": "User.splitPane.10B260D2",
+            "keys": "ctrl+alt+shift+s"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
         }
     ],
     "newTabMenu": 
@@ -608,12 +679,6 @@
             },
             {
                 "guid": "{77700071-1b52-5a42-a731-340b544daf25}",
-                "hidden": false,
-                "name": "Ubuntu-24.04",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "guid": "{577b888d-7454-5d0b-a0c6-d9c4236966a4}",
                 "hidden": false,
                 "name": "Ubuntu-24.04",
                 "source": "Microsoft.WSL"
