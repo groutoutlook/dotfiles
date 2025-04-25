@@ -337,6 +337,10 @@
             "keys": "win+ctrl+numpad9"
         },
         {
+            "id": null,
+            "keys": "ctrl+numpad_plus"
+        },
+        {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+shift+insert"
         },
@@ -422,6 +426,14 @@
         },
         {
             "id": null,
+            "keys": "ctrl+plus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+minus"
+        },
+        {
+            "id": null,
             "keys": "shift+f1"
         },
         {
@@ -495,6 +507,10 @@
         {
             "id": "User.toggleFullscreen",
             "keys": "win+ctrl+alt+f11"
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "ctrl+shift+numpad_minus"
         },
         {
             "id": null,
