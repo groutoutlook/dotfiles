@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "4/26/2025, 12:20:33 AM",
-	"time": 1745601633506,
+	"@time": "4/26/2025, 10:58:47 AM",
+	"time": 1745639927343,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -9,6 +9,20 @@
 	},
 	"allBrowserUrls": true,
 	"exclusionListenHash": false,
+	"exclusionRules": [
+		{
+			"passKeys": "",
+			"pattern": ":https://mail.google.com/"
+		},
+		{
+			"passKeys": "/ ",
+			"pattern": ":https://github.com/"
+		},
+		{
+			"passKeys": "/ ",
+			"pattern": ":file:///"
+		}
+	],
 	"extAllowList": [
 		"# modified versions of X New Tab and PDF Viewer,",
 		"hdnehngglnbnehkfcidabjckinphnief",
