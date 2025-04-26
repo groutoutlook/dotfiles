@@ -1,10 +1,13 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
 # Make continuation prompt a space for coneniently copy paste.
 continuation_prompt = ' '
 add_newline = true
-# command_timeout = 100
+command_timeout = 100
 
 [directory]
-truncation_length = 5
+truncation_length = 3
 format = " [$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
@@ -65,51 +68,10 @@ time_format = "%T"
 format = "🕙 $time($style) "
 style = "bright-white"
 
-[custom.giturl-pwsh]
-disabled = true
-description = "Display symbol for remote Git server (pwsh)"
-command = """
-$gitRemote = git ls-remote --get-url
-$symbol = ' ' # If no Git Remote is returned.
-switch -regex ($gitRemote) {
-    'github'    { $symbol = ' ' }
-    'gitlab'    { $symbol = ' ' }
-    'bitbucket' { $symbol = ' ' }
-     Default    { $symbol = ' ' }
-}
-echo $symbol
-"""
-when = "git rev-parse --is-inside-work-tree"
-shell = ["pwsh", "-NoProfile", "-Command", "-"]
-
-[custom.live-clock-icon]
-disabled = true
-command = 'echo "" | cut -c $(($(date +%H)%12+1))'
-description = "Live updating clock icon, changes hourly. Icons can be customized to your liking."
-when = true
-style = "fg:bright-blue bg:black"
-format = "[$output ]($style)"
-
-[custom.git_status_obsidian]
-# PowerShell command to:
-# 1. Check if inside a git repo
-# 2. Check if the git root contains a .obsidian folder
-# 3. If yes, show a simple git status indicator
-# 4. Otherwise, output nothing
-
-disabled = false
-command = """
-if (git rev-parse --is-inside-work-tree 2>$null) {
-    $gitRoot = git rev-parse --show-toplevel 2>$null
-    if (Test-Path -Path (Join-Path $gitRoot '.obsidian')) {
-        $status = git status --porcelain
-        if ($status) {
-            Write-Output '[✗]'
-        } else {
-            Write-Output '[✓]'
-        }
-    }
-}
-"""
-format = "[$output](red)"
-
+[character]
+success_symbol = ""
+error_symbol = "[×](bold red)"
+vicmd_symbol = "[N](#59c2ff)"
+vimcmd_replace_one_symbol = "[R](bold purple)"
+vimcmd_replace_symbol = "[R](bold purple)"
+vimcmd_visual_symbol = "[V](bold yellow)"
