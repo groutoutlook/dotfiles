@@ -40,10 +40,9 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 C-o = ":config-open"
 C-r = ":config-reload"
 C-q = ":quit"
-# Some nice Helix stuff
-C-j = "shrink_selection"
-C-k = "expand_selection"
 
+C-u = ["kill_to_line_start"]
+C-k = ["kill_to_line_end"]
 # Personal preference
 o = ["open_below", "insert_mode"]
 O = ["open_above", "insert_mode"]
@@ -134,6 +133,9 @@ W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "delete_se
 # W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
 # g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"] }
 # End of key.normal mapping.
+
+[keys.normal.g]
+";" = "goto_last_modification"
 
 # my style of quit
 [keys.normal.";"]

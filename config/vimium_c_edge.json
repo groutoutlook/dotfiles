@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "4/26/2025, 10:58:47 AM",
-	"time": 1745639927343,
+	"@time": "4/29/2025, 4:24:52 PM",
+	"time": 1745918692126,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -19,7 +19,7 @@
 			"pattern": ":https://github.com/"
 		},
 		{
-			"passKeys": "/ ",
+			"passKeys": "",
 			"pattern": ":file:///"
 		}
 	],
