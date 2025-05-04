@@ -5,6 +5,8 @@
 continuation_prompt = ' '
 add_newline = true
 command_timeout = 100
+format = "$time$all$line_break$jobs$battery$status$shell$character"
+
 
 [directory]
 truncation_length = 3
