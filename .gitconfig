@@ -66,7 +66,7 @@
   mt = mergetool
 [core]
   # Don't paginate output by default
-  pager = bat
+  pager = "bat --paging=never"
   # Global ignore file (not shared)
 	excludesfile = 
   # Global shared hooks directory
@@ -99,7 +99,7 @@
   cmd = code --wait --diff $LOCAL $REMOTE
 [pager]
   difftool = true
-	diff = bat
+	diff = "bat --paging=never"
 	# log = bat
 	reflog = bat
 [fetch]
