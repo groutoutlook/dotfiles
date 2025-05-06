@@ -653,7 +653,7 @@
                 "hidden": false,
                 "intenseTextStyle": "all",
                 "name": "pwsh",
-                "opacity": 50,
+                "opacity": 70,
                 "padding": "0",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
@@ -737,7 +737,6 @@
         }
     ],
     "searchWebDefaultQueryUrl": "https://duckduckgo.com/?q=%22%s%22",
-    "startOnUserLogin": true,
     "tabWidthMode": "compact",
     "theme": "dark",
     "themes": 
