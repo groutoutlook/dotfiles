@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "4/29/2025, 4:24:52 PM",
-	"time": 1745918692126,
+	"@time": "5/7/2025, 1:23:13 AM",
+	"time": 1746555793293,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -68,6 +68,7 @@
 		"unmap <a-c>",
 		"unmap <a-s-c>",
 		"# INFO: since ctrl-r is available now",
+		"unmap B",
 		"unmap r",
 		"unmap R",
 		"map R reloadTab",
@@ -236,7 +237,7 @@
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "1234qweas",
-	"linkHintNumbers": "01245",
+	"linkHintNumbers": "012345",
 	"newTabUrl": "duckduckgo.com",
 	"regexFindMode": true,
 	"scrollStepSize": 120,

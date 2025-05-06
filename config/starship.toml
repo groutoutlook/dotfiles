@@ -10,17 +10,20 @@ format = "$time$all$line_break$jobs$battery$status$shell$character"
 
 [directory]
 truncation_length = 3
-format = " [$path]($style)[$lock_symbol]($lock_style) "
+format = " [$path]($style)[$lock_symbol]($lock_style)"
 
 [git_branch]
+disabled = false
 format = " [$symbol$branch]($style) "
-symbol = "🌱 "
+symbol = " "
 style = "bold yellow"
 
 [git_commit]
-commit_hash_length = 8
-style = "bold white"
-
+disabled = false
+only_detached = false
+format = "[$hash]($style) "
+commit_hash_length = 5
+style = "bold blue"
 
 [git_status]
 disabled = true
