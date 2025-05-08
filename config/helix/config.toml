@@ -54,7 +54,7 @@ O = ["open_above", "insert_mode"]
 "^" = "goto_first_nonwhitespace"
 G = "goto_file_end"
 V = ["select_mode", "extend_to_line_bounds"]
-C = ["extend_to_line_end", "yank_main_selection_to_clipboard", "delete_selection", "insert_mode"]
+# C = ["extend_to_line_end", "yank_main_selection_to_clipboard", "delete_selection", "insert_mode"]
 D = ["extend_to_line_end", "yank_main_selection_to_clipboard", "delete_selection"]
 S = "surround_add"
 
