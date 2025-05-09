@@ -15,23 +15,6 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
-            },
-            "id": "User.adjustOpacity.E90BBAB2"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
                 "opacity": 100,
                 "relative": false
             },
@@ -47,10 +30,19 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
             },
-            "id": "User.moveFocus.F747588A"
+            "id": "User.adjustOpacity.E90BBAB2"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "nextInOrder"
+            },
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": "toggleFullscreen",
@@ -67,27 +59,26 @@
         {
             "command": 
             {
-                "action": "sendInput",
-                "input": "git -C $HOME\\hw\\obs rap"
+                "action": "moveFocus",
+                "direction": "down"
             },
-            "id": "User.sendInput.3C8C8ECD"
+            "id": "User.moveFocus.F747588A"
         },
         {
             "command": "find",
             "id": "User.find"
         },
         {
-            "command": "toggleAlwaysOnTop",
-            "id": "User.toggleAlwaysOnTop"
-        },
-        {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
+                "action": "sendInput",
+                "input": "git -C $HOME\\hw\\obs rap"
             },
-            "id": "User.adjustOpacity.146080A9"
+            "id": "User.sendInput.3C8C8ECD"
+        },
+        {
+            "command": "toggleAlwaysOnTop",
+            "id": "User.toggleAlwaysOnTop"
         },
         {
             "command": 
@@ -102,10 +93,27 @@
         {
             "command": 
             {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9"
+        },
+        {
+            "command": 
+            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "id": "User.resizePane.F747588A"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": 
@@ -117,20 +125,16 @@
             "id": "User.adjustOpacity.4C71C550"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0"
+            "command": "toggleBroadcastInput",
+            "id": "User.toggleBroadcastInput"
         },
         {
             "command": "identifyWindows",
             "id": "User.identifyWindows"
         },
         {
-            "command": "toggleBroadcastInput",
-            "id": "User.toggleBroadcastInput"
+            "command": "paste",
+            "id": "User.paste"
         },
         {
             "command": 
@@ -139,10 +143,6 @@
                 "direction": "next"
             },
             "id": "User.findMatch.2A0DA8E0"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
         },
         {
             "command": 
@@ -183,25 +183,21 @@
         {
             "command": 
             {
-                "action": "addMark"
-            },
-            "id": "User.addMark.0"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
             "id": "User.moveFocus.787314EB"
         },
         {
-            "command": "togglePaneZoom",
-            "id": "User.togglePaneZoom"
+            "command": 
+            {
+                "action": "addMark"
+            },
+            "id": "User.addMark.0"
         },
         {
-            "command": "experimental.openScratchpad",
-            "id": "User.experimental.openScratchpad"
+            "command": "togglePaneZoom",
+            "id": "User.togglePaneZoom"
         },
         {
             "command": 
@@ -210,6 +206,10 @@
                 "direction": "up"
             },
             "id": "User.moveFocus.6CD791B"
+        },
+        {
+            "command": "experimental.openScratchpad",
+            "id": "User.experimental.openScratchpad"
         },
         {
             "command": 
@@ -234,8 +234,12 @@
             "id": "User.toggleFocusMode"
         },
         {
-            "command": "switchSelectionEndpoint",
-            "id": "User.switchSelectionEndpoint"
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "previous"
+            },
+            "id": "User.swapPane.75247157"
         },
         {
             "command": 
@@ -246,12 +250,8 @@
             "id": "User.swapPane.87C324ED"
         },
         {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "previous"
-            },
-            "id": "User.swapPane.75247157"
+            "command": "switchSelectionEndpoint",
+            "id": "User.switchSelectionEndpoint"
         },
         {
             "command": 
@@ -277,12 +277,12 @@
             "id": "User.clearBuffer.87C324ED"
         },
         {
-            "command": "expandSelectionToWord",
-            "id": "User.expandSelectionToWord"
-        },
-        {
             "command": "toggleBlockSelection",
             "id": "User.toggleBlockSelection"
+        },
+        {
+            "command": "expandSelectionToWord",
+            "id": "User.expandSelectionToWord"
         },
         {
             "command": "markMode",
@@ -360,24 +360,24 @@
             "keys": "win+alt+space"
         },
         {
-            "id": null,
-            "keys": "ctrl+alt+comma"
-        },
-        {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+alt+shift+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+comma"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
             "keys": "ctrl+alt+left"
         },
         {
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
-        },
-        {
             "id": "User.splitPane.FEF0D40B",
             "keys": "ctrl+alt+shift+d"
+        },
+        {
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
         },
         {
             "id": "User.adjustOpacity.A7506725",
@@ -392,12 +392,12 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "id": "User.adjustOpacity.146080A9",
-            "keys": "win+ctrl+plus"
-        },
-        {
             "id": null,
             "keys": "f11"
+        },
+        {
+            "id": "User.adjustOpacity.146080A9",
+            "keys": "win+ctrl+plus"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
@@ -408,20 +408,20 @@
             "keys": "alt+shift+minus"
         },
         {
-            "id": "User.toggleAlwaysOnTop",
-            "keys": "win+ctrl+alt+t"
-        },
-        {
             "id": "User.toggleFocusMode",
             "keys": "win+ctrl+alt+f"
         },
         {
-            "id": "User.findMatch.2A0DA8E0",
-            "keys": "ctrl+f3"
+            "id": "User.toggleAlwaysOnTop",
+            "keys": "win+ctrl+alt+t"
         },
         {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
+        },
+        {
+            "id": "User.findMatch.2A0DA8E0",
+            "keys": "ctrl+f3"
         },
         {
             "id": "User.copy.224984B4",
@@ -464,20 +464,20 @@
             "keys": "ctrl+alt+shift+f1"
         },
         {
-            "id": "User.expandSelectionToWord",
-            "keys": "w"
-        },
-        {
             "id": null,
             "keys": "alt+enter"
+        },
+        {
+            "id": "User.expandSelectionToWord",
+            "keys": "w"
         },
         {
             "id": null,
             "keys": "enter"
         },
         {
-            "id": "User.addMark.0",
-            "keys": "ctrl+alt+shift+m"
+            "id": null,
+            "keys": "ctrl+minus"
         },
         {
             "id": null,
@@ -488,16 +488,16 @@
             "keys": "ctrl+plus"
         },
         {
-            "id": null,
-            "keys": "ctrl+minus"
-        },
-        {
-            "id": "User.switchSelectionEndpoint",
-            "keys": "ctrl+m"
+            "id": "User.addMark.0",
+            "keys": "ctrl+alt+shift+m"
         },
         {
             "id": null,
             "keys": "ctrl+shift+space"
+        },
+        {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "ctrl+m"
         },
         {
             "id": null,
@@ -521,19 +521,19 @@
         },
         {
             "id": null,
-            "keys": "ctrl+0"
-        },
-        {
-            "id": null,
             "keys": "ctrl+shift+2"
         },
         {
-            "id": "User.showSuggestions.2F7A7303",
-            "keys": "ctrl+f1"
+            "id": null,
+            "keys": "ctrl+0"
         },
         {
             "id": "User.toggleBroadcastInput",
             "keys": "win+ctrl+alt+i"
+        },
+        {
+            "id": "User.showSuggestions.2F7A7303",
+            "keys": "ctrl+f1"
         },
         {
             "id": "User.moveFocus.D7681B66",
@@ -542,10 +542,6 @@
         {
             "id": null,
             "keys": "ctrl+shift+v"
-        },
-        {
-            "id": "User.splitPane.91AB55B1",
-            "keys": "win+ctrl+alt+p"
         },
         {
             "id": "User.moveFocus.87C324ED",
@@ -706,6 +702,12 @@
                 "hidden": false,
                 "name": "PowerShell 7 Preview",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
