@@ -139,6 +139,8 @@ W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "delete_se
 
 # my style of quit
 [keys.normal.";"]
+# INFO: since I already alias a lot of things into `;`, collapse_selection has to be `;;`
+";" = "collapse_selection"
 q = [":quit-all!"]
 b = {c = ":buffer-close", d = ":buffer-close"}
 
@@ -169,8 +171,9 @@ C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 
 # HACK: [More keymap hacking for an easier typing insert mode.](https://docs.helix-editor.com/keymap.html#insert-mode)
 C-del = ["move_next_word_start", "delete_selection"] # delete next word
-"A-w" = ["move_next_word_start", "delete_selection"] # delete next word
+# "A-w" = ["move_next_word_start", "delete_selection"] # delete next word,
 C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
+# `a-d` == ctrl-del, `c-d` == del
 
 
 C-space = ["completion"]
