@@ -1,3 +1,5 @@
+#!/usr/sbin/sh
+cd ~
 pacman -Syu
 pacman -S nushell helix neovim fd bat ripgrep direnv zoxide eza starship just git fzf yazi difftastic
 git clone https://github.com/groutoutlook/nushellConfig ~/.config/nushell
