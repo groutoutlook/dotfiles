@@ -1,7 +1,7 @@
 #!/usr/sbin/sh
 cd ~
-pacman -Syu
-pacman -S nushell helix neovim fd bat ripgrep direnv zoxide eza starship just git fzf yazi difftastic
+pacman -Syu --noconfirm
+pacman -S nushell helix neovim fd bat ripgrep direnv zoxide eza starship just git fzf yazi difftastic --noconfirm
 git clone https://github.com/groutoutlook/nushellConfig ~/.config/nushell
 git clone https://github.com/groutoutlook/dotfiles
 cp ~/dotfiles/.gitconfig ~/

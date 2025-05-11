@@ -72,7 +72,7 @@
   # Global shared hooks directory
   # hooksPath = ~/.githooks
   # VSCode
-  editor = hx
+  editor = helix
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
 	autocrlf = true
