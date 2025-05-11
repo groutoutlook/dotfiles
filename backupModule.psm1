@@ -2,7 +2,6 @@ $backUpDir = @{
   "$env:APPDATA\kicad" = "$env:dotfilesRepo\config" 
   "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
-  "$HOME\.gitignore_global" = "$env:dotfilesRepo\"
   "$HOME\.config\jrnl" = "$env:dotfilesRepo\config\"
   "$HOME\.config\starship.toml" = "$env:dotfilesRepo\config\"
   "$env:APPDATA\helix" = "$env:dotfilesRepo\config\"
