@@ -48,9 +48,10 @@ Write-Host -ForegroundColor Yellow 'Adding aliases'
     "scoop alias add '$($_.Name)' '$($_.Command)' '$($_.Summary)'"
   }
 }
+
 scoop install main/git
 scoop bucket add extras
-scoop bucket add java
+scoop bucket add versions
 scoop bucket add nonportable
 scoop import ./scoopfile.json
 scoop alias add 'add' 'scoop install $args[0]' 'Install app'
@@ -65,4 +66,5 @@ scoop alias add 's' 'scoop status' 'Show status and check for new app versions'
 scoop alias add 'u' 'scoop update $args[0]' 'Update apps, or Scoop itself'
 scoop alias add 'ua' 'scoop update *' 'Update all installed apps'
 scoop alias add 'upgrade' 'scoop update $args[0]' 'Update apps, or Scoop itself'
-scoop alias add 'w' 'scoop which $args[0]' ''
+scoop alias add 'w' 'foreach ($_ in $args) {scoop which "$_*"}' 'Find which binaries.'
+scoop alias add 'ws' 'Start-Process "https://scoop.sh/#/apps?q=$args"' 'Search on web browser.'
