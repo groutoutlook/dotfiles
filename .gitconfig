@@ -21,8 +21,8 @@
 	wip = commit -am '🚧  wip'
 	wipp = !"git add . && git wip && git puf"
 
-	# Display tree-like log, because default log is a pain…
 	# lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+	dst = diff --stat
 	dft = difftool
 	dift = difftool
 	dlog = "-c diff.external=difft log -p --ext-diff"
@@ -37,15 +37,14 @@
 	# Edit last commit message
 	reword = !"git commit -v --amend && git puf && gh browse"
 
-	# Undo last commit but keep changed files in stage
-	oldcommit = !"git c1 && git reset --soft HEAD~1"
-
 	# Remove file(s) from Git but not from disk
 	utr = rm --cache --
-
 	main = !"git branch -m main && git push -u origin main"
+
 	# My addition.
 	rhh = !"git reset --hard && git clean -fd"
+	# Undo last commit but keep changed files in stage
+	oldcommit = !"git c1 && git reset --soft HEAD~1"
 	rsh = oldcommit
 	rs1 = oldcommit
 	reapply     = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\" && git puf"
@@ -53,15 +52,11 @@
 	rap = reapply
 	rapp = reapply
 	raps = reapplyslow
-	# ci = commit
 	cif = !"git add . && git commit -v && git puf"
-	# cij = !"git add . && gitmoji -c && git push"
 
 	suup = submodule update --remote
 	suin = submodule update --init
-
 	chp = cherry-pick -
-
 	quick-stats = !C:\\Users\\COHOTECH\\scoop\\apps\\git-quick-stats\\current\\git-quick-stats
 	br = branch
 	mt = mergetool
@@ -263,7 +258,7 @@
 	editor = interactive-rebase-tool
 [include]
 	path = ~/gitalias.txt
-	[credential "https://git.code.sf.net"]
+[credential "https://git.code.sf.net"]
 	provider = generic
 [init]
 	defaultBranch = main
