@@ -3,7 +3,7 @@
     "root_path": "C:\\Users\\COHOTECH\\scoop",
     "global_path": "C:\\ProgramData\\scoop",
     "use_isolated_path": false,
-    "last_update": "2025-05-13T08:51:05.0132991+07:00",
+    "last_update": "2025-05-14T07:48:11.6184673+07:00",
     "alias": {
       "add": "scoop-add",
       "rm": "scoop-rm",
@@ -235,6 +235,13 @@
       "Source": "extras",
       "Updated": "2025-05-08T10:20:36.000000+07:00",
       "Version": "1.78.97",
+      "Info": ""
+    },
+    {
+      "Name": "bt",
+      "Source": "extras",
+      "Updated": "2025-05-14T08:12:52.000000+07:00",
+      "Version": "4.3.1",
       "Info": ""
     },
     {
@@ -611,14 +618,14 @@
     {
       "Name": "firefox",
       "Source": "extras",
-      "Updated": "2025-05-13T15:44:30.000000+07:00",
+      "Updated": "2025-05-14T08:09:13.000000+07:00",
       "Version": "128.0",
       "Info": ""
     },
     {
       "Name": "firefox-nightly",
       "Source": "versions",
-      "Updated": "2025-05-13T11:50:37.000000+07:00",
+      "Updated": "2025-05-14T07:51:46.000000+07:00",
       "Version": "132.0a1.20240919095816",
       "Info": ""
     },
@@ -681,8 +688,8 @@
     {
       "Name": "fx",
       "Source": "main",
-      "Updated": "2024-10-23T00:40:48.000000+07:00",
-      "Version": "35.0.0",
+      "Updated": "2025-05-14T07:52:42.000000+07:00",
+      "Version": "36.0.0",
       "Info": ""
     },
     {
@@ -786,8 +793,8 @@
     {
       "Name": "gitbutler",
       "Source": "extras",
-      "Updated": "2025-05-13T08:52:47.000000+07:00",
-      "Version": "0.14.21",
+      "Updated": "2025-05-14T07:52:42.000000+07:00",
+      "Version": "0.14.23",
       "Info": ""
     },
     {
@@ -1001,6 +1008,13 @@
       "Info": ""
     },
     {
+      "Name": "hurl",
+      "Source": "main",
+      "Updated": "2025-05-14T08:15:07.000000+07:00",
+      "Version": "6.1.1",
+      "Info": ""
+    },
+    {
       "Name": "hwatch",
       "Source": "kkzzhizhou_scoop-apps",
       "Updated": "2025-03-21T11:00:48.000000+07:00",
@@ -1180,6 +1194,13 @@
       "Source": "extras",
       "Updated": "2025-03-31T16:44:02.000000+07:00",
       "Version": "1.8.1",
+      "Info": ""
+    },
+    {
+      "Name": "kando",
+      "Source": "extras",
+      "Updated": "2025-05-13T18:02:41.000000+07:00",
+      "Version": "1.8.0",
       "Info": ""
     },
     {
@@ -1395,8 +1416,8 @@
     {
       "Name": "luau-lsp",
       "Source": "main",
-      "Updated": "2025-05-05T09:32:29.000000+07:00",
-      "Version": "1.45.0",
+      "Updated": "2025-05-14T07:52:43.000000+07:00",
+      "Version": "1.46.0",
       "Info": ""
     },
     {
@@ -1563,8 +1584,8 @@
     {
       "Name": "msbuild-structured-log-viewer",
       "Source": "extras",
-      "Updated": "2025-05-13T08:52:50.000000+07:00",
-      "Version": "2.2.489",
+      "Updated": "2025-05-14T07:52:43.000000+07:00",
+      "Version": "2.2.490",
       "Info": ""
     },
     {
@@ -1577,8 +1598,8 @@
     {
       "Name": "mupdf",
       "Source": "extras",
-      "Updated": "2025-03-11T14:15:55.000000+07:00",
-      "Version": "1.25.2",
+      "Updated": "2025-05-14T07:52:43.000000+07:00",
+      "Version": "1.26.0",
       "Info": ""
     },
     {
@@ -1661,8 +1682,8 @@
     {
       "Name": "nmap",
       "Source": "main",
-      "Updated": "2025-05-07T11:52:34.000000+07:00",
-      "Version": "7.96",
+      "Updated": "2025-05-14T07:52:43.000000+07:00",
+      "Version": "7.97",
       "Info": ""
     },
     {
@@ -1745,8 +1766,8 @@
     {
       "Name": "okular",
       "Source": "extras",
-      "Updated": "2025-05-06T08:30:38.000000+07:00",
-      "Version": "25.04-6166",
+      "Updated": "2025-05-14T07:52:47.000000+07:00",
+      "Version": "25.04-6190",
       "Info": ""
     },
     {
@@ -1824,6 +1845,13 @@
       "Source": "main",
       "Updated": "2025-05-05T20:05:53.000000+07:00",
       "Version": "0.40.1",
+      "Info": ""
+    },
+    {
+      "Name": "pacaptr",
+      "Source": "extras",
+      "Updated": "2025-05-14T08:18:07.000000+07:00",
+      "Version": "0.23.0",
       "Info": ""
     },
     {
@@ -2247,6 +2275,13 @@
       "Info": ""
     },
     {
+      "Name": "shfmt",
+      "Source": "main",
+      "Updated": "2025-05-13T17:18:51.000000+07:00",
+      "Version": "3.11.0",
+      "Info": ""
+    },
+    {
       "Name": "shim",
       "Source": "main",
       "Updated": "2024-08-08T15:09:02.000000+07:00",
@@ -2263,8 +2298,15 @@
     {
       "Name": "signal",
       "Source": "extras",
-      "Updated": "2025-05-01T10:58:22.000000+07:00",
-      "Version": "7.53.0",
+      "Updated": "2025-05-14T07:52:47.000000+07:00",
+      "Version": "7.54.0",
+      "Info": ""
+    },
+    {
+      "Name": "simplewall",
+      "Source": "extras",
+      "Updated": "2025-05-13T17:13:24.000000+07:00",
+      "Version": "3.8.6",
       "Info": ""
     },
     {
@@ -2345,6 +2387,13 @@
       "Info": ""
     },
     {
+      "Name": "strokesplus.net",
+      "Source": "extras",
+      "Updated": "2025-05-13T17:16:52.000000+07:00",
+      "Version": "0.5.8.0",
+      "Info": ""
+    },
+    {
       "Name": "subfinder",
       "Source": "hoilc_scoop-lemon",
       "Updated": "2025-04-29T08:49:00.000000+07:00",
@@ -2403,8 +2452,8 @@
     {
       "Name": "tagspaces",
       "Source": "extras",
-      "Updated": "2025-04-15T08:39:59.000000+07:00",
-      "Version": "6.4.5",
+      "Updated": "2025-05-14T07:52:47.000000+07:00",
+      "Version": "6.4.7",
       "Info": ""
     },
     {
@@ -2431,8 +2480,8 @@
     {
       "Name": "thunderbird",
       "Source": "extras",
-      "Updated": "2025-04-30T09:53:00.000000+07:00",
-      "Version": "138.0",
+      "Updated": "2025-05-14T07:52:47.000000+07:00",
+      "Version": "138.0.1",
       "Info": ""
     },
     {
@@ -2480,8 +2529,8 @@
     {
       "Name": "tsip",
       "Source": "extras",
-      "Updated": "2025-01-27T12:36:43.000000+07:00",
-      "Version": "0.3.08",
+      "Updated": "2025-05-14T07:52:47.000000+07:00",
+      "Version": "0.3.09",
       "Info": ""
     },
     {
@@ -2604,6 +2653,13 @@
       "Info": ""
     },
     {
+      "Name": "vscli",
+      "Source": "anderlli0053_DEV-tools",
+      "Updated": "2025-05-13T17:14:23.000000+07:00",
+      "Version": "1.3.0",
+      "Info": ""
+    },
+    {
       "Name": "vscodium",
       "Source": "extras",
       "Updated": "2025-05-10T08:43:18.000000+07:00",
@@ -2697,7 +2753,7 @@
     {
       "Name": "which",
       "Source": "main",
-      "Updated": "2024-05-10T22:01:51.000000+07:00",
+      "Updated": "2025-05-13T16:58:43.000000+07:00",
       "Version": "2.20",
       "Info": ""
     },
@@ -2860,25 +2916,25 @@
     {
       "Name": "anderlli0053_DEV-tools",
       "Source": "https://github.com/anderlli0053/DEV-tools",
-      "Updated": "2025-05-13T07:42:43+07:00",
+      "Updated": "2025-05-14T07:41:55+07:00",
       "Manifests": 26078
     },
     {
       "Name": "bright-angel_scoop-bucket",
       "Source": "https://github.com/bright-angel/scoop-bucket",
-      "Updated": "2025-05-12T23:43:16+07:00",
-      "Manifests": 741
+      "Updated": "2025-05-13T20:02:35+07:00",
+      "Manifests": 742
     },
     {
       "Name": "Capella87_capella-bucket",
       "Source": "https://github.com/Capella87/capella-bucket",
-      "Updated": "2025-05-12T20:02:18+07:00",
+      "Updated": "2025-05-13T20:02:32+07:00",
       "Manifests": 91
     },
     {
       "Name": "cesaryuan_scoop-cesar",
       "Source": "https://github.com/cesaryuan/scoop-cesar",
-      "Updated": "2025-05-13T03:36:24+07:00",
+      "Updated": "2025-05-14T03:36:26+07:00",
       "Manifests": 84
     },
     {
@@ -2890,13 +2946,13 @@
     {
       "Name": "EndlesslyFlowering_my-scoop-bucket",
       "Source": "https://github.com/EndlesslyFlowering/my-scoop-bucket",
-      "Updated": "2025-05-12T15:26:28+07:00",
+      "Updated": "2025-05-13T15:26:41+07:00",
       "Manifests": 30
     },
     {
       "Name": "extras",
       "Source": "https://github.com/ScoopInstaller/Extras",
-      "Updated": "2025-05-13T07:40:23+07:00",
+      "Updated": "2025-05-14T07:39:48+07:00",
       "Manifests": 2165
     },
     {
@@ -2908,13 +2964,13 @@
     {
       "Name": "gdm257_scoop-257",
       "Source": "https://github.com/gdm257/scoop-257",
-      "Updated": "2025-05-13T03:34:43+07:00",
+      "Updated": "2025-05-13T23:43:58+07:00",
       "Manifests": 134
     },
     {
       "Name": "hoilc_scoop-lemon",
       "Source": "https://github.com/hoilc/scoop-lemon",
-      "Updated": "2025-05-13T08:42:39+07:00",
+      "Updated": "2025-05-14T04:19:55+07:00",
       "Manifests": 1819
     },
     {
@@ -2926,20 +2982,20 @@
     {
       "Name": "Jadeiin_scoop",
       "Source": "https://github.com/Jadeiin/scoop",
-      "Updated": "2025-05-13T03:37:14+07:00",
+      "Updated": "2025-05-14T03:37:19+07:00",
       "Manifests": 183
     },
     {
       "Name": "java",
       "Source": "https://github.com/ScoopInstaller/Java",
-      "Updated": "2025-05-10T08:27:59+07:00",
+      "Updated": "2025-05-13T11:25:08+07:00",
       "Manifests": 299
     },
     {
       "Name": "kkzzhizhou_scoop-apps",
       "Source": "https://github.com/kkzzhizhou/scoop-apps",
-      "Updated": "2025-05-12T11:39:30+07:00",
-      "Manifests": 13620
+      "Updated": "2025-05-13T11:39:28+07:00",
+      "Manifests": 13622
     },
     {
       "Name": "maciakl_bucket",
@@ -2950,13 +3006,13 @@
     {
       "Name": "main",
       "Source": "https://github.com/ScoopInstaller/Main.git",
-      "Updated": "2025-05-13T07:40:29+07:00",
+      "Updated": "2025-05-14T07:39:10+07:00",
       "Manifests": 1385
     },
     {
       "Name": "naderi_scoop-bucket",
       "Source": "https://github.com/naderi/scoop-bucket",
-      "Updated": "2025-05-12T02:11:28+07:00",
+      "Updated": "2025-05-13T15:26:55+07:00",
       "Manifests": 362
     },
     {
@@ -2968,13 +3024,13 @@
     {
       "Name": "nirsoft",
       "Source": "https://github.com/ScoopInstaller/Nirsoft",
-      "Updated": "2025-05-09T11:50:14+07:00",
+      "Updated": "2025-05-13T11:51:21+07:00",
       "Manifests": 286
     },
     {
       "Name": "nonportable",
       "Source": "https://github.com/ScoopInstaller/Nonportable",
-      "Updated": "2025-05-13T03:38:24+07:00",
+      "Updated": "2025-05-13T20:03:47+07:00",
       "Manifests": 128
     },
     {
@@ -2986,7 +3042,7 @@
     {
       "Name": "Scoopforge_Main-Plus",
       "Source": "https://github.com/Scoopforge/Main-Plus",
-      "Updated": "2025-05-12T09:20:07+07:00",
+      "Updated": "2025-05-13T20:01:51+07:00",
       "Manifests": 28
     },
     {
@@ -2998,7 +3054,7 @@
     {
       "Name": "versions",
       "Source": "https://github.com/ScoopInstaller/Versions",
-      "Updated": "2025-05-13T03:39:59+07:00",
+      "Updated": "2025-05-14T03:41:06+07:00",
       "Manifests": 492
     }
   ]

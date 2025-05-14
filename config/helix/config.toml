@@ -58,8 +58,8 @@ D = ["extend_to_line_end", "delete_selection"]
 S = "surround_add"
 
 # Clipboards over registers ye ye
-p = ["paste_clipboard_after", "collapse_selection"]
-P = ["paste_clipboard_before", "collapse_selection"]
+# p = ["paste_clipboard_after", "collapse_selection"]
+# P = ["paste_clipboard_before", "collapse_selection"]
 # Would be nice to add ya and yi, but the surround commands can't be chained
 Y = ["extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
 
@@ -196,7 +196,6 @@ w = [":write-all!","normal_mode"]
 q = [":quit-all!"]
 b = {c = ":buffer-close", d = ":buffer-close"}
 
-
 [keys.select]
 # Muscle memory
 "{" = ["extend_to_line_bounds", "goto_prev_paragraph"]
@@ -224,10 +223,6 @@ C-a = ["append_mode", "collapse_selection"]
 k = ["extend_line_up", "extend_to_line_bounds"]
 j = ["extend_line_down", "extend_to_line_bounds"]
 
-# Clipboards over registers ye ye
-d = ["yank_main_selection_to_clipboard", "delete_selection"]
-x = ["yank_main_selection_to_clipboard", "delete_selection"]
-# y = ["yank_main_selection_to_clipboard", "normal_mode", "flip_selections", "collapse_selection"]
 Y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "goto_line_start", "collapse_selection", "normal_mode"]
 p = "replace_selections_with_clipboard" # No life without this
 P = "paste_clipboard_before"
