@@ -82,7 +82,6 @@
 	wordRegex = .
 	# Display submodule-related information (commit listings)
 	submodule = log
-	# Use VSCode as default diff tool when running `git diff-tool`
 	# tool = vscode
 	tool = diffsitter
 [difftool]

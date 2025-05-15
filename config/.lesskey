@@ -1,0 +1,21 @@
+#command
+# Move to the next file with the left and right arrow keys.
+# Defaults are:
+# :n next-file
+# :p prev-file
+\kr         next-file
+\kl         prev-file
+# Inspiration: http://linuxgazette.net/174/grebler.html
+
+# Make spacebar, f-key, and Page Down scroll a full screenful,
+# even if it reaches end-of-file in the process.
+# Spacebar (40 in octal)
+\40         forw-screen-force
+D           back-screen
+?           help
+
+#env
+LESS = -RKqM~gIsw
+SHELL = "pwsh"
+VISUAL = "hx"
+LESSEDIT = "hx %f"
