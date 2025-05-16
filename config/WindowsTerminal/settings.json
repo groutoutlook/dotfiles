@@ -14,6 +14,14 @@
         {
             "command": 
             {
+                "action": "swapPane",
+                "direction": "nextInOrder"
+            },
+            "id": "User.swapPane.D7681B66"
+        },
+        {
+            "command": 
+            {
                 "action": "adjustOpacity",
                 "opacity": 0,
                 "relative": false
@@ -23,10 +31,9 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "nextInOrder"
+                "action": "showSuggestions"
             },
-            "id": "User.swapPane.D7681B66"
+            "id": "User.showSuggestions.2F7A7303"
         },
         {
             "command": 
@@ -40,21 +47,10 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
-            },
-            "id": "User.showSuggestions.2F7A7303"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "down"
             },
             "id": "User.moveFocus.F747588A"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
         },
         {
             "command": 
@@ -65,6 +61,14 @@
             "id": "User.resizePane.2A0DA8E0"
         },
         {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": 
             {
                 "action": "sendInput",
@@ -73,21 +77,8 @@
             "id": "User.sendInput.3C8C8ECD"
         },
         {
-            "command": "find",
-            "id": "User.find"
-        },
-        {
             "command": "toggleAlwaysOnTop",
             "id": "User.toggleAlwaysOnTop"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": 10,
-                "relative": true
-            },
-            "id": "User.adjustOpacity.146080A9"
         },
         {
             "command": 
@@ -102,10 +93,27 @@
         {
             "command": 
             {
+                "action": "adjustOpacity",
+                "opacity": 10,
+                "relative": true
+            },
+            "id": "User.adjustOpacity.146080A9"
+        },
+        {
+            "command": 
+            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "id": "User.resizePane.F747588A"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
         },
         {
             "command": 
@@ -117,20 +125,16 @@
             "id": "User.adjustOpacity.4C71C550"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0"
+            "command": "toggleBroadcastInput",
+            "id": "User.toggleBroadcastInput"
         },
         {
             "command": "identifyWindows",
             "id": "User.identifyWindows"
         },
         {
-            "command": "toggleBroadcastInput",
-            "id": "User.toggleBroadcastInput"
+            "command": "paste",
+            "id": "User.paste"
         },
         {
             "command": 
@@ -139,10 +143,6 @@
                 "direction": "next"
             },
             "id": "User.findMatch.2A0DA8E0"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
         },
         {
             "command": 
@@ -183,25 +183,21 @@
         {
             "command": 
             {
-                "action": "addMark"
-            },
-            "id": "User.addMark.0"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
             "id": "User.moveFocus.787314EB"
         },
         {
-            "command": "togglePaneZoom",
-            "id": "User.togglePaneZoom"
+            "command": 
+            {
+                "action": "addMark"
+            },
+            "id": "User.addMark.0"
         },
         {
-            "command": "experimental.openScratchpad",
-            "id": "User.experimental.openScratchpad"
+            "command": "togglePaneZoom",
+            "id": "User.togglePaneZoom"
         },
         {
             "command": 
@@ -210,6 +206,10 @@
                 "direction": "up"
             },
             "id": "User.moveFocus.6CD791B"
+        },
+        {
+            "command": "experimental.openScratchpad",
+            "id": "User.experimental.openScratchpad"
         },
         {
             "command": 
@@ -234,8 +234,12 @@
             "id": "User.toggleFocusMode"
         },
         {
-            "command": "switchSelectionEndpoint",
-            "id": "User.switchSelectionEndpoint"
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "previous"
+            },
+            "id": "User.swapPane.75247157"
         },
         {
             "command": 
@@ -246,12 +250,8 @@
             "id": "User.swapPane.87C324ED"
         },
         {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "previous"
-            },
-            "id": "User.swapPane.75247157"
+            "command": "switchSelectionEndpoint",
+            "id": "User.switchSelectionEndpoint"
         },
         {
             "command": 
@@ -277,12 +277,12 @@
             "id": "User.clearBuffer.87C324ED"
         },
         {
-            "command": "expandSelectionToWord",
-            "id": "User.expandSelectionToWord"
-        },
-        {
             "command": "toggleBlockSelection",
             "id": "User.toggleBlockSelection"
+        },
+        {
+            "command": "expandSelectionToWord",
+            "id": "User.expandSelectionToWord"
         },
         {
             "command": "markMode",
@@ -328,24 +328,24 @@
     "keybindings": 
     [
         {
-            "id": null,
-            "keys": "win+`"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": null,
             "keys": "alt+9"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
         },
         {
             "id": "User.resizePane.6CD791B",
@@ -360,12 +360,12 @@
             "keys": "win+alt+space"
         },
         {
-            "id": null,
-            "keys": "ctrl+alt+comma"
-        },
-        {
             "id": "Terminal.MoveFocusFirst",
             "keys": "ctrl+alt+shift+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+comma"
         },
         {
             "id": "User.resizePane.2A0DA8E0",
@@ -392,20 +392,20 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "id": null,
+            "keys": "f11"
+        },
+        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+plus"
         },
         {
             "id": null,
-            "keys": "f11"
+            "keys": "alt+shift+minus"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
             "keys": "win+ctrl+minus"
-        },
-        {
-            "id": null,
-            "keys": "alt+shift+minus"
         },
         {
             "id": "User.toggleAlwaysOnTop",
@@ -416,12 +416,12 @@
             "keys": "win+ctrl+alt+f"
         },
         {
-            "id": "User.findMatch.2A0DA8E0",
-            "keys": "ctrl+f3"
-        },
-        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
+        },
+        {
+            "id": "User.findMatch.2A0DA8E0",
+            "keys": "ctrl+f3"
         },
         {
             "id": "User.copy.224984B4",
@@ -453,23 +453,23 @@
         },
         {
             "id": null,
-            "keys": "win+ctrl+alt+d"
+            "keys": "alt+0"
         },
         {
             "id": null,
-            "keys": "alt+0"
+            "keys": "win+ctrl+alt+d"
         },
         {
             "id": null,
             "keys": "ctrl+alt+shift+f1"
         },
         {
-            "id": "User.expandSelectionToWord",
-            "keys": "w"
-        },
-        {
             "id": null,
             "keys": "alt+enter"
+        },
+        {
+            "id": "User.expandSelectionToWord",
+            "keys": "w"
         },
         {
             "id": null,
@@ -481,7 +481,7 @@
         },
         {
             "id": null,
-            "keys": "shift+f1"
+            "keys": "ctrl+minus"
         },
         {
             "id": null,
@@ -489,7 +489,7 @@
         },
         {
             "id": null,
-            "keys": "ctrl+minus"
+            "keys": "shift+f1"
         },
         {
             "id": "User.switchSelectionEndpoint",
@@ -528,12 +528,12 @@
             "keys": "ctrl+shift+2"
         },
         {
-            "id": "User.showSuggestions.2F7A7303",
-            "keys": "ctrl+f1"
-        },
-        {
             "id": "User.toggleBroadcastInput",
             "keys": "win+ctrl+alt+i"
+        },
+        {
+            "id": "User.showSuggestions.2F7A7303",
+            "keys": "ctrl+f1"
         },
         {
             "id": "User.moveFocus.D7681B66",
@@ -564,12 +564,12 @@
             "keys": "win+ctrl+alt+f11"
         },
         {
-            "id": null,
-            "keys": "alt+8"
-        },
-        {
             "id": "Terminal.IncreaseFontSize",
             "keys": "ctrl+shift+numpad_minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+8"
         },
         {
             "id": "User.toggleBlockSelection",
@@ -617,7 +617,8 @@
             "opacity": 80,
             "padding": "5",
             "pathTranslationStyle": "wsl",
-            "scrollbarState": "hidden"
+            "scrollbarState": "visible",
+            "showMarksOnScrollbar": false
         },
         "list": 
         [
@@ -631,16 +632,16 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "scrollbarState": "hidden"
             },
             {
                 "backgroundImage": null,
-                "colorScheme": "Tango Dark",
+                "colorScheme": "Campbell",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
-                "experimental.rainbowSuggestions": true,
-                "experimental.repositionCursorWithMouse": true,
                 "font": 
                 {
+                    "face": "Iosevka Nerd Font Propo",
                     "size": 14
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -662,6 +663,7 @@
                 "experimental.repositionCursorWithMouse": true,
                 "font": 
                 {
+                    "face": "Cascadia Code NF SemiLight",
                     "size": 18
                 },
                 "guid": "{aaedd35d-489d-4e0f-be98-59b43209fe55}",
@@ -733,6 +735,12 @@
                 "guid": "{4019c6ca-34d1-5125-9a51-de421ffed0ff}",
                 "hidden": false,
                 "name": "archlinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{22e9c079-ed89-5f98-b7c7-62c2834b37a5}",
+                "hidden": false,
+                "name": "AlmaLinux-Kitten-10",
                 "source": "Microsoft.WSL"
             }
         ]

@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "5/15/2025, 10:48:08 AM",
-	"time": 1747280888034,
+	"@time": "5/16/2025, 11:20:40 AM",
+	"time": 1747369240785,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -19,7 +19,7 @@
 			"pattern": ":https://github.com/"
 		},
 		{
-			"passKeys": "",
+			"passKeys": "^ D ^ d j k ",
 			"pattern": ":file:///"
 		}
 	],
@@ -59,7 +59,7 @@
 	],
 	"filterLinkHints": true,
 	"grabBackFocus": true,
-	"keyLayout": 146,
+	"keyLayout": 154,
 	"keyMappings": [
 		"#!no-check",
 		"# unmapping overlay keybinding.",
@@ -254,12 +254,13 @@
 	"vimSync": true,
 	"vomnibarOptions": {
 		"actions": "opener",
-		"maxMatches": 10,
-		"queryInterval": 100,
-		"sizes": "77,3,44,0.8,1944",
+		"maxMatches": 20,
+		"queryInterval": 50,
+		"sizes": "40,2,46,0.5",
 		"styles": "mono-url"
 	},
 	"waitForEnter": false,
+	"ignoreKeyboardLayout": 1,
 	"ignoreCapsLock": 2,
 	"mapModifier": 2
 }
