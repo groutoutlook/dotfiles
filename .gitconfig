@@ -261,3 +261,5 @@
 	provider = generic
 [init]
 	defaultBranch = main
+[credential "https://myhost.com"]
+	provider = generic
