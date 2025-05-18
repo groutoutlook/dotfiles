@@ -1,7 +1,7 @@
 #
 - 
   - Recap:
-  - Root:
   - Resolution:
   - Reason:
+  - Root:
   - Related:

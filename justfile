@@ -1,7 +1,8 @@
 shebang := if os() == 'windows' { 'pwsh.exe' } else { '/usr/bin/env pwsh' }
 set shell := ["pwsh", "-c"]
 set windows-shell := ["pwsh.exe", "-NoLogo", "-Command"]
-set dotenv-load := true
+set script-interpreter := ["pwsh.exe", "-NoLogo", "-Command"]
+set dotenv-load
 set unstable
 # set dotenv-filename	:= ".env"
 # set dotenv-required := true
