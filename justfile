@@ -11,9 +11,14 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args:
+run *args: clean_old_ptoy
     :bak && git rap 
 
+[script]
+clean_old_ptoy:
+    gci settings_* -Recurse -Depth 1 | sort -property LastWriteTime `
+    | select -skiplast 1 | rm -Recurse -Force
+    
 
 alias b := build
 build:

@@ -621,7 +621,7 @@
             "opacity": 60,
             "padding": "5",
             "pathTranslationStyle": "wsl",
-            "scrollbarState": "visible",
+            "scrollbarState": "hidden",
             "showMarksOnScrollbar": false
         },
         "list": 
