@@ -4,25 +4,29 @@ theme = "base16_transparent"
 mouse = true
 middle-click-paste = true
 default-yank-register = "+"
-scroll-lines = 3
+scroll-lines = 1
 # shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
 shell = ["nu","-c"]
 line-number = "relative"
 idle-timeout = 100
 rulers = [90]
 text-width = 90
-scrolloff = 3
+scrolloff = 0
 completion-trigger-len = 1
 auto-completion = true
+auto-info = false
 cursorline = true
 indent-guides.render = true
 bufferline = "multiple"
 color-modes = true
-# gutters = ["diagnostics", "spacer", "diff", "line-numbers", "spacer"]
 insert-final-newline = false
 
 [editor.gutters.line-numbers]
 min-width = 0
+
+[editor.gutters]
+# layout = ["diagnostics", "diff", "line-numbers"]
+layout = ["diff", "line-numbers","spacer"]
 
 [editor.smart-tab]
 supersede-menu = true
@@ -30,8 +34,9 @@ supersede-menu = true
 [editor.soft-wrap]
 enable = false
 max-wrap = 90 # increase value to reduce forced mid-word wrapping
-max-indent-retain = 4
+max-indent-retain = 0
 wrap-indicator = ""  # set wrap-indicator to "" to hide it
+wrap-at-text-width = true
 
 [editor.cursor-shape]
 normal = "block"
@@ -120,8 +125,8 @@ C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwa
 "C-S-backspace" = "goto_last_modification"
 
 # NOTE: to breakdown the up to text-width.
-"C-w" = {"C-e" = [":set soft-wrap.enable true"],"C-S-e" = [":set soft-wrap.enable false"]}
-
+# "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout ["diff"] ["diff","line-numbers"]']}
+"C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':set gutters.layout ["diff"]']}
 [keys.normal.d]
 d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]
 t = ["extend_till_char"]

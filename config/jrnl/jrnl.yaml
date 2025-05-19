@@ -295,6 +295,15 @@ journals:
   social:
     journal: ~/hw/obs/note_Business//ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  gsw:
+    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swgui:
+    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swg:
+    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   soft:
     journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -308,6 +317,12 @@ journals:
     journal: ~/hw/obs/note_Business//WorkflowJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   sw:
+    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swcli:
+    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swc:
     journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   taobao:
