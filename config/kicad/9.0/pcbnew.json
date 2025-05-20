@@ -7,17 +7,20 @@
     "appearance_expand_layer_display": false,
     "appearance_expand_net_display": false,
     "appearance_panel_tab": 0,
+    "net_inspector_width": -1,
     "properties_panel_width": 20,
     "properties_splitter_proportion": 0.5,
     "right_panel_width": 225,
     "search_panel_dock_direction": 3,
-    "search_panel_height": 39,
-    "search_panel_width": 152,
+    "search_panel_height": 110,
+    "search_panel_width": 284,
     "show_layer_manager": true,
+    "show_net_inspector": false,
     "show_properties": false,
     "show_search": false
   },
   "cleanup": {
+    "cleanup_refill_zones": true,
     "cleanup_short_circuits": true,
     "cleanup_tracks_in_pad": true,
     "cleanup_unconnected": true,
@@ -70,6 +73,11 @@
     "ref_y": 0.0,
     "units_mils": false
   },
+  "export_odb": {
+    "compress_format": 1,
+    "precision": 6,
+    "units": 0
+  },
   "export_step": {
     "no_dnp": false,
     "no_unspecified": false,
@@ -94,6 +102,8 @@
   },
   "export_vrml": {
     "copy_3d_models": false,
+    "no_dnp": false,
+    "no_unspecified": false,
     "origin_mode": 0,
     "ref_units": 0,
     "ref_x": 0.0,
@@ -433,6 +443,7 @@
   },
   "gen_drill": {
     "drill_file_type": 0,
+    "generate_map": false,
     "map_file_type": 1,
     "merge_pth_npth": false,
     "minimal_header": false,
@@ -565,6 +576,9 @@
     "pads_drill_mode": 2,
     "ps_fine_width_adjust": 1e-06
   },
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -590,11 +604,15 @@
     "annotate_sort_code": 0,
     "annotate_sort_on_modules": true
   },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
+  },
   "system": {
     "file_history": [
+      "D:/ProgramDataD/Padauk/EDA/Normal_8_port_0/Normal_8_port_0/Normal_8_port_0.kicad_pcb",
       "D:/ProgramDataD/FMD_MCU/EDA/Proj/FT32_F8P_24/FT32_F8P_24.kicad_pcb",
       "D:\\ProgramDataD\\EDA_General\\proj\\simple-bridge-2024\\simple-bridge-2024.kicad_pcb",
-      "D:/ProgramDataD/Padauk/EDA/Normal_8_port_0/Normal_8_port_0/Normal_8_port_0.kicad_pcb",
       "D:/ProgramDataD/EDA_General/proj/rgb-microdot-to-strip/rgb-microdot-to-strip/rgb-microdot-to-strip.kicad_pcb",
       "D:/ProgramDataD/Padauk/EDA/4_Port/4Port/4Port.kicad_pcb"
     ],
@@ -787,10 +805,10 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=955;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=672;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=144;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=40|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=225|dock_size(5,0,0)=386|",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=955;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=736;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=220;besth=-1;minw=200;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=220;floath=480|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=217;besth=-1;minw=217;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=124|name=PropertiesManager;caption=Properties;state=2098686;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=143;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=NetInspector;caption=Net Inspector;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=300;floath=200|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=40|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=225|dock_size(5,0,0)=386|",
     "pos_x": -8,
     "pos_y": -8,
-    "size_x": 1936,
+    "size_x": 1920,
     "size_y": 1216,
     "zoom_factors": [
       0.13,

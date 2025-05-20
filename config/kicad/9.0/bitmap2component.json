@@ -28,16 +28,19 @@
     "select_factor": 0.75
   },
   "last_format": 0,
-  "last_mod_layer": 0,
+  "last_mod_layer": 1,
   "lib_tree": {
     "column_widths": null,
     "columns": [],
     "open_libs": []
   },
   "meta": {
-    "version": 0
+    "version": 1
   },
   "negative": false,
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -47,12 +50,17 @@
     "title_block": false,
     "use_theme": false
   },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
+  },
   "system": {
     "file_history": [],
     "first_run_shown": false,
     "last_imperial_units": 5,
     "last_metric_units": 1,
     "max_undo_items": 0,
+    "show_import_issues": true,
     "units": 1
   },
   "threshold": 50,

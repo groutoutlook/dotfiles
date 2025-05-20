@@ -1,12 +1,10 @@
 $backUpDir = @{
   "$env:APPDATA\kicad" = "$env:dotfilesRepo\config" 
-  "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config"
+  # "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
-  "$HOME\.vimrc" = "$env:dotfilesRepo\config\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\WindowsTerminal"
   "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\config\"
   "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\config\vimium_c_edge.json"
-  "$env:RIPGREP_CONFIG_PATH" = "$env:dotfilesRepo\config\"
 }
 
 

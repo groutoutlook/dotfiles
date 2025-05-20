@@ -1,12 +1,6 @@
-[submodule "config/wezterm"]
-	path = config/wezterm
-	url = https://github.com/groutoutlook/weztermConfig
 [submodule "config/espanso"]
 	path = config/espanso
 	url = https://github.com/groutoutlook/espansoConfig
 [submodule "config/yazi"]
 	path = config/yazi
 	url = https://github.com/groutoutlook/yaziConfig
-[submodule "config/nushell"]
-	path = config/nushell
-	url = https://github.com/groutoutlook/nushellConfig

@@ -36,7 +36,7 @@ enable = false
 max-wrap = 90 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
 wrap-indicator = ""  # set wrap-indicator to "" to hide it
-wrap-at-text-width = true
+wrap-at-text-width = false
 
 [editor.cursor-shape]
 normal = "block"
@@ -77,7 +77,7 @@ G = "goto_file_end"
 
 V = ["select_mode", "extend_to_line_bounds"]
 D = ["extend_to_line_end", "delete_selection"]
-S = "surround_add"
+# S = "surround_add"
 
 # Clipboards over registers ye ye
 p = "replace_selections_with_clipboard" # No life without this
@@ -125,39 +125,9 @@ C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwa
 "C-S-backspace" = "goto_last_modification"
 
 # NOTE: to breakdown the up to text-width.
-"C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout ["diff"] ["diff","line-numbers"]']}
-# "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':set gutters.layout ["diff"]']}
-[keys.normal.d]
-d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]
-t = ["extend_till_char"]
-s = ["surround_delete"]
-i = ["select_textobject_inner"]
-a = ["select_textobject_around"]
-j = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
-down = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
-k = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
-up = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
-G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
-w = ["move_next_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
-W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "delete_selection"]
-# g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection", "normal_mode"] }
+"C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout ["diff"] ["diff","line-numbers"]'],"C-S-e" = [":toggle soft-wrap.wrap-at-text-width"]}
 
-# [keys.normal.d.i]
-# w = [ "move_char_right", "move_prev_word_start", "move_next_word_end", "yank_main_selection_to_clipboard", "delete_selection", ]
-
-
-[keys.normal.y]
-# y = ["goto_line_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "normal_mode", "goto_line_start"]
-# j = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# down = ["select_mode", "extend_to_line_bounds", "extend_line_below", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# k = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# up = ["select_mode", "extend_to_line_bounds", "extend_line_above", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# G = ["select_mode", "extend_to_line_bounds", "goto_last_line", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# w = ["move_next_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# W = ["move_next_long_word_start", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-# g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to_line_bounds", "yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"] }
-# End of key.normal mapping.
-
+"d" = "delete_selection_noyank"
 [keys.normal.g]
 ";" = "goto_last_modification"
 a = [":character-info"]
@@ -234,7 +204,7 @@ O = "ensure_selections_forward"
 G = "goto_file_end"
 C = ["goto_line_start", "extend_to_line_bounds", "change_selection"]
 # "%" = "match_brackets"
-S = "surround_add" # Basically 99% of what I use vim-surround for
+# S = "surround_add" # Basically 99% of what I use vim-surround for
 # u = ["switch_to_lowercase", "collapse_selection", "normal_mode"]
 # U = ["switch_to_uppercase", "collapse_selection", "normal_mode"]
 Y = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "goto_line_start", "collapse_selection", "normal_mode"]
@@ -243,3 +213,4 @@ P = "paste_clipboard_before"
 
 "C-w" = {"C-e" = [":reflow"]}
 "," = "repeat_last_motion"
+"d" = "delete_selection_noyank"

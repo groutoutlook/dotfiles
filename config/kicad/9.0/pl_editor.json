@@ -39,6 +39,9 @@
   "meta": {
     "version": 0
   },
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -49,6 +52,10 @@
     "use_theme": false
   },
   "properties_frame_width": 463,
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
+  },
   "system": {
     "file_history": [
       "C:\\Users\\COHOTECH\\OneDrive\\Documents\\KiCad\\8.0\\template\\Normal_8_port_template_A3.kicad_wks",

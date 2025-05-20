@@ -176,6 +176,7 @@
     "show_text_fill": true,
     "size_x": 0,
     "size_y": 0,
+    "use_45_limit": true,
     "zoom": 1.0,
     "zoom_factors": []
   },
@@ -194,6 +195,9 @@
   "meta": {
     "version": 0
   },
+  "plugins": {
+    "actions": []
+  },
   "printing": {
     "background": false,
     "color_theme": "",
@@ -202,6 +206,10 @@
     "scale": 1.0,
     "title_block": false,
     "use_theme": false
+  },
+  "search_pane": {
+    "search_hidden_fields": true,
+    "selection_zoom": 1
   },
   "system": {
     "file_history": [],

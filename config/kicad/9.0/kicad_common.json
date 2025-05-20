@@ -1,7 +1,7 @@
 {
   "api": {
     "enable_server": false,
-    "interpreter_path": ""
+    "interpreter_path": "C:\\Users\\COHOTECH\\scoop\\apps\\kicad\\current\\bin\\pythonw.exe"
   },
   "appearance": {
     "grid_striping": false,
@@ -90,6 +90,6 @@
     "pdf_viewer_name": "",
     "text_editor": "C:\\\\Users\\\\COHOTECH\\\\scoop\\\\shims\\\\nvim.exe",
     "use_system_pdf_viewer": true,
-    "working_dir": "C:\\Users\\COHOTECH\\scoop\\apps\\kicad\\current\\bin"
+    "working_dir": "D:\\ProgramDataD\\Padauk\\EDA\\Normal_8_port_0\\Normal_8_port_0"
   }
 }
