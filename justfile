@@ -7,15 +7,15 @@ set unstable
 # set dotenv-filename	:= ".env"
 # set dotenv-required := true
 _default:
-    @just --list
+    @just --choose
 
 alias r := run
 default_args := 'args here'
-run *args: clean_old_ptoy
+run *args: _clean_old_ptoy
     :bak && git rap 
 
 [script]
-clean_old_ptoy:
+_clean_old_ptoy:
     gci settings_* -Recurse -Depth 1 | sort -property LastWriteTime `
     | select -skiplast 1 | rm -Recurse -Force
     

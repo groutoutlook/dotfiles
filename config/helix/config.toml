@@ -80,7 +80,7 @@ D = ["extend_to_line_end", "delete_selection"]
 S = "surround_add"
 
 # Clipboards over registers ye ye
-# p = ["paste_clipboard_after", "collapse_selection"]
+p = "replace_selections_with_clipboard" # No life without this
 # P = ["paste_clipboard_before", "collapse_selection"]
 # Would be nice to add ya and yi, but the surround commands can't be chained
 Y = ["extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
@@ -125,8 +125,8 @@ C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwa
 "C-S-backspace" = "goto_last_modification"
 
 # NOTE: to breakdown the up to text-width.
-# "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout ["diff"] ["diff","line-numbers"]']}
-"C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':set gutters.layout ["diff"]']}
+"C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout ["diff"] ["diff","line-numbers"]']}
+# "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':set gutters.layout ["diff"]']}
 [keys.normal.d]
 d = ["extend_to_line_bounds", "yank_main_selection_to_clipboard", "delete_selection"]
 t = ["extend_till_char"]
