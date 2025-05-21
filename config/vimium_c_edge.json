@@ -19,6 +19,10 @@
 		{
 			"passKeys": "^ D ^ d j k ",
 			"pattern": ":file:///"
+		},
+		{
+			"passKeys": "/ ",
+			"pattern": ":https://gitlab.com/"
 		}
 	],
 	"extAllowList": [
@@ -67,11 +71,12 @@
 		"map v enterVisualMode ",
 		"",
 		"map gg scrollToTop",
+		"map G scrollToBottom",
 		"map d scrollPageDown",
 		"map u scrollPageUp",
 		"",
-		"map > moveTabLeft",
-		"map < moveTabRight",
+		"map < moveTabLeft",
+		"map > moveTabRight",
 		"map j nextTab",
 		"map J previousTab",
 		"map k previousTab",
@@ -141,7 +146,7 @@
 		"map <c-s><c-s-k> createTab url=\"http://127.0.0.1:9900/History\"",
 		"",
 		"map e Vomnibar.activateEditUrlInNewTab",
-		"map E LinkHints.activateOpenVomnibar",
+		"map E Vomnibar.activateEditUrlInNewTab keyword=\"site:\"",
 		"# INFO: accessing insert mode in left hand",
 		"map <s-enter> focusInput",
 		"",
@@ -179,10 +184,8 @@
 		"# map m performBackwardsFind",
 		"map N performBackwardsFind",
 		"map , findSelected",
-		"# map MM clearFindHistory",
 		"",
 		"map z passNextKey",
-		"",
 		"map :SS joinTabs",
 		""
 	],

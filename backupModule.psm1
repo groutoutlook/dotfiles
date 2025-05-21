@@ -4,10 +4,7 @@ $backUpDir = @{
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\WindowsTerminal"
   "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\config\"
-  "$HOME\Downloads\vimium_c*.json" = "$env:dotfilesRepo\config\vimium_c_edge.json"
 }
-
-
 function Backup-Extensive($Verbose = $null)
 {
   foreach ($startDir in $backUpDir.Keys)
@@ -19,9 +16,8 @@ function Backup-Extensive($Verbose = $null)
     
     if($Verbose -le 0)
     {
-      $startDir = Format-LimitLength $startDir
+      $startDir = $startDir
     }
     Write-Host "$startDir backed up" -ForegroundColor Cyan 
   }
 }
-Set-Alias -Name backupdot -Value Backup-Extensive

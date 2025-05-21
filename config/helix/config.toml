@@ -81,8 +81,7 @@ D = ["extend_to_line_end", "delete_selection"]
 
 # Clipboards over registers ye ye
 p = "replace_selections_with_clipboard" # No life without this
-# P = ["paste_clipboard_before", "collapse_selection"]
-# Would be nice to add ya and yi, but the surround commands can't be chained
+
 Y = ["extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
 
 # Undoing the 'd' + motion commands restores the selection which is annoying
