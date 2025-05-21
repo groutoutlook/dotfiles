@@ -35,7 +35,7 @@ supersede-menu = true
 enable = false
 max-wrap = 90 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
-wrap-indicator = ""  # set wrap-indicator to "" to hide it
+# wrap-indicator = ""  # set wrap-indicator to "" to hide it
 wrap-at-text-width = false
 
 [editor.cursor-shape]

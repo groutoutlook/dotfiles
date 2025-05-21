@@ -1,9 +1,9 @@
 {
 	"name": "Vimium C",
 	"environment": {
-		"extension": "2.12.2",
+		"extension": "2.12.3",
 		"platform": "win",
-		"chromium": 137
+		"firefox": 138
 	},
 	"allBrowserUrls": true,
 	"exclusionListenHash": false,
@@ -138,7 +138,7 @@
 		"",
 		"# HACK: quick open this extension options",
 		"map <c-s><c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
-		"map <c-s>s createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
+		"map <c-s><c-s-s> createTab url=\"moz-extension://87e5bfce-10ae-4f7a-b6f5-567a4719bc92/pages/options.html\"",
 		"# map ss createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"",
 		"map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Setting/\"",
