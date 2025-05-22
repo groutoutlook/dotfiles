@@ -5,407 +5,421 @@ colors:
   title: green
 default_hour: 9
 default_minute: 0
-editor: "hx"
+editor: hx
 encrypt: false
 highlight: true
-indent_character: ""
+indent_character: ''
 journals:
   :1:
-    journal: ~/hw/obs/note_Items//1688Journal.md
+    journal: ~/hw/obs/note_Items/1688Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :1688:
-    journal: ~/hw/obs/note_Items//1688Journal.md
+    journal: ~/hw/obs/note_Items/1688Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :3:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   :3d:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   acc:
-    journal: ~/hw/obs/note_Knowledge//secret//AccountJournal.md
+    journal: ~/hw/obs/note_Knowledge/secret/AccountJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   acro:
-    journal: ~/hw/obs/note_Knowledge//journal//AcronymJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/AcronymJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ali:
-    journal: ~/hw/obs/note_Items//1688Journal.md
+    journal: ~/hw/obs/note_Items/1688Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  api:
+    journal: ~/hw/obs/note_algo_lang/journal/LibraryJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   art:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   asset:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   blend:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   blog:
-    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/ReadAndListenJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   book:
-    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/ReadAndListenJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   bus:
-    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cad:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cad3d:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cash:
+    journal: ~/hw/obs/note_Business/MoneyJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   chip:
-    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
+    journal: ~/hw/obs/note_Embedded/ChipsetJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   come:
-    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   comp:
-    journal: ~/hw/obs/note_Embedded//ComponentJournal.md
+    journal: ~/hw/obs/note_Embedded/ComponentJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   conn:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cs:
-    journal: ~/hw/obs/note_algo_lang//journal//CompSciJournal.md
+    journal: ~/hw/obs/note_algo_lang/journal/CompSciJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   csci:
-    journal: ~/hw/obs/note_algo_lang//journal//CompSciJournal.md
+    journal: ~/hw/obs/note_algo_lang/journal/CompSciJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   default:
     journal: ~/hw/obs/MainJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   draw:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ecad:
-    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
+    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   eco:
-    journal: ~/hw/obs/note_Knowledge//journal//EconomyJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/EconomyJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   econ:
-    journal: ~/hw/obs/note_Knowledge//journal//EconomyJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/EconomyJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   eda:
-    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
+    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   edit:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   emb:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   embed:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ety:
-    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  slang:
-    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/PhraseJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   etym:
-    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/PhraseJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ev:
-    journal: ~/hw/obs/note_Knowledge//journal//EventJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/EventJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   event:
-    journal: ~/hw/obs/note_Knowledge//journal//EventJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  fcad:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  firm:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  freecad:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/EventJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fw:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  grap:
-    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+  firm:
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  graph:
-    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+  fcad:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  freecad:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vk:
+    journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  gpu:
+    journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   gui:
-    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
+    journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  grap:
+    journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  graph:
+    journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hack:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/LifeHackJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hard:
-    journal: ~/hw/obs/note_Embedded//HardwareJournal.md
+    journal: ~/hw/obs/note_Embedded/HardwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hh:
-    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  html:
-    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
+    journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hw:
-    journal: ~/hw/obs/note_Embedded//HardwareJournal.md
+    journal: ~/hw/obs/note_Embedded/HardwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ic:
-    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  inte:
-    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  interest:
-    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  item:
-    journal: ~/hw/obs/note_Items//OtherItemsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  kicad:
-    journal: ~/hw/obs/note_Embedded//note_EDA//EDAJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  lang:
-    journal: ~/hw/obs/note_algo_lang//journal//LangJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  lhack:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  life:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  like:
-    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  linux:
-    journal: ~/hw/obs/note_software//journal//OSJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  lowsw:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  ltip:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  math:
-    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  mech:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//CAD//CADJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  media:
-    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  meme:
-    journal: ~/hw/obs/note_Knowledge//journal//WholesomeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  model:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  module:
-    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  mus:
-    journal: ~/hw/obs/note_entertainment//note_discography//MusicJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  music:
-    journal: ~/hw/obs/note_entertainment//note_discography//MusicJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  myrule:
-    journal: ~/hw/obs/note_Business//WorkflowJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  new:
-    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  news:
-    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pol:
-    journal: ~/hw/obs/note_Knowledge//journal//NewsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  os:
-    journal: ~/hw/obs/note_software//journal//OSJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  other:
-    journal: ~/hw/obs/note_Knowledge//journal//OtherKnowledgeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pcb:
-    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pcba:
-    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  peo:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  people:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  per:
-    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pers:
-    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pger:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  phr:
-    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  phrase:
-    journal: ~/hw/obs/note_Knowledge//journal//PhraseJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  physic:
-    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  place:
-    journal: ~/hw/obs/note_Knowledge//journal//PlacesJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  pp:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  prog:
-    journal: ~/hw/obs/note_algo_lang//journal//ProgrammingJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  prot:
-    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  psy:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  qt:
-    journal: ~/hw/obs/note_Knowledge//journal//QuoteJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  quote:
-    journal: ~/hw/obs/note_Knowledge//journal//QuoteJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  read:
-    journal: ~/hw/obs/note_Knowledge//journal//ReadAndListenJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  rule:
-    journal: ~/hw/obs/note_Business//WorkflowJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  self:
-    journal: ~/hw/obs/note_entertainment//note_interest//PersonalJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  soc:
-    journal: ~/hw/obs/note_Embedded//ChipsetJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  social:
-    journal: ~/hw/obs/note_Business//ConnectionJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  gsw:
-    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swgui:
-    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swg:
-    journal: ~/hw/obs/note_software//journal//GuiSoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  soft:
-    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  stem:
-    journal: ~/hw/obs/note_algo_lang//journal//STEMJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  stm:
-    journal: ~/hw/obs/note_Embedded//FirmwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  style:
-    journal: ~/hw/obs/note_Business//WorkflowJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  sw:
-    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swcli:
-    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swc:
-    journal: ~/hw/obs/note_software//journal//SoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  taobao:
-    journal: ~/hw/obs/note_Items//TaobaoJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  three:
-    journal: ~/hw/obs/note_IDEAndTools//Asset//Art//ArtToolsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  til:
-    journal: ~/hw/obs/note_Knowledge//journal//OtherKnowledgeJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  tip:
-    journal: ~/hw/obs/note_Knowledge//journal//LifeHackJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  ui:
-    journal: ~/hw/obs/note_algo_lang//journal//GraphicUIJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  viap:
-    journal: ~/hw/obs/note_Embedded//PCB_Standard//PCBJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  vid:
-    journal: ~/hw/obs/note_entertainment//note_discography//VideoJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  video:
-    journal: ~/hw/obs/note_entertainment//note_discography//VideoJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  vc:
-    journal: ~/hw/obs/note_Knowledge//journal//VocabJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  vocab:
-    journal: ~/hw/obs/note_Knowledge//journal//VocabJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wasm:
-    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  web:
-    journal: ~/hw/obs/note_software//journal//WebJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wf:
-    journal: ~/hw/obs/note_Business//WorkflowJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  windows:
-    journal: ~/hw/obs/note_software//journal//OSJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wire:
-    journal: ~/hw/obs/note_Embedded//ProtocolJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  work:
-    journal: ~/hw/obs/note_Business//WorkJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  workflow:
-    journal: ~/hw/obs/note_Business//WorkflowJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wpro:
-    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wprog:
-    journal: ~/hw/obs/note_os_web//SDK//WebProgJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wapi:
-    journal: ~/hw/obs/note_os_web//SDK//WebAPIJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  wlib:
-    journal: ~/hw/obs/note_os_web//SDK//WebAPIJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  api:
-    journal: ~/hw/obs/note_algo_lang//journal//LibraryJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  lib:
-    journal: ~/hw/obs/note_algo_lang//journal//LibraryJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  cash:
-    journal: ~/hw/obs/note_Business//MoneyJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  money:
-    journal: ~/hw/obs/note_Business//MoneyJournal.md
+    journal: ~/hw/obs/note_Embedded/ChipsetJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   idea:
-    journal: ~/hw/obs/note_Business//IdeaJournal.md
+    journal: ~/hw/obs/note_Business/IdeaJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-
+  inte:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  interest:
+    journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  item:
+    journal: ~/hw/obs/note_Items/OtherItemsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  kicad:
+    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lang:
+    journal: ~/hw/obs/note_algo_lang/journal/LangJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lhack:
+    journal: ~/hw/obs/note_Knowledge/journal/LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lib:
+    journal: ~/hw/obs/note_algo_lang/journal/LibraryJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  life:
+    journal: ~/hw/obs/note_Knowledge/journal/LifeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  like:
+    journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  linux:
+    journal: ~/hw/obs/note_software/journal/OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  lowsw:
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ltip:
+    journal: ~/hw/obs/note_Knowledge/journal/LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  math:
+    journal: ~/hw/obs/note_algo_lang/journal/STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mech:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  media:
+    journal: ~/hw/obs/note_Knowledge/journal/NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  meme:
+    journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  model:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  module:
+    journal: ~/hw/obs/note_Embedded/ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  money:
+    journal: ~/hw/obs/note_Business/MoneyJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ms:
+    journal: ~/hw/obs/note_entertainment/note_discography/MusicJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  music:
+    journal: ~/hw/obs/note_entertainment/note_discography/MusicJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  new:
+    journal: ~/hw/obs/note_Knowledge/journal/NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  news:
+    journal: ~/hw/obs/note_Knowledge/journal/NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  os:
+    journal: ~/hw/obs/note_software/journal/OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  other:
+    journal: ~/hw/obs/note_Knowledge/journal/OtherKnowledgeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pcb:
+    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pcba:
+    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  peo:
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  people:
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  per:
+    journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pers:
+    journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pger:
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phr:
+    journal: ~/hw/obs/note_Knowledge/journal/PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phrase:
+    journal: ~/hw/obs/note_Knowledge/journal/PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  physic:
+    journal: ~/hw/obs/note_algo_lang/journal/STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  place:
+    journal: ~/hw/obs/note_Knowledge/journal/PlacesJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pol:
+    journal: ~/hw/obs/note_Knowledge/journal/NewsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pp:
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  prog:
+    journal: ~/hw/obs/note_algo_lang/journal/ProgrammingJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  prot:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  psy:
+    journal: ~/hw/obs/note_Knowledge/journal/LifeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  qt:
+    journal: ~/hw/obs/note_Knowledge/journal/QuoteJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  quote:
+    journal: ~/hw/obs/note_Knowledge/journal/QuoteJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  read:
+    journal: ~/hw/obs/note_Knowledge/journal/ReadAndListenJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  rule:
+    journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  self:
+    journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  slang:
+    journal: ~/hw/obs/note_Knowledge/journal/PhraseJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  soc:
+    journal: ~/hw/obs/note_Embedded/ChipsetJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  social:
+    journal: ~/hw/obs/note_Business/ConnectionJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  soft:
+    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  stem:
+    journal: ~/hw/obs/note_algo_lang/journal/STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  stm:
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  style:
+    journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  sw:
+    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swc:
+    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swcli:
+    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swg:
+    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swgui:
+    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  gsw:
+    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  taobao:
+    journal: ~/hw/obs/note_Items/TaobaoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  three:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/Art/ArtToolsJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  til:
+    journal: ~/hw/obs/note_Knowledge/journal/OtherKnowledgeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tip:
+    journal: ~/hw/obs/note_Knowledge/journal/LifeHackJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vc:
+    journal: ~/hw/obs/note_Knowledge/journal/VocabJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  viap:
+    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vid:
+    journal: ~/hw/obs/note_entertainment/note_discography/VideoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  video:
+    journal: ~/hw/obs/note_entertainment/note_discography/VideoJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vocab:
+    journal: ~/hw/obs/note_Knowledge/journal/VocabJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ui:
+    journal: ~/hw/obs/note_os_web/SDK/UIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wui:
+    journal: ~/hw/obs/note_os_web/SDK/UIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  webui:
+    journal: ~/hw/obs/note_os_web/SDK/UIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  uiweb:
+    journal: ~/hw/obs/note_os_web/SDK/UIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  html:
+    journal: ~/hw/obs/note_os_web/SDK/UIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wapi:
+    journal: ~/hw/obs/note_os_web/SDK/WebAPIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wlib:
+    journal: ~/hw/obs/note_os_web/SDK/WebAPIJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  web:
+    journal: ~/hw/obs/note_software/journal/WebJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  windows:
+    journal: ~/hw/obs/note_software/journal/OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wire:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wf:
+    journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  work:
+    journal: ~/hw/obs/note_Business/WorkJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  myrule:
+    journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  workflow:
+    journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wpro:
+    journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wprog:
+    journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wasm:
+    journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
 linewrap: 2000
-tagsymbols: "#@"
+tagsymbols: '#@'
 template: false
-timeformat: "%F %r"
-version: v4.1
+timeformat: '%F %r'
+version: v4.2.1
