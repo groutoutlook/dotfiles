@@ -16,7 +16,7 @@ General:
   LineNumMode: false
   WrapMode: true
   ColumnDelimiter: ","
-  MarkStyleWidth: 1
+  MarkStyleWidth: 0
 #  SectionDelimiter: "^#"
   # Style
   # String of the color name: Foreground, Background, UnderlineColor
@@ -169,6 +169,7 @@ KeyBind:
         - "9"
     previous_section:
         - "^"
+        - "shift+space"
     mark:
         - "m"
     remove_mark:

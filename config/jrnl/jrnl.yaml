@@ -118,6 +118,12 @@ journals:
   event:
     journal: ~/hw/obs/note_Knowledge/journal/EventJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fm:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/File-Format.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  file:
+    journal: ~/hw/obs/note_IDEAndTools/Asset/File-Format.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fw:
     journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -250,6 +256,15 @@ journals:
   people:
     journal: ~/hw/obs/note_Business/ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  day:
+    journal: ~/hw/obs/note_entertainment/note_interest/Diary.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  daily:
+    journal: ~/hw/obs/note_entertainment/note_interest/Diary.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  diary:
+    journal: ~/hw/obs/note_entertainment/note_interest/Diary.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   per:
     journal: ~/hw/obs/note_entertainment/note_interest/PersonalJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -310,9 +325,6 @@ journals:
   social:
     journal: ~/hw/obs/note_Business/ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  soft:
-    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   stem:
     journal: ~/hw/obs/note_algo_lang/journal/STEMJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -325,20 +337,35 @@ journals:
   sw:
     journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swc:
+  soft:
     journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  swcli:
-    journal: ~/hw/obs/note_software/journal/SoftwareJournal.md
+  cl:
+    journal: ~/hw/obs/note_software/journal/CLI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cli:
+    journal: ~/hw/obs/note_software/journal/CLI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swc:
+    journal: ~/hw/obs/note_software/journal/CLI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tu:
+    journal: ~/hw/obs/note_software/journal/TUI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tui:
+    journal: ~/hw/obs/note_software/journal/TUI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  swt:
+    journal: ~/hw/obs/note_software/journal/TUI.Terminal.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   swg:
-    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    journal: ~/hw/obs/note_software/journal/GUI.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   swgui:
-    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    journal: ~/hw/obs/note_software/journal/GUI.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   gsw:
-    journal: ~/hw/obs/note_software/journal/GuiSoftwareJournal.md
+    journal: ~/hw/obs/note_software/journal/GUI.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   taobao:
     journal: ~/hw/obs/note_Items/TaobaoJournal.md
@@ -418,6 +445,23 @@ journals:
   wasm:
     journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fr:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  sdk:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  frame:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wsdk:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.Web.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  wfr:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.Web.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+
+    
 linewrap: 2000
 tagsymbols: '#@'
 template: false

@@ -2,8 +2,8 @@
 --theme="TwoDark"
 
 # Show line numbers, Git modifications and file header (but no grid)
-# --style="numbers,changes,header"
 --style="changes,header"
+# --style="changes"
 
 # Use italic text on the terminal (not supported on all terminals)
 --italic-text=always

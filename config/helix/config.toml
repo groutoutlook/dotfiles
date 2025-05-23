@@ -113,10 +113,10 @@ end = "goto_line_end_newline" # stop at linebreak; this is more useful
 C-end = "goto_file_end" 
 C-home = "goto_file_start"
 del = ["move_next_word_end", "move_prev_word_end", "move_next_word_end", "delete_selection_noyank"] # delete current word
-C-del = "toggle_comments" # kind of delete, but not really =D
+C-del = ["move_next_word_end", "delete_selection_noyank"] # kind of delete, but not really =D
 
 backspace = ["delete_char_backward"] # counterpart for `d`
-C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
+C-backspace = ["move_prev_word_start", "delete_selection_noyank"] # delete word barckwards
 # A-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
 
 # INFO: as `c-a c-a`
@@ -163,13 +163,8 @@ C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 # HACK: since S-ins is my default paste, windows terminal translate to pure paste by typing
 C-v = ["normal_mode","paste_clipboard_before","goto_line_end_newline","insert_mode"]
 # S-ins = "paste_clipboard_before
-
-# HACK: [More keymap hacking for an easier typing insert mode.](https://docs.helix-editor.com/keymap.html#insert-mode)
-C-del = ["move_next_word_start", "delete_selection"] # delete next word
-# "A-w" = ["move_next_word_start", "delete_selection"] # delete next word,
-C-backspace = ["move_prev_word_start", "delete_selection"] # delete word barckwards
-# `a-d` == ctrl-del, `c-d` == del
-
+C-del = ["move_next_word_end", "delete_selection_noyank"] 
+C-backspace = ["move_prev_word_start", "delete_selection_noyank"]
 
 C-space = ["completion"]
 "C-[" = ["normal_mode"] 
