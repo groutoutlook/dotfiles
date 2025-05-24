@@ -1,0 +1,10 @@
+[editor_open]
+command = "code --goto %file:%line"
+exit = false
+
+[preview]
+syntax_highlighting = true
+# syntax_highlighting_theme = "InspiredGitHub"
+
+[search]
+disable_prepopulated_fields = true

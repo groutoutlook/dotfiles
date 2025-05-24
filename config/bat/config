@@ -3,7 +3,7 @@
 
 # Show line numbers, Git modifications and file header (but no grid)
 --style="changes,header"
-# --style="changes"
+# --style=plain
 
 # Use italic text on the terminal (not supported on all terminals)
 --italic-text=always
@@ -13,3 +13,5 @@
 
 # HACK: use `man` highlight as default.
 --language=help
+
+--plain

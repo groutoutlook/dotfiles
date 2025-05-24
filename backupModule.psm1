@@ -1,5 +1,5 @@
 $backUpDir = @{
-  "$env:APPDATA\kicad" = "$env:dotfilesRepo\config" 
+  # "$env:APPDATA\kicad" = "$env:dotfilesRepo\config" 
   # "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\WindowsTerminal"

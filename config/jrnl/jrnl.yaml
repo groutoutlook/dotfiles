@@ -460,7 +460,9 @@ journals:
   wfr:
     journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.Web.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-
+  ide:
+    journal: ~/hw/obs/note_IDEAndTools/IDE.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
     
 linewrap: 2000
 tagsymbols: '#@'

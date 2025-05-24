@@ -11,7 +11,7 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args: _clean_old_ptoy && _fetch_new_vimium
+run *args: _clean_old_ptoy _fetch_new_vimium
     :bak && git rap 
 
 [script]

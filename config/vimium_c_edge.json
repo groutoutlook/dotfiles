@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "5/23/2025, 8:19:14 AM",
-	"time": 1747963154624,
+	"@time": "5/23/2025, 11:35:44 AM",
+	"time": 1747974944629,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -137,7 +137,7 @@
 		"",
 		"# INFO: new tab",
 		"map ;w moveTabToNewWindow",
-		"",
+		"map W moveTabToNextWindow",
 		"# HACK: quick open this extension options",
 		"map <c-s><c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"map <c-s>s createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
