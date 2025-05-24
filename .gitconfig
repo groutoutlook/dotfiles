@@ -233,19 +233,19 @@
 	recurse = true
 [credential]
 	# username = "groutoutlook"
-	[credential "https://github.com"]
+[credential "https://github.com"]
 	username = "groutoutlook"
 	helper = store
 	helper = !gh auth git-credential
 	# helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
-	[credential "https://gist.github.com"]
+[credential "https://gist.github.com"]
 	helper = store
 	helper = !gh auth git-credential
 	# helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
-	[credential "https://gitlab.com"]
+[credential "https://gitlab.com"]
 	helper = store
 	helper = !glab auth git-credential
-	[credential "helperselector"]
+[credential "helperselector"]
 	selected = manager
 	# INFO
 	[bitmapPseudoMerge "all"]

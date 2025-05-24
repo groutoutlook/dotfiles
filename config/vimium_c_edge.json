@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "5/23/2025, 11:35:44 AM",
-	"time": 1747974944629,
+	"@time": "5/24/2025, 12:56:50 PM",
+	"time": 1748066210510,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -114,7 +114,8 @@
 		"map <a-s-up> goToRoot",
 		"map <a-w> goUp",
 		"map <a-up> goUp",
-		"map <a-s> goBack",
+		"map <a-s> goBack $else=\"x\"",
+		"map <a-left> goBack $else=\"x\"",
 		"map <a-s-s> goForward",
 		"map <a-s-down> goForward",
 		"map <a-down> goBack $else=\"x\"",
