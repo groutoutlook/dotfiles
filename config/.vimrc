@@ -94,14 +94,3 @@ function! GetVisual() range
 endfunction
 vnoremap <c-r> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
 vnoremap <c-h> <Esc>:%s/<c-r>=GetVisual()<cr>//g<left><left>
-
-
-call plug#begin()
-
-" List your plugins here
-Plug 'tpope/vim-sensible'
-
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-
-call plug#end()
