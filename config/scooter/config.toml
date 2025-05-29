@@ -1,5 +1,6 @@
 [editor_open]
 command = "code --goto %file:%line"
+# command = "hx %file:%line"
 exit = false
 
 [preview]
