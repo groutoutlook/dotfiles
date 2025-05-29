@@ -1,25 +1,25 @@
 theme = "base16_transparent"
 
 [editor]
-mouse = true
-middle-click-paste = true
-default-yank-register = "+"
-scroll-lines = 1
 # shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
-shell = ["nu","-c"]
-line-number = "relative"
-idle-timeout = 100
-rulers = [90]
-text-width = 90
-scrolloff = 0
-completion-trigger-len = 1
 auto-completion = true
 auto-info = false
-cursorline = true
-indent-guides.render = true
 bufferline = "multiple"
 color-modes = true
+completion-trigger-len = 1
+cursorline = true
+default-yank-register = "+"
+idle-timeout = 100
+indent-guides.render = true
 insert-final-newline = false
+line-number = "relative"
+middle-click-paste = true
+mouse = true
+rulers = [90]
+scroll-lines = 1
+scrolloff = 0
+shell = ["nu","-c"]
+text-width = 90
 
 [editor.gutters.line-numbers]
 min-width = 0
@@ -54,19 +54,16 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 "total-line-numbers","diagnostics", "version-control"]
 
 [keys.normal]
-# Quick iteration on config changes
 C-o = ":config-open"
 C-r = ":config-reload"
 C-q = ":quit"
 
-# HACK: since s-ins is my default paste, windows terminal translate to pure paste by typing
 C-v = "paste_clipboard_before"
-# S-ins = "paste_clipboard_before"
 
- # Personal preference
-o = ["open_below", "insert_mode"]
+# Personal preference
+#o = ["open_below", "insert_mode"]
 O = ["open_above", "insert_mode"]
-# Muscle memory
+
 "{" = ["goto_prev_paragraph", "collapse_selection"]
 "}" = ["goto_next_paragraph", "collapse_selection"]
 0 = "goto_line_start"
@@ -77,25 +74,20 @@ G = "goto_file_end"
 W = 'extend_next_sub_word_start'
 B = 'extend_prev_sub_word_start'
 E = 'extend_next_sub_word_end'
-C-left = ["move_prev_sub_word_start"]
-C-right = ["move_next_sub_word_end"]
+C-A-left = ["move_prev_sub_word_start"]
+C-A-right = ["move_next_sub_word_end"]
+
+C-left = ["move_prev_word_start"]
+C-right = ["move_next_word_end"]
 
 V = ["select_mode", "extend_to_line_bounds"]
-D = ["extend_to_line_end", "delete_selection"]
+D = ["extend_to_line_end", "delete_selection_noyank"]
 
-# Clipboards over registers ye ye
 p = "replace_selections_with_clipboard" # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
 
 # Undoing the 'd' + motion commands restores the selection which is annoying
 u = ["undo", "collapse_selection"]
-
-# Escape the madness! No more fighting with the cursor! Or with multiple cursors!
-esc = ["collapse_selection", "keep_primary_selection"]
-
-# Search for word under cursor
-"*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
-"#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
 
 # Make j and k behave as they do Vim when soft-wrap is enabled
 j = "move_line_down"
@@ -148,16 +140,14 @@ q = [":quit-all!"]
 [keys.normal.l.w]
 q = [":write-quit-all!"]
 
-[keys.insert.l.w]
-q = [":write-quit-all!"]
 
 # INFO: start insert mapping.
 [keys.insert]
 C-m = [ "match_brackets", "select_textobject_inner"]
-C-left = ["move_prev_long_word_start"]
-C-right = ["move_next_long_word_end"]
-A-left = ["move_prev_sub_word_start"]
-A-right = ["move_next_sub_word_end"]
+C-A-left = ["move_prev_sub_word_start"]
+C-A-right = ["move_next_sub_word_end"]
+C-left = ["move_prev_word_start"]
+C-right = ["move_next_word_end"]
 C-up = ["extend_to_line_bounds","goto_prev_paragraph"]
 C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 
@@ -189,6 +179,10 @@ w = [":write-all!","normal_mode"]
 q = [":quit-all!"]
 b = {c = ":buffer-close", d = ":buffer-close"}
 
+[keys.insert.l.w]
+q = [":write-quit-all!"]
+
+
 [keys.select]
 # Muscle memory
 o = "flip_selections"
@@ -199,7 +193,7 @@ O = "ensure_selections_forward"
 "$" = "goto_line_end"
 G = "goto_file_end"
 C = ["goto_line_start", "extend_to_line_bounds", "change_selection"]
-# "%" = "match_brackets"
+"%" = "match_brackets"
 # S = "surround_add" # Basically 99% of what I use vim-surround for
 # u = ["switch_to_lowercase", "collapse_selection", "normal_mode"]
 # U = ["switch_to_uppercase", "collapse_selection", "normal_mode"]
