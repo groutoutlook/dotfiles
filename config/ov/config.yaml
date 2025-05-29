@@ -152,6 +152,7 @@ KeyBind:
 #        - "ctrl+shift+d"
         - "D"
         - "u"
+        - "shift+space"
     page_half_down:
 #        - "ctrl+d"
         - "U"
@@ -171,7 +172,6 @@ KeyBind:
         - "9"
     previous_section:
         - "^"
-        - "shift+space"
     mark:
         - "m"
     remove_mark:

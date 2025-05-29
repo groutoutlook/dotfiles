@@ -258,9 +258,11 @@
 	editor = interactive-rebase-tool
 [include]
 	path = ~/gitalias.txt
+	path = ~/gitemail.txt
 [credential "https://git.code.sf.net"]
 	provider = generic
 [init]
 	defaultBranch = main
 [credential "https://myhost.com"]
 	provider = generic
+# [sendemail]
