@@ -11,8 +11,8 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args: _clean_old_ptoy _fetch_new_vimium
-    :bak && git rap 
+run *args: _clean_old_ptoy _fetch_new_vimium && deploy
+    :bak 
 
 [script]
 _clean_old_ptoy:
@@ -31,3 +31,9 @@ build:
 
 format:
     biome format --write
+
+alias d := deploy
+deploy args="rap":
+    git {{args}}
+
+
