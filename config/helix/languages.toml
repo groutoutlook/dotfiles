@@ -6,3 +6,17 @@ auto-format = false
 name = "nu"
 auto-format = true
 formatter = { command = "topiary", args = ["format", "--language", "nu"] }
+# Configured to run alongside marksman.
+
+# WARN : cant use yet, it frozed a lot.
+# [[language]]
+# auto-format = true
+# language-servers = ["mpls"]
+# name = "markdown"
+# [language-server.mpls]
+# command = "mpls"
+# args = ["--dark-mode", "--enable-emoji", "--port", "8090", "--full-sync", "--browser", "google-chrome"]
+# args = ["--enable-emoji", "--port", "8090", "--browser", "google-chrome"]
+# An example args entry showing how to specify flags with values:
+
+

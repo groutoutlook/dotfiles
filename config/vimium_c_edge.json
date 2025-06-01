@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "5/30/2025, 1:09:24 AM",
-	"time": 1748542164250,
+	"@time": "6/1/2025, 7:53:59 AM",
+	"time": 1748739239841,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -125,7 +125,7 @@
 		"# others",
 		"map ;s sortTabs",
 		"map V LinkHints.activateSelect ",
-		"map F LinkHints.activateSelect ",
+		"map F LinkHints.activateOpenInNewTab",
 		"map f LinkHints.activate",
 		"# map ' LinkHints.activateSelect",
 		"",

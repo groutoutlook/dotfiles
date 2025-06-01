@@ -1,0 +1,15 @@
+# Halloy config.
+# For a complete list of available options,
+# please visit https://halloy.squidowl.org/configuration/index.html
+
+[servers.liberachat]
+    nickname = "golk-irc"
+    server = "irc.libera.chat"
+    channels = ["#halloy"]
+
+[servers.hackint]
+    nickname = "golk"
+    server = "irc.hackint.org"
+    channels = ["#tvl"]
+
+

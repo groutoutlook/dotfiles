@@ -124,7 +124,7 @@ journals:
   file:
     journal: ~/hw/obs/note_IDEAndTools/Asset/File-Format.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  fw:
+  fi:
     journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   firm:
@@ -444,6 +444,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   wasm:
     journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fw:
+    journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fr:
     journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md

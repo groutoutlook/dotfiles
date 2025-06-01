@@ -78,12 +78,12 @@ C-A-left = ["move_prev_sub_word_start"]
 C-A-right = ["move_next_sub_word_end"]
 
 C-left = ["move_prev_word_start"]
-C-right = ["move_next_word_end"]
+C-right = ["move_next_word_start"]
 
 V = ["select_mode", "extend_to_line_bounds"]
 D = ["extend_to_line_end", "delete_selection_noyank"]
 
-p = "replace_selections_with_clipboard" # No life without this
+p = ["delete_selection_noyank", "paste_before"] # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
 
 # Undoing the 'd' + motion commands restores the selection which is annoying
@@ -147,7 +147,7 @@ C-m = [ "match_brackets", "select_textobject_inner"]
 C-A-left = ["move_prev_sub_word_start"]
 C-A-right = ["move_next_sub_word_end"]
 C-left = ["move_prev_word_start"]
-C-right = ["move_next_word_end"]
+C-right = ["move_next_word_start"]
 C-up = ["extend_to_line_bounds","goto_prev_paragraph"]
 C-down = ["extend_to_line_bounds","goto_next_paragraph"]
 
