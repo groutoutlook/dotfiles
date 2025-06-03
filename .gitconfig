@@ -74,6 +74,7 @@
 	whitespace = -trailing-space
 	autocrlf = true
 	longpaths = true
+	attributesfile = ~/.gitattributes
 [diff]
 	# Use better, descriptive initials (c, i, w) instead of a/b.
 	mnemonicPrefix = true
@@ -130,6 +131,10 @@
 	# name = automatically merge npm lockfiles
 	# driver = npx npm-merge-driver merge %A %O %B %P
 	tool = vscode # "smerge"
+	conflictStyle = diff3
+[merge "mergiraf"]
+    name = mergiraf
+    driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P -l %L
 [mergetool]
 	# Clean up backup files created by merge tools on tool exit
 	keepBackup = false
@@ -139,7 +144,7 @@
 	writeToTemp = true
 	# Auto-accept file prompts when launching merge tools
 	prompt = false
-	[mergetool "vscode"]
+[mergetool "vscode"]
 	name = "VS Code"
 	trustExitCode = true
 	cmd = code -wait -m $LOCAL $REMOTE $BASE $MERGED
@@ -216,12 +221,12 @@
 	prereleaseSuffix = .rc
 [help]
 	autocorrect = 1
-	[difftool "sourcetree"]
+[difftool "sourcetree"]
 	cmd = "'' "
-	[mergetool "sourcetree"]
+[mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
-	[filter "lfs"]
+[filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -248,7 +253,7 @@
 [credential "helperselector"]
 	selected = manager
 	# INFO
-	[bitmapPseudoMerge "all"]
+[bitmapPseudoMerge "all"]
 	pattern = 'refs/(heads|tags)/'
 	threshold = now
 	stableThreshold = never
@@ -266,3 +271,4 @@
 [credential "https://myhost.com"]
 	provider = generic
 # [sendemail]
+

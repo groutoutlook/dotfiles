@@ -87,7 +87,7 @@ StyleOverLine:
 #   "ctrl+c"
 KeyBind:
     exit:
-        - "Escape"
+        # - "Escape"
         - "q"
     cancel:
         - "ctrl+c"

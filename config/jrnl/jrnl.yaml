@@ -130,6 +130,9 @@ journals:
   firm:
     journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fiw:
+    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fcad:
     journal: ~/hw/obs/note_IDEAndTools/Asset/CAD/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -142,10 +145,10 @@ journals:
   gpu:
     journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  gui:
+  vul:
     journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  grap:
+  gra:
     journal: ~/hw/obs/note_algo_lang/journal/GraphicUIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   graph:
@@ -198,9 +201,6 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   linux:
     journal: ~/hw/obs/note_software/journal/OSJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  lowsw:
-    journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ltip:
     journal: ~/hw/obs/note_Knowledge/journal/LifeHackJournal.md
@@ -357,6 +357,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   swt:
     journal: ~/hw/obs/note_software/journal/TUI.Terminal.Software.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  gui:
+    journal: ~/hw/obs/note_software/journal/GUI.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   swg:
     journal: ~/hw/obs/note_software/journal/GUI.Software.Journal.md

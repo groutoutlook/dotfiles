@@ -5,7 +5,7 @@
 [servers.liberachat]
     nickname = "golk-irc"
     server = "irc.libera.chat"
-    channels = ["#halloy"]
+    channels = ["#halloy","#soju"]
 
 [servers.hackint]
     nickname = "golk"
