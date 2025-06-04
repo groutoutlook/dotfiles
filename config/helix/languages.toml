@@ -8,6 +8,11 @@ auto-format = true
 formatter = { command = "topiary", args = ["format", "--language", "nu"] }
 # Configured to run alongside marksman.
 
+[[language]]
+name = "common-lisp"
+auto-format = true
+file-types = ["kbd" ,"cl","lisp"]
+
 # WARN : cant use yet, it frozed a lot.
 # [[language]]
 # auto-format = true
