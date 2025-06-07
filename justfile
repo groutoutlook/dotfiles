@@ -11,7 +11,7 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args: _clean_old_ptoy _fetch_new_vimium && deploy
+run *args: _clean_old_ptoy _fetch_new_vimium && (deploy)
     :bak 
 
 [script]

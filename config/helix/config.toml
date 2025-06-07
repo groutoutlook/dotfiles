@@ -29,6 +29,7 @@ min-width = 0
 layout = ["diff", "line-numbers","spacer"]
 
 [editor.smart-tab]
+enable = true
 supersede-menu = true
 
 [editor.soft-wrap]
@@ -75,7 +76,14 @@ C-left = ["move_prev_word_start"]
 C-right = ["move_next_word_start"]
 
 V = ["select_mode", "extend_to_line_bounds"]
-D = ["extend_to_line_end", "delete_selection_noyank"]
+# D = ["extend_to_line_end", "delete_selection_noyank"]
+# INFO : macro styles instead of full command.
+D = "@t<ret>d"
+W = "@miw"
+# Copy the document path to the system clipboard
+# Workaround: https://github.com/helix-editor/helix/issues/12420
+A-S-r = "copy_between_registers"
+A-S-f = "@<A-S-r>%+"
 
 p = ["delete_selection_noyank", "paste_before"] # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
@@ -122,6 +130,9 @@ S-tab = "move_parent_node_start"
 "C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
 o = "flip_selections"
 
+[keys.normal.space]
+"c" = "@:cd <C-r>%<C-w><ret>"
+
 [keys.normal.g]
 ";" = "goto_last_modification"
 # a = [":character-info"]
@@ -161,7 +172,7 @@ C-end = "goto_file_end"
 C-home = "goto_file_start"
 
 S-tab = "move_parent_node_start"
-
+"C-t" = { "C-t" = [":toggle smart-tab.enable"]}
 [keys.insert.j]
 k = ["normal_mode"]
 
