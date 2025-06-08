@@ -1,0 +1,105 @@
+{
+  "move-window-to": [
+    {
+      "Shortcut": "ctrl+win+alt+shift+d0",
+      "Desktop": 10,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d1",
+      "Desktop": 1,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d2",
+      "Desktop": 2,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d3",
+      "Desktop": 3,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d4",
+      "Desktop": 4,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d5",
+      "Desktop": 5,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d6",
+      "Desktop": 6,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d7",
+      "Desktop": 7,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d8",
+      "Desktop": 8,
+      "Follow": false
+    },
+    {
+      "Shortcut": "ctrl+win+alt+shift+d9",
+      "Desktop": 9,
+      "Follow": false
+    }
+  ],
+  "toggle-groups": [
+    {
+      "shortcut": "ctrl+alt+shift+m",
+      "desktops": [ 1, 2, 6 ]
+    }
+  ],
+  "jump-to": [
+    {
+      "shortcut": "ctrl+alt+shift+d0",
+      "desktop": 10
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d1",
+      "desktop": 1
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d2",
+      "desktop": 2
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d3",
+      "desktop": 3
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d4",
+      "desktop": 4
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d5",
+      "desktop": 5
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d6",
+      "desktop": 6
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d7",
+      "desktop": 7
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d8",
+      "desktop": 8
+    },
+    {
+      "shortcut": "ctrl+alt+shift+d9",
+      "desktop": 9
+    }
+  ],
+  "jump-current-goes-to-last": true,
+  "change-desktops-with-scroll": false,
+  "sticky-desktops": 0
+}

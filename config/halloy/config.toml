@@ -1,11 +1,15 @@
 # Halloy config.
 # For a complete list of available options,
 # please visit https://halloy.squidowl.org/configuration/index.html
+theme = "Catppuccin Mocha"
 
+
+[buffer.channel.topic]
+    enabled = true
 [servers.liberachat]
     nickname = "golk-irc"
     server = "irc.libera.chat"
-    channels = ["#halloy","#soju"]
+    channels = ["#halloy","#soju","#lobsters","#lobsters-feed"]
 
 [servers.hackint]
     nickname = "golk"

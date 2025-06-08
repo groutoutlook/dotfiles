@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "6/1/2025, 7:53:59 AM",
-	"time": 1748739239841,
+	"@time": "6/7/2025, 9:14:35 AM",
+	"time": 1749262475612,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -15,7 +15,7 @@
 			"pattern": ":https://mail.google.com/"
 		},
 		{
-			"passKeys": "/ ",
+			"passKeys": "/ s t ",
 			"pattern": ":https://github.com/"
 		},
 		{
@@ -185,6 +185,8 @@
 		"",
 		"map z passNextKey",
 		"map :SS joinTabs",
+		"map R reloadTab",
+		"map P autoOpen",
 		""
 	],
 	"keyupTime": 100,

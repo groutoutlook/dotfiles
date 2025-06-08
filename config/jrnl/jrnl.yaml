@@ -169,6 +169,15 @@ journals:
   ic:
     journal: ~/hw/obs/note_Embedded/ChipsetJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mcu:
+    journal: ~/hw/obs/note_Embedded/MCU.IC.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pic:
+    journal: ~/hw/obs/note_Embedded/Passive.IC.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  oic:
+    journal: ~/hw/obs/note_Embedded/Others.IC.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   idea:
     journal: ~/hw/obs/note_Business/IdeaJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -349,6 +358,7 @@ journals:
   swc:
     journal: ~/hw/obs/note_software/journal/CLI.Terminal.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+    editor: edit
   tu:
     journal: ~/hw/obs/note_software/journal/TUI.Terminal.Software.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
