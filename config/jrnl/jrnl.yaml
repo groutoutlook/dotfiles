@@ -79,6 +79,24 @@ journals:
   csci:
     journal: ~/hw/obs/note_algo_lang/journal/CompSciJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  nw:
+    journal: ~/hw/obs/note_algo_lang/journal/Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  net:
+    journal: ~/hw/obs/note_algo_lang/journal/Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  is:
+    journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  sec:
+    journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cve:
+    journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  isec:
+    journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   default:
     journal: ~/hw/obs/MainJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
