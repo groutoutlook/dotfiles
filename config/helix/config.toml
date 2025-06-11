@@ -132,6 +132,13 @@ S-tab = "move_parent_node_start"
 "C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
 o = "flip_selections"
 
+C-y = [
+  ':sh del C:\unique-file',
+  ':insert-output yazi.exe %{buffer_name} --chooser-file=C:\unique-file',
+  ':open %sh{type C:\unique-file}',
+  ':redraw',
+]
+
 [keys.normal.space]
 "c" = "@:cd <C-r>%<C-w><ret>"
 

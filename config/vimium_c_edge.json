@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "6/7/2025, 9:14:35 AM",
-	"time": 1749262475612,
+	"@time": "6/9/2025, 9:37:02 AM",
+	"time": 1749436622809,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -107,6 +107,7 @@
 		"map tt restoreTab",
 		"map T Vomnibar.activateTabs",
 		"map x removeTab goto=\"previous,near\" highlighted",
+		"map X removeRightTab",
 		"",
 		"map <a-s-w> goToRoot",
 		"map <a-s-up> goToRoot",

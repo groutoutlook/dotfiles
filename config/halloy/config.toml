@@ -9,11 +9,17 @@ theme = "Catppuccin Mocha"
 [servers.liberachat]
     nickname = "golk-irc"
     server = "irc.libera.chat"
-    channels = ["#halloy","#soju","#lobsters","#lobsters-feed"]
+    channels = ["#halloy","#soju","#lobsters","#benchmark"]
 
 [servers.hackint]
     nickname = "golk"
     server = "irc.hackint.org"
     channels = ["#tvl"]
+
+[servers.freenode]
+    nickname = "golk"
+    server = "irc.freenode.net"
+    channels = ["#freenode"]
+
 
 
