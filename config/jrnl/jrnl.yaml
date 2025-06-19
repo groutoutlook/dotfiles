@@ -85,6 +85,9 @@ journals:
   net:
     journal: ~/hw/obs/note_algo_lang/journal/Network.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  netw:
+    journal: ~/hw/obs/note_algo_lang/journal/Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   is:
     journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md

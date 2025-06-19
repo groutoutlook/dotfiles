@@ -36,4 +36,7 @@ alias d := deploy
 deploy args="rap":
     git {{args}}
 
-
+alias crlf := crlf-to-lf
+[script]
+crlf-to-lf args="toml":
+    foreach($file in (gci "*{{args}}" -recurse )){((Get-Content $file) -join "`n") + "`n" | Set-Content -NoNewline $file}

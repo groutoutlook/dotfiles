@@ -1,7 +1,3 @@
-[user]
-	name = groutoutlook
-	email = 150989799+groutoutlook@users.noreply.github.com
-	# Put this in your ~/.gitconfig or ~/.config/git/config
 [color]
 	# Enable colors in color-supporting terminals
 	ui = auto
@@ -72,7 +68,7 @@
 	editor = helix
 	# Don't consider trailing space change as a cause for merge conflicts
 	whitespace = -trailing-space
-	autocrlf = true
+	autocrlf = false
 	longpaths = true
 	attributesfile = ~/.gitattributes
 [diff]
@@ -264,6 +260,7 @@
 [include]
 	path = ~/gitalias.txt
 	path = ~/gitemail.txt
+	path = ~/gituser.txt
 [credential "https://git.code.sf.net"]
 	provider = generic
 [init]

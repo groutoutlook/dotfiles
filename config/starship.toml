@@ -10,7 +10,7 @@ format = "$time$all$line_break$jobs$battery$status$shell$character"
 
 [directory]
 fish_style_pwd_dir_length = 2
-truncation_length = 5
+truncation_length = 2
 repo_root_style = "cyan"
 format = " [$path]($style)[$lock_symbol]($lock_style)"
 
