@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "6/9/2025, 9:37:02 AM",
-	"time": 1749436622809,
+	"@time": "6/22/2025, 12:06:08 AM",
+	"time": 1750525568890,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
-		"chromium": 137
+		"chromium": 138
 	},
 	"allBrowserUrls": true,
 	"exclusionListenHash": false,
@@ -96,8 +96,8 @@
 		"# same reason why <f1> is used for help.",
 		"map <f1> showHelp",
 		"",
-		"map o Vomnibar.activateInNewTab",
-		"map O Vomnibar.activate",
+		"map o Vomnibar.activateInNewTab icase",
+		"map O Vomnibar.activate icase",
 		"",
 		"# INFO: FindMode",
 		"map L LinkHints.activateCopyLinkUrl",
@@ -106,7 +106,7 @@
 		"",
 		"map tt restoreTab",
 		"map T Vomnibar.activateTabs",
-		"map x removeTab goto=\"previous,near\" highlighted",
+		"map x removeTab goto=\"left,near\" highlighted",
 		"map X removeRightTab",
 		"",
 		"map <a-s-w> goToRoot",

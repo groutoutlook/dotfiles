@@ -648,7 +648,7 @@
         "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
         "font": {
           "face": "Iosevka Nerd Font Propo",
-          "size": 18
+          "size": 15
         },
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
