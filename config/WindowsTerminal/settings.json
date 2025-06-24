@@ -662,6 +662,48 @@
       {
         "backgroundImage": null,
         "colorScheme": "cyberdream",
+        "commandline": "wsl -e tmux",
+        "cursorColor": "#F1FF5E",
+        "cursorShape": "emptyBox",
+        "experimental.rainbowSuggestions": true,
+        "experimental.repositionCursorWithMouse": true,
+        "font": {
+          "face": "Iosevka Nerd Font Propo",
+          "size": 20
+        },
+        "guid": "{ec50493d-70a7-4e54-8439-09003cb79a48}",
+        "hidden": false,
+        "icon": "C:\\Users\\COHOTECH\\Downloads\\tmux.png",
+        "intenseTextStyle": "all",
+        "name": "tmux-wsl",
+        "opacity": 33,
+        "padding": "0",
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "backgroundImage": null,
+        "colorScheme": "cyberdream",
+        "commandline": "wsl -e zellij",
+        "cursorColor": "#F1FF5E",
+        "cursorShape": "emptyBox",
+        "experimental.rainbowSuggestions": true,
+        "experimental.repositionCursorWithMouse": true,
+        "font": {
+          "face": "Iosevka Nerd Font Propo",
+          "size": 20
+        },
+        "guid": "{ec50493d-70a7-4e54-8439-09003cb79a49}",
+        "hidden": false,
+        "icon": "C:\\Users\\COHOTECH\\Downloads\\zellij.png",
+        "intenseTextStyle": "all",
+        "name": "zellij-wsl",
+        "opacity": 33,
+        "padding": "0",
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "backgroundImage": null,
+        "colorScheme": "cyberdream",
         "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
         "cursorColor": "#F1FF5E",
         "cursorShape": "emptyBox",
@@ -677,27 +719,6 @@
         "icon": "ms-appx:///ProfileIcons/pwsh.png",
         "intenseTextStyle": "all",
         "name": "pwsh.myopia",
-        "opacity": 33,
-        "padding": "0",
-        "startingDirectory": "%USERPROFILE%"
-      },
-      {
-        "backgroundImage": null,
-        "colorScheme": "cyberdream",
-        "commandline": "C:\\Users\\COHOTECH\\scoop\\apps\\nu\\current\\nu.exe",
-        "cursorColor": "#F1FF5E",
-        "cursorShape": "emptyBox",
-        "experimental.rainbowSuggestions": true,
-        "experimental.repositionCursorWithMouse": true,
-        "font": {
-          "face": "Iosevka Nerd Font Propo",
-          "size": 20
-        },
-        "guid": "{ec50493d-70a7-4e54-8439-09003cb79a48}",
-        "hidden": false,
-        "icon": "C:\\Users\\COHOTECH\\Downloads\\nushell.png",
-        "intenseTextStyle": "all",
-        "name": "nu.myopia",
         "opacity": 33,
         "padding": "0",
         "startingDirectory": "%USERPROFILE%"
