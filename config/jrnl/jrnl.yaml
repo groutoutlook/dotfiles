@@ -79,6 +79,7 @@ journals:
   csci:
     journal: ~/hw/obs/note_algo_lang/journal/CompSciJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+    
   nw:
     journal: ~/hw/obs/note_algo_lang/journal/Network.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -180,6 +181,12 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hard:
     journal: ~/hw/obs/note_Embedded/HardwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ee:
+    journal: ~/hw/obs/note_Embedded/Electric.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  elec:
+    journal: ~/hw/obs/note_Embedded/Electric.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hh:
     journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
