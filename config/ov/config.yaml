@@ -93,6 +93,8 @@ KeyBind:
         - "ctrl+c"
     write_exit:
         - "Q"
+    write_original:
+        - "alt+shift+F8"
     set_write_exit:
         - "ctrl+q"
     suspend:
@@ -252,6 +254,8 @@ KeyBind:
         - "alt+F"
     raw_format:
         - "alt+R"
+    right_align:
+        - "alt+a"
     vertical_header:
         - "y"
     header_column:
@@ -281,7 +285,8 @@ KeyBind:
         - "ctrl+c"
     input_paste:
         - "ctrl+v"
-
+    status_line:
+        - "ctrl+F10"
 
 Mode:
   markdown:
