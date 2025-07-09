@@ -188,7 +188,10 @@ journals:
   elec:
     journal: ~/hw/obs/note_Embedded/Electric.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  hh:
+  laugh:
+    journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  humor:
     journal: ~/hw/obs/note_Knowledge/journal/WholesomeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   hw:
