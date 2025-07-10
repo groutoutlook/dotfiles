@@ -489,6 +489,9 @@ journals:
   wasm:
     journal: ~/hw/obs/note_os_web/SDK/WebProgJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  build:
+    journal: ~/hw/obs/note_algo_lang/journal/ProgrammingJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fw:
     journal: ~/hw/obs/note_os_web/SDK/SDK-Framework.General.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md

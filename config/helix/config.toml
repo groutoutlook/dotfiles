@@ -82,8 +82,8 @@ D = "@t<ret>d"
 W = "@miw"
 # Copy the document path to the system clipboard
 # Workaround: https://github.com/helix-editor/helix/issues/12420
-A-S-r = "copy_between_registers"
-A-S-f = "@<A-S-r>%+"
+# A-S-r = "copy_between_registers"
+# A-S-f = "@<A-S-r>%+"
 
 p = ["delete_selection_noyank", "paste_before"] # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
@@ -181,8 +181,8 @@ C-end = "goto_file_end"
 C-home = "goto_file_start"
 
 S-tab = "move_parent_node_start"
-"C#-t" = { "C-t" = [":toggle smart-tab.enable"]}
-[k#eys.insert.j]
+"C-t" = { "C-t" = [":toggle smart-tab.enable"]}
+[keys.insert.j]
 k = ["normal_mode"]
 
 [keys.insert.";".w]

@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "6/22/2025, 12:06:08 AM",
-	"time": 1750525568890,
+	"@time": "7/10/2025, 9:44:03 AM",
+	"time": 1752115443473,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
-		"chromium": 138
+		"chromium": 139
 	},
 	"allBrowserUrls": true,
 	"exclusionListenHash": false,
@@ -68,7 +68,6 @@
 		"#!no-check",
 		"unmapAll",
 		"",
-		"map i enterInsertMode",
 		"map c enterVisualMode mode=\"caret\"",
 		"map v enterVisualMode ",
 		"",
@@ -185,6 +184,8 @@
 		"map , findSelected",
 		"",
 		"map z passNextKey",
+		"map i passNextKey ",
+		"map ;i enterInsertMode",
 		"map :SS joinTabs",
 		"map R reloadTab",
 		"map P autoOpen",
