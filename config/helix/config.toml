@@ -1,4 +1,4 @@
-theme = "base16_transparent"
+theme = "catppuccin_macchiato_transparent"
 
 [editor]
 # shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
