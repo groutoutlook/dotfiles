@@ -33,7 +33,7 @@ format:
     biome format --write
 
 alias d := deploy
-deploy args="rap":
+deploy args="cif":
     git {{args}}
 
 alias crlf := crlf-to-lf

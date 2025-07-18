@@ -36,7 +36,6 @@
 	# Remove file(s) from Git but not from disk
 	utr = rm --cache --
 	main = !"git branch -m main && git push -u origin main"
-
 	# My addition.
 	rhh = !"git reset --hard && git clean -fd"
 	# Undo last commit but keep changed files in stage
@@ -159,12 +158,12 @@
 	default = upstream
 	# When pushing, also push tags whose commit-ishs are now reachable upstream
 	followTags = true
-	# [rebase]
+[rebase]
 	# Rebase advanced usage.
 	# Automagically reorder and prefix your commands while doing an interactive
 	# rebase. This has to be used with `--fixup` and/or `--squash` options for
 	# `git commit`.
-	# autoSquash = true
+	autoSquash = true
 	# Automatically stash current WD and stage when running rebase
 	# then you won't have to manually `git stash push` and `git stash pop`
 	# after and before your rebase.
@@ -202,7 +201,7 @@
 	submoduleSummary = true
 	# Recursively traverse untracked directories to display all contents
 	showUntrackedFiles = all
-	[color "branch"]
+[color "branch"]
 	# Blue on black is hard to read in git branch -vv: use cyan instead
 	upstream = cyan
 [tag]
@@ -268,6 +267,5 @@
 [credential "https://myhost.com"]
 	provider = generic
 # [sendemail]
-
 [gpg]
 	program = gpg
