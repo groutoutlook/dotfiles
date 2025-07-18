@@ -175,7 +175,7 @@ C-space = ["completion"]
 # "C-[" = ["normal_mode"] 
 
 # INFO: goto mode support.
-"C-ret" = ["goto_word"]
+"C-ret" = ["goto_word","move_prev_word_start"]
 "C-S-backspace" = ["goto_last_modification"]
 C-end = "goto_file_end" 
 C-home = "goto_file_start"
@@ -207,7 +207,7 @@ O = "ensure_selections_forward"
 # 0 = "goto_line_start"
 # "$" = "goto_line_end"
 G = "goto_file_end"
-C = ["goto_line_start", "extend_to_line_bounds", "change_selection"]
+# C = ["goto_line_start", "extend_to_line_bounds", "change_selection"]
 "%" = "match_brackets"
 # S = "surround_add" # Basically 99% of what I use vim-surround for
 # u = ["switch_to_lowercase", "collapse_selection", "normal_mode"]

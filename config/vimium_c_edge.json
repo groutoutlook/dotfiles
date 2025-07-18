@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/10/2025, 9:44:03 AM",
-	"time": 1752115443473,
+	"@time": "7/14/2025, 2:42:51 PM",
+	"time": 1752478971081,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -143,7 +143,8 @@
 		"map <c-s>s createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"# map ss createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"",
-		"map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Setting/\"",
+		"# map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Setting/\"",
+		"map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Today#intro193\"",
 		"# INFO: dashboard of mine.",
 		"map <c-s><c-s-k> createTab url=\"http://127.0.0.1:9900/History\"",
 		"",

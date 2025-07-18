@@ -101,6 +101,9 @@ journals:
   isec:
     journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  infosec:
+    journal: ~/hw/obs/note_algo_lang/journal/Info.Security.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   default:
     journal: ~/hw/obs/MainJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -213,6 +216,9 @@ journals:
     journal: ~/hw/obs/note_Business/IdeaJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   inte:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  itf:
     journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   interest:
@@ -334,6 +340,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   prog:
     journal: ~/hw/obs/note_algo_lang/journal/ProgrammingJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  proto:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   prot:
     journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
@@ -470,6 +479,15 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   wf:
     journal: ~/hw/obs/note_Business/WorkflowJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  bs:
+    journal: ~/hw/obs/note_Business/WorkJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  busy:
+    journal: ~/hw/obs/note_Business/WorkJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  task:
+    journal: ~/hw/obs/note_Business/WorkJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   work:
     journal: ~/hw/obs/note_Business/WorkJournal.md

@@ -26,7 +26,7 @@ _fetch_new_vimium:
     cp ~/Downloads/vimium_c* ./config/vimium_c_edge.json
     
 alias b := build
-build *args: _clean_old_ptoy _fetch_new_vimium && (deploy)
+build *args: _clean_old_ptoy _fetch_new_vimium
     :bak && git cif
 
 format:

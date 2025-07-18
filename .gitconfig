@@ -269,3 +269,5 @@
 	provider = generic
 # [sendemail]
 
+[gpg]
+	program = gpg
