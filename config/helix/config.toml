@@ -80,10 +80,9 @@ V = ["select_mode", "extend_to_line_bounds"]
 # INFO : macro styles instead of full command.
 D = "@t<ret>d"
 W = "@miw"
-# Copy the document path to the system clipboard
-# Workaround: https://github.com/helix-editor/helix/issues/12420
-# A-S-r = "copy_between_registers"
-# A-S-f = "@<A-S-r>%+"
+# Copy path to the system clipboard https://github.com/helix-editor/helix/issues/12420
+A-S-r = "copy_between_registers"
+A-S-f = "@<A-S-r>%+"
 
 p = ["delete_selection_noyank", "paste_before"] # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
@@ -127,8 +126,8 @@ C-backspace = ["move_prev_sub_word_start", "delete_selection_noyank"]
 tab = "move_parent_node_end"
 S-tab = "move_parent_node_start"
 # INFO : `mm` is go to closure for you.
-# "C-S-i" = ["rotate_selections_first"]
-# "C-S-o" = ["rotate_selections_last"]
+"C-S-i" = ["rotate_selections_first"]
+"C-S-o" = ["rotate_selections_last"]
 "C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
 o = "flip_selections"
 
@@ -228,5 +227,5 @@ S-tab = "extend_parent_node_start"
 W = 'extend_next_sub_word_start'
 B = 'extend_prev_sub_word_start'
 E = 'extend_next_sub_word_end'
-#"C-S-i" = ["rotate_selections_first"]
-#"C-S-o" = ["rotate_selections_last"]
+"C-S-i" = ["rotate_selections_first"]
+"C-S-o" = ["rotate_selections_last"]
