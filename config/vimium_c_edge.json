@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/18/2025, 1:51:24 PM",
-	"time": 1752821484459,
+	"@time": "7/21/2025, 4:09:39 PM",
+	"time": 1753088979063,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -99,7 +99,6 @@
 		"map O Vomnibar.activate icase",
 		"",
 		"# INFO: FindMode",
-		"map L LinkHints.activateCopyLinkUrl",
 		"map + LinkHints.activateCopyLinkUrl",
 		"map = LinkHints.activateCopyLinkText",
 		"",

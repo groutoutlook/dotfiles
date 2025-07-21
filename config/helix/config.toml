@@ -26,7 +26,7 @@ min-width = 0
 
 [editor.gutters]
 # layout = ["diagnostics", "diff", "line-numbers"]
-layout = ["diff", "line-numbers","spacer"]
+layout = ["diff", "line-numbers"]
 
 [editor.smart-tab]
 enable = true
