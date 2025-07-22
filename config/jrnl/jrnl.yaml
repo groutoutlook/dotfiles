@@ -114,7 +114,7 @@ journals:
     journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ecad:
-    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
+    journal: ~/hw/obs/note_Embedded/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   eco:
     journal: ~/hw/obs/note_Knowledge/EconomyJournal.md
@@ -123,7 +123,7 @@ journals:
     journal: ~/hw/obs/note_Knowledge/EconomyJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   eda:
-    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
+    journal: ~/hw/obs/note_Embedded/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   edit:
     journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
@@ -231,7 +231,13 @@ journals:
     journal: ~/hw/obs/note_Items/OtherItemsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   kicad:
-    journal: ~/hw/obs/note_Embedded/note_EDA/EDAJournal.md
+    journal: ~/hw/obs/note_Embedded/EDAJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  std:
+    journal: ~/hw/obs/note_algo_lang/LangJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cpp:
+    journal: ~/hw/obs/note_algo_lang/LangJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   lang:
     journal: ~/hw/obs/note_algo_lang/LangJournal.md
@@ -294,10 +300,10 @@ journals:
     journal: ~/hw/obs/note_Knowledge/OtherKnowledgeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pcb:
-    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    journal: ~/hw/obs/note_Embedded/PCBJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pcba:
-    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    journal: ~/hw/obs/note_Embedded/PCBJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   peo:
     journal: ~/hw/obs/note_Business/ConnectionJournal.md
@@ -439,7 +445,7 @@ journals:
     journal: ~/hw/obs/note_Knowledge/VocabJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   viap:
-    journal: ~/hw/obs/note_Embedded/PCB_Standard/PCBJournal.md
+    journal: ~/hw/obs/note_Embedded/PCBJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   vid:
     journal: ~/hw/obs/note_entertainment/VideoJournal.md
@@ -516,13 +522,10 @@ journals:
   wasm:
     journal: ~/hw/obs/note_os_web/WebProgJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  be:
-    journal: ~/hw/obs/note_os_web/WebProgJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  backend:
-    journal: ~/hw/obs/note_os_web/WebProgJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   build:
+    journal: ~/hw/obs/note_os_web/SDK-Framework.General.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  buildsystem:
     journal: ~/hw/obs/note_os_web/SDK-Framework.General.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fw:
@@ -549,6 +552,22 @@ journals:
   ide:
     journal: ~/hw/obs/note_IDEAndTools/IDE.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  sv:
+    journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  srv:
+    journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  server:
+    journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  be:
+    journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  backend:
+    journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+    
     
 linewrap: 2000
 tagsymbols: '#@'
