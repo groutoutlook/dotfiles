@@ -52,11 +52,14 @@ journals:
   book:
     journal: ~/hw/obs/note_Knowledge/ReadAndListenJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  prt:
+    journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   bus:
     journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cad:
-    journal: ~/hw/obs/note_IDEAndToolsCADJournal.md
+    journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cad3d:
     journal: ~/hw/obs/note_IDEAndTools/CADJournal.md

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smartContextMenu>
+  <menuItems>
+    <items>
+      <item type="Item" name="information" key1="" key2="" key3="" />
+      <item type="Item" name="aero_glass" key1="" key2="" key3="" />
+      <item type="Item" name="always_on_top" key1="17" key2="16" key3="112" />
+      <item type="Item" name="borderless" key1="" key2="" key3="" />
+      <item type="Item" name="dimmer" key1="" key2="" key3="" />
+      <item type="Item" name="hide" key1="" key2="" key3="" />
+      <item type="Item" name="roll_up" key1="" key2="" key3="" />
+      <item type="Item" name="send_to_bottom" key1="17" key2="16" key3="115" />
+      <item type="Item" name="change_icon" key1="" key2="" key3="" />
+      <item type="Item" name="change_title" key1="17" key2="16" key3="113" />
+      <item type="Item" name="save_screenshot" key1="" key2="" key3="" />
+      <item type="Item" name="open_file_in_explorer" key1="" key2="" key3="" />
+      <item type="Item" name="click_through" key1="17" key2="16" key3="114" />
+      <item type="Item" name="hide_for_alt_tab" key1="17" key2="16" key3="116" />
+      <item type="Group" name="size">
+        <items>
+          <item type="Separator" />
+          <item type="Item" name="size_custom" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="move_to" />
+      <item type="Group" name="alignment" show="false">
+        <items>
+          <item type="Item" name="align_top_left" show="false" key1="18" key2="" key3="103" />
+          <item type="Item" name="align_top_center" show="false" key1="18" key2="" key3="104" />
+          <item type="Item" name="align_top_right" show="false" key1="18" key2="" key3="105" />
+          <item type="Item" name="align_middle_left" show="false" key1="18" key2="" key3="100" />
+          <item type="Item" name="align_middle_center" show="false" key1="18" key2="" key3="101" />
+          <item type="Item" name="align_middle_right" show="false" key1="18" key2="" key3="102" />
+          <item type="Item" name="align_bottom_left" show="false" key1="18" key2="" key3="97" />
+          <item type="Item" name="align_bottom_center" show="false" key1="18" key2="" key3="98" />
+          <item type="Item" name="align_bottom_right" show="false" key1="18" key2="" key3="99" />
+          <item type="Separator" />
+          <item type="Item" name="align_center_horizontally" key1="" key2="" key3="" />
+          <item type="Item" name="align_center_vertically" key1="" key2="" key3="" />
+          <item type="Separator" />
+          <item type="Item" name="align_custom" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="transparency">
+        <items>
+          <item type="Item" name="trans_opaque" key1="17" key2="18" key3="96" />
+          <item type="Item" name="trans_10" show="false" key1="17" key2="18" key3="97" />
+          <item type="Item" name="trans_20" key1="17" key2="18" key3="98" />
+          <item type="Item" name="trans_30" show="false" key1="17" key2="" key3="99" />
+          <item type="Item" name="trans_40" show="false" key1="17" key2="" key3="100" />
+          <item type="Item" name="trans_50" show="false" key1="17" key2="" key3="101" />
+          <item type="Item" name="trans_60" show="false" key1="17" key2="" key3="102" />
+          <item type="Item" name="trans_70" show="false" key1="17" key2="" key3="103" />
+          <item type="Item" name="trans_80" show="false" key1="17" key2="" key3="104" />
+          <item type="Item" name="trans_90" show="false" key1="17" key2="" key3="105" />
+          <item type="Item" name="trans_invisible" key1="" key2="" key3="" />
+          <item type="Separator" />
+          <item type="Item" name="trans_custom" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="priority">
+        <items>
+          <item type="Item" name="priority_real_time" key1="" key2="" key3="" />
+          <item type="Item" name="priority_high" key1="" key2="" key3="" />
+          <item type="Item" name="priority_above_normal" key1="" key2="" key3="" />
+          <item type="Item" name="priority_normal" key1="" key2="" key3="" />
+          <item type="Item" name="priority_below_normal" key1="" key2="" key3="" />
+          <item type="Item" name="priority_idle" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="clipboard">
+        <items>
+          <item type="Item" name="copy_screenshot" key1="" key2="" key3="" />
+          <item type="Item" name="copy_window_text" key1="" key2="" key3="" />
+          <item type="Item" name="copy_window_title" key1="" key2="" key3="" />
+          <item type="Item" name="copy_full_process_path" key1="" key2="" key3="" />
+          <item type="Item" name="clear_clipboard" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="buttons">
+        <items>
+          <item type="Item" name="disable_minimize_button" key1="" key2="" key3="" />
+          <item type="Item" name="disable_maximize_button" key1="" key2="" key3="" />
+          <item type="Item" name="disable_close_button" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="system_tray">
+        <items>
+          <item type="Item" name="minimize_to_systemtray" key1="" key2="" key3="" />
+          <item type="Item" name="minimize_always_to_systemtray" key1="" key2="" key3="" />
+          <item type="Item" name="suspend_to_systemtray" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="system_menu">
+        <items>
+          <item type="Item" name="system_menu_restore" key1="" key2="" key3="" />
+          <item type="Item" name="system_menu_minimize" key1="" key2="" key3="" />
+          <item type="Item" name="system_menu_maximize" key1="" key2="" key3="" />
+          <item type="Item" name="system_menu_close" key1="" key2="" key3="" />
+          <item type="Separator" />
+          <item type="Item" name="system_menu_available" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="other_windows">
+        <items>
+          <item type="Item" name="minimize_other_windows" key1="" key2="" key3="" />
+          <item type="Item" name="close_other_windows" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="start_program" />
+    </items>
+    <windowSizeItems>
+      <item title="640x480" left="" top="" width="640" height="480" key1="" key2="" key3="" />
+      <item title="720x480" left="" top="" width="720" height="480" key1="" key2="" key3="" />
+      <item title="720x576" left="" top="" width="720" height="576" key1="" key2="" key3="" />
+      <item title="800x600" left="" top="" width="800" height="600" key1="" key2="" key3="" />
+      <item title="1024x768" left="" top="" width="1024" height="768" key1="" key2="" key3="" />
+      <item title="1152x864" left="" top="" width="1152" height="864" key1="" key2="" key3="" />
+      <item title="1280x720" left="" top="" width="1280" height="720" key1="" key2="" key3="" />
+      <item title="1280x768" left="" top="" width="1280" height="768" key1="" key2="" key3="" />
+      <item title="1280x800" left="" top="" width="1280" height="800" key1="" key2="" key3="" />
+      <item title="1280x960" left="" top="" width="1280" height="960" key1="" key2="" key3="" />
+      <item title="1280x1024" left="" top="" width="1280" height="1024" key1="" key2="" key3="" />
+      <item title="1360x768" left="" top="" width="1360" height="768" key1="" key2="" key3="" />
+      <item title="1400x1050" left="" top="" width="1400" height="1050" key1="" key2="" key3="" />
+      <item title="1440x900" left="" top="" width="1440" height="900" key1="" key2="" key3="" />
+      <item title="1600x900" left="" top="" width="1600" height="900" key1="" key2="" key3="" />
+      <item title="1680x1050" left="" top="" width="1680" height="1050" key1="" key2="" key3="" />
+    </windowSizeItems>
+    <startProgramItems>
+      <item title="Notepad" fileName="notepad.exe" arguments="" useWindowWorkingDirectory="true" showWindow="true" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Calculator" fileName="calc.exe" arguments="" useWindowWorkingDirectory="false" showWindow="true" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Paint" fileName="mspaint.exe" arguments="" useWindowWorkingDirectory="false" showWindow="true" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Explorer" fileName="explorer.exe" arguments="" useWindowWorkingDirectory="false" showWindow="true" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Open Command Window" fileName="cmd.exe" arguments="" useWindowWorkingDirectory="true" showWindow="true" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Kill This Process" fileName="taskkill.exe" arguments="/F /PID %process_id%" useWindowWorkingDirectory="false" showWindow="false" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Kill Process By PID" fileName="taskkill.exe" arguments="/F /PID %PID%" useWindowWorkingDirectory="false" showWindow="false" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+      <item title="Kill Process By Name" fileName="taskkill.exe" arguments="/IM &quot;%Process Name%&quot; /F" useWindowWorkingDirectory="false" showWindow="false" beginParameter="%" endParameter="%" key1="" key2="" key3="" />
+    </startProgramItems>
+  </menuItems>
+  <hotKeys key1="17" key2="16" key3="0" key4="0" mouseButton="2" />
+  <dimmer color="#000000" transparency="50" />
+  <sizer type="0" />
+  <systemTrayIcon show="true" />
+  <display highDPI="true" />
+  <language name="en" />
+</smartContextMenu>
