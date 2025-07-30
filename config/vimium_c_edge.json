@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "7/24/2025, 8:00:02 PM",
-	"time": 1753362002665,
+	"@time": "7/30/2025, 8:44:52 AM",
+	"time": 1753839892431,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -17,10 +17,6 @@
 		{
 			"passKeys": "/ s t ",
 			"pattern": ":https://github.com/"
-		},
-		{
-			"passKeys": "^ D ^ d j k ",
-			"pattern": ":file:///"
 		},
 		{
 			"passKeys": "/ ",
@@ -90,7 +86,7 @@
 		"map yy copyWindowInfo type=\"tab\" format=\"[${title}](${url})\" ",
 		"map <f8> copyWindowInfo format=\"[${title}](${url})\" join=\"\\n\"",
 		" ",
-		"map p openCopiedUrlInNewTab",
+		"map P openCopiedUrlInNewTab",
 		"",
 		"# same reason why <f1> is used for help.",
 		"map <f1> showHelp",
@@ -180,16 +176,16 @@
 		"map , findSelected",
 		"",
 		"map z passNextKey",
-		"map i passNextKey ",
+		"map i passNextKey $count=2",
 		"map ;i enterInsertMode",
 		"map :SS joinTabs",
 		"map R reloadTab",
-		"map P autoOpen",
+		"map p autoOpen",
 		""
 	],
 	"keyupTime": 100,
 	"linkHintCharacters": "1234qweas",
-	"linkHintNumbers": "12345",
+	"linkHintNumbers": "012345",
 	"newTabUrl": "duckduckgo.com",
 	"regexFindMode": true,
 	"scrollStepSize": 120,

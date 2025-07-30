@@ -131,7 +131,8 @@ S-tab = "move_parent_node_start"
 "C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
 o = "flip_selections"
 
-C-y = [
+# HACK: yazi opening inside helix. It's for very simple work.
+C-S-z = [
   ':sh del C:\unique-file',
   ':insert-output yazi.exe %{buffer_name} --chooser-file=C:\unique-file',
   ':open %sh{type C:\unique-file}',
@@ -144,6 +145,7 @@ C-y = [
 [keys.normal.g]
 ";" = "goto_last_modification"
 # a = [":character-info"]
+x = ["match_brackets", "match_brackets", "move_char_right", "select_mode", "match_brackets", "extend_char_left", "goto_file"]
 
 q = [":quit-all!"]
 b = {c = ":buffer-close", d = ":buffer-close"}
@@ -152,6 +154,8 @@ b = {c = ":buffer-close", d = ":buffer-close"}
 q = [":quit-all!"]
 [keys.normal.l.w]
 q = [":write-quit-all!"]
+
+
 
 # INFO: start insert mapping.
 [keys.insert]

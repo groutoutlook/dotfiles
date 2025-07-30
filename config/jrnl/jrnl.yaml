@@ -438,6 +438,12 @@ journals:
   three:
     journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  triv:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  misc:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   til:
     journal: ~/hw/obs/note_Knowledge/OtherKnowledgeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
