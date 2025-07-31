@@ -131,6 +131,7 @@ S-tab = "move_parent_node_start"
 "C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
 o = "flip_selections"
 
+
 # HACK: yazi opening inside helix. It's for very simple work.
 C-S-z = [
   ':sh del C:\unique-file',
@@ -138,7 +139,8 @@ C-S-z = [
   ':open %sh{type C:\unique-file}',
   ':redraw',
 ]
-
+# HACK: experimental.
+"C-y" = "insert_char_interactive" 
 [keys.normal.space]
 "c" = "@:cd <C-r>%<C-w><ret>"
 
@@ -235,4 +237,5 @@ E = 'extend_next_sub_word_end'
 # # "C-S-o" = ["rotate_selections_last"]
 C-A-left = ["move_prev_sub_word_start"]
 C-A-right = ["move_next_sub_word_end"]
+
 

@@ -227,6 +227,15 @@ journals:
   itf:
     journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  dev:
+    journal: ~/hw/obs/note_entertainment/Device.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  para:
+    journal: ~/hw/obs/note_entertainment/Device.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tlm:
+    journal: ~/hw/obs/note_entertainment/Device.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   interest:
     journal: ~/hw/obs/note_entertainment/PersonalJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
