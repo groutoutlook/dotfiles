@@ -1,5 +1,6 @@
 theme = "catppuccin_macchiato_transparent"
 
+
 [editor]
 # shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
 auto-completion = true
@@ -76,7 +77,6 @@ C-left = ["move_prev_word_start"]
 C-right = ["move_next_word_start"]
 
 V = ["select_mode", "extend_to_line_bounds"]
-# D = ["extend_to_line_end", "delete_selection_noyank"]
 # INFO : macro styles instead of full command.
 D = "@t<ret>d"
 W = "@miw"
@@ -86,9 +86,6 @@ A-S-f = "@<A-S-r>%+"
 
 p = ["delete_selection_noyank", "paste_before"] # No life without this
 Y = ["goto_line_start","extend_to_line_end", "yank_main_selection_to_clipboard", "collapse_selection"]
-
-# Undoing the 'd' + motion commands restores the selection which is annoying
-# u = ["undo", "collapse_selection"]
 
 # Make j and k behave as they do Vim when soft-wrap is enabled
 j = "move_line_down"
@@ -140,7 +137,7 @@ C-S-z = [
   ':redraw',
 ]
 # HACK: experimental.
-"C-y" = "insert_char_interactive" 
+# "C-y" = "insert_char_interactive" 
 [keys.normal.space]
 "c" = "@:cd <C-r>%<C-w><ret>"
 
