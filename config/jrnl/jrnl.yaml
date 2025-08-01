@@ -8,7 +8,7 @@ default_minute: 0
 editor: hx
 encrypt: false
 highlight: true
-indent_character: ''
+indent_character: ""
 journals:
   :1:
     journal: ~/hw/obs/note_Items/1688Journal.md
@@ -85,7 +85,7 @@ journals:
   csci:
     journal: ~/hw/obs/note_algo_lang/CompSciJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-    
+
   nw:
     journal: ~/hw/obs/note_algo_lang/Network.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -484,16 +484,19 @@ journals:
     journal: ~/hw/obs/note_os_web/UIJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   wui:
-    journal: ~/hw/obs/note_os_web/UIJournal.md
+    journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   webui:
-    journal: ~/hw/obs/note_os_web/UIJournal.md
+    journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   uiweb:
-    journal: ~/hw/obs/note_os_web/UIJournal.md
+    journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  css:
+    journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   html:
-    journal: ~/hw/obs/note_os_web/UIJournal.md
+    journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   wapi:
     journal: ~/hw/obs/note_os_web/WebAPIJournal.md
@@ -585,10 +588,9 @@ journals:
   backend:
     journal: ~/hw/obs/note_os_web/Server.Network.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-    
-    
+
 linewrap: 2000
-tagsymbols: '#@'
+tagsymbols: "#@"
 template: false
-timeformat: '%F %r'
+timeformat: "%F %r"
 version: v4.2.1
