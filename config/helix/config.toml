@@ -152,6 +152,7 @@ b = {c = ":buffer-close", d = ":buffer-close"}
 [keys.normal.l]
 q = [":quit-all!"]
 [keys.normal.l.w]
+w = [":write-all!"]
 q = [":write-quit-all!"]
 
 
@@ -224,8 +225,10 @@ P = "paste_clipboard_before"
 "d" = "delete_selection_noyank"
 
 # HACK: I couldnt supress this even when I toggled smart-tab off.
-tab = "extend_parent_node_end"
-S-tab = "extend_parent_node_start"
+# tab = "extend_parent_node_end"
+# S-tab = "extend_parent_node_start"
+
+"ret" = "goto_word"
 
 W = 'extend_next_sub_word_start'
 B = 'extend_prev_sub_word_start'

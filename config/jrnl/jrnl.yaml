@@ -273,7 +273,22 @@ journals:
     journal: ~/hw/obs/note_Knowledge/LifeHackJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   math:
-    journal: ~/hw/obs/note_algo_lang/STEMJournal.md
+    journal: ~/hw/obs/note_algo_lang/Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  num:
+    journal: ~/hw/obs/note_algo_lang/Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  geom:
+    journal: ~/hw/obs/note_algo_lang/Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  shape:
+    journal: ~/hw/obs/note_algo_lang/Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  alge:
+    journal: ~/hw/obs/note_algo_lang/Algebra.Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  matrix:
+    journal: ~/hw/obs/note_algo_lang/Algebra.Math.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   mech:
     journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
