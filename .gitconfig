@@ -43,9 +43,9 @@
 	rsh = oldcommit
 	rs1 = oldcommit
 	reapply     = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\" && git puf"
-	reapplyslow = !"gitPrev=$(git rs1) && git add . && git commit -v && git puf"
+	reapplyslow = !"gitPrev=$(git rs1) && git add . && git commit -m \"$gitPrev\""
 	rap = reapply
-	rapp = reapply
+	ras = reapplyslow
 	raps = reapplyslow
 	cif = !"git add . && git commit -v && git puf"
 
