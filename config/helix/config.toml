@@ -77,9 +77,6 @@ C-left = ["move_prev_word_start"]
 C-right = ["move_next_word_start"]
 
 V = ["select_mode", "extend_to_line_bounds"]
-# INFO : macro styles instead of full command.
-D = "@t<ret>d"
-W = "@miw"
 # Copy path to the system clipboard https://github.com/helix-editor/helix/issues/12420
 A-S-r = "copy_between_registers"
 A-S-f = "@<A-S-r>%+"
@@ -100,7 +97,7 @@ k = "move_line_up"
 "]" = { j = "jump_forward", b ="goto_next_buffer", "g" = ["save_selection","goto_next_change"]}
 "[" = { j = "jump_backward", b ="goto_previous_buffer", "g" = ["save_selection","goto_prev_change"]}
 
-"," = "repeat_last_motion"
+"," = "repeat_last_motion" # 
 "C-." = "keep_primary_selection"
 end = "goto_line_end_newline" # stop at linebreak; this is more useful
 C-end = "goto_file_end" 
@@ -119,23 +116,11 @@ C-backspace = ["move_prev_sub_word_start", "delete_selection_noyank"]
 "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout [] ["diff","line-numbers"]'],"C-S-e" = [":toggle soft-wrap.wrap-at-text-width"],"C-t" = [":toggle smart-tab.enable"]}
 
 "d" = "delete_selection_noyank"
-
 tab = "move_parent_node_end"
 S-tab = "move_parent_node_start"
-# INFO : `mm` is go to closure for you.
-# "C-S-i" = ["rotate_selections_first"]
-# "C-S-o" = ["rotate_selections_last"]
-"C-]" = [ "match_brackets" ] #, "select_textobject_inner"]
+"C-]" = [ "match_brackets" ]  
 o = "flip_selections"
 
-
-# HACK: yazi opening inside helix. It's for very simple work.
-C-S-z = [
-  ':sh del C:\unique-file',
-  ':insert-output yazi.exe %{buffer_name} --chooser-file=C:\unique-file',
-  ':open %sh{type C:\unique-file}',
-  ':redraw',
-]
 # HACK: experimental.
 # "C-y" = "insert_char_interactive" 
 [keys.normal.space]
@@ -143,11 +128,10 @@ C-S-z = [
 
 [keys.normal.g]
 ";" = "goto_last_modification"
-# a = [":character-info"]
 x = ["match_brackets", "match_brackets", "move_char_right", "select_mode", "match_brackets", "extend_char_left", "goto_file"]
-
-q = [":quit-all!"]
-b = {c = ":buffer-close", d = ":buffer-close"}
+0 = "@t);mimgf" # or just gx
+9 = "@gsT(;mimgf" # since sometimes you really want go back the previous line .
+# will not work very good with multiple URLs in one line though.
 
 [keys.normal.l]
 q = [":quit-all!"]
@@ -155,7 +139,9 @@ q = [":quit-all!"]
 w = [":write-all!"]
 q = [":write-quit-all!"]
 
-
+[keys.normal.D]
+"." = "@f.;vt]dgs"
+D = "@t<ret>d"
 
 # INFO: start insert mapping.
 [keys.insert]

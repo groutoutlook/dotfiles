@@ -3,7 +3,6 @@ $backUpDir = @{
   # "$HOME\PenTablet_Config.pcfg" = "$env:dotfilesRepo\config"
   "$HOME\.gitconfig" = "$env:dotfilesRepo\"
   "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" = "$env:dotfilesRepo\config\WindowsTerminal"
-  "$env:usrbinD\mousemaster.properties" = "$env:dotfilesRepo\config\"
 }
 function Backup-Extensive($Verbose = $null)
 {
