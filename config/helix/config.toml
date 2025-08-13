@@ -110,7 +110,7 @@ C-del = ["move_next_sub_word_end", "delete_selection_noyank"]
 C-backspace = ["move_prev_sub_word_start", "delete_selection_noyank"]
 
 "ret" = "goto_word"
-"C-S-backspace" = "goto_last_modification"
+"C-S-backspace" = "@g;zz"
 
 # NOTE: to breakdown the up to text-width.
 "C-w" = {"C-e" = [":toggle soft-wrap.enable"], "C-n" = [':toggle gutters.layout [] ["diff","line-numbers"]'],"C-S-e" = [":toggle soft-wrap.wrap-at-text-width"],"C-t" = [":toggle smart-tab.enable"]}
@@ -127,10 +127,10 @@ o = "flip_selections"
 "c" = "@:cd <C-r>%<C-w><ret>"
 
 [keys.normal.g]
-";" = "goto_last_modification"
+";" = ["goto_last_modification","align_view_center"]
 x = ["match_brackets", "match_brackets", "move_char_right", "select_mode", "match_brackets", "extend_char_left", "goto_file"]
-0 = "@t);mimgf" # or just gx
-9 = "@gsT(;mimgf" # since sometimes you really want go back the previous line .
+0 = "@/https<ret>;mimgf" # or just gx
+9 = "@/https<ret>2N;mimgf" # since sometimes you really want go back the previous line .
 # will not work very good with multiple URLs in one line though.
 
 [keys.normal.l]
