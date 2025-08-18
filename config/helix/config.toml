@@ -60,6 +60,9 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 C-r = ":config-reload"
 C-q = ":quit"
 C-v = "paste_clipboard_before"
+C-S-x = ":reload-all" # while invoke runner in the file.
+
+
 
 # Personal preference
 O = ["open_above", "insert_mode"]
@@ -125,6 +128,7 @@ o = "flip_selections"
 # "C-y" = "insert_char_interactive" 
 [keys.normal.space]
 "c" = "@:cd <C-r>%<C-w><ret>"
+"r" = "@:wa!<ret>:! just " # write all and prepare runner just in case.
 
 [keys.normal.g]
 ";" = ["goto_last_modification","align_view_center"]
@@ -142,7 +146,8 @@ q = [":write-quit-all!"]
 [keys.normal.D]
 "." = "@f.;vt]dgs"
 D = "@t<ret>d"
-
+"t" = {"e" = "@gs/id<ret>f&;vt)dj"} # INFO: delete telemetry and keep only "id=" tag.
+# 
 # INFO: start insert mapping.
 [keys.insert]
 "C-]" = [ "match_brackets" ]

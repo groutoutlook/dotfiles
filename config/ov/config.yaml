@@ -17,7 +17,7 @@ General:
   WrapMode: true
   ColumnDelimiter: ","
   MarkStyleWidth: 0
-#  SectionDelimiter: "^#"
+  #  SectionDelimiter: "^#"
   # Style
   # String of the color name: Foreground, Background, UnderlineColor
   # Boolean: Bold, Blink, Dim, Italic, Underline
@@ -86,207 +86,208 @@ StyleOverLine:
 # Connect with modifier key + key
 #   "ctrl+c"
 KeyBind:
-    exit:
-        # - "Escape"
-        - "q"
-    cancel:
-        - "ctrl+c"
-    write_exit:
-        - "Q"
-    write_original:
-        - "alt+shift+F8"
-    set_write_exit:
-        - "ctrl+q"
-    suspend:
-        - "ctrl+z"
-    edit:
-        - "v"
-    sync:
-        - "ctrl+l"
-    reload:
-        - "ctrl+alt+l"
-        - "F5"
-    watch:
-        - "ctrl+alt+w"
-        - "F4"
-    watch_interval:
-        - "ctrl+w"
-    follow_mode:
-        - "ctrl+f"
-    follow_all:
-        - "ctrl+a"
-    follow_section:
-        - "F2"
-    help:
-        - "h"
-        - "ctrl+alt+c"
-        - "ctrl+f1"
-    logdoc:
-        - "ctrl+f2"
-        - "ctrl+alt+e"
-    down:
-        - "Enter"
-        - "Down"
-        - "ctrl+N"
-    up:
-        - "Up"
-        - "ctrl+p"
-    top:
-        - "Home"
-    bottom:
-        - "End"
-    left:
-        - "left"
-    right:
-        - "right"
-    half_left:
-        - "ctrl+left"
-    half_right:
-        - "ctrl+right"
-    page_up:
-        - "PageUp"
-        - "ctrl+b"
-    page_down:
-        - "PageDown"
-        - "ctrl+v"
-    page_half_up:
-#        - "ctrl+u"
-#        - "ctrl+shift+d"
-        - "D"
-        - "u"
-        - "shift+space"
-    page_half_down:
-#        - "ctrl+d"
-        - "U"
-        - "d"
-    section_delimiter:
-        - "alt+d"
-    section_start:
-        - "ctrl+F3"
-        - "alt+s"
-    section_header_num:
-        - "F7"
-    hide_other:
-        - "alt+-"
-    next_section:
-        - "space"
-    last_section:
-        - "9"
-    previous_section:
-        - "^"
-    mark:
-        - "m"
-    remove_mark:
-        - "M"
-    remove_all_mark:
-        - "ctrl+delete"
-    next_mark:
-        - ">"
-    previous_mark:
-        - "<"
-    set_view_mode:
-        - "p"
-        - "P"
-    alter_rows_mode:
-        - "C"
-    line_number_mode:
-        - "G"
-    search:
-        - "/"
-    wrap_mode:
-        - "w"
-        - "W"
-    column_mode:
-        - "c"
-    backsearch:
-        - "?"
-    delimiter:
-        - "alt+d"
-    header:
-        - "H"
-    skip_lines:
-        - "ctrl+s"
-    tabwidth:
-        - "t"
-    goto:
-        - "g"
-    next_search:
-        - "n"
-    next_backsearch:
-        - "N"
-    next_doc:
-        - "]"
-    previous_doc:
-        - "["
-    toggle_mouse:
-        - "ctrl+f3"
-        - "ctrl+alt+r"
-    multi_color:
-        - "."
-    jump_target:
-        - "j"
-    plain_mode:
-        - "ctrl+e"
-    rainbow_mode:
-        - "ctrl+r"
-    close_file:
-        - "ctrl+F9"
-        - "ctrl+alt+s"
-    width_left:
-        - "ctrl+shift+left"
-    width_right:
-        - "ctrl+shift+right"
-    begin_left:
-        - "shift+Home"
-    end_right:
-        - "shift+End"
-    column_width:
-        - "alt+o"
-    filter:
-        - "&"
-    close_doc:
-        - "ctrl+k"
-    close_all_filter:
-        - "K"
-    convert_type:
-        - "alt+t"
-    align_format:
-        - "alt+F"
-    raw_format:
-        - "alt+R"
-    right_align:
-        - "alt+a"
-    vertical_header:
-        - "y"
-    header_column:
-        - "Y"
-    fixed_column:
-        - "F"
-    shrink_column:
-        - "s"
-    toggle_ruler:
-        - "alt+shift+F9"
+  exit:
+    # - "Escape"
+    - "q"
+  cancel:
+    - "ctrl+c"
+  write_exit:
+    - "Q"
+  write_original:
+    - "alt+shift+F8"
+  set_write_exit:
+    - "ctrl+q"
+  suspend:
+    - "ctrl+z"
+  edit:
+    - "v"
+  sync:
+    - "ctrl+l"
+  reload:
+    - "ctrl+alt+l"
+    - "F5"
+  watch:
+    - "ctrl+alt+w"
+    - "F4"
+  watch_interval:
+    - "ctrl+w"
+  follow_mode:
+    - "ctrl+f"
+  follow_all:
+    - "ctrl+a"
+  follow_section:
+    - "F2"
+  help:
+    - "h"
+    - "ctrl+alt+c"
+    - "ctrl+f1"
+  logdoc:
+    - "ctrl+f2"
+    - "ctrl+alt+e"
+  down:
+    - "Enter"
+    - "Down"
+    - "ctrl+N"
+  up:
+    - "Up"
+    - "ctrl+p"
+  top:
+    - "Home"
+  bottom:
+    - "End"
+    - "G" #
+  left:
+    - "left"
+  right:
+    - "right"
+  half_left:
+    - "ctrl+left"
+  half_right:
+    - "ctrl+right"
+  page_up:
+    - "PageUp"
+    - "ctrl+b"
+  page_down:
+    - "PageDown"
+    - "ctrl+v"
+  page_half_up:
+    #        - "ctrl+u"
+    #        - "ctrl+shift+d"
+    - "D"
+    - "u"
+    - "shift+space"
+  page_half_down:
+    #        - "ctrl+d"
+    - "U"
+    - "d"
+  section_delimiter:
+    - "alt+d"
+  section_start:
+    - "ctrl+F3"
+    - "alt+s"
+  section_header_num:
+    - "F7"
+  hide_other:
+    - "alt+-"
+  next_section:
+    - "space"
+  last_section:
+    - "9"
+  previous_section:
+    - "^"
+  mark:
+    - "m"
+  remove_mark:
+    - "M"
+  remove_all_mark:
+    - "ctrl+delete"
+  next_mark:
+    - ">"
+  previous_mark:
+    - "<"
+  set_view_mode:
+    - "p"
+    - "P"
+  alter_rows_mode:
+    - "C"
+  line_number_mode:
+    - "alt+G" # "G"
+  search:
+    - "/"
+  wrap_mode:
+    - "w"
+    - "W"
+  column_mode:
+    - "c"
+  backsearch:
+    - "?"
+  delimiter:
+    - "alt+d"
+  header:
+    - "H"
+  skip_lines:
+    - "ctrl+s"
+  tabwidth:
+    - "t"
+  goto:
+    - "g"
+  next_search:
+    - "n"
+  next_backsearch:
+    - "N"
+  next_doc:
+    - "]"
+  previous_doc:
+    - "["
+  toggle_mouse:
+    - "ctrl+f3"
+    - "ctrl+alt+r"
+  multi_color:
+    - "."
+  jump_target:
+    - "j" # not sure what's this about.
+  plain_mode:
+    - "ctrl+e"
+  rainbow_mode:
+    - "ctrl+r"
+  close_file:
+    - "ctrl+F9"
+    - "ctrl+alt+s"
+  width_left:
+    - "ctrl+shift+left"
+  width_right:
+    - "ctrl+shift+right"
+  begin_left:
+    - "shift+Home"
+  end_right:
+    - "shift+End"
+  column_width:
+    - "alt+o"
+  filter:
+    - "&"
+  close_doc:
+    - "ctrl+k"
+  close_all_filter:
+    - "K"
+  convert_type:
+    - "alt+t"
+  align_format:
+    - "alt+F"
+  raw_format:
+    - "alt+R"
+  right_align:
+    - "alt+a"
+  vertical_header:
+    - "y"
+  header_column:
+    - "Y"
+  fixed_column:
+    - "F"
+  shrink_column:
+    - "s"
+  toggle_ruler:
+    - "alt+shift+F9"
 
-    input_casesensitive:
-        - "alt+c"
-    input_smart_casesensitive:
-        - "alt+s"
-    input_incsearch:
-        - "alt+i"
-    input_regexp_search:
-        - "alt+r"
-    input_non_match:
-        - "!"
-    input_previous:
-        - "Up"
-    input_next:
-        - "Down"
-    input_copy:
-        - "ctrl+c"
-    input_paste:
-        - "ctrl+v"
-    status_line:
-        - "ctrl+F10"
+  input_casesensitive:
+    - "alt+c"
+  input_smart_casesensitive:
+    - "alt+s"
+  input_incsearch:
+    - "alt+i"
+  input_regexp_search:
+    - "alt+r"
+  input_non_match:
+    - "!"
+  input_previous:
+    - "Up"
+  input_next:
+    - "Down"
+  input_copy:
+    - "ctrl+c"
+  input_paste:
+    - "ctrl+v"
+  status_line:
+    - "ctrl+F10"
 
 Mode:
   markdown:
