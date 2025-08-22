@@ -129,6 +129,7 @@ o = "flip_selections"
 [keys.normal.space]
 "c" = "@:cd <C-r>%<C-w><ret>"
 "r" = "@:wa!<ret>:! just " # write all and prepare runner just in case.
+"A" = "@geA"
 
 [keys.normal.g]
 ";" = ["goto_last_modification","align_view_center"]

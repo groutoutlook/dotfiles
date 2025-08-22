@@ -4,6 +4,7 @@
 [alias]
 	# List available aliases
 	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+	al = aliases
 	# st = status
 	st = status -sb
 	sst = show --stat
@@ -56,6 +57,8 @@
 	br = branch
 	mt = mergetool
 	task = !~/.cargo/bin/git-task
+	stk = !git stash store $(git stash create)
+	stss = stashes
 [core]
 	# Don't paginate output by default
 	pager = "bat"
