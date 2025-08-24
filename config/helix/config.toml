@@ -127,7 +127,7 @@ o = "flip_selections"
 # HACK: experimental.
 # "C-y" = "insert_char_interactive" 
 [keys.normal.space]
-"c" = "@:cd <C-r>%<C-w><ret>"
+"c" = "@:cd <C-r>%+<C-w><ret>"
 "r" = "@:wa!<ret>:! just " # write all and prepare runner just in case.
 "A" = "@geA"
 

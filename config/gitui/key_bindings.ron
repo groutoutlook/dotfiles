@@ -1,0 +1,8 @@
+(
+    diff_hunk_next: Some(( code: Char('d'), modifiers: "CONTROL")),
+    diff_hunk_prev: Some(( code: Char('u'), modifiers: "CONTROL")),
+    log_find: Some(( code: Char('/'), modifiers: "")),
+    file_find: Some(( code: Char('/'), modifiers: "")),
+    branch_find: Some(( code: Char('/'), modifiers: "")),
+    // diff_hunk_prev: Some(( code: Char('d'), modifiers: "ALT")),
+)
