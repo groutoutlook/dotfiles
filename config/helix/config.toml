@@ -2,7 +2,7 @@ theme = "catppuccin_macchiato_transparent"
 
 
 [editor]
-# shell = [ "pwsh", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
+shell = [ "pwsh", "-NoProfile","-NoLogo", "-Command" , " $PSStyle.OutputRendering = [System.Management.Automation.OutputRendering]::PlainText; "]
 auto-completion = true
 auto-info = false
 bufferline = "multiple"
@@ -19,7 +19,7 @@ mouse = true
 rulers = [90]
 scroll-lines = 1
 scrolloff = 0
-shell = ["nu","-c"]
+# shell = ["nu","-c"]
 text-width = 90
 
 [editor.gutters.line-numbers]
@@ -60,7 +60,7 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 C-r = ":config-reload"
 C-q = ":quit"
 C-v = ["collapse_selection","paste_clipboard_before"]
-C-S-x = ":reload-all" # while invoke runner in the file.
+C-S-x = [":reload-all",":redraw"] # while invoke runner in the file.
 
 # Personal preference
 O = ["open_above", "insert_mode"]
@@ -128,6 +128,8 @@ o = "flip_selections"
 "c" = "@:cd <C-r>%+<C-w><ret>"
 "r" = "@:wa!<ret>:! just " # write all and prepare runner just in case.
 "A" = "@geA"
+g.r = "@:diffg<ret>" # same as `nvim`.
+
 
 [keys.normal.g]
 ";" = ["goto_last_modification","align_view_center"]
@@ -174,7 +176,12 @@ C-home = "goto_file_start"
 
 S-tab = "move_parent_node_start"
 "C-t" = { "C-t" = [":toggle smart-tab.enable"]}
+
+
 "A-;" = "flip_selections"
+o.o.o = "flip_selections"
+
+
 [keys.insert.j]
 k = ["normal_mode"]
 
