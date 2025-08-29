@@ -14,19 +14,9 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 0,
-                "relative": false
+                "action": "showSuggestions"
             },
-            "id": "User.adjustOpacity.E90BBAB2"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "nextInOrder"
-            },
-            "id": "User.swapPane.D7681B66"
+            "id": "User.showSuggestions.2F7A7303"
         },
         {
             "command": 
@@ -40,21 +30,19 @@
         {
             "command": 
             {
-                "action": "showSuggestions"
+                "action": "swapPane",
+                "direction": "nextInOrder"
             },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": 0,
+                "relative": false
             },
-            "id": "User.moveFocus.F747588A"
-        },
-        {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
+            "id": "User.adjustOpacity.E90BBAB2"
         },
         {
             "command": 
@@ -63,6 +51,18 @@
                 "direction": "left"
             },
             "id": "User.resizePane.2A0DA8E0"
+        },
+        {
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A"
         },
         {
             "command": 
@@ -337,24 +337,24 @@
     "keybindings": 
     [
         {
-            "id": null,
-            "keys": "win+`"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": null,
             "keys": "alt+9"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
         },
         {
             "id": null,
@@ -365,16 +365,16 @@
             "keys": "ctrl+alt+up"
         },
         {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "win+alt+space"
+        },
+        {
             "id": null,
             "keys": "ctrl+shift+0"
         },
         {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "win+alt+space"
         },
         {
             "id": "Terminal.OpenSettingsUI",
@@ -385,36 +385,36 @@
             "keys": "ctrl+alt+shift+1"
         },
         {
-            "id": "User.adjustOpacity.E90BBAB2",
-            "keys": "win+ctrl+numpad0"
-        },
-        {
             "id": "User.splitPane.FEF0D40B",
             "keys": "ctrl+alt+shift+d"
+        },
+        {
+            "id": "User.adjustOpacity.E90BBAB2",
+            "keys": "win+ctrl+numpad0"
         },
         {
             "id": "User.adjustOpacity.A7506725",
             "keys": "win+ctrl+numpad9"
         },
         {
-            "id": "User.identifyWindows",
-            "keys": "ctrl+shift+insert"
-        },
-        {
             "id": null,
             "keys": "ctrl+numpad_plus"
+        },
+        {
+            "id": "User.identifyWindows",
+            "keys": "ctrl+shift+insert"
         },
         {
             "id": "User.find",
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "alt+shift+minus"
-        },
-        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
         },
         {
             "id": null,
@@ -429,12 +429,12 @@
             "keys": "win+ctrl+alt+f"
         },
         {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
             "id": null,
             "keys": "ctrl+shift+d"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
         },
         {
             "id": null,
@@ -466,11 +466,11 @@
         },
         {
             "id": null,
-            "keys": "win+ctrl+alt+d"
+            "keys": "alt+0"
         },
         {
             "id": null,
-            "keys": "alt+0"
+            "keys": "win+ctrl+alt+d"
         },
         {
             "id": null,
@@ -489,8 +489,8 @@
             "keys": "enter"
         },
         {
-            "id": "User.addMark.0",
-            "keys": "ctrl+alt+shift+m"
+            "id": null,
+            "keys": "ctrl+plus"
         },
         {
             "id": null,
@@ -498,19 +498,19 @@
         },
         {
             "id": null,
-            "keys": "ctrl+plus"
-        },
-        {
-            "id": null,
             "keys": "ctrl+minus"
         },
         {
-            "id": "User.switchSelectionEndpoint",
-            "keys": "ctrl+m"
+            "id": "User.addMark.0",
+            "keys": "ctrl+alt+shift+m"
         },
         {
             "id": null,
             "keys": "ctrl+shift+space"
+        },
+        {
+            "id": "User.switchSelectionEndpoint",
+            "keys": "ctrl+m"
         },
         {
             "id": null,
@@ -538,11 +538,11 @@
         },
         {
             "id": null,
-            "keys": "ctrl+0"
+            "keys": "ctrl+shift+2"
         },
         {
             "id": null,
-            "keys": "ctrl+shift+2"
+            "keys": "ctrl+0"
         },
         {
             "id": "User.showSuggestions.2F7A7303",
@@ -585,12 +585,12 @@
             "keys": "win+ctrl+alt+f11"
         },
         {
-            "id": null,
-            "keys": "alt+8"
-        },
-        {
             "id": "Terminal.IncreaseFontSize",
             "keys": "ctrl+shift+numpad_minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+8"
         },
         {
             "id": "User.markMode",
@@ -647,6 +647,22 @@
         },
         {
             "type": "remainingProfiles"
+        },
+        {
+            "allowEmpty": false,
+            "entries": 
+            [
+                {
+                    "commandline": null,
+                    "name": null,
+                    "source": "Windows.Terminal.SSH",
+                    "type": "matchProfiles"
+                }
+            ],
+            "icon": "\ue969",
+            "inline": "auto",
+            "name": "SSH",
+            "type": "folder"
         }
     ],
     "newTabPosition": "afterLastTab",
@@ -716,7 +732,7 @@
                 },
                 "guid": "{ec50493d-70a7-4e54-8439-09003cb79a48}",
                 "hidden": false,
-                "icon": "C:\\Users\\COHOTECH\\Downloads\\tmux.png",
+                "icon": "D:\\ProgramDataD\\7-Image\\repo\\ImportantAsset\\cooking-icon\\program\\tmux.png",
                 "intenseTextStyle": "all",
                 "name": "tmux-wsl",
                 "opacity": 33,
@@ -738,7 +754,7 @@
                 },
                 "guid": "{ec50493d-70a7-4e54-8439-09003cb79a49}",
                 "hidden": false,
-                "icon": "C:\\Users\\COHOTECH\\Downloads\\zellij.png",
+                "icon": "D:\\ProgramDataD\\7-Image\\repo\\ImportantAsset\\cooking-icon\\program\\zellij.png",
                 "intenseTextStyle": "all",
                 "name": "zellij-wsl",
                 "opacity": 33,
@@ -837,22 +853,46 @@
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{00faa9e7-c59d-52b6-a957-d9a0fb638c28}",
-                "hidden": false,
-                "name": "archlinux",
-                "source": "Microsoft.WSL"
-            },
-            {
-                "guid": "{bb688f19-921e-51ed-994b-b118f1c14d29}",
-                "hidden": false,
-                "name": "archlinux",
-                "source": "Microsoft.WSL"
-            },
-            {
                 "guid": "{b7766ad7-6513-592e-9d67-921f2caffe5e}",
                 "hidden": false,
                 "name": "archlinux",
                 "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{bcb649c9-5ba9-5829-b902-6870aa100df0}",
+                "hidden": false,
+                "name": "SSH - oppoa9p1",
+                "source": "Windows.Terminal.SSH"
+            },
+            {
+                "guid": "{443aa673-31b7-592d-a01e-7287b48e174e}",
+                "hidden": false,
+                "name": "SSH - redmi13p1",
+                "source": "Windows.Terminal.SSH"
+            },
+            {
+                "guid": "{e653de4c-b828-54a7-a5c8-ae5d1edb0a68}",
+                "hidden": false,
+                "name": "SSH - oppoa9p1-update",
+                "source": "Windows.Terminal.SSH"
+            },
+            {
+                "guid": "{f45ccb5a-aaa4-5caf-89eb-ab401465b7f9}",
+                "hidden": false,
+                "name": "SSH - redmi13p1-update",
+                "source": "Windows.Terminal.SSH"
+            },
+            {
+                "guid": "{b98a7b49-83b1-528e-b85f-75391b375530}",
+                "hidden": false,
+                "name": "SSH - gitlab",
+                "source": "Windows.Terminal.SSH"
+            },
+            {
+                "guid": "{2b979827-fbd0-5292-9463-3992247be8bf}",
+                "hidden": false,
+                "name": "SSH - github",
+                "source": "Windows.Terminal.SSH"
             }
         ]
     },
@@ -914,6 +954,6 @@
         }
     ],
     "useAcrylicInTabRow": true,
-    "warning.multiLinePaste": false,
+    "warning.multiLinePaste": "never",
     "windowingBehavior": "useNew"
 }
