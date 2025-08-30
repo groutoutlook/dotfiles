@@ -277,6 +277,9 @@ journals:
   kicad:
     journal: ~/hw/obs/note_Embedded/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  know:
+    journal: ~/hw/obs/note_Knowledge/Other.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   lang:
     journal: ~/hw/obs/note_algo_lang/LangJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -366,6 +369,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   os:
     journal: ~/hw/obs/note_software/OSJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  oth:
+    journal: ~/hw/obs/note_Knowledge/Other.Knowledge.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   other:
     journal: ~/hw/obs/note_Knowledge/Other.Knowledge.Journal.md

@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "7/31/2025, 11:57:12 AM",
-	"time": 1753937832027,
+	"@time": "8/30/2025, 1:45:07 PM",
+	"time": 1756536307619,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
-		"chromium": 139
+		"chromium": 140
 	},
 	"allBrowserUrls": true,
 	"exclusionListenHash": false,
@@ -21,6 +21,10 @@
 		{
 			"passKeys": "/ ",
 			"pattern": ":https://gitlab.com/"
+		},
+		{
+			"passKeys": "/ ",
+			"pattern": ":https://youtube.com/"
 		}
 	],
 	"extAllowList": [
