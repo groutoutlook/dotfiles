@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "8/31/2025, 3:35:24 PM",
-	"time": 1756629324044,
+	"@time": "8/31/2025, 6:30:00 PM",
+	"time": 1756639800285,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -138,7 +138,7 @@
 		"map W moveTabToNextWindow",
 		"# HACK: quick open this extension options",
 		"map <c-s><c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
-		"map <c-s><c-s-s> createTab url=\"moz-extension://87e5bfce-10ae-4f7a-b6f5-567a4719bc92/pages/options.html\"",
+		"map <c-s><c-s-s> createTab url=\"extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html#stylus-options\"",
 		"map <c-s-s><c-s-s> createTab url=\"extension://pncfbmialoiaghdehhbnbhkkgmjanfhe/pages/options.html\"",
 		"",
 		"# map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Setting/\"",
@@ -166,7 +166,7 @@
 		"",
 		"# INFO: shortcut edit.",
 		"map <c-s><c-b> createTab url=\"chrome://tracing\"",
-		"map <c-,><c-,> createTab url=\"chrome://settings\"",
+		"map <c-,><c-,> createTab url=\"chrome://settings/privacy/services/search/searchEngines\"",
 		"map <c-s-,><c-s-,> createTab url=\"about:preferences#zenCKS\"",
 		"# HACK: testing Shortcut Forwarding Tools, as now it's only used within vimium",
 		"# userCustomized1 = \"<c-s-w>\"",
