@@ -141,7 +141,7 @@ x = ["match_brackets", "match_brackets", "move_char_right", "select_mode", "matc
 [keys.normal.l]
 q = [":quit-all!"]
 [keys.normal.l.w]
-w = [":write-all!"]
+w = [":write-all! --no-format"]
 q = [":write-quit-all!"]
 
 [keys.normal.D]
@@ -175,11 +175,12 @@ C-end = "goto_file_end"
 C-home = "goto_file_start"
 
 S-tab = "move_parent_node_start"
-"C-t" = { "C-t" = [":toggle smart-tab.enable"]}
+"C-t"."C-t" = [":toggle smart-tab.enable"]
 
+"C-z" = "earlier"
+"C-S-z" = "later"
 
 "A-;" = "flip_selections"
-o.o.o = "flip_selections"
 
 
 [keys.insert.j]
@@ -187,7 +188,7 @@ k = ["normal_mode"]
 
 [keys.insert.";".w]
 q = [":write-quit-all!"]
-w = [":write-all!","normal_mode"]
+w = [":write-all! --no-format","normal_mode"]
 
 [keys.insert.";"]
 q = [":quit-all!"]

@@ -28,11 +28,17 @@ journals:
   acro:
     journal: ~/hw/obs/note_Knowledge/AcronymJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  alge:
-    journal: ~/hw/obs/note_algo_lang/Algebra.Math.Journal.md
+  al:
+    journal: ~/hw/obs/note_algo_lang/Algorithm.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ali:
     journal: ~/hw/obs/note_Items/1688Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  alge:
+    journal: ~/hw/obs/note_algo_lang/Algebra.Math.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  algo:
+    journal: ~/hw/obs/note_algo_lang/Algorithm.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   api:
     journal: ~/hw/obs/note_algo_lang/LibraryJournal.md
