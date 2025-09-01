@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "8/31/2025, 6:30:00 PM",
-	"time": 1756639800285,
+	"@time": "9/1/2025, 1:46:51 PM",
+	"time": 1756709211911,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
@@ -250,7 +250,7 @@
 		"  height: 1.5rem !important;",
 		"  line-height: unset;",
 		"  text-transform: lowercase;",
-		"  color: #838686;",
+		"  color: #830000;",
 		"  max-width: 420px;",
 		"  min-width: unset;",
 		"  display: flex;",
