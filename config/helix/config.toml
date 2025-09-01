@@ -57,10 +57,13 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 
 [keys.normal]
 "C-," = ":config-open"
+"C-9" = ["rotate_selections_first"]
+"C-0" = ["rotate_selections_last"]
+
+C-x = [":rla",":redraw"] # while invoke runner in the file.
 C-r = ":config-reload"
 C-q = ":quit"
 C-v = ["collapse_selection","paste_clipboard_before"]
-C-S-x = [":reload-all",":redraw"] # while invoke runner in the file.
 
 # Personal preference
 O = ["open_above", "insert_mode"]
@@ -232,8 +235,8 @@ P = "paste_clipboard_before"
 W = 'extend_next_sub_word_start'
 B = 'extend_prev_sub_word_start'
 E = 'extend_next_sub_word_end'
-# # "C-S-i" = ["rotate_selections_first"]
-# # "C-S-o" = ["rotate_selections_last"]
+"C-9" = ["rotate_selections_first"]
+"C-0" = ["rotate_selections_last"]
 C-A-left = ["move_prev_sub_word_start"]
 C-A-right = ["move_next_sub_word_end"]
 

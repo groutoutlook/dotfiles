@@ -433,6 +433,12 @@ journals:
   pp:
     journal: ~/hw/obs/note_Business/ConnectionJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pre:
+    journal: ~/hw/obs/note_Knowledge/Prediction.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pred:
+    journal: ~/hw/obs/note_Knowledge/Prediction.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   prog:
     journal: ~/hw/obs/note_algo_lang/ProgrammingJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -452,6 +458,9 @@ journals:
     journal: ~/hw/obs/note_Knowledge/secret/AccountJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   qt:
+    journal: ~/hw/obs/note_Knowledge/QuoteJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  quo:
     journal: ~/hw/obs/note_Knowledge/QuoteJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   quote:

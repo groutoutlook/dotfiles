@@ -11,8 +11,8 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args: _clean_old_ptoy _fetch_new_vimium && (deploy)
-    :bak 
+run *args: _clean_old_ptoy _fetch_new_vimium && (deploy args)
+    "Deploy actually..."
 
 [script]
 _clean_old_ptoy:
@@ -26,8 +26,8 @@ _fetch_new_vimium:
     cp ~/Downloads/vimium_c* ./config/vimium_c_edge.json
     
 alias b := build
-build *args: _clean_old_ptoy _fetch_new_vimium
-    :bak && git cif
+build *args: _clean_old_ptoy _fetch_new_vimium _backup_old
+    git cif
 
 format:
     biome format --write
@@ -40,3 +40,10 @@ alias crlf := crlf-to-lf
 [script]
 crlf-to-lf args="toml":
     foreach($file in (gci "*{{args}}" -recurse )){((Get-Content $file) -join "`n") + "`n" | Set-Content -NoNewline $file}
+
+
+[script]
+_backup_old:
+    cp "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" "$env:dotfilesRepo\config\WindowsTerminal"
+    
+    
