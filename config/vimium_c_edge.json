@@ -1,19 +1,14 @@
 {
 	"name": "Vimium C",
-	"@time": "9/1/2025, 1:46:51 PM",
-	"time": 1756709211911,
+	"@time": "9/6/2025, 7:11:43 AM",
+	"time": 1757117503240,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
 		"chromium": 140
 	},
 	"allBrowserUrls": true,
-	"exclusionListenHash": false,
 	"exclusionRules": [
-		{
-			"passKeys": "",
-			"pattern": ":https://mail.google.com/"
-		},
 		{
 			"passKeys": "/ s t ",
 			"pattern": ":https://github.com/"
@@ -23,8 +18,8 @@
 			"pattern": ":https://gitlab.com/"
 		},
 		{
-			"passKeys": "/ ",
-			"pattern": ":https://youtube.com/"
+			"passKeys": "",
+			"pattern": ":https://mail.google.com/"
 		}
 	],
 	"extAllowList": [
@@ -89,7 +84,6 @@
 		"map Y copyCurrentUrl",
 		"map yy copyWindowInfo type=\"tab\" format=\"[${title}](${url})\" ",
 		"map <f8> copyWindowInfo format=\"[${title}](${url})\" join=\"\\n\"",
-		" ",
 		"map P openCopiedUrlInNewTab",
 		"",
 		"# same reason why <f1> is used for help.",
@@ -113,7 +107,7 @@
 		"map <a-up> goUp",
 		"map <a-s> goBack $else=\"x\"",
 		"map <a-left> goBack $else=\"x\"",
-		"map <a-s-s> goForward",
+		"# map <a-s-s> goForward",
 		"map <a-s-down> goForward",
 		"map <a-down> goBack $else=\"x\"",
 		"",
@@ -124,9 +118,12 @@
 		"# others",
 		"map ;s sortTabs",
 		"map V LinkHints.activateSelect ",
-		"map F LinkHints.activateOpenInNewForegroundTab",
-		"map f LinkHints.activate",
-		"# map ' LinkHints.activateSelect",
+		"map F LinkHints.activateOpenInNewForegroundTab ",
+		"map f LinkHints.activate ",
+		"map gfb LinkHints.activate match=\".btn,button\"",
+		"# lobsters first, hackernews second.",
+		"map gfc LinkHints.activate match=\".comments_label,a[href*='item']\"",
+		"map gfe LinkHints.activate match=\"label.comment_folder,.togg.clicky\"",
 		"",
 		"# INFO: quick open tabs. This is for msEdge",
 		"# HACK: very dirty those, this should be in browsers' settings",
@@ -139,7 +136,7 @@
 		"# HACK: quick open this extension options",
 		"map <c-s><c-s> createTab url=\"chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/pages/options.html\"",
 		"map <c-s><c-s-s> createTab url=\"extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html#stylus-options\"",
-		"map <c-s-s><c-s-s> createTab url=\"extension://pncfbmialoiaghdehhbnbhkkgmjanfhe/pages/options.html\"",
+		"map <c-s-s><c-s-s> createTab url=\"extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html#stylus-options\"",
 		"",
 		"# map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Setting/\"",
 		"map <c-s><c-k> createTab url=\"http://127.0.0.1:9900/Today#intro193\"",
@@ -185,6 +182,18 @@
 		"map :SS joinTabs",
 		"map R reloadTab",
 		"map p autoOpen",
+		"map ;p autoCopy ",
+		"",
+		"",
+		"# delete backward word, somehow vomnibar has builtin <a-w>, <a-f>, <a-b>.",
+		"mapkey <a-a:i> <f3rm>",
+		"# mapkey <a-a:o> <f3rm>",
+		"map <f3rm> editText run=\"extend,backward,word,exec,delete,\"",
+		"",
+		"# delete a forward word",
+		"mapkey <a-d:i> <f3editf>",
+		"# mapkey <a-d:o> <f3editf>",
+		"map <f3editf> editText run=\"extend,forward,word,exec,delete,\" $else=\"<a-a>\"",
 		""
 	],
 	"keyupTime": 100,
@@ -601,6 +610,11 @@
 		".D #i {",
 		"  color: #ffffff;",
 		"}",
+		"",
+		"/*#omni*/",
+		".alt .item::after{background:rgba(255,255,255,0.5);border-radius:21px;color:#550;",
+		"content:attr(data-alt-index);font-size:24px;",
+		"height:30px;line-height:30px;position:absolute;left:calc(50% - 20px);text-align:center;top:2px;width:30px}",
 		""
 	],
 	"vimSync": true,
@@ -609,7 +623,7 @@
 		"maxMatches": 22,
 		"queryInterval": 50,
 		"sizes": "50,3,50,0.5",
-		"styles": "mono-url"
+		"styles": "mono-url alt"
 	},
 	"waitForEnter": false,
 	"ignoreKeyboardLayout": 1,
