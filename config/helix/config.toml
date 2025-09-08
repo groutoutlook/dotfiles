@@ -129,7 +129,7 @@ A-S-f = "@<A-S-r>%"
 "r" = "@:wa!<ret>:! just " # write all and prepare runner just in case.
 "A" = "@geA"
 g.r = "@:diffg<ret>" # same as `nvim`.
-
+g.g = "changed_file_picker"
 
 [keys.normal.g]
 ";" = ["goto_last_modification","align_view_center"]

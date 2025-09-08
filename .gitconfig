@@ -275,3 +275,5 @@
 	path = ~/gitalias.txt
 	path = ~/gitemail.txt
 	path = ~/gituser.txt
+# [extensions]
+#     refStorage = reftable
