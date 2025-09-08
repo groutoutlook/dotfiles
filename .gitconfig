@@ -2,6 +2,7 @@
 	# Enable colors in color-supporting terminals
 	ui = auto
 [alias]
+	h = !geschichte
 	# List available aliases
 	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
 	al = aliases
@@ -59,6 +60,8 @@
 	task = !~/.cargo/bin/git-task
 	stk = !git stash store $(git stash create)
 	stss = stashes
+
+
 [core]
 	# Don't paginate output by default
 	pager = "bat"
@@ -86,11 +89,11 @@
 	tool = diffsitter
 [difftool]
 	prompt = false
-	[difftool "diffsitter"]
+[difftool "diffsitter"]
 	cmd = diffsitter "$LOCAL" "$REMOTE"[difftool "difftastic"]
 	prompt = false
 	cmd = difft "$LOCAL" "$REMOTE"
-	[difftool "vscode"]
+[difftool "vscode"]
 	cmd = code --wait --diff $LOCAL $REMOTE
 [pager]
 	difftool = true
@@ -259,10 +262,6 @@
 	experimental = true
 [sequence]
 	editor = interactive-rebase-tool
-[include]
-	path = ~/gitalias.txt
-	path = ~/gitemail.txt
-	path = ~/gituser.txt
 [credential "https://git.code.sf.net"]
 	provider = generic
 [init]
@@ -272,3 +271,7 @@
 # [sendemail]
 [gpg]
 	program = gpg
+[include]
+	path = ~/gitalias.txt
+	path = ~/gitemail.txt
+	path = ~/gituser.txt

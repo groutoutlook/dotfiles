@@ -11,7 +11,7 @@ _default:
 
 alias r := run
 default_args := 'args here'
-run *args: _clean_old_ptoy _fetch_new_vimium && (deploy args)
+run *args="cif": _clean_old_ptoy _fetch_new_vimium _backup_old && (deploy args)
     "Deploy actually..."
 
 [script]
@@ -44,6 +44,5 @@ crlf-to-lf args="toml":
 
 [script]
 _backup_old:
-    cp "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_*\LocalState\settings.json" "$env:dotfilesRepo\config\WindowsTerminal"
-    
-    
+    cp "$env:LOCALAPPDATA/Packages/Microsoft.WindowsTerminalPreview_*/LocalState/settings.json" "$env:dotfilesRepo/config/WindowsTerminal"
+    cp "$env:HOME/.gitconfig" .

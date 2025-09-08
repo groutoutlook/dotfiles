@@ -43,6 +43,18 @@ journals:
   api:
     journal: ~/hw/obs/note_algo_lang/LibraryJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  img:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  image:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  edit:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  vd:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   art:
     journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -58,8 +70,29 @@ journals:
   blend:
     journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  arg:
+    journal: ~/hw/obs/note_Knowledge/Opinion.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  op:
+    journal: ~/hw/obs/note_Knowledge/Opinion.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  opin:
+    journal: ~/hw/obs/note_Knowledge/Opinion.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  diss:
+    journal: ~/hw/obs/note_Knowledge/Opinion.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   blog:
     journal: ~/hw/obs/note_Knowledge/ReadAndListenJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  scr:
+    journal: ~/hw/obs/note_Knowledge/Rad-Script.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  script:
+    journal: ~/hw/obs/note_Knowledge/Rad-Script.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ss:
+    journal: ~/hw/obs/note_Knowledge/Rad-Script.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   book:
     journal: ~/hw/obs/note_Knowledge/ReadAndListenJournal.md
@@ -80,6 +113,9 @@ journals:
     journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cad:
+    journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mcad:
     journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cap:
@@ -154,9 +190,6 @@ journals:
   eda:
     journal: ~/hw/obs/note_Embedded/EDAJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  edit:
-    journal: ~/hw/obs/note_IDEAndTools/ArtToolsJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   ee:
     journal: ~/hw/obs/note_Embedded/Electric.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -201,6 +234,15 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fiw:
     journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  agg:
+    journal: ~/hw/obs/note_Knowledge/Meta.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  list:
+    journal: ~/hw/obs/note_Knowledge/Meta.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  meta:
+    journal: ~/hw/obs/note_Knowledge/Meta.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fm:
     journal: ~/hw/obs/note_IDEAndTools/File-Format.Journal.md
@@ -328,6 +370,21 @@ journals:
   meme:
     journal: ~/hw/obs/note_Knowledge/WholesomeJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  tech:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Technologia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  trit:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Technologia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  trivt:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Technologia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  trvt:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Technologia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  technologia:
+    journal: ~/hw/obs/note_Knowledge/Trivia.Technologia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   misc:
     journal: ~/hw/obs/note_Knowledge/Trivia.Knowledge.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -379,8 +436,20 @@ journals:
   oth:
     journal: ~/hw/obs/note_Knowledge/Other.Knowledge.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  med:
+    journal: ~/hw/obs/note_Knowledge/Medical.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ana:
+    journal: ~/hw/obs/note_Knowledge/Medical.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   other:
     journal: ~/hw/obs/note_Knowledge/Other.Knowledge.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  bio:
+    journal: ~/hw/obs/note_Knowledge/Biology.Science.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  anim:
+    journal: ~/hw/obs/note_Knowledge/Biology.Science.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   para:
     journal: ~/hw/obs/note_entertainment/Device.Journal.md
@@ -408,6 +477,39 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pers:
     journal: ~/hw/obs/note_entertainment/PersonalJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  thes:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  motto:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  stip:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  peak:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  magnum:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  pid:
+    journal: ~/hw/obs/note_Knowledge/Personal.Idea.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  past:
+    journal: ~/hw/obs/note_Knowledge/Personal.Past.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  retro:
+    journal: ~/hw/obs/note_Knowledge/Personal.Past.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mind:
+    journal: ~/hw/obs/note_Knowledge/Personal.Psychology.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mental:
+    journal: ~/hw/obs/note_Knowledge/Personal.Psychology.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  thought:
+    journal: ~/hw/obs/note_Knowledge/Personal.Psychology.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pger:
     journal: ~/hw/obs/note_Business/ConnectionJournal.md
@@ -439,6 +541,27 @@ journals:
   pred:
     journal: ~/hw/obs/note_Knowledge/Prediction.Event.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  society:
+    journal: ~/hw/obs/note_Knowledge/Culture.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  soe:
+    journal: ~/hw/obs/note_Knowledge/Culture.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cul:
+    journal: ~/hw/obs/note_Knowledge/Culture.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  cult:
+    journal: ~/hw/obs/note_Knowledge/Culture.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  old:
+    journal: ~/hw/obs/note_Knowledge/History.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  olds:
+    journal: ~/hw/obs/note_Knowledge/History.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hist:
+    journal: ~/hw/obs/note_Knowledge/History.Event.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   prog:
     journal: ~/hw/obs/note_algo_lang/ProgrammingJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -451,8 +574,14 @@ journals:
   prt:
     journal: ~/hw/obs/note_Embedded/ProtocolJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  human:
+    journal: ~/hw/obs/note_Knowledge/Psychology.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   psy:
-    journal: ~/hw/obs/note_Knowledge/LifeJournal.md
+    journal: ~/hw/obs/note_Knowledge/Psychology.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phil:
+    journal: ~/hw/obs/note_Knowledge/Psychology.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   pw:
     journal: ~/hw/obs/note_Knowledge/secret/AccountJournal.md
@@ -580,9 +709,6 @@ journals:
   vc:
     journal: ~/hw/obs/note_Knowledge/VocabJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  viap:
-    journal: ~/hw/obs/note_Embedded/PCBJournal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   vid:
     journal: ~/hw/obs/note_entertainment/VideoJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -645,6 +771,12 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   wui:
     journal: ~/hw/obs/note_os_web/Web.UI.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ux:
+    journal: ~/hw/obs/note_os_web/UX.Design.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  design:
+    journal: ~/hw/obs/note_os_web/UX.Design.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
 
 linewrap: 2000
