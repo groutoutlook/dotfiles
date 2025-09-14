@@ -24,8 +24,7 @@
 	dft = difftool
 	dift = difftool
 	dlog = "-c diff.external=difft log -p --ext-diff"
-	lg = dlog
-	dlg = dlog
+	ll = ln --decorate --numstat
 	# Ensure that force-pushing won't lose someone else's work (only mine).
 	puf = push --force-with-lease
 	rebase-with-hooks = rebase -x 'git reset --soft HEAD~1 && git commit -C HEAD@{1}'
@@ -60,6 +59,9 @@
 	task = !~/.cargo/bin/git-task
 	stk = !git stash store $(git stash create)
 	stss = stashes
+
+  	last-touched = for-each-ref --sort=authordate --format '%0a%(refname:short)%0a%(authordate:relative)' 'refs/remotes/'
+	su = standup -s -Dshort
 
 
 [core]

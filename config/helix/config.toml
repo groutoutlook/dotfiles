@@ -58,7 +58,7 @@ right = ["selections", "primary-selection-length", "position", "position-percent
 
 [keys.normal]
 "C-," = ":config-open"
-"C-(" = ["rotate_selections_first"]
+"C-9" = ["rotate_selections_first"]
 "C-0" = ["rotate_selections_last"]
 
 C-z = [":rla",":redraw"] # while invoke runner in the file.
