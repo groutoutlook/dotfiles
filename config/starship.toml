@@ -5,7 +5,8 @@
 continuation_prompt = ' '
 add_newline = true
 command_timeout = 130
-format = "$time$all$line_break$jobs$battery$status$shell$character"
+format = """$time$all$line_break$jobs$battery$status$shell$character"""
+# ${custom.jj}
 
 
 [directory]
@@ -87,3 +88,12 @@ vicmd_symbol = "[N](#59c2ff)"
 vimcmd_replace_one_symbol = "[R](bold purple)"
 vimcmd_replace_symbol = "[R](bold purple)"
 vimcmd_visual_symbol = "[V](bold yellow)"
+
+[custom.jj]
+disabled = true
+command = "prompt"
+format = "$output"
+ignore_timeout = true
+shell = ["starship-jj", "--ignore-working-copy", "starship"]
+use_stdin = false
+when = true
