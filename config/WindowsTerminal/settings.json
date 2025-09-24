@@ -14,18 +14,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 100,
-                "relative": false
+                "action": "swapPane",
+                "direction": "nextInOrder"
             },
-            "id": "User.adjustOpacity.A7506725"
-        },
-        {
-            "command": 
-            {
-                "action": "showSuggestions"
-            },
-            "id": "User.showSuggestions.2F7A7303"
+            "id": "User.swapPane.D7681B66"
         },
         {
             "command": 
@@ -39,14 +31,26 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "nextInOrder"
+                "action": "showSuggestions"
             },
-            "id": "User.swapPane.D7681B66"
+            "id": "User.showSuggestions.2F7A7303"
         },
         {
-            "command": "toggleFullscreen",
-            "id": "User.toggleFullscreen"
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 100,
+                "relative": false
+            },
+            "id": "User.adjustOpacity.A7506725"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A"
         },
         {
             "command": 
@@ -57,12 +61,8 @@
             "id": "User.resizePane.2A0DA8E0"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "id": "User.moveFocus.F747588A"
+            "command": "toggleFullscreen",
+            "id": "User.toggleFullscreen"
         },
         {
             "command": "find",
@@ -331,7 +331,7 @@
     "compatibility.allowHeadless": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "debugFeatures": true,
+    "debugFeatures": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "experimental.enableColorSelection": true,
     "focusFollowMouse": false,
@@ -341,24 +341,24 @@
     "keybindings": 
     [
         {
-            "id": null,
-            "keys": "win+`"
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+alt+down"
         },
         {
             "id": null,
             "keys": "ctrl+k"
         },
         {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "alt+shift+space"
+            "id": null,
+            "keys": "win+`"
         },
         {
             "id": null,
             "keys": "alt+9"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+space"
         },
         {
             "id": "User.resizePane.6CD791B",
@@ -369,20 +369,20 @@
             "keys": "ctrl+shift+8"
         },
         {
-            "id": "Terminal.OpenSystemMenu",
-            "keys": "win+alt+space"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+alt+1"
-        },
-        {
             "id": "User.moveFocus.2A0DA8E0",
             "keys": "alt+shift+left"
         },
         {
             "id": null,
             "keys": "ctrl+shift+0"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "win+alt+space"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+1"
         },
         {
             "id": "Terminal.MoveFocusFirst",
@@ -393,36 +393,36 @@
             "keys": "ctrl+alt+comma"
         },
         {
-            "id": "User.splitPane.FEF0D40B",
-            "keys": "ctrl+alt+shift+d"
-        },
-        {
             "id": "User.adjustOpacity.E90BBAB2",
             "keys": "win+ctrl+numpad0"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "ctrl+alt+shift+d"
         },
         {
             "id": "User.adjustOpacity.A7506725",
             "keys": "win+ctrl+numpad9"
         },
         {
-            "id": null,
-            "keys": "ctrl+numpad_plus"
-        },
-        {
             "id": "User.identifyWindows",
             "keys": "ctrl+shift+insert"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+numpad_plus"
         },
         {
             "id": "User.find",
             "keys": "ctrl+shift+f"
         },
         {
-            "id": null,
-            "keys": "alt+shift+minus"
-        },
-        {
             "id": "User.adjustOpacity.146080A9",
             "keys": "win+ctrl+minus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
         },
         {
             "id": "User.adjustOpacity.4C71C550",
@@ -437,12 +437,12 @@
             "keys": "win+ctrl+alt+f"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+d"
-        },
-        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+d"
         },
         {
             "id": "User.copy.224984B4",
@@ -478,11 +478,11 @@
         },
         {
             "id": null,
-            "keys": "win+ctrl+alt+d"
+            "keys": "alt+0"
         },
         {
             "id": null,
-            "keys": "alt+0"
+            "keys": "win+ctrl+alt+d"
         },
         {
             "id": null,
@@ -501,20 +501,20 @@
             "keys": "enter"
         },
         {
-            "id": null,
-            "keys": "ctrl+minus"
+            "id": "User.addMark.0",
+            "keys": "ctrl+alt+shift+m"
         },
         {
             "id": null,
-            "keys": "shift+f1"
+            "keys": "ctrl+minus"
         },
         {
             "id": null,
             "keys": "ctrl+plus"
         },
         {
-            "id": "User.addMark.0",
-            "keys": "ctrl+alt+shift+m"
+            "id": null,
+            "keys": "shift+f1"
         },
         {
             "id": null,
@@ -546,11 +546,11 @@
         },
         {
             "id": null,
-            "keys": "ctrl+shift+2"
+            "keys": "ctrl+0"
         },
         {
             "id": null,
-            "keys": "ctrl+0"
+            "keys": "ctrl+shift+2"
         },
         {
             "id": "User.showSuggestions.2F7A7303",
@@ -650,11 +650,11 @@
         },
         {
             "id": null,
-            "keys": "ctrl+alt+4"
+            "keys": "ctrl+alt+7"
         },
         {
             "id": null,
-            "keys": "ctrl+alt+7"
+            "keys": "ctrl+alt+4"
         },
         {
             "id": null,
@@ -685,12 +685,12 @@
     [
         {
             "icon": null,
-            "profile": "{ec50493d-70a7-4e54-8439-09003cb79a48}",
+            "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
             "type": "profile"
         },
         {
             "icon": null,
-            "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "profile": "{ec50493d-70a7-4e54-8439-09003cb79a48}",
             "type": "profile"
         },
         {
@@ -718,7 +718,9 @@
     {
         "defaults": 
         {
+            "answerbackMessage": "wt",
             "colorScheme": "Ottosson",
+            "compatibility.allowDECRQCRA": true,
             "experimental.rainbowSuggestions": true,
             "experimental.repositionCursorWithMouse": true,
             "font": 
@@ -730,7 +732,7 @@
             "padding": "0",
             "pathTranslationStyle": "wsl",
             "scrollbarState": "hidden",
-            "showMarksOnScrollbar": false
+            "showMarksOnScrollbar": true
         },
         "list": 
         [
