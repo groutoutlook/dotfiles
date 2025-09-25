@@ -52,6 +52,12 @@ journals:
   edit:
     journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ps:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  krita:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   vd:
     journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
