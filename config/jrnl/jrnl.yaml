@@ -52,6 +52,12 @@ journals:
   edit:
     journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  ps:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  krita:
+    journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   vd:
     journal: ~/hw/obs/note_IDEAndTools/Multimedia.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -255,6 +261,15 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   fw:
     journal: ~/hw/obs/note_os_web/SDK-Framework.General.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fsdk:
+    journal: ~/hw/obs/note_os_web/SDK-Framework.Firmware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  probe:
+    journal: ~/hw/obs/note_os_web/SDK-Framework.Firmware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  inst:
+    journal: ~/hw/obs/note_os_web/SDK-Framework.Firmware.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   geom:
     journal: ~/hw/obs/note_algo_lang/Math.Journal.md
