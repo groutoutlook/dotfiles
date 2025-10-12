@@ -124,6 +124,9 @@ journals:
   mcad:
     journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  chem:
+    journal: ~/hw/obs/note_algo_lang/Chemistry.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   cap:
     journal: ~/hw/obs/note_Embedded/Passive.IC.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -262,10 +265,25 @@ journals:
   fw:
     journal: ~/hw/obs/note_os_web/SDK-Framework.General.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  fsdk:
-    journal: ~/hw/obs/note_os_web/SDK-Framework.Firmware.Journal.md
+  bb:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  devb:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  evb:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  evk:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  hdk:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   probe:
+    journal: ~/hw/obs/note_Embedded/HDK.Hardware.Journal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  fsdk:
     journal: ~/hw/obs/note_os_web/SDK-Framework.Firmware.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   inst:
@@ -375,9 +393,6 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   mcu:
     journal: ~/hw/obs/note_Embedded/MCU.IC.Journal.md
-    template: ~/.config/jrnl/JrnlOriginalTemplate.md
-  mech:
-    journal: ~/hw/obs/note_IDEAndTools/CADJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   media:
     journal: ~/hw/obs/note_Knowledge/NewsJournal.md
@@ -535,6 +550,9 @@ journals:
   phrase:
     journal: ~/hw/obs/note_Knowledge/PhraseJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  phy:
+    journal: ~/hw/obs/note_algo_lang/STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
   physic:
     journal: ~/hw/obs/note_algo_lang/STEMJournal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
@@ -654,6 +672,9 @@ journals:
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   stem:
     journal: ~/hw/obs/note_algo_lang/STEMJournal.md
+    template: ~/.config/jrnl/JrnlOriginalTemplate.md
+  mech:
+    journal: ~/hw/obs/note_algo_lang/Mechanic.Journal.md
     template: ~/.config/jrnl/JrnlOriginalTemplate.md
   stm:
     journal: ~/hw/obs/note_Embedded/FirmwareJournal.md
