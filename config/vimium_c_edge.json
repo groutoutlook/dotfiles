@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "9/6/2025, 7:11:43 AM",
-	"time": 1757117503240,
+	"@time": "10/14/2025, 6:46:23 PM",
+	"time": 1760442383418,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "win",
-		"chromium": 140
+		"chromium": 142
 	},
 	"allBrowserUrls": true,
 	"exclusionRules": [
@@ -82,8 +82,8 @@
 		"# map K nextTab",
 		"",
 		"map Y copyCurrentUrl",
-		"map yy copyWindowInfo type=\"tab\" format=\"[${title}](${url})\" ",
-		"map <f8> copyWindowInfo format=\"[${title}](${url})\" join=\"\\n\"",
+		"map yy copyWindowInfo type=\"tab\" format=\"-\\u0020[${title}](${url})\" ",
+		"map <f8> copyWindowInfo format=\"-\\u0020[${title}](${url})\" join=\"\\n\"",
 		"map P openCopiedUrlInNewTab",
 		"",
 		"# same reason why <f1> is used for help.",
@@ -122,7 +122,7 @@
 		"map f LinkHints.activate ",
 		"map gfb LinkHints.activate match=\".btn,button\"",
 		"# lobsters first, hackernews second.",
-		"map gfc LinkHints.activate match=\".comments_label,a[href*='item']\"",
+		"map gfc LinkHints.activate match=\".comments_label,a[href*='item'],#less-replies,#more-replies\"",
 		"map gfe LinkHints.activate match=\"label.comment_folder,.togg.clicky\"",
 		"",
 		"# INFO: quick open tabs. This is for msEdge",
